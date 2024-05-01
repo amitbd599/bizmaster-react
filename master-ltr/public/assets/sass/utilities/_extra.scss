@@ -1,3 +1,51 @@
 .scroll-to-top {
   z-index: 999 !important;
 }
+
+.mobile-menu-wrapper .menu-item-has-children {
+  position: relative;
+}
+
+.mobile-menu-wrapper .menu-item-has-children .sub-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.mobile-menu-wrapper .menu-item-has-children.active .sub-menu {
+  max-height: 1000px;
+  transition: max-height 0.8s ease-in-out;
+}
+
+.mobile-menu-wrapper .menu-item-has-children .mean-expand-class {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.mobile-menu-wrapper.rtl .menu-item-has-children .mean-expand-class {
+  position: absolute;
+  right: auto;
+  left: 0;
+  top: 0px;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.TestimonialTwo-icon-box-prev {
+  position: absolute;
+  bottom: -22px;
+  left: 40%;
+  @include lg {
+    left: 30%;
+  }
+}
+
+.TestimonialTwo-icon-box-next {
+  position: absolute;
+  bottom: -22px;
+  right: 25%;
+}

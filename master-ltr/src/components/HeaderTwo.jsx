@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const HeaderOne = () => {
+const HeaderTwo = () => {
   const [active, setActive] = useState(false);
   const [search, setSearch] = useState(false);
   const [sidebar, setSidebar] = useState(false);
@@ -55,9 +55,9 @@ const HeaderOne = () => {
   const sidebarControl = (active) => {
     setSidebar(active);
   };
-
   return (
     <>
+      {/* Sidemenu */}
       <div
         className={`sidemenu-wrapper sidemenu-info ${sidebar ? "show" : ""} `}
       >
@@ -148,8 +148,9 @@ const HeaderOne = () => {
         </form>
       </div>
       {/*==============================
-    Mobile Menu
-    ============================== */}
+      Mobile Menu
+      ============================== */}
+
       <div className={`mobile-menu-wrapper ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
@@ -241,143 +242,118 @@ const HeaderOne = () => {
         </div>
       </div>
       {/*==============================
-	Header Area
-    ==============================*/}
-      <header className="nav-header header-layout1">
+      Header Area
+      ==============================*/}
+      <header className="nav-header header-layout2">
         <div className={`sticky-wrapper ${scroll && "sticky"}`}>
           {/* Main Menu Area */}
-          <div className="container">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-auto">
-                <div className="header-logo">
-                  <a href="index.html">
-                    <img src="assets/img/logo.svg" alt="logo" />
-                  </a>
+          <div className="menu-area">
+            <div className="container">
+              <div className="row align-items-center justify-content-between">
+                <div className="col-auto">
+                  <div className="header-logo">
+                    <a href="index.html">
+                      <img src="assets/img/logo.svg" alt="logo" />
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div className="col-auto ms-xl-auto">
-                <nav className="main-menu d-none d-lg-inline-block">
-                  <ul>
-                    <li className="menu-item-has-children">
-                      <a href="#">Home</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="index.html">Home 01</a>
-                        </li>
-                        <li>
-                          <a href="home-2.html">Home 02</a>
-                        </li>
-                        <li>
-                          <a href="home-3.html">Home 03</a>
-                        </li>
-                        <li>
-                          <a href="home-4.html">Home 04</a>
-                        </li>
-                        <li>
-                          <a href="home-5.html">Home 05</a>
-                        </li>
-                      </ul>
-                    </li>
+                <div className="col-auto">
+                  <nav className="main-menu d-none d-lg-inline-block">
+                    <ul>
+                      <li className="menu-item-has-children">
+                        <a href="#">Home</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <a href="index.html">Home 01</a>
+                          </li>
+                          <li>
+                            <a href="home-2.html">Home 02</a>
+                          </li>
+                          <li>
+                            <a href="home-3.html">Home 03</a>
+                          </li>
+                          <li>
+                            <a href="home-4.html">Home 04</a>
+                          </li>
+                          <li>
+                            <a href="home-5.html">Home 05</a>
+                          </li>
+                        </ul>
+                      </li>
 
-                    <li>
-                      <a href="about.html">About Us</a>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <a href="#">Services</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="service.html">Service</a>
-                        </li>
-                        <li>
-                          <a href="service-details.html">Service Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <a href="#">Projects</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="project.html">Projects</a>
-                        </li>
-                        <li>
-                          <a href="project-details.html">Projects Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <a href="#">Blog</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="blog.html">Blog</a>
-                        </li>
-                        <li>
-                          <a href="blog-details.html">Blog Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      <a href="#">Pages</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="pricing.html">Pricing Page</a>
-                        </li>
-                        <li>
-                          <a href="team.html">Team</a>
-                        </li>
-                        <li>
-                          <a href="team-details.html">Team Details</a>
-                        </li>
-                        <li>
-                          <a href="contact.html">Contact Page</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </nav>
-                <div className="navbar-right d-inline-flex d-lg-none">
-                  <button
-                    type="button"
-                    className="menu-toggle icon-btn"
-                    onClick={mobileMenu}
-                  >
-                    <i className="fas fa-bars" />
-                  </button>
-                </div>
-              </div>
-              <div className="col-auto ms-xxl-4 d-xl-block d-none">
-                <div className="header-wrapper">
-                  <div className="header-button">
+                      <li>
+                        <a href="about.html">About Us</a>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <a href="#">Services</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <a href="service.html">Service</a>
+                          </li>
+                          <li>
+                            <a href="service-details.html">Service Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <a href="#">Projects</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <a href="project.html">Projects</a>
+                          </li>
+                          <li>
+                            <a href="project-details.html">Projects Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <a href="#">Blog</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <a href="blog.html">Blog</a>
+                          </li>
+                          <li>
+                            <a href="blog-details.html">Blog Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <a href="#">Pages</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <a href="pricing.html">Pricing Page</a>
+                          </li>
+                          <li>
+                            <a href="team.html">Team</a>
+                          </li>
+                          <li>
+                            <a href="team-details.html">Team Details</a>
+                          </li>
+                          <li>
+                            <a href="contact.html">Contact Page</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div className="navbar-right d-inline-flex d-lg-none">
                     <button
                       type="button"
-                      onClick={() => searchControl(true)}
-                      className="simple-icon searchBoxToggler"
+                      className="menu-toggle icon-btn"
+                      onClick={mobileMenu}
                     >
-                      <i className="fas fa-search" />
-                    </button>
-                    <button
-                      onClick={() => sidebarControl(true)}
-                      href="#"
-                      className="simple-icon sideMenuToggler d-none d-lg-block"
-                    >
-                      {" "}
-                      <img src="assets/img/icon/bars.svg" alt="" />{" "}
+                      <i className="fas fa-bars" />
                     </button>
                   </div>
-                  <div className="social-links">
-                    <a href="https://www.instagram.com/">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="https://www.linkedin.com/">
-                      <i className="fab fa-linkedin" />
-                    </a>
-                    <a href="https://www.twitter.com/">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="https://www.facebook.com/">
-                      <i className="fab fa-facebook-f" />
+                </div>
+                <div className="col-auto d-xl-block d-none">
+                  <div className="header-button">
+                    <a href="contact.html" className="global-btn">
+                      Get A Quote
+                      <img src="assets/img/icon/right-icon.svg" alt="" />
                     </a>
                   </div>
                 </div>
@@ -390,4 +366,4 @@ const HeaderOne = () => {
   );
 };
 
-export default HeaderOne;
+export default HeaderTwo;
