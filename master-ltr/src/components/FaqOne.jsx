@@ -1,4 +1,6 @@
 import React from "react";
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 
 const FaqOne = () => {
   return (
@@ -120,7 +122,16 @@ const FaqOne = () => {
                   </div>
                   <div className="media-body">
                     <h2 className="counter-box_number">
-                      <span className="counter-number">200</span>+
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className="counter-number">
+                              <CountUp delay={0} start={0} end={200} />
+                              k+
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p className="counter-box_text">Team member</p>
                   </div>
@@ -134,7 +145,16 @@ const FaqOne = () => {
                   </div>
                   <div className="media-body">
                     <h2 className="counter-box_number">
-                      <span className="counter-number">10</span>k+
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className="counter-number">
+                              <CountUp delay={0} start={0} end={10} />
+                              k+
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p className="counter-box_text">Complete project</p>
                   </div>
@@ -148,7 +168,16 @@ const FaqOne = () => {
                   </div>
                   <div className="media-body">
                     <h2 className="counter-box_number">
-                      <span className="counter-number">20</span>+
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className="counter-number">
+                              <CountUp delay={0} start={0} end={20} />
+                              k+
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p className="counter-box_text">Winning award</p>
                   </div>
@@ -162,7 +191,16 @@ const FaqOne = () => {
                   </div>
                   <div className="media-body">
                     <h2 className="counter-box_number">
-                      <span className="counter-number">900</span>+
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className="counter-number">
+                              <CountUp delay={0} start={0} end={900} />
+                              k+
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p className="counter-box_text">Client Review</p>
                   </div>

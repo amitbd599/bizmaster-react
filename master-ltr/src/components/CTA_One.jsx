@@ -1,4 +1,6 @@
 import React from "react";
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 
 const CTA_One = () => {
   return (
@@ -42,7 +44,16 @@ const CTA_One = () => {
                   </div>
                   <div className="client-box-content">
                     <h4 className="cilent-box_counter">
-                      <span className="counter-number">2.8 </span> million+
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className="counter-number">
+                              <CountUp delay={0} start={0} end={200} />
+                              <span> k+</span>
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h4>
                     <span className="cilent-box_title">Worldwide clients</span>
                   </div>
