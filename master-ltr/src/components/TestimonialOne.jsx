@@ -1,8 +1,65 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
+import Slider from "react-slick";
 
 const TestimonialOne = () => {
+  function SampleNextArrow(props) {
+    const { onClick } = props;
+    return (
+      <div className="TestimonialOne-icon-box-next">
+        <button
+          onClick={onClick}
+          className="slick-arrow style2 default team-slider2-next"
+        >
+          <i className="fas fa-arrow-right" />
+        </button>
+      </div>
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { onClick } = props;
+    return (
+      <div className="TestimonialOne-icon-box-prev">
+        <button
+          onClick={onClick}
+          className="team-slider2 slick-arrow style2 default team-slider2-prev"
+        >
+          <i className="fas fa-arrow-left" />
+        </button>
+      </div>
+    );
+  }
+  var settings = {
+    dots: false,
+    arrows: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 5000,
+    cssEase: "linear",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {},
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
+  };
   return (
     <div className="testimonial-area-1 space-bottom overflow-hidden">
       <div className="container">
@@ -31,163 +88,130 @@ const TestimonialOne = () => {
             </div>
             <div className="testi-area-slider">
               <div className="row global-carousel testi-slider-1">
-                <Swiper
-                  navigation={{
-                    nextEl: ".team-slider2-next",
-                    prevEl: ".team-slider2-prev",
-                  }}
-                  spaceBetween={30}
-                  loop={true}
-                  slidesPerView={1}
-                  slidesPerGroup={1}
-                  speed={1000}
-                  pagination={{ clickable: true }}
-                  autoplay={{ delay: 6000 }}
-                  className="mySwiper"
-                  modules={[FreeMode, Navigation, Thumbs, EffectFade]}
-                >
-                  <SwiperSlide>
-                    <div>
-                      <div className="testi-card">
-                        <div className="testi-card_content">
-                          <div className="rating">
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                          </div>
-                          <p className="testi-card_text">
-                            Roofing is the process of installin repai, and
-                            maintaining roofs on buildings. It involves various
-                            materials such shil tiles,metal, and membranes.
-                            Roofing services may include inspections repairs,
-                            waterproofing, and installation of new roofs. Proper
-                            roofing is crucial for protecting
-                          </p>
-                          <div className="testi-card-profile">
-                            <div className="testi-profile_thumb">
-                              <img
-                                src="assets/img/testimonial/testi-thumb_1.png"
-                                alt="img"
-                              />
-                            </div>
-                            <div className="testi-card-profile-details">
-                              <h4 className="testi-profile-title">
-                                Michael Ramirez
-                              </h4>
-                              <span className="testi-profile-desig">
-                                Marketing Manager
-                              </span>
-                            </div>
-                          </div>
+                <Slider {...settings}>
+                  <div className="p-2">
+                    <div className="testi-card">
+                      <div className="testi-card_content">
+                        <div className="rating">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
                         </div>
-                        <div className="quote-icon">
-                          <img src="assets/img/icon/quote1-1.svg" alt="img" />
+                        <p className="testi-card_text">
+                          Roofing is the process of installin repai, and
+                          maintaining roofs on buildings. It involves various
+                          materials such shil tiles,metal, and membranes.
+                          Roofing services may include inspections repairs,
+                          waterproofing, and installation of new roofs. Proper
+                          roofing is crucial for protecting
+                        </p>
+                        <div className="testi-card-profile">
+                          <div className="testi-profile_thumb">
+                            <img
+                              src="assets/img/testimonial/testi-thumb_1.png"
+                              alt="img"
+                            />
+                          </div>
+                          <div className="testi-card-profile-details">
+                            <h4 className="testi-profile-title">
+                              Michael Ramirez
+                            </h4>
+                            <span className="testi-profile-desig">
+                              Marketing Manager
+                            </span>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div>
-                      <div className="testi-card">
-                        <div className="testi-card_content">
-                          <div className="rating">
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                          </div>
-                          <p className="testi-card_text">
-                            Roofing is the process of installin repai, and
-                            maintaining roofs on buildings. It involves various
-                            materials such shil tiles,metal, and membranes.
-                            Roofing services may include inspections repairs,
-                            waterproofing, and installation of new roofs. Proper
-                            roofing is crucial for protecting
-                          </p>
-                          <div className="testi-card-profile">
-                            <div className="testi-profile_thumb">
-                              <img
-                                src="assets/img/testimonial/testi-thumb_2.png"
-                                alt="img"
-                              />
-                            </div>
-                            <div className="testi-card-profile-details">
-                              <h4 className="testi-profile-title">
-                                Starli shaine
-                              </h4>
-                              <span className="testi-profile-desig">
-                                Marketing Manager
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="quote-icon">
-                          <img src="assets/img/icon/quote1-1.svg" alt="img" />
-                        </div>
+                      <div className="quote-icon">
+                        <img src="assets/img/icon/quote1-1.svg" alt="img" />
                       </div>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div>
-                      <div className="testi-card">
-                        <div className="testi-card_content">
-                          <div className="rating">
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                            <i className="fas fa-star" />
-                          </div>
-                          <p className="testi-card_text">
-                            Roofing is the process of installin repai, and
-                            maintaining roofs on buildings. It involves various
-                            materials such shil tiles,metal, and membranes.
-                            Roofing services may include inspections repairs,
-                            waterproofing, and installation of new roofs. Proper
-                            roofing is crucial for protecting
-                          </p>
-                          <div className="testi-card-profile">
-                            <div className="testi-profile_thumb">
-                              <img
-                                src="assets/img/testimonial/testi-thumb_1.png"
-                                alt="img"
-                              />
-                            </div>
-                            <div className="testi-card-profile-details">
-                              <h4 className="testi-profile-title">
-                                Michael Ramirez
-                              </h4>
-                              <span className="testi-profile-desig">
-                                Marketing Manager
-                              </span>
-                            </div>
-                          </div>
+                  </div>
+
+                  <div className="p-2">
+                    <div className="testi-card">
+                      <div className="testi-card_content">
+                        <div className="rating">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
                         </div>
-                        <div className="quote-icon">
-                          <img src="assets/img/icon/quote1-1.svg" alt="img" />
+                        <p className="testi-card_text">
+                          Roofing is the process of installin repai, and
+                          maintaining roofs on buildings. It involves various
+                          materials such shil tiles,metal, and membranes.
+                          Roofing services may include inspections repairs,
+                          waterproofing, and installation of new roofs. Proper
+                          roofing is crucial for protecting
+                        </p>
+                        <div className="testi-card-profile">
+                          <div className="testi-profile_thumb">
+                            <img
+                              src="assets/img/testimonial/testi-thumb_2.png"
+                              alt="img"
+                            />
+                          </div>
+                          <div className="testi-card-profile-details">
+                            <h4 className="testi-profile-title">
+                              Starli shaine
+                            </h4>
+                            <span className="testi-profile-desig">
+                              Marketing Manager
+                            </span>
+                          </div>
                         </div>
                       </div>
+                      <div className="quote-icon">
+                        <img src="assets/img/icon/quote1-1.svg" alt="img" />
+                      </div>
                     </div>
-                  </SwiperSlide>
-                </Swiper>
-              </div>
-              {/* Icon box */}
-              <div className="icon-box">
-                <button
-                  data-slick-prev=".team-slider2"
-                  className="team-slider2 slick-arrow style2 default team-slider2-prev"
-                >
-                  <i className="fas fa-arrow-left" />
-                </button>
-                <button
-                  data-slick-next=".team-slider2"
-                  className="slick-arrow style2 default team-slider2-next"
-                >
-                  <i className="fas fa-arrow-right" />
-                </button>
+                  </div>
+
+                  <div className="p-2">
+                    <div className="testi-card">
+                      <div className="testi-card_content">
+                        <div className="rating">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                        </div>
+                        <p className="testi-card_text">
+                          Roofing is the process of installin repai, and
+                          maintaining roofs on buildings. It involves various
+                          materials such shil tiles,metal, and membranes.
+                          Roofing services may include inspections repairs,
+                          waterproofing, and installation of new roofs. Proper
+                          roofing is crucial for protecting
+                        </p>
+                        <div className="testi-card-profile">
+                          <div className="testi-profile_thumb">
+                            <img
+                              src="assets/img/testimonial/testi-thumb_1.png"
+                              alt="img"
+                            />
+                          </div>
+                          <div className="testi-card-profile-details">
+                            <h4 className="testi-profile-title">
+                              Michael Ramirez
+                            </h4>
+                            <span className="testi-profile-desig">
+                              Marketing Manager
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="quote-icon">
+                        <img src="assets/img/icon/quote1-1.svg" alt="img" />
+                      </div>
+                    </div>
+                  </div>
+                </Slider>
               </div>
             </div>
           </div>
