@@ -72,7 +72,6 @@ const HeroTwo = () => {
                       )
                     }
                   </TrackVisibility>
-                  More <span className="counter-number">642</span> K
                 </h4>
                 <i className="fas fa-check" />
               </div>

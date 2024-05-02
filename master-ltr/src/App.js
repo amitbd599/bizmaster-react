@@ -5,6 +5,7 @@ import ScrollToTop from "react-scroll-to-top";
 import IndexPage from "./pages/IndexPage";
 import HomeOne from "./pages/HomeOne";
 import HomeTwo from "./pages/HomeTwo";
+import HomeThree from "./pages/HomeThree";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route exact path="/" element={<IndexPage />} />
           <Route exact path="/home-1" element={<HomeOne />} />
           <Route exact path="/home-2" element={<HomeTwo />} />
+          <Route exact path="/home-3" element={<HomeThree />} />
         </Routes>
       </BrowserRouter>
     </>
