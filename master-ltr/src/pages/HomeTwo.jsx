@@ -46,7 +46,10 @@ const HomeTwo = () => {
       <ServiceThree />
 
       {/* WhyChoose */}
-      <WhyChoose />
+      <div className="space-bottom">
+        <WhyChoose />
+      </div>
+
 
       {/* PortfolioTwo */}
       <PortfolioTwo />

@@ -8,6 +8,8 @@ import HomeTwo from "./pages/HomeTwo";
 import HomeThree from "./pages/HomeThree";
 import HomeFour from "./pages/HomeFour";
 import HomeFive from "./pages/HomeFive";
+import About from "./pages/About";
+import Service from "./pages/Service";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
           <Route exact path="/home-3" element={<HomeThree />} />
           <Route exact path="/home-4" element={<HomeFour />} />
           <Route exact path="/home-5" element={<HomeFive />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/service" element={<Service />} />
         </Routes>
       </BrowserRouter>
     </>

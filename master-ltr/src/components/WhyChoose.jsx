@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyChoose = () => {
   return (
-    <div className="wcu-area-2 space-bottom">
+    <div className="wcu-area-2 ">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">

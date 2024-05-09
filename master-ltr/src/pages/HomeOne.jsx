@@ -52,7 +52,8 @@ const HomeOne = () => {
       <PortfolioOne />
 
       {/* TestimonialOne */}
-      <TestimonialOne />
+      <div className="space-bottom"><TestimonialOne /></div>
+
 
       {/* MarqueeOne */}
       <MarqueeOne />

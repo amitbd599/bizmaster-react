@@ -61,7 +61,7 @@ const TestimonialOne = () => {
     ],
   };
   return (
-    <div className="testimonial-area-1 space-bottom overflow-hidden">
+    <div className="testimonial-area-1  overflow-hidden">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
