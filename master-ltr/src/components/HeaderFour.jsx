@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const HeaderOne = () => {
+const HeaderFour = () => {
   const [active, setActive] = useState(false);
   const [search, setSearch] = useState(false);
   const [sidebar, setSidebar] = useState(false);
@@ -243,7 +243,54 @@ const HeaderOne = () => {
       {/*==============================
 	Header Area
     ==============================*/}
-      <header className="nav-header header-layout1">
+      <header className="nav-header header-layout4">
+        <div className="header-top d-none d-lg-block">
+          <div className="container">
+            <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
+              <div className="col-auto">
+                <div className="header-links">
+                  <ul>
+                    <li>
+                      <i className="fas fa-phone-alt" />
+                      <a href="tel:6295550129">(629) 555-0129</a>
+                    </li>
+                    <li>
+                      <i className="fas fa-envelope" />
+                      <a href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li>
+                      <i className="fas fa-map-marker-alt" />
+                      6391 Elgin St. Celina, 10299
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-auto">
+                <div className="header-links ps-0">
+                  <ul>
+                    <li>
+                      <div className="social-links">
+                        <a href="https://www.facebook.com/">
+                          <i className="fab fa-facebook-f" />
+                        </a>
+                        <a href="https://www.instagram.com/">
+                          <i className="fab fa-instagram" />
+                        </a>
+                        <a href="https://www.twitter.com/">
+                          <i className="fab fa-twitter" />
+                        </a>
+                        <a href="https://www.linkedin.com/">
+                          <i className="fab fa-linkedin" />
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="header-top-bg-shape"></div>
+        </div>
         <div className={`sticky-wrapper ${scroll && "sticky"}`}>
           {/* Main Menu Area */}
           <div className="container">
@@ -251,11 +298,11 @@ const HeaderOne = () => {
               <div className="col-auto">
                 <div className="header-logo">
                   <a href="index.html">
-                    <img src="assets/img/logo.svg" alt="logo" />
+                    <img src="assets/img/logo-white2.svg" alt="logo" />
                   </a>
                 </div>
               </div>
-              <div className="col-auto ms-xl-auto">
+              <div className="col-auto">
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
                     <li className="menu-item-has-children">
@@ -338,11 +385,7 @@ const HeaderOne = () => {
                   </ul>
                 </nav>
                 <div className="navbar-right d-inline-flex d-lg-none">
-                  <button
-                    type="button"
-                    className="menu-toggle icon-btn"
-                    onClick={mobileMenu}
-                  >
+                  <button type="button" className="menu-toggle icon-btn" onClick={mobileMenu}>
                     <i className="fas fa-bars" />
                   </button>
                 </div>
@@ -350,35 +393,16 @@ const HeaderOne = () => {
               <div className="col-auto ms-xxl-4 d-xl-block d-none">
                 <div className="header-wrapper">
                   <div className="header-button">
-                    <button
-                      type="button"
-                      onClick={() => searchControl(true)}
-                      className="simple-icon searchBoxToggler"
-                    >
+                    <button type="button" className="simple-icon searchBoxToggler" onClick={() => searchControl(true)}>
                       <i className="fas fa-search" />
                     </button>
                     <button
                       onClick={() => sidebarControl(true)}
-
                       className="simple-icon sideMenuToggler d-none d-lg-block"
                     >
                       {" "}
                       <img src="assets/img/icon/bars.svg" alt="" />{" "}
                     </button>
-                  </div>
-                  <div className="social-links">
-                    <a href="https://www.instagram.com/">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="https://www.linkedin.com/">
-                      <i className="fab fa-linkedin" />
-                    </a>
-                    <a href="https://www.twitter.com/">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="https://www.facebook.com/">
-                      <i className="fab fa-facebook-f" />
-                    </a>
                   </div>
                 </div>
               </div>
@@ -386,8 +410,9 @@ const HeaderOne = () => {
           </div>
         </div>
       </header>
+
     </>
   );
 };
 
-export default HeaderOne;
+export default HeaderFour;

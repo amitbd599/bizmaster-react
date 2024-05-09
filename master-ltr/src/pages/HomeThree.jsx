@@ -7,6 +7,8 @@ import AboutThree from "../components/AboutThree";
 import PortfolioThree from "../components/PortfolioThree";
 import FaqTwo from "../components/FaqTwo";
 import BlogThree from "../components/BlogThree";
+import MarqueeTwo from "../components/MarqueeTwo";
+import FooterThree from "../components/FooterThree";
 
 const HomeThree = () => {
   let [active, setActive] = useState(true);
@@ -40,6 +42,12 @@ const HomeThree = () => {
 
       {/* BlogThree */}
       <BlogThree />
+
+      {/* MarqueeTwo */}
+      <MarqueeTwo />
+
+      {/* FooterThree */}
+      <FooterThree />
     </>
   );
 };

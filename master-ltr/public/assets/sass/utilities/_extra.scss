@@ -72,6 +72,41 @@
   right: 48px;
 }
 
+.BlogThree-icon-box-prev {
+  position: absolute;
+  top: -90px;
+  right: 130px;
+}
+.BlogThree-icon-box-next {
+  position: absolute;
+  top: -90px;
+  right: 48px;
+}
+.TestimonialThree-icon-box-prev {
+  position: absolute;
+  bottom: 36px;
+  right: 120px;
+}
+.TestimonialThree-icon-box-prev button {
+  background: transparent;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  line-height: normal;
+}
+.TestimonialThree-icon-box-next {
+  position: absolute;
+  bottom: 36px;
+  right: 48px;
+}
+.TestimonialThree-icon-box-next button {
+  background: transparent;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  line-height: normal;
+}
+
 .team-padding {
   padding: 0 15px;
 }

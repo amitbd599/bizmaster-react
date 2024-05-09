@@ -1,6 +1,66 @@
 import React from "react";
-
+import Slider from "react-slick";
 const BlogThree = () => {
+
+  function SampleNextArrow(props) {
+    const { onClick } = props;
+    return (
+      <div className="BlogThree-icon-box-next">
+        <button onClick={onClick}
+          className="slick-arrow default"
+        >
+          <i className="fas fa-arrow-right" />
+        </button>
+      </div>
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { onClick } = props;
+    return (
+      <div className="BlogThree-icon-box-prev">
+        <button onClick={onClick}
+          className="slick-arrow default"
+        >
+          <i className="fas fa-arrow-left" />
+        </button>
+      </div>
+    );
+  }
+  var settings = {
+    dots: false,
+    arrows: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 5000,
+    cssEase: "linear",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: { slidesToShow: 3 },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      },
+    ],
+  };
+
   return (
     <section className="blog-area-1 space">
       <div className="container">
@@ -16,152 +76,145 @@ const BlogThree = () => {
               </h2>
             </div>
           </div>
-          <div className="col-lg-auto align-self-end">
+          {/* <div className="col-lg-auto align-self-end">
             <div className="icon-box mb-60">
               <button
-                data-slick-prev=".blog-slider3"
                 className="slick-arrow default"
               >
                 <i className="fas fa-arrow-left" />
               </button>
               <button
-                data-slick-next=".blog-slider3"
                 className="slick-arrow default"
               >
                 <i className="fas fa-arrow-right" />
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
         <div
-          className="row global-carousel blog-slider3 slider-shadow"
-          data-slide-show={3}
-          data-lg-slide-show={2}
-          data-md-slide-show={1}
-          data-sm-slide-show={1}
-          data-xs-slide-show={1}
-          data-dots="false"
-        >
-          <div className="col-md-6 col-lg-4">
-            <div className="blog-card style2">
-              <div className="blog-img">
-                <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
-              </div>
-              <div className="blog-content">
-                <div className="blog-meta">
-                  <a href="blog.html">
-                    <i className="fas fa-calendar-alt" />
-                    October 19, 2022
-                  </a>
-                  <a href="blog.html">
-                    <i className="fas fa-user" />
-                    Admin
+          className="row global-carousel blog-slider3 slider-shadow">
+          <Slider {...settings}>
+            <div className="px-3">
+              <div className="blog-card style2">
+                <div className="blog-img">
+                  <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
+                </div>
+                <div className="blog-content">
+                  <div className="blog-meta">
+                    <a href="blog.html">
+                      <i className="fas fa-calendar-alt" />
+                      October 19, 2022
+                    </a>
+                    <a href="blog.html">
+                      <i className="fas fa-user" />
+                      Admin
+                    </a>
+                  </div>
+                  <h3 className="blog-title">
+                    <a href="blog-details.html">
+                      Transformation Strategy Advisors Operat
+                    </a>
+                  </h3>
+                  <a
+                    className="global-btn style-border4"
+                    href="blog-details.html"
+                  >
+                    Read More <i className="fas fa-arrow-right ms-2" />
                   </a>
                 </div>
-                <h3 className="blog-title">
-                  <a href="blog-details.html">
-                    Transformation Strategy Advisors Operat
-                  </a>
-                </h3>
-                <a
-                  className="global-btn style-border4"
-                  href="blog-details.html"
-                >
-                  Read More <i className="fas fa-arrow-right ms-2" />
-                </a>
               </div>
             </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="blog-card style2">
-              <div className="blog-img">
-                <img src="assets/img/blog/blog_s1_2.png" alt="blog image" />
-              </div>
-              <div className="blog-content">
-                <div className="blog-meta">
-                  <a href="blog.html">
-                    <i className="fas fa-calendar-alt" />
-                    October 19, 2022
-                  </a>
-                  <a href="blog.html">
-                    <i className="fas fa-user" />
-                    Admin
+            <div className="px-3">
+              <div className="blog-card style2">
+                <div className="blog-img">
+                  <img src="assets/img/blog/blog_s1_2.png" alt="blog image" />
+                </div>
+                <div className="blog-content">
+                  <div className="blog-meta">
+                    <a href="blog.html">
+                      <i className="fas fa-calendar-alt" />
+                      October 19, 2022
+                    </a>
+                    <a href="blog.html">
+                      <i className="fas fa-user" />
+                      Admin
+                    </a>
+                  </div>
+                  <h3 className="blog-title">
+                    <a href="blog-details.html">
+                      Hard Work Always Brings You Success
+                    </a>
+                  </h3>
+                  <a
+                    className="global-btn style-border4"
+                    href="blog-details.html"
+                  >
+                    Read More <i className="fas fa-arrow-right ms-2" />
                   </a>
                 </div>
-                <h3 className="blog-title">
-                  <a href="blog-details.html">
-                    Hard Work Always Brings You Success
-                  </a>
-                </h3>
-                <a
-                  className="global-btn style-border4"
-                  href="blog-details.html"
-                >
-                  Read More <i className="fas fa-arrow-right ms-2" />
-                </a>
               </div>
             </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="blog-card style2">
-              <div className="blog-img">
-                <img src="assets/img/blog/blog_s1_3.png" alt="blog image" />
-              </div>
-              <div className="blog-content">
-                <div className="blog-meta">
-                  <a href="blog.html">
-                    <i className="fas fa-calendar-alt" />
-                    October 19, 2022
-                  </a>
-                  <a href="blog.html">
-                    <i className="fas fa-user" />
-                    Admin
+            <div className="px-3">
+              <div className="blog-card style2">
+                <div className="blog-img">
+                  <img src="assets/img/blog/blog_s1_3.png" alt="blog image" />
+                </div>
+                <div className="blog-content">
+                  <div className="blog-meta">
+                    <a href="blog.html">
+                      <i className="fas fa-calendar-alt" />
+                      October 19, 2022
+                    </a>
+                    <a href="blog.html">
+                      <i className="fas fa-user" />
+                      Admin
+                    </a>
+                  </div>
+                  <h3 className="blog-title">
+                    <a href="blog-details.html">
+                      Growth and Innovation the Consultants
+                    </a>
+                  </h3>
+                  <a
+                    className="global-btn style-border4"
+                    href="blog-details.html"
+                  >
+                    Read More <i className="fas fa-arrow-right ms-2" />
                   </a>
                 </div>
-                <h3 className="blog-title">
-                  <a href="blog-details.html">
-                    Growth and Innovation the Consultants
-                  </a>
-                </h3>
-                <a
-                  className="global-btn style-border4"
-                  href="blog-details.html"
-                >
-                  Read More <i className="fas fa-arrow-right ms-2" />
-                </a>
               </div>
             </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="blog-card style2">
-              <div className="blog-img">
-                <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
-              </div>
-              <div className="blog-content">
-                <div className="blog-meta">
-                  <a href="blog.html">
-                    <i className="fas fa-calendar-alt" />
-                    October 19, 2022
-                  </a>
-                  <a href="blog.html">
-                    <i className="fas fa-user" />
-                    Admin
+            <div className="px-3">
+              <div className="blog-card style2">
+                <div className="blog-img">
+                  <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
+                </div>
+                <div className="blog-content">
+                  <div className="blog-meta">
+                    <a href="blog.html">
+                      <i className="fas fa-calendar-alt" />
+                      October 19, 2022
+                    </a>
+                    <a href="blog.html">
+                      <i className="fas fa-user" />
+                      Admin
+                    </a>
+                  </div>
+                  <h3 className="blog-title">
+                    <a href="blog-details.html">
+                      Hard Work Always Brings You Success
+                    </a>
+                  </h3>
+                  <a
+                    className="global-btn style-border4"
+                    href="blog-details.html"
+                  >
+                    Read More <i className="fas fa-arrow-right ms-2" />
                   </a>
                 </div>
-                <h3 className="blog-title">
-                  <a href="blog-details.html">
-                    Hard Work Always Brings You Success
-                  </a>
-                </h3>
-                <a
-                  className="global-btn style-border4"
-                  href="blog-details.html"
-                >
-                  Read More <i className="fas fa-arrow-right ms-2" />
-                </a>
               </div>
             </div>
-          </div>
+          </Slider>
         </div>
       </div>
     </section>
