@@ -7,6 +7,7 @@ import HomeOne from "./pages/HomeOne";
 import HomeTwo from "./pages/HomeTwo";
 import HomeThree from "./pages/HomeThree";
 import HomeFour from "./pages/HomeFour";
+import HomeFive from "./pages/HomeFive";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route exact path="/home-2" element={<HomeTwo />} />
           <Route exact path="/home-3" element={<HomeThree />} />
           <Route exact path="/home-4" element={<HomeFour />} />
+          <Route exact path="/home-5" element={<HomeFive />} />
         </Routes>
       </BrowserRouter>
     </>
