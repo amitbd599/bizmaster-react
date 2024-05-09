@@ -5,11 +5,11 @@ import HeaderOne from "../components/HeaderOne";
 import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
-import ServiceView from "../components/ServiceView";
-import AppointmentTwo from "../components/AppointmentTwo";
+import BlogAreaAll from "../components/BlogAreaAll";
 
 
-const Service = () => {
+
+const Blog = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -22,20 +22,16 @@ const Service = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Home"} />
+      <HelmetReact title={"Blog"} />
 
       {/* HeaderFive */}
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Service" />
+      <Breadcrumb title="Blog" />
 
-      {/* ServiceOne */}
-      <ServiceView />
-
-
-      {/* AppointmentTwo */}
-      <AppointmentTwo />
+      {/* BlogAreaAll */}
+      <BlogAreaAll />
 
       {/* Newsletter */}
       <Newsletter />
@@ -47,4 +43,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Blog;

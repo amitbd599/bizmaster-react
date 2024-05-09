@@ -62,7 +62,9 @@ const HomeOne = () => {
       <TeamOne />
 
       {/* FaqOne */}
-      <FaqOne />
+      <div className="faq-area-1 bg-smoke space">
+        <FaqOne />
+      </div>
 
       {/* BlogOne */}
       <BlogOne />

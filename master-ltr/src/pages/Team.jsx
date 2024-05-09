@@ -5,11 +5,11 @@ import HeaderOne from "../components/HeaderOne";
 import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
-import ServiceView from "../components/ServiceView";
-import AppointmentTwo from "../components/AppointmentTwo";
+import TeamAll from "../components/TeamAll";
 
 
-const Service = () => {
+
+const Team = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -22,20 +22,17 @@ const Service = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Home"} />
+      <HelmetReact title={"Team"} />
 
       {/* HeaderFive */}
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Service" />
+      <Breadcrumb title="Team" />
 
-      {/* ServiceOne */}
-      <ServiceView />
+      {/* TeamAll */}
+      <TeamAll />
 
-
-      {/* AppointmentTwo */}
-      <AppointmentTwo />
 
       {/* Newsletter */}
       <Newsletter />
@@ -47,4 +44,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Team;

@@ -10,6 +10,15 @@ import HomeFour from "./pages/HomeFour";
 import HomeFive from "./pages/HomeFive";
 import About from "./pages/About";
 import Service from "./pages/Service";
+import ServiceDetails from "./pages/ServiceDetails";
+import Project from "./pages/Project";
+import ProjectDetails from "./pages/ProjectDetails";
+import Blog from "./pages/Blog";
+import BlogDetails from "./pages/BlogDetails";
+import Pricing from "./pages/Pricing";
+import Team from "./pages/Team";
+import TeamDetails from "./pages/TeamDetails";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -26,6 +35,15 @@ const App = () => {
           <Route exact path="/home-5" element={<HomeFive />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/service" element={<Service />} />
+          <Route exact path="/service-details" element={<ServiceDetails />} />
+          <Route exact path="/project" element={<Project />} />
+          <Route exact path="/project-details" element={<ProjectDetails />} />
+          <Route exact path="/blog" element={<Blog />} />
+          <Route exact path="/blog-details" element={<BlogDetails />} />
+          <Route exact path="/pricing" element={<Pricing />} />
+          <Route exact path="/team" element={<Team />} />
+          <Route exact path="/team-details" element={<TeamDetails />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
