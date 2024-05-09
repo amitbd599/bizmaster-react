@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ContactInner = () => {
     return (
@@ -22,8 +23,8 @@ const ContactInner = () => {
                                     <div className="contact-info_details">
                                         <h6 className="contact-info_title">Phone</h6>
                                         <p className="contact-info_text">
-                                            <a href="tel:6295550129">(629) 555-0129</a>{" "}
-                                            <a href="tel:01254693326">01254693326</a>
+                                            <Link to="/tel:6295550129">(629) 555-0129</Link>{" "}
+                                            <Link to="/tel:01254693326">01254693326</Link>
                                         </p>
                                     </div>
                                 </div>
@@ -49,7 +50,7 @@ const ContactInner = () => {
                                     <div className="contact-info_details">
                                         <h6 className="contact-info_title">Email</h6>
                                         <p className="contact-info_text">
-                                            <a href="mailto:nafiz125432gmail.com">nafiz125432gmail.com</a>
+                                            <Link to="/mailto:nafiz125432gmail.com">nafiz125432gmail.com</Link>
                                         </p>
                                     </div>
                                 </div>
@@ -73,18 +74,18 @@ const ContactInner = () => {
                                     solutions{" "}
                                 </p>
                                 <div className="social-btn style4">
-                                    <a href="https://facebook.com/" tabIndex={-1}>
+                                    <Link to="/https://facebook.com/" tabIndex={-1}>
                                         <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="https://linkedin.com/" tabIndex={-1}>
+                                    </Link>
+                                    <Link to="/https://linkedin.com/" tabIndex={-1}>
                                         <i className="fab fa-linkedin-in" />
-                                    </a>
-                                    <a href="https://twitter.com/" tabIndex={-1}>
+                                    </Link>
+                                    <Link to="/https://twitter.com/" tabIndex={-1}>
                                         <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="https://www.instagram.com/" tabIndex={-1}>
+                                    </Link>
+                                    <Link to="/https://www.instagram.com/" tabIndex={-1}>
                                         <i className="fab fa-instagram" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 const TestimonialTwo = () => {
   function SampleNextArrow(props) {
@@ -80,14 +81,14 @@ const TestimonialTwo = () => {
             </div>
             <div className="feature-wrapper">
               <div className="feature-icon">
-                <a href="tel:3195550115">
+                <Link to="/tel:3195550115">
                   <img src="assets/img/icon/call.svg" alt="" />
-                </a>
+                </Link>
               </div>
               <div className="media-body">
                 <span className="header-info_label">Need help?</span>
                 <p className="header-info_link">
-                  <a href="tel:3195550115">(319) 555-0115</a>
+                  <Link to="/tel:3195550115">(319) 555-0115</Link>
                 </p>
               </div>
             </div>

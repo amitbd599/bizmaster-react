@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PricingOne = () => {
   return (
@@ -53,9 +54,9 @@ const PricingOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="global-btn" href="contact.html">
+                <Link className="global-btn" to="/contact">
                   Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -94,9 +95,9 @@ const PricingOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="global-btn" href="contact.html">
+                <Link className="global-btn" to="/contact">
                   Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -135,9 +136,9 @@ const PricingOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="global-btn" href="contact.html">
+                <Link className="global-btn" to="/contact">
                   Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

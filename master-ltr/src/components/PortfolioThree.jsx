@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 const PortfolioThree = () => {
   var settings = {
@@ -50,9 +51,9 @@ const PortfolioThree = () => {
             </div>
             <div className="col-lg-auto">
               <div className="btn-wrap mb-60">
-                <a href="project.html" className="global-btn mt-xl-0 mt-20">
+                <Link to="/project" className="global-btn mt-xl-0 mt-20">
                   View More <i className="fas fa-arrow-right ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -67,9 +68,9 @@ const PortfolioThree = () => {
                     Experience
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       Your Business Goals with the Confidence
-                    </a>
+                    </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
                     We have been operating for over a decade, providing
@@ -88,9 +89,9 @@ const PortfolioThree = () => {
                     Experience
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       Your Business Goals with the Confidence
-                    </a>
+                    </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
                     We have been operating for over a decade, providing
@@ -109,9 +110,9 @@ const PortfolioThree = () => {
                     Experience
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       Your Business Goals with the Confidence
-                    </a>
+                    </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
                     We have been operating for over a decade, providing
@@ -130,9 +131,9 @@ const PortfolioThree = () => {
                     Experience
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       Your Business Goals with the Confidence
-                    </a>
+                    </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
                     We have been operating for over a decade, providing
@@ -171,7 +172,7 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <a href="team-details.html">Savannah Nguyen</a>
+                            <Link to="/team-details">Savannah Nguyen</Link>
                           </h4>
                           <span className="team-card_desig">
                             Medical Assistant
@@ -182,18 +183,18 @@ const PortfolioThree = () => {
                             <img src="assets/img/icon/share.svg" alt="icon" />
                           </div>
                           <div className="global-social">
-                            <a href="https://www.facebook.com/" tabIndex={0}>
+                            <Link to="/https://www.facebook.com/" tabIndex={0}>
                               <i className="fab fa-facebook-f" />
-                            </a>
-                            <a href="https://www.twitter.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.twitter.com/" tabIndex={0}>
                               <i className="fab fa-twitter" />
-                            </a>
-                            <a href="https://www.instagram.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.instagram.com/" tabIndex={0}>
                               <i className="fab fa-instagram" />
-                            </a>
-                            <a href="https://www.linkedin.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.linkedin.com/" tabIndex={0}>
                               <i className="fab fa-linkedin-in" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -207,7 +208,7 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <a href="team-details.html">Darrell Steward</a>
+                            <Link to="/team-details">Darrell Steward</Link>
                           </h4>
                           <span className="team-card_desig">
                             Human Resource
@@ -218,18 +219,18 @@ const PortfolioThree = () => {
                             <img src="assets/img/icon/share.svg" alt="icon" />
                           </div>
                           <div className="global-social">
-                            <a href="https://www.facebook.com/" tabIndex={0}>
+                            <Link to="/https://www.facebook.com/" tabIndex={0}>
                               <i className="fab fa-facebook-f" />
-                            </a>
-                            <a href="https://www.twitter.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.twitter.com/" tabIndex={0}>
                               <i className="fab fa-twitter" />
-                            </a>
-                            <a href="https://www.instagram.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.instagram.com/" tabIndex={0}>
                               <i className="fab fa-instagram" />
-                            </a>
-                            <a href="https://www.linkedin.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.linkedin.com/" tabIndex={0}>
                               <i className="fab fa-linkedin-in" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -243,7 +244,7 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <a href="team-details.html">Javed Tanvir</a>
+                            <Link to="/team-details">Javed Tanvir</Link>
                           </h4>
                           <span className="team-card_desig">
                             Medical Assistant
@@ -254,18 +255,18 @@ const PortfolioThree = () => {
                             <img src="assets/img/icon/share.svg" alt="icon" />
                           </div>
                           <div className="global-social">
-                            <a href="https://www.facebook.com/" tabIndex={0}>
+                            <Link to="/https://www.facebook.com/" tabIndex={0}>
                               <i className="fab fa-facebook-f" />
-                            </a>
-                            <a href="https://www.twitter.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.twitter.com/" tabIndex={0}>
                               <i className="fab fa-twitter" />
-                            </a>
-                            <a href="https://www.instagram.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.instagram.com/" tabIndex={0}>
                               <i className="fab fa-instagram" />
-                            </a>
-                            <a href="https://www.linkedin.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.linkedin.com/" tabIndex={0}>
                               <i className="fab fa-linkedin-in" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -279,7 +280,7 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <a href="team-details.html">Savannah Nguyen</a>
+                            <Link to="/team-details">Savannah Nguyen</Link>
                           </h4>
                           <span className="team-card_desig">
                             Medical Assistant
@@ -290,18 +291,18 @@ const PortfolioThree = () => {
                             <img src="assets/img/icon/share.svg" alt="icon" />
                           </div>
                           <div className="global-social">
-                            <a href="https://www.facebook.com/" tabIndex={0}>
+                            <Link to="/https://www.facebook.com/" tabIndex={0}>
                               <i className="fab fa-facebook-f" />
-                            </a>
-                            <a href="https://www.twitter.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.twitter.com/" tabIndex={0}>
                               <i className="fab fa-twitter" />
-                            </a>
-                            <a href="https://www.instagram.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.instagram.com/" tabIndex={0}>
                               <i className="fab fa-instagram" />
-                            </a>
-                            <a href="https://www.linkedin.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.linkedin.com/" tabIndex={0}>
                               <i className="fab fa-linkedin-in" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -315,7 +316,7 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <a href="team-details.html">Darrell Steward</a>
+                            <Link to="/team-details">Darrell Steward</Link>
                           </h4>
                           <span className="team-card_desig">
                             Human Resource
@@ -326,18 +327,18 @@ const PortfolioThree = () => {
                             <img src="assets/img/icon/share.svg" alt="icon" />
                           </div>
                           <div className="global-social">
-                            <a href="https://www.facebook.com/" tabIndex={0}>
+                            <Link to="/https://www.facebook.com/" tabIndex={0}>
                               <i className="fab fa-facebook-f" />
-                            </a>
-                            <a href="https://www.twitter.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.twitter.com/" tabIndex={0}>
                               <i className="fab fa-twitter" />
-                            </a>
-                            <a href="https://www.instagram.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.instagram.com/" tabIndex={0}>
                               <i className="fab fa-instagram" />
-                            </a>
-                            <a href="https://www.linkedin.com/" tabIndex={0}>
+                            </Link>
+                            <Link to="/https://www.linkedin.com/" tabIndex={0}>
                               <i className="fab fa-linkedin-in" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>

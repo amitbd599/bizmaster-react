@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 const BlogTwo = () => {
   var settings = {
@@ -60,31 +61,31 @@ const BlogTwo = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <img src="assets/img/icon/calender.svg" alt="" />
                       april 10, 2024
-                    </a>
-                    <a href="blog.html">
+                    </Link>
+                    <Link to="/blog">
                       <i className="fas fa-comments" />
                       Comments (05)
-                    </a>
+                    </Link>
                   </div>
                   <h3 className="blog-title">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transformational Strategy main a Advisors
-                    </a>
+                    </Link>
                   </h3>
                   <p className="blog-desc">
                     Lorem ipsum dolo consectetur. Posue sem ultrice feugiat diam
                     eleme
                   </p>
-                  <a
+                  <Link
                     className="global-btn style-border"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     Read More{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -95,31 +96,31 @@ const BlogTwo = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <img src="assets/img/icon/calender.svg" alt="" />
                       april 10, 2024
-                    </a>
-                    <a href="blog.html">
+                    </Link>
+                    <Link to="/blog">
                       <i className="fas fa-comments" />
                       Comments (05)
-                    </a>
+                    </Link>
                   </div>
                   <h3 className="blog-title">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Market and Strategy the Consultants
-                    </a>
+                    </Link>
                   </h3>
                   <p className="blog-desc">
                     Lorem ipsum dolo consectetur. Posue sem ultrice feugiat diam
                     eleme
                   </p>
-                  <a
+                  <Link
                     className="global-btn style-border"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     Read More{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -130,31 +131,31 @@ const BlogTwo = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <img src="assets/img/icon/calender.svg" alt="" />
                       april 10, 2024
-                    </a>
-                    <a href="blog.html">
+                    </Link>
+                    <Link to="/blog">
                       <i className="fas fa-comments" />
                       Comments (05)
-                    </a>
+                    </Link>
                   </div>
                   <h3 className="blog-title">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Customer Expe the Consultants
-                    </a>
+                    </Link>
                   </h3>
                   <p className="blog-desc">
                     Lorem ipsum dolo consectetur. Posue sem ultrice feugiat diam
                     eleme
                   </p>
-                  <a
+                  <Link
                     className="global-btn style-border"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     Read More{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -165,31 +166,31 @@ const BlogTwo = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <img src="assets/img/icon/calender.svg" alt="" />
                       april 10, 2024
-                    </a>
-                    <a href="blog.html">
+                    </Link>
+                    <Link to="/blog">
                       <i className="fas fa-comments" />
                       Comments (05)
-                    </a>
+                    </Link>
                   </div>
                   <h3 className="blog-title">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transformational Strategy main a Advisors
-                    </a>
+                    </Link>
                   </h3>
                   <p className="blog-desc">
                     Lorem ipsum dolo consectetur. Posue sem ultrice feugiat diam
                     eleme
                   </p>
-                  <a
+                  <Link
                     className="global-btn style-border"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     Read More{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

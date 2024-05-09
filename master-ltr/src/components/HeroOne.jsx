@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroOne = () => {
   return (
@@ -23,12 +24,12 @@ const HeroOne = () => {
                 advice and guidance to businesses on various aspects such
               </p>
               <div className="btn-group">
-                <a href="about.html" className="global-btn">
+                <Link to="/about" className="global-btn">
                   Learn More <img src="assets/img/icon/right-icon.svg" alt="" />
-                </a>
-                <a href="service.html" className="global-btn style-border">
+                </Link>
+                <Link to="/service" className="global-btn style-border">
                   Our Services
-                </a>
+                </Link>
               </div>
             </div>
           </div>

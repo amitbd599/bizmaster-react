@@ -1,5 +1,6 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
+import { Link } from 'react-router-dom';
 const MarqueeTwo = () => {
     return (
         <div className="marquee-area bg-smoke">
@@ -8,28 +9,28 @@ const MarqueeTwo = () => {
                     <div className="marquee_mode">
                         <Marquee speed={100}>
                             <div className="item">
-                                <a href="#">
+                                <Link to="#">
                                     <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
                                     <span className="text-stroke">Breaking Barriers</span>
-                                </a>
+                                </Link>
                             </div>
                             <div className="item">
-                                <a href="#">
+                                <Link to="#">
                                     <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
                                     <span>Constructing Excellence</span>
-                                </a>
+                                </Link>
                             </div>
                             <div className="item">
-                                <a href="#">
+                                <Link to="#">
                                     <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
                                     <span className="text-stroke">Breaking Barriers</span>
-                                </a>
+                                </Link>
                             </div>
                             <div className="item">
-                                <a href="#">
+                                <Link to="#">
                                     <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
                                     <span>Constructing Excellence </span>
-                                </a>
+                                </Link>
                             </div>
                         </Marquee>
 

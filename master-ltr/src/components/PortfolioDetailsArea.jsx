@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PortfolioDetailsArea = () => {
     return (
@@ -154,18 +155,18 @@ const PortfolioDetailsArea = () => {
                                 </ul>
                             </div>
                             <div className="social-btn style5 justify-content-center">
-                                <a href="https://linkedin.com/" tabIndex={-1}>
+                                <Link to="/https://linkedin.com/" tabIndex={-1}>
                                     <i className="fab fa-linkedin-in" />
-                                </a>
-                                <a href="https://facebook.com/" tabIndex={-1}>
+                                </Link>
+                                <Link to="/https://facebook.com/" tabIndex={-1}>
                                     <i className="fab fa-facebook-f" />
-                                </a>
-                                <a href="https://www.instagram.com/" tabIndex={-1}>
+                                </Link>
+                                <Link to="/https://www.instagram.com/" tabIndex={-1}>
                                     <i className="fab fa-instagram" />
-                                </a>
-                                <a href="https://twitter.com/" tabIndex={-1}>
+                                </Link>
+                                <Link to="/https://twitter.com/" tabIndex={-1}>
                                     <i className="fab fa-twitter" />
-                                </a>
+                                </Link>
                             </div>
                         </aside>
                     </div>

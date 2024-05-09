@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PortfolioFour = () => {
     return (
@@ -19,9 +20,9 @@ const PortfolioFour = () => {
                         </div>
                         <div className="col-lg-auto">
                             <div className="btn-wrap mb-60 justify-content-center">
-                                <a href="project.html" className="global-btn style-border5">
+                                <Link to="/project" className="global-btn style-border5">
                                     View More <i className="fas fa-arrow-right ms-2" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -34,15 +35,15 @@ const PortfolioFour = () => {
                                 <div className="portfolio-card-details">
                                     <div className="media-left">
                                         <h4 className="portfolio-card-details_title">
-                                            <a href="project-details.html">Transformational Strategy</a>
+                                            <Link to="/project-details">Transformational Strategy</Link>
                                         </h4>
                                         <span className="portfolio-card-details_subtitle">
                                             purus duis
                                         </span>
                                     </div>
-                                    <a href="project-details.html" className="icon-btn">
+                                    <Link to="/project-details" className="icon-btn">
                                         <img src="assets/img/icon/arrow-long-right.svg" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -54,15 +55,15 @@ const PortfolioFour = () => {
                                 <div className="portfolio-card-details">
                                     <div className="media-left">
                                         <h4 className="portfolio-card-details_title">
-                                            <a href="project-details.html">Technology solutions </a>
+                                            <Link to="/project-details">Technology solutions </Link>
                                         </h4>
                                         <span className="portfolio-card-details_subtitle">
                                             purus duis
                                         </span>
                                     </div>
-                                    <a href="project-details.html" className="icon-btn">
+                                    <Link to="/project-details" className="icon-btn">
                                         <img src="assets/img/icon/arrow-long-right.svg" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -74,15 +75,15 @@ const PortfolioFour = () => {
                                 <div className="portfolio-card-details">
                                     <div className="media-left">
                                         <h4 className="portfolio-card-details_title">
-                                            <a href="project-details.html">Analysis Strategy </a>
+                                            <Link to="/project-details">Analysis Strategy </Link>
                                         </h4>
                                         <span className="portfolio-card-details_subtitle">
                                             purus duis
                                         </span>
                                     </div>
-                                    <a href="project-details.html" className="icon-btn">
+                                    <Link to="/project-details" className="icon-btn">
                                         <img src="assets/img/icon/arrow-long-right.svg" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -94,17 +95,17 @@ const PortfolioFour = () => {
                                 <div className="portfolio-card-details">
                                     <div className="media-left">
                                         <h4 className="portfolio-card-details_title">
-                                            <a href="project-details.html">
+                                            <Link to="/project-details">
                                                 Digital Transformation Advisors
-                                            </a>
+                                            </Link>
                                         </h4>
                                         <span className="portfolio-card-details_subtitle">
                                             purus duis
                                         </span>
                                     </div>
-                                    <a href="project-details.html" className="icon-btn">
+                                    <Link to="/project-details" className="icon-btn">
                                         <img src="assets/img/icon/arrow-long-right.svg" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

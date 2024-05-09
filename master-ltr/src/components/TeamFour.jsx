@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const TeamFour = () => {
     return (
@@ -27,23 +28,23 @@ const TeamFour = () => {
                                 <div className="team-card_wrapp">
                                     <div className="team-card_content">
                                         <h4 className="team-card_title">
-                                            <a href="team-details.html">Darlene Robertson</a>
+                                            <Link to="/team-details">Darlene Robertson</Link>
                                         </h4>
                                         <span className="team-card_desig">UI UX Designer</span>
                                     </div>
                                     <div className="global-social">
-                                        <a href="https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="https://www.twitter.com/" tabIndex={0}>
+                                        </Link>
+                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
                                             <i className="fab fa-twitter" />
-                                        </a>
-                                        <a href="https://www.instagram.com/" tabIndex={0}>
+                                        </Link>
+                                        <Link to="/https://www.instagram.com/" tabIndex={0}>
                                             <i className="fab fa-instagram" />
-                                        </a>
-                                        <a href="https://www.linkedin.com/" tabIndex={0}>
+                                        </Link>
+                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -56,23 +57,23 @@ const TeamFour = () => {
                                 <div className="team-card_wrapp">
                                     <div className="team-card_content">
                                         <h4 className="team-card_title">
-                                            <a href="team-details.html">Dianne Russell</a>
+                                            <Link to="/team-details">Dianne Russell</Link>
                                         </h4>
                                         <span className="team-card_desig">Marketing Coordinator</span>
                                     </div>
                                     <div className="global-social">
-                                        <a href="https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="https://www.twitter.com/" tabIndex={0}>
+                                        </Link>
+                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
                                             <i className="fab fa-twitter" />
-                                        </a>
-                                        <a href="https://www.instagram.com/" tabIndex={0}>
+                                        </Link>
+                                        <Link to="/https://www.instagram.com/" tabIndex={0}>
                                             <i className="fab fa-instagram" />
-                                        </a>
-                                        <a href="https://www.linkedin.com/" tabIndex={0}>
+                                        </Link>
+                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -85,23 +86,23 @@ const TeamFour = () => {
                                 <div className="team-card_wrapp">
                                     <div className="team-card_content">
                                         <h4 className="team-card_title">
-                                            <a href="team-details.html">Theresa Webb</a>
+                                            <Link to="/team-details">Theresa Webb</Link>
                                         </h4>
                                         <span className="team-card_desig">President of Sales</span>
                                     </div>
                                     <div className="global-social">
-                                        <a href="https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="https://www.twitter.com/" tabIndex={0}>
+                                        </Link>
+                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
                                             <i className="fab fa-twitter" />
-                                        </a>
-                                        <a href="https://www.instagram.com/" tabIndex={0}>
+                                        </Link>
+                                        <Link to="/https://www.instagram.com/" tabIndex={0}>
                                             <i className="fab fa-instagram" />
-                                        </a>
-                                        <a href="https://www.linkedin.com/" tabIndex={0}>
+                                        </Link>
+                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

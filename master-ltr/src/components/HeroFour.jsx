@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HeroFour = () => {
     return (
@@ -24,9 +25,9 @@ const HeroFour = () => {
                                 organization engaged in the production
                             </p>
                             <div className="btn-wrap">
-                                <a href="about.html" className="global-btn style-border3">
+                                <Link to="/about" className="global-btn style-border3">
                                     Learn More <i className="fas fa-arrow-right ms-2" />
-                                </a>
+                                </Link>
 
                             </div>
                         </div>

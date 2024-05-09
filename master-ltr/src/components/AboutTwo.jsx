@@ -1,6 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 const AboutTwo = () => {
   return (
     <div className="space">
@@ -40,9 +41,9 @@ const AboutTwo = () => {
               Lorem Ipsum is simply dummy text of the printing and typesetting
             </p>
             <div className="btn-group">
-              <a href="about.html" className="global-btn style2">
+              <Link to="/about" className="global-btn style2">
                 Explore More <img src="assets/img/icon/right-icon.svg" alt="" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-xl-6">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 const BlogFour = () => {
     var settings = {
@@ -62,23 +63,23 @@ const BlogFour = () => {
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
                                                 October 19, 2022
-                                            </a>
-                                            <a href="blog.html">
+                                            </Link>
+                                            <Link to="/blog">
                                                 <i className="fas fa-user" />
                                                 By admin
-                                            </a>
+                                            </Link>
                                         </div>
                                         <h3 className="blog-title">
-                                            <a href="blog-details.html">
+                                            <Link to="/blog-details">
                                                 Strategic Solutions for Business Growth
-                                            </a>
+                                            </Link>
                                         </h3>
-                                        <a className="link-btn" href="blog-details.html">
+                                        <Link className="link-btn" to="/blog-details">
                                             Read More <i className="fas fa-arrow-right ms-2" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -89,23 +90,23 @@ const BlogFour = () => {
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
                                                 October 19, 2022
-                                            </a>
-                                            <a href="blog.html">
+                                            </Link>
+                                            <Link to="/blog">
                                                 <i className="fas fa-user" />
                                                 By admin
-                                            </a>
+                                            </Link>
                                         </div>
                                         <h3 className="blog-title">
-                                            <a href="blog-details.html">
+                                            <Link to="/blog-details">
                                                 Hard Work Always Brings You Success
-                                            </a>
+                                            </Link>
                                         </h3>
-                                        <a className="link-btn" href="blog-details.html">
+                                        <Link className="link-btn" to="/blog-details">
                                             Read More <i className="fas fa-arrow-right ms-2" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -116,23 +117,23 @@ const BlogFour = () => {
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
                                                 October 19, 2022
-                                            </a>
-                                            <a href="blog.html">
+                                            </Link>
+                                            <Link to="/blog">
                                                 <i className="fas fa-user" />
                                                 By admin
-                                            </a>
+                                            </Link>
                                         </div>
                                         <h3 className="blog-title">
-                                            <a href="blog-details.html">
+                                            <Link to="/blog-details">
                                                 Growth and Innovation the Consultants
-                                            </a>
+                                            </Link>
                                         </h3>
-                                        <a className="link-btn" href="blog-details.html">
+                                        <Link className="link-btn" to="/blog-details">
                                             Read More <i className="fas fa-arrow-right ms-2" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -143,23 +144,23 @@ const BlogFour = () => {
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
                                                 October 19, 2022
-                                            </a>
-                                            <a href="blog.html">
+                                            </Link>
+                                            <Link to="/blog">
                                                 <i className="fas fa-user" />
                                                 By admin
-                                            </a>
+                                            </Link>
                                         </div>
                                         <h3 className="blog-title">
-                                            <a href="blog-details.html">
+                                            <Link to="/blog-details">
                                                 Hard Work Always Brings You Success
-                                            </a>
+                                            </Link>
                                         </h3>
-                                        <a className="link-btn" href="blog-details.html">
+                                        <Link className="link-btn" to="/blog-details">
                                             Read More <i className="fas fa-arrow-right ms-2" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

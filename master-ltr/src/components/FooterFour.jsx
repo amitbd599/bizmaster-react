@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const FooterFour = () => {
     return (
@@ -13,26 +14,26 @@ const FooterFour = () => {
                             <div className="col-md-6 col-xl-3">
                                 <div className="widget footer-widget widget-about">
                                     <div className="about-logo">
-                                        <a href="index.html">
+                                        <Link to="/">
                                             <img src="assets/img/logo-white.svg" alt="Bizmaster" />
-                                        </a>
+                                        </Link>
                                     </div>
                                     <p className="footer-text mb-30 mt-30">
                                         It is a long established fact that a reader will be distracted
                                     </p>
                                     <div className="social-btn">
-                                        <a href="https://facebook.com/" tabIndex={-1}>
+                                        <Link to="/https://facebook.com/" tabIndex={-1}>
                                             <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="https://twitter.com/" tabIndex={-1}>
+                                        </Link>
+                                        <Link to="/https://twitter.com/" tabIndex={-1}>
                                             <i className="fab fa-twitter" />
-                                        </a>
-                                        <a href="https://www.instagram.com/" tabIndex={-1}>
+                                        </Link>
+                                        <Link to="/https://www.instagram.com/" tabIndex={-1}>
                                             <i className="fab fa-instagram" />
-                                        </a>
-                                        <a href="https://linkedin.com/" tabIndex={-1}>
+                                        </Link>
+                                        <Link to="/https://linkedin.com/" tabIndex={-1}>
                                             <i className="fab fa-linkedin-in" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -42,16 +43,16 @@ const FooterFour = () => {
                                     <div className="menu-all-pages-container">
                                         <ul className="menu">
                                             <li>
-                                                <a href="service.html">Service</a>
+                                                <Link to="/service">Service</Link>
                                             </li>
                                             <li>
-                                                <a href="contact.html">FAQ</a>
+                                                <Link to="/contact">FAQ</Link>
                                             </li>
                                             <li>
-                                                <a href="blog.html">Testimonial</a>
+                                                <Link to="/blog">Testimonial</Link>
                                             </li>
                                             <li>
-                                                <a href="about.html">About Us</a>
+                                                <Link to="/about">About Us</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -63,16 +64,16 @@ const FooterFour = () => {
                                     <div className="menu-all-pages-container">
                                         <ul className="menu">
                                             <li>
-                                                <a href="service.html">Reliable Rentals</a>
+                                                <Link to="/service">Reliable Rentals</Link>
                                             </li>
                                             <li>
-                                                <a href="service.html">Golden Key Properties</a>
+                                                <Link to="/service">Golden Key Properties</Link>
                                             </li>
                                             <li>
-                                                <a href="service.html">Swift Home Sales</a>
+                                                <Link to="/service">Swift Home Sales</Link>
                                             </li>
                                             <li>
-                                                <a href="service.html">Elite Realty Services</a>
+                                                <Link to="/service">Elite Realty Services</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -86,7 +87,7 @@ const FooterFour = () => {
                                             <i className="fas fa-phone-alt text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <a href="tel:0123456789">+880 123 45 67 89</a>
+                                                    <Link to="/tel:0123456789">+880 123 45 67 89</Link>
                                                     <p />
                                                 </h6>
                                             </div>
@@ -95,7 +96,7 @@ const FooterFour = () => {
                                             <i className="fas fa-envelope text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <a href="mailto:yourmail@gmail.comm">yourmail@gmail.com</a>
+                                                    <Link to="/mailto:yourmail@gmail.comm">yourmail@gmail.com</Link>
                                                     <p />
                                                 </h6>
                                             </div>
@@ -120,14 +121,14 @@ const FooterFour = () => {
                         <div className="row gy-3 justify-content-lg-between justify-content-center">
                             <div className="col-auto align-self-center">
                                 <p className="copyright-text text-center">
-                                    © <a href="#">Yoursitename </a> 2024 | All Rights Reserved
+                                    © <Link to="#">Yoursitename </Link> 2024 | All Rights Reserved
                                 </p>
                             </div>
                             <div className="col-auto">
                                 <div className="footer-links">
-                                    <a href="contact.html">Trams &amp; Condition</a>
-                                    <a href="contact.html">Privacy Policy</a>
-                                    <a href="contact.html">Contact Us</a>
+                                    <Link to="/contact">Trams &amp; Condition</Link>
+                                    <Link to="/contact">Privacy Policy</Link>
+                                    <Link to="/contact">Contact Us</Link>
                                 </div>
                             </div>
                         </div>

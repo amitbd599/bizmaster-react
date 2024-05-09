@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const TeamDetailsInner = () => {
     return (
@@ -85,8 +86,8 @@ const TeamDetailsInner = () => {
                                         <i className="fas fa-phone-alt" />
                                     </span>
                                     <p>
-                                        <a href="tel:11234567890">+(1) 123 456 7890</a> <br />{" "}
-                                        <a href="tel:10927564321">+(1) 098 765 4321</a>
+                                        <Link to="/tel:11234567890">+(1) 123 456 7890</Link> <br />{" "}
+                                        <Link to="/tel:10927564321">+(1) 098 765 4321</Link>
                                     </p>
                                 </div>
                                 <div className="team-details-wrap_info">
@@ -94,25 +95,25 @@ const TeamDetailsInner = () => {
                                         <i className="fas fa-envelope" />
                                     </span>
                                     <p>
-                                        <a href="mailto:info@fixturbo.com">info@fixturbo.com</a> <br />{" "}
-                                        <a href="mailto:info.example@fixturbo.com">
+                                        <Link to="/mailto:info@fixturbo.com">info@fixturbo.com</Link> <br />{" "}
+                                        <Link to="/mailto:info.example@fixturbo.com">
                                             info.example@fixturbo.com
-                                        </a>
+                                        </Link>
                                     </p>
                                 </div>
                                 <div className="social-btn style4 mt-35">
-                                    <a href="https://facebook.com/">
+                                    <Link to="/https://facebook.com/">
                                         <i className="fab fa-facebook-f" />
-                                    </a>
-                                    <a href="https://twitter.com/">
+                                    </Link>
+                                    <Link to="/https://twitter.com/">
                                         <i className="fab fa-twitter" />
-                                    </a>
-                                    <a href="https://instagram.com/">
+                                    </Link>
+                                    <Link to="/https://instagram.com/">
                                         <i className="fab fa-instagram" />
-                                    </a>
-                                    <a href="https://pinterest.com/">
+                                    </Link>
+                                    <Link to="/https://pinterest.com/">
                                         <i className="fab fa-pinterest" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

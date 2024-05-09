@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BlogAreaAll = () => {
     return (
@@ -10,135 +11,135 @@ const BlogAreaAll = () => {
                             <div className="blog-thumb">
                                 <img src="assets/img/blog/blog_s2_1.png" alt="blog image" />
                                 <div className="blog-date">
-                                    <a href="blog.html">
+                                    <Link to="/blog">
                                         <span>31</span>May
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="blog-content">
                                 <div className="blog-meta">
-                                    <a href="blog.html">
+                                    <Link to="/blog">
                                         <i className="fas fa-user" />
                                         By admin
-                                    </a>
-                                    <a href="blog.html">
+                                    </Link>
+                                    <Link to="/blog">
                                         <i className="fas fa-folder-open" />
                                         Category
-                                    </a>
-                                    <a href="blog.html">
+                                    </Link>
+                                    <Link to="/blog">
                                         <i className="fas fa-comments" />
                                         Comments (05)
-                                    </a>
+                                    </Link>
                                 </div>
                                 <h3 className="blog-title">
-                                    <a href="blog-details.html">
+                                    <Link to="/blog-details">
                                         Partnering for Business a the Success
-                                    </a>
+                                    </Link>
                                 </h3>
                                 <p className="blog-text">
                                     Web designing in a powerful way of just not an only professions,
                                     however, in a passion Company. We have a to a tendency to believe
                                     the idea that smart
                                 </p>
-                                <a href="blog-details.html" className="global-btn style-border2">
+                                <Link to="/blog-details" className="global-btn style-border2">
                                     {" "}
                                     Read More <img src="assets/img/icon/right-icon2.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="blog-single-card">
                             <div className="blog-thumb">
                                 <img src="assets/img/blog/blog_s2_2.png" alt="blog image" />
                                 <div className="blog-date">
-                                    <a href="blog.html">
+                                    <Link to="/blog">
                                         <span>31</span>May
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="blog-content">
                                 <div className="blog-meta">
-                                    <a href="blog.html">
+                                    <Link to="/blog">
                                         <i className="fas fa-user" />
                                         By admin
-                                    </a>
-                                    <a href="blog.html">
+                                    </Link>
+                                    <Link to="/blog">
                                         <i className="fas fa-folder-open" />
                                         Category
-                                    </a>
-                                    <a href="blog.html">
+                                    </Link>
+                                    <Link to="/blog">
                                         <i className="fas fa-comments" />
                                         Comments (05)
-                                    </a>
+                                    </Link>
                                 </div>
                                 <h3 className="blog-title">
-                                    <a href="blog-details.html">
+                                    <Link to="/blog-details">
                                         Unleash Your Business's Hidden Potential
-                                    </a>
+                                    </Link>
                                 </h3>
                                 <p className="blog-text">
                                     Web designing in a powerful way of just not an only professions,
                                     however, in a passion Company. We have a to a tendency to believe
                                     the idea that smart
                                 </p>
-                                <a href="blog-details.html" className="global-btn style-border2">
+                                <Link to="/blog-details" className="global-btn style-border2">
                                     {" "}
                                     Read More <img src="assets/img/icon/right-icon2.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="blog-single-card">
                             <div className="blog-thumb">
                                 <img src="assets/img/blog/blog_s2_3.png" alt="blog image" />
                                 <div className="blog-date">
-                                    <a href="blog.html">
+                                    <Link to="/blog">
                                         <span>31</span>May
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="blog-content">
                                 <div className="blog-meta">
-                                    <a href="blog.html">
+                                    <Link to="/blog">
                                         <i className="fas fa-user" />
                                         By admin
-                                    </a>
-                                    <a href="blog.html">
+                                    </Link>
+                                    <Link to="/blog">
                                         <i className="fas fa-folder-open" />
                                         Category
-                                    </a>
-                                    <a href="blog.html">
+                                    </Link>
+                                    <Link to="/blog">
                                         <i className="fas fa-comments" />
                                         Comments (05)
-                                    </a>
+                                    </Link>
                                 </div>
                                 <h3 className="blog-title">
-                                    <a href="blog-details.html">
+                                    <Link to="/blog-details">
                                         Maximizing Profitability Through Strategic
-                                    </a>
+                                    </Link>
                                 </h3>
                                 <p className="blog-text">
                                     Web designing in a powerful way of just not an only professions,
                                     however, in a passion Company. We have a to a tendency to believe
                                     the idea that smart
                                 </p>
-                                <a href="blog-details.html" className="global-btn style-border2">
+                                <Link to="/blog-details" className="global-btn style-border2">
                                     {" "}
                                     Read More <img src="assets/img/icon/right-icon2.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="pagination justify-content-center">
                             <ul>
                                 <li>
-                                    <a href="blog.html">1</a>
+                                    <Link to="/blog">1</Link>
                                 </li>
                                 <li>
-                                    <a href="blog.html">2</a>
+                                    <Link to="/blog">2</Link>
                                 </li>
                                 <li>
-                                    <a href="blog.html">3</a>
+                                    <Link to="/blog">3</Link>
                                 </li>
                                 <li>
-                                    <a href="blog.html">4</a>
+                                    <Link to="/blog">4</Link>
                                 </li>
                             </ul>
                         </div>
@@ -158,28 +159,28 @@ const BlogAreaAll = () => {
                                 <h3 className="widget_title">Category</h3>
                                 <ul>
                                     <li>
-                                        <a href="blog.html">
+                                        <Link to="/blog">
                                             Business Growth Catalyst{" "}
                                             <img src="assets/img/icon/category-1.svg" alt="" />
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">
+                                        <Link to="/blog">
                                             Digital Transformation
                                             <img src="assets/img/icon/category-2.svg" alt="" />
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">
+                                        <Link to="/blog">
                                             Advisors Growth Catalyst
                                             <img src="assets/img/icon/category-3.svg" alt="" />
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">
+                                        <Link to="/blog">
                                             Financial Advisory Partners
                                             <img src="assets/img/icon/category-4.svg" alt="" />
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -188,46 +189,46 @@ const BlogAreaAll = () => {
                                 <div className="recent-post-wrap">
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <img src="assets/img/icon/calender.svg" alt="" />
                                                 Jan 10, 2024
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="media-body">
                                             <h4 className="post-title">
-                                                <a className="text-inherit" href="blog-details.html">
+                                                <Link className="text-inherit" to="/blog-details">
                                                     Navigating Global Trade One Shipmen
-                                                </a>
+                                                </Link>
                                             </h4>
                                         </div>
                                     </div>
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <img src="assets/img/icon/calender.svg" alt="" />
                                                 Jan 10, 2024
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="media-body">
                                             <h4 className="post-title">
-                                                <a className="text-inherit" href="blog-details.html">
+                                                <Link className="text-inherit" to="/blog-details">
                                                     Strategic Solutions for the a Business Growth
-                                                </a>
+                                                </Link>
                                             </h4>
                                         </div>
                                     </div>
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <img src="assets/img/icon/calender.svg" alt="" />
                                                 Jan 10, 2024
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="media-body">
                                             <h4 className="post-title">
-                                                <a className="text-inherit" href="blog-details.html">
+                                                <Link className="text-inherit" to="/blog-details">
                                                     Achieve Your Business Goals with Confidence
-                                                </a>
+                                                </Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -236,12 +237,12 @@ const BlogAreaAll = () => {
                             <div className="widget widget_tag_cloud">
                                 <h3 className="widget_title">Popular Tags</h3>
                                 <div className="tagcloud">
-                                    <a href="blog.html">Experts</a>
-                                    <a href="blog.html">Efficiency</a>
-                                    <a href="blog.html">Digital</a>
-                                    <a href="blog.html">Transform</a>
-                                    <a href="blog.html">Chain</a>
-                                    <a href="blog.html">Partner</a>
+                                    <Link to="/blog">Experts</Link>
+                                    <Link to="/blog">Efficiency</Link>
+                                    <Link to="/blog">Digital</Link>
+                                    <Link to="/blog">Transform</Link>
+                                    <Link to="/blog">Chain</Link>
+                                    <Link to="/blog">Partner</Link>
                                 </div>
                             </div>
                         </aside>

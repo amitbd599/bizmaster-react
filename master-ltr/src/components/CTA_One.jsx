@@ -1,6 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 
 const CTA_One = () => {
   return (
@@ -59,9 +60,9 @@ const CTA_One = () => {
                   </div>
                 </div>
                 <div className="cta-btn">
-                  <a className="global-btn style-border" href="contact.html">
+                  <Link className="global-btn style-border" to="/contact">
                     contact us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

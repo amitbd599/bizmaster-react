@@ -1,6 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 
 const HeroTwo = () => {
   return (
@@ -27,18 +28,18 @@ const HeroTwo = () => {
             operating
           </p>
           <div className="btn-group">
-            <a href="about.html" className="global-btn">
+            <Link to="/about" className="global-btn">
               Explore More
               <img src="assets/img/icon/right-icon.svg" alt="" />
-            </a>
+            </Link>
             <div className="media-wrap">
               <div className="icon">
-                <a
-                  href="https://www.youtube.com/watch?v=P7fi4hP_y80"
+                <Link
+                  to="/https://www.youtube.com/watch?v=P7fi4hP_y80"
                   className="play-btn popup-video"
                 >
                   <i className="fas fa-solid fa-play" />{" "}
-                </a>
+                </Link>
               </div>
               <div className="media-body">
                 <h6 className="title text-white">See How It Works</h6>

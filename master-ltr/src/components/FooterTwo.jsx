@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterTwo = () => {
   return (
@@ -12,9 +13,9 @@ const FooterTwo = () => {
             <div className="col-md-6 col-xl-3">
               <div className="widget footer-widget widget-about">
                 <div className="about-logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src="assets/img/logo.svg" alt="Bizmaster" />
-                  </a>
+                  </Link>
                 </div>
                 <p className="footer-text mb-30">
                   Lorem ips dolor amet, consectetur sell adipis elit phase
@@ -22,18 +23,18 @@ const FooterTwo = () => {
                 </p>
                 <div className="social-btn style3">
                   <span className="social-title">Follow Us</span>
-                  <a href="https://facebook.com/">
+                  <Link to="/https://facebook.com/">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://www.instagram.com/">
+                  </Link>
+                  <Link to="/https://www.instagram.com/">
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="https://linkedin.com/">
+                  </Link>
+                  <Link to="/https://linkedin.com/">
                     <i className="fab fa-linkedin-in" />
-                  </a>
-                  <a href="https://twitter.com/">
+                  </Link>
+                  <Link to="/https://twitter.com/">
                     <i className="fab fa-twitter" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -47,9 +48,9 @@ const FooterTwo = () => {
                     </div>
                     <div className="contact-grid-details">
                       <h6>
-                        <a href="mailto:infoname@mail.com">
+                        <Link to="/mailto:infoname@mail.com">
                           debra.holt@example.com
-                        </a>
+                        </Link>
                         <p />
                       </h6>
                     </div>
@@ -82,16 +83,16 @@ const FooterTwo = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <a href="service.html">Software Corner</a>
+                      <Link to="/service">Software Corner</Link>
                     </li>
                     <li>
-                      <a href="service.html">Application Center</a>
+                      <Link to="/service">Application Center</Link>
                     </li>
                     <li>
-                      <a href="service.html">Research Section</a>
+                      <Link to="/service">Research Section</Link>
                     </li>
                     <li>
-                      <a href="service.html">Developing Corner</a>
+                      <Link to="/service">Developing Corner</Link>
                     </li>
                   </ul>
                 </div>
@@ -102,24 +103,24 @@ const FooterTwo = () => {
                 <h3 className="widget_title">Latest Gallery</h3>
                 <ul className="side-instagram list-wrap">
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <img src="assets/img/gallery/1.jpg" alt="" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <img src="assets/img/gallery/2.jpg" alt="" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <img src="assets/img/gallery/3.jpg" alt="" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <img src="assets/img/gallery/4.jpg" alt="" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -132,14 +133,14 @@ const FooterTwo = () => {
           <div className="row gy-3 justify-content-lg-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <a href="#">Yoursitename</a> 2024 | All Rights Reserved
+                © <Link to="#">Yoursitename</Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <a href="contact.html">Tarms &amp; Condition</a>
-                <a href="contact.html">Privacy Policy</a>
-                <a href="contact.html">Contact Us</a>
+                <Link to="/contact">Tarms &amp; Condition</Link>
+                <Link to="/contact">Privacy Policy</Link>
+                <Link to="/contact">Contact Us</Link>
               </div>
             </div>
           </div>

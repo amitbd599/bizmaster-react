@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 const ClientOne = () => {
   var settings = {
@@ -46,58 +47,58 @@ const ClientOne = () => {
           <Slider {...settings}>
             <div className="p-2">
               <div className="client-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img src="assets/img/client/2-1.png" alt="img" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="p-2">
               <div className="client-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img src="assets/img/client/2-2.png" alt="img" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="p-2">
               <div className="client-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img src="assets/img/client/2-3.png" alt="img" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="p-2">
               <div className="client-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img src="assets/img/client/2-4.png" alt="img" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="p-2">
               <div className="client-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img src="assets/img/client/2-1.png" alt="img" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="p-2">
               <div className="client-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img src="assets/img/client/2-2.png" alt="img" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="p-2">
               <div className="client-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img src="assets/img/client/2-3.png" alt="img" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="p-2">
               <div className="client-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img src="assets/img/client/2-4.png" alt="img" />
-                </a>
+                </Link>
               </div>
             </div>
           </Slider>

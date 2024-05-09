@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PortfolioAll = () => {
     return (
@@ -16,14 +17,14 @@ const PortfolioAll = () => {
                                         Development Coaches
                                     </span>
                                     <h4 className="portfolio-card-details_title">
-                                        <a href="project-details.html">
+                                        <Link to="/project-details">
                                             Digital Transformation Advisors
-                                        </a>
+                                        </Link>
                                     </h4>
                                 </div>
-                                <a href="project-details.html" className="icon-btn">
+                                <Link to="/project-details" className="icon-btn">
                                     <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -38,14 +39,14 @@ const PortfolioAll = () => {
                                         Success Accelerators
                                     </span>
                                     <h4 className="portfolio-card-details_title">
-                                        <a href="project-details.html">
+                                        <Link to="/project-details">
                                             Transformational Strategy Advisors
-                                        </a>
+                                        </Link>
                                     </h4>
                                 </div>
-                                <a href="project-details.html" className="icon-btn">
+                                <Link to="/project-details" className="icon-btn">
                                     <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -60,14 +61,14 @@ const PortfolioAll = () => {
                                         Efficiency Experts
                                     </span>
                                     <h4 className="portfolio-card-details_title">
-                                        <a href="project-details.html">
+                                        <Link to="/project-details">
                                             Marketing and Branding Consultants
-                                        </a>
+                                        </Link>
                                     </h4>
                                 </div>
-                                <a href="project-details.html" className="icon-btn">
+                                <Link to="/project-details" className="icon-btn">
                                     <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -82,12 +83,12 @@ const PortfolioAll = () => {
                                         Profitability Maximizers
                                     </span>
                                     <h4 className="portfolio-card-details_title">
-                                        <a href="project-details.html">Market Analysis and Strategy</a>
+                                        <Link to="/project-details">Market Analysis and Strategy</Link>
                                     </h4>
                                 </div>
-                                <a href="project-details.html" className="icon-btn">
+                                <Link to="/project-details" className="icon-btn">
                                     <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -102,12 +103,12 @@ const PortfolioAll = () => {
                                         Profitability Maximizers
                                     </span>
                                     <h4 className="portfolio-card-details_title">
-                                        <a href="project-details.html">Market Analysis and Strategy</a>
+                                        <Link to="/project-details">Market Analysis and Strategy</Link>
                                     </h4>
                                 </div>
-                                <a href="project-details.html" className="icon-btn">
+                                <Link to="/project-details" className="icon-btn">
                                     <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -122,12 +123,12 @@ const PortfolioAll = () => {
                                         Profitability Maximizers
                                     </span>
                                     <h4 className="portfolio-card-details_title">
-                                        <a href="project-details.html">Market Analysis and Strategy</a>
+                                        <Link to="/project-details">Market Analysis and Strategy</Link>
                                     </h4>
                                 </div>
-                                <a href="project-details.html" className="icon-btn">
+                                <Link to="/project-details" className="icon-btn">
                                     <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const HeaderFive = () => {
   const [active, setActive] = useState(false);
@@ -71,9 +72,9 @@ const HeaderFive = () => {
           <div className="widget  ">
             <div className="th-widget-about">
               <div className="about-logo">
-                <a href="index.html">
+                <Link to="/">
                   <img src="assets/img/logo.svg" alt="Laun" />
-                </a>
+                </Link>
               </div>
               <p className="about-text">
                 We provide specialized winterization services to safeguard your
@@ -81,18 +82,18 @@ const HeaderFive = () => {
                 the thorough opening process.
               </p>
               <div className="social-links">
-                <a href="https://www.facebook.com/">
+                <Link to="/https://www.facebook.com/">
                   <i className="fab fa-facebook-f" />
-                </a>
-                <a href="https://www.twitter.com/">
+                </Link>
+                <Link to="/https://www.twitter.com/">
                   <i className="fab fa-twitter" />
-                </a>
-                <a href="https://www.linkedin.com/">
+                </Link>
+                <Link to="/https://www.linkedin.com/">
                   <i className="fab fa-linkedin-in" />
-                </a>
-                <a href="https://www.whatsapp.com/">
+                </Link>
+                <Link to="/https://www.whatsapp.com/">
                   <i className="fab fa-whatsapp" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -114,24 +115,24 @@ const HeaderFive = () => {
           </div>
           <ul className="side-instagram list-wrap">
             <li>
-              <a href="#">
+              <Link to="#">
                 <img src="assets/img/gallery/1.jpg" alt="" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <img src="assets/img/gallery/2.jpg" alt="" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <img src="assets/img/gallery/3.jpg" alt="" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <img src="assets/img/gallery/4.jpg" alt="" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -153,9 +154,9 @@ const HeaderFive = () => {
       <div className={`mobile-menu-wrapper ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
-            <a href="index.html">
+            <Link to="/">
               <img src="assets/img/logo.svg" alt="Bizmaster" />
-            </a>
+            </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
               <i className="fa fa-times" />
             </button>
@@ -163,78 +164,78 @@ const HeaderFive = () => {
           <div className="mobile-menu">
             <ul id="offcanvas-navigation">
               <li className="menu-item-has-children submenu-item-has-children">
-                <a href="#">Home</a>
+                <Link to="#">Home</Link>
                 <ul className="sub-menu submenu-class">
                   <li>
-                    <a href="index.html">Home 01</a>
+                    <Link to="/home-1">Home 01</Link>
                   </li>
                   <li>
-                    <a href="home-2.html">Home 02</a>
+                    <Link to="/home-2">Home 02</Link>
                   </li>
                   <li>
-                    <a href="home-3.html">Home 03</a>
+                    <Link to="/home-3">Home 03</Link>
                   </li>
                   <li>
-                    <a href="home-4.html">Home 04</a>
+                    <Link to="/home-4">Home 04</Link>
                   </li>
                   <li>
-                    <a href="home-5.html">Home 05</a>
+                    <Link to="/home-5">Home 05</Link>
                   </li>
                 </ul>
               </li>
 
               <li>
-                <a href="about.html">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li className="menu-item-has-children">
-                <a href="#">Pages</a>
+                <Link to="#">Pages</Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="pricing.html">Pricing Page</a>
+                    <Link to="/pricing">Pricing Page</Link>
                   </li>
                   <li>
-                    <a href="team.html">Team</a>
+                    <Link to="/team">Team</Link>
                   </li>
                   <li>
-                    <a href="team-details.html">Team Details</a>
+                    <Link to="/team-details">Team Details</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <a href="#">Project</a>
+                <Link to="#">Project</Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="project.html">Projects</a>
+                    <Link to="/project">Projects</Link>
                   </li>
                   <li>
-                    <a href="project-details.html">Project Details</a>
+                    <Link to="/project-details">Project Details</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <a href="#">Service</a>
+                <Link to="#">Service</Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="service.html">Service</a>
+                    <Link to="/service">Service</Link>
                   </li>
                   <li>
-                    <a href="service-details.html">Service Details</a>
+                    <Link to="/service-details">Service Details</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <a href="#">Blog</a>
+                <Link to="#">Blog</Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="blog.html">Blog</a>
+                    <Link to="/blog">Blog</Link>
                   </li>
                   <li>
-                    <a href="blog-details.html">Blog Details</a>
+                    <Link to="/blog-details">Blog Details</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -262,11 +263,11 @@ const HeaderFive = () => {
                   <ul>
                     <li>
                       <i className="fas fa-phone-alt" />
-                      <a href="tel:6295550129">(629) 555-0129</a>
+                      <Link to="/tel:6295550129">(629) 555-0129</Link>
                     </li>
                     <li>
                       <i className="fas fa-envelope" />
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <Link to="/mailto:info@example.com">info@example.com</Link>
                     </li>
                   </ul>
                 </div>
@@ -281,90 +282,90 @@ const HeaderFive = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src="assets/img/logo-white.svg" alt="logo" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-auto">
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
                     <li className="menu-item-has-children">
-                      <a href="#">Home</a>
+                      <Link to="#">Home</Link>
                       <ul className="sub-menu">
                         <li>
-                          <a href="index.html">Home 01</a>
+                          <Link to="/home-1">Home 01</Link>
                         </li>
                         <li>
-                          <a href="home-2.html">Home 02</a>
+                          <Link to="/home-2">Home 02</Link>
                         </li>
                         <li>
-                          <a href="home-3.html">Home 03</a>
+                          <Link to="/home-3">Home 03</Link>
                         </li>
                         <li>
-                          <a href="home-4.html">Home 04</a>
+                          <Link to="/home-4">Home 04</Link>
                         </li>
                         <li>
-                          <a href="home-5.html">Home 05</a>
+                          <Link to="/home-5">Home 05</Link>
                         </li>
                       </ul>
                     </li>
 
                     <li>
-                      <a href="about.html">About Us</a>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <a href="#">Services</a>
+                      <Link to="#">Services</Link>
                       <ul className="sub-menu">
                         <li>
-                          <a href="service.html">Service</a>
+                          <Link to="/service">Service</Link>
                         </li>
                         <li>
-                          <a href="service-details.html">Service Details</a>
+                          <Link to="/service-details">Service Details</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <a href="#">Projects</a>
+                      <Link to="#">Projects</Link>
                       <ul className="sub-menu">
                         <li>
-                          <a href="project.html">Projects</a>
+                          <Link to="/project">Projects</Link>
                         </li>
                         <li>
-                          <a href="project-details.html">Projects Details</a>
+                          <Link to="/project-details">Projects Details</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <a href="#">Blog</a>
+                      <Link to="#">Blog</Link>
                       <ul className="sub-menu">
                         <li>
-                          <a href="blog.html">Blog</a>
+                          <Link to="/blog">Blog</Link>
                         </li>
                         <li>
-                          <a href="blog-details.html">Blog Details</a>
+                          <Link to="/blog-details">Blog Details</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <a href="#">Pages</a>
+                      <Link to="#">Pages</Link>
                       <ul className="sub-menu">
                         <li>
-                          <a href="pricing.html">Pricing Page</a>
+                          <Link to="/pricing">Pricing Page</Link>
                         </li>
                         <li>
-                          <a href="team.html">Team</a>
+                          <Link to="/team">Team</Link>
                         </li>
                         <li>
-                          <a href="team-details.html">Team Details</a>
+                          <Link to="/team-details">Team Details</Link>
                         </li>
                         <li>
-                          <a href="contact.html">Contact Page</a>
+                          <Link to="/contact">Contact Page</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="contact.html">Contact</a>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </nav>
@@ -380,9 +381,9 @@ const HeaderFive = () => {
                     <button type="button" className="simple-icon searchBoxToggler" onClick={() => searchControl(true)}>
                       <i className="fas fa-search" />
                     </button>
-                    <a href="about.html" className="global-btn style-border3">
+                    <Link to="/about" className="global-btn style-border3">
                       Get a quote <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

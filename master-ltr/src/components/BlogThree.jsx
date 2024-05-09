@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 const BlogThree = () => {
 
@@ -76,20 +77,7 @@ const BlogThree = () => {
               </h2>
             </div>
           </div>
-          {/* <div className="col-lg-auto align-self-end">
-            <div className="icon-box mb-60">
-              <button
-                className="slick-arrow default"
-              >
-                <i className="fas fa-arrow-left" />
-              </button>
-              <button
-                className="slick-arrow default"
-              >
-                <i className="fas fa-arrow-right" />
-              </button>
-            </div>
-          </div> */}
+
         </div>
         <div
           className="row global-carousel blog-slider3 slider-shadow">
@@ -101,26 +89,26 @@ const BlogThree = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <i className="fas fa-calendar-alt" />
                       October 19, 2022
-                    </a>
-                    <a href="blog.html">
+                    </Link>
+                    <Link to="/blog">
                       <i className="fas fa-user" />
                       Admin
-                    </a>
+                    </Link>
                   </div>
                   <h3 className="blog-title">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transformation Strategy Advisors Operat
-                    </a>
+                    </Link>
                   </h3>
-                  <a
+                  <Link
                     className="global-btn style-border4"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     Read More <i className="fas fa-arrow-right ms-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,26 +119,26 @@ const BlogThree = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <i className="fas fa-calendar-alt" />
                       October 19, 2022
-                    </a>
-                    <a href="blog.html">
+                    </Link>
+                    <Link to="/blog">
                       <i className="fas fa-user" />
                       Admin
-                    </a>
+                    </Link>
                   </div>
                   <h3 className="blog-title">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Hard Work Always Brings You Success
-                    </a>
+                    </Link>
                   </h3>
-                  <a
+                  <Link
                     className="global-btn style-border4"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     Read More <i className="fas fa-arrow-right ms-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -161,26 +149,26 @@ const BlogThree = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <i className="fas fa-calendar-alt" />
                       October 19, 2022
-                    </a>
-                    <a href="blog.html">
+                    </Link>
+                    <Link to="/blog">
                       <i className="fas fa-user" />
                       Admin
-                    </a>
+                    </Link>
                   </div>
                   <h3 className="blog-title">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Growth and Innovation the Consultants
-                    </a>
+                    </Link>
                   </h3>
-                  <a
+                  <Link
                     className="global-btn style-border4"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     Read More <i className="fas fa-arrow-right ms-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -191,26 +179,26 @@ const BlogThree = () => {
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <i className="fas fa-calendar-alt" />
                       October 19, 2022
-                    </a>
-                    <a href="blog.html">
+                    </Link>
+                    <Link to="/blog">
                       <i className="fas fa-user" />
                       Admin
-                    </a>
+                    </Link>
                   </div>
                   <h3 className="blog-title">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Hard Work Always Brings You Success
-                    </a>
+                    </Link>
                   </h3>
-                  <a
+                  <Link
                     className="global-btn style-border4"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     Read More <i className="fas fa-arrow-right ms-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

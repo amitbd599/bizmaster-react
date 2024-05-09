@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BlogDetailsInner = () => {
     return (
@@ -8,18 +9,18 @@ const BlogDetailsInner = () => {
                     <div className="col-xxl-8 col-lg-7">
                         <div className="blog-details-card">
                             <div className="blog-meta">
-                                <a href="blog.html">
+                                <Link to="/blog">
                                     <i className="fas fa-user" />
                                     By admin
-                                </a>
-                                <a href="blog.html">
+                                </Link>
+                                <Link to="/blog">
                                     <i className="fas fa-folder-open" />
                                     Category
-                                </a>
-                                <a href="blog.html">
+                                </Link>
+                                <Link to="/blog">
                                     <i className="fas fa-comments" />
                                     Comments (05)
-                                </a>
+                                </Link>
                             </div>
                             <h2 className="blog-title">Partnering for Business an the Success</h2>
                             <div className="blog-thumb">
@@ -76,31 +77,31 @@ const BlogDetailsInner = () => {
                                         <div className="col-sm-auto">
                                             <span className="share-links-title">Tags:</span>
                                             <div className="tagcloud">
-                                                <a href="blog.html">Data Tech</a>
-                                                <a href="blog.html">Optimization Services</a>
+                                                <Link to="/blog">Data Tech</Link>
+                                                <Link to="/blog">Optimization Services</Link>
                                             </div>
                                         </div>
                                         <div className="col-sm-auto text-xl-end">
                                             <ul className="social-links">
                                                 <li>
-                                                    <a href="https://facebook.com/" target="_blank">
+                                                    <Link to="/https://facebook.com/" target="_blank">
                                                         <i className="fab fa-facebook-f" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="https://twitter.com/" target="_blank">
+                                                    <Link to="/https://twitter.com/" target="_blank">
                                                         <i className="fab fa-twitter" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="https://linkedin.com/" target="_blank">
+                                                    <Link to="/https://linkedin.com/" target="_blank">
                                                         <i className="fab fa-linkedin-in" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="https://instagram.com/" target="_blank">
+                                                    <Link to="/https://instagram.com/" target="_blank">
                                                         <i className="fab fa-instagram" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                             {/* End Social Share */}
@@ -127,9 +128,9 @@ const BlogDetailsInner = () => {
                                             December 23,2022 at 8:50 P.M
                                         </span>
                                         <div className="reply_and_edit">
-                                            <a href="blog-details.html" className="reply-btn">
+                                            <Link to="/blog-details" className="reply-btn">
                                                 Reply
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </li>
@@ -209,28 +210,28 @@ const BlogDetailsInner = () => {
                                 <h3 className="widget_title">Category</h3>
                                 <ul>
                                     <li>
-                                        <a href="blog.html">
+                                        <Link to="/blog">
                                             Business Growth Catalyst{" "}
                                             <img src="assets/img/icon/category-1.svg" alt="" />
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">
+                                        <Link to="/blog">
                                             Digital Transformation
                                             <img src="assets/img/icon/category-2.svg" alt="" />
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">
+                                        <Link to="/blog">
                                             Advisors Growth Catalyst
                                             <img src="assets/img/icon/category-3.svg" alt="" />
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">
+                                        <Link to="/blog">
                                             Financial Advisory Partners
                                             <img src="assets/img/icon/category-4.svg" alt="" />
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -239,46 +240,46 @@ const BlogDetailsInner = () => {
                                 <div className="recent-post-wrap">
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <img src="assets/img/icon/calender.svg" alt="" />
                                                 Jan 10, 2024
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="media-body">
                                             <h4 className="post-title">
-                                                <a className="text-inherit" href="blog-details.html">
+                                                <Link className="text-inherit" to="/blog-details">
                                                     Navigating Global Trade One Shipmen
-                                                </a>
+                                                </Link>
                                             </h4>
                                         </div>
                                     </div>
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <img src="assets/img/icon/calender.svg" alt="" />
                                                 Jan 10, 2024
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="media-body">
                                             <h4 className="post-title">
-                                                <a className="text-inherit" href="blog-details.html">
+                                                <Link className="text-inherit" to="/blog-details">
                                                     Strategic Solutions for the a Business Growth
-                                                </a>
+                                                </Link>
                                             </h4>
                                         </div>
                                     </div>
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
-                                            <a href="blog.html">
+                                            <Link to="/blog">
                                                 <img src="assets/img/icon/calender.svg" alt="" />
                                                 Jan 10, 2024
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="media-body">
                                             <h4 className="post-title">
-                                                <a className="text-inherit" href="blog-details.html">
+                                                <Link className="text-inherit" to="/blog-details">
                                                     Achieve Your Business Goals with Confidence
-                                                </a>
+                                                </Link>
                                             </h4>
                                         </div>
                                     </div>
@@ -287,12 +288,12 @@ const BlogDetailsInner = () => {
                             <div className="widget widget_tag_cloud">
                                 <h3 className="widget_title">Popular Tags</h3>
                                 <div className="tagcloud">
-                                    <a href="blog.html">Experts</a>
-                                    <a href="blog.html">Efficiency</a>
-                                    <a href="blog.html">Digital</a>
-                                    <a href="blog.html">Transform</a>
-                                    <a href="blog.html">Chain</a>
-                                    <a href="blog.html">Partner</a>
+                                    <Link to="/blog">Experts</Link>
+                                    <Link to="/blog">Efficiency</Link>
+                                    <Link to="/blog">Digital</Link>
+                                    <Link to="/blog">Transform</Link>
+                                    <Link to="/blog">Chain</Link>
+                                    <Link to="/blog">Partner</Link>
                                 </div>
                             </div>
                         </aside>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ServiceFive = () => {
     return (
@@ -29,7 +30,7 @@ const ServiceFive = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <a href="service-details.html">Business Growth Catalyst</a>
+                                        <Link to="/service-details">Business Growth Catalyst</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Use receiving acco growin number of currencies and get paid lik
@@ -44,7 +45,7 @@ const ServiceFive = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <a href="service-details.html">Profitability Maximizers</a>
+                                        <Link to="/service-details">Profitability Maximizers</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Use receiving acco growin number of currencies and get paid lik
@@ -59,7 +60,7 @@ const ServiceFive = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <a href="service-details.html">Efficiency Experts</a>
+                                        <Link to="/service-details">Efficiency Experts</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Use receiving acco growin number of currencies and get paid lik

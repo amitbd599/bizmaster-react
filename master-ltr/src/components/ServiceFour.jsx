@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ServiceFour = () => {
     return (
@@ -28,15 +29,15 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <a href="service-details.html">Efficiency Experts</a>
+                                        <Link to="/service-details">Efficiency Experts</Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Et purus duis sollicitudin sed dignis sim habi tant. Egestas nulla
                                         quis its venenatis Et purus duis
                                     </p>
-                                    <a href="service-details.html" className="link-btn">
+                                    <Link to="/service-details" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -47,15 +48,15 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <a href="service-details.html">Networ Tructure </a>
+                                        <Link to="/service-details">Networ Tructure </Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Et purus duis sollicitudin sed dignis sim habi tant. Egestas nulla
                                         quis its venenatis Et purus duis
                                     </p>
-                                    <a href="service-details.html" className="link-btn">
+                                    <Link to="/service-details" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -66,15 +67,15 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <a href="service-details.html">IT Training most </a>
+                                        <Link to="/service-details">IT Training most </Link>
                                     </h4>
                                     <p className="service-card_text">
                                         Et purus duis sollicitudin sed dignis sim habi tant. Egestas nulla
                                         quis its venenatis Et purus duis
                                     </p>
-                                    <a href="service-details.html" className="link-btn">
+                                    <Link to="/service-details" className="link-btn">
                                         Learn More <i className="fas fa-arrow-right" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

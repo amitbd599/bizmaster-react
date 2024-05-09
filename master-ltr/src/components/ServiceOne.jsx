@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceOne = () => {
   return (
@@ -27,15 +28,15 @@ const ServiceOne = () => {
               </div>
               <div className="service-card_content">
                 <h4 className="service-card_title">
-                  <a href="service-details.html">Efficiency Experts</a>
+                  <Link to="/service-details">Efficiency Experts</Link>
                 </h4>
                 <p className="service-card_text">
                   Many desktop publishing packages web page editors now use
                   Lorem Ipsum a default model text, and a search
                 </p>
-                <a href="service-details.html" className="link-btn">
+                <Link to="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -46,15 +47,15 @@ const ServiceOne = () => {
               </div>
               <div className="service-card_content">
                 <h4 className="service-card_title">
-                  <a href="service-details.html">Management Mastery</a>
+                  <Link to="/service-details">Management Mastery</Link>
                 </h4>
                 <p className="service-card_text">
                   Many desktop publishing packages web page editors now use
                   Lorem Ipsum a default model text, and a search
                 </p>
-                <a href="service-details.html" className="link-btn">
+                <Link to="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -65,15 +66,15 @@ const ServiceOne = () => {
               </div>
               <div className="service-card_content">
                 <h4 className="service-card_title">
-                  <a href="service-details.html">Success Accelerators</a>
+                  <Link to="/service-details">Success Accelerators</Link>
                 </h4>
                 <p className="service-card_text">
                   Many desktop publishing packages web page editors now use
                   Lorem Ipsum a default model text, and a search
                 </p>
-                <a href="service-details.html" className="link-btn">
+                <Link to="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -84,15 +85,15 @@ const ServiceOne = () => {
               </div>
               <div className="service-card_content">
                 <h4 className="service-card_title">
-                  <a href="service-details.html">Growth and Innovation</a>
+                  <Link to="/service-details">Growth and Innovation</Link>
                 </h4>
                 <p className="service-card_text">
                   Many desktop publishing packages web page editors now use
                   Lorem Ipsum a default model text, and a search
                 </p>
-                <a href="service-details.html" className="link-btn">
+                <Link to="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

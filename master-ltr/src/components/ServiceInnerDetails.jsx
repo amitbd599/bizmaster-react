@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ServiceInnerDetails = () => {
     return (
@@ -79,25 +80,25 @@ const ServiceInnerDetails = () => {
                             <div className="widget widget_categories widget_service-categories">
                                 <ul>
                                     <li>
-                                        <a href="blog.html">Personal service</a>
+                                        <Link to="/blog">Personal service</Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">Education service</a>
+                                        <Link to="/blog">Education service</Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">Student service</a>
+                                        <Link to="/blog">Student service</Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">Wedding service</a>
+                                        <Link to="/blog">Wedding service</Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">Car service</a>
+                                        <Link to="/blog">Car service</Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">Business service</a>
+                                        <Link to="/blog">Business service</Link>
                                     </li>
                                     <li>
-                                        <a href="blog.html">Others service</a>
+                                        <Link to="/blog">Others service</Link>
                                     </li>
                                 </ul>
                             </div>

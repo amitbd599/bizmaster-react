@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 const ServiceThree = () => {
   var settings = {
@@ -66,19 +67,19 @@ const ServiceThree = () => {
                     <img src="assets/img/icon/service-icon_1-1.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <a href="service-details.html">Strategic Solutions Pro</a>
+                    <Link to="/service-details">Strategic Solutions Pro</Link>
                   </h4>
                   <p className="service-box_text">
                     Use receiving acco growin number of currencies and get paid
                     lik
                   </p>
-                  <a
-                    href="service-details.html"
+                  <Link
+                    to="/service-details"
                     className="global-btn style-border"
                   >
                     Read More{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -89,19 +90,19 @@ const ServiceThree = () => {
                     <img src="assets/img/icon/service-icon_1-2.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <a href="service-details.html">Business Growth Catalyst</a>
+                    <Link to="/service-details">Business Growth Catalyst</Link>
                   </h4>
                   <p className="service-box_text">
                     Use receiving acco growin number of currencies and get paid
                     lik
                   </p>
-                  <a
-                    href="service-details.html"
+                  <Link
+                    to="/service-details"
                     className="global-btn style-border"
                   >
                     Read More
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -112,19 +113,19 @@ const ServiceThree = () => {
                     <img src="assets/img/icon/service-icon_1-3.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <a href="service-details.html">Profitability Maximizers</a>
+                    <Link to="/service-details">Profitability Maximizers</Link>
                   </h4>
                   <p className="service-box_text">
                     Use receiving acco growin number of currencies and get paid
                     lik
                   </p>
-                  <a
-                    href="service-details.html"
+                  <Link
+                    to="/service-details"
                     className="global-btn style-border"
                   >
                     Read More
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -135,19 +136,19 @@ const ServiceThree = () => {
                     <img src="assets/img/icon/service-icon_1-4.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <a href="service-details.html">Efficiency Experts</a>
+                    <Link to="/service-details">Efficiency Experts</Link>
                   </h4>
                   <p className="service-box_text">
                     Use receiving acco growin number of currencies and get paid
                     lik
                   </p>
-                  <a
-                    href="service-details.html"
+                  <Link
+                    to="/service-details"
                     className="global-btn style-border"
                   >
                     Read More
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -158,19 +159,19 @@ const ServiceThree = () => {
                     <img src="assets/img/icon/service-icon_1-1.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <a href="service-details.html">Strategic Solutions Pro</a>
+                    <Link to="/service-details">Strategic Solutions Pro</Link>
                   </h4>
                   <p className="service-box_text">
                     Use receiving acco growin number of currencies and get paid
                     lik
                   </p>
-                  <a
-                    href="service-details.html"
+                  <Link
+                    to="/service-details"
                     className="global-btn style-border"
                   >
                     Read More
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

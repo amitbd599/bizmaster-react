@@ -2,6 +2,7 @@ import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 const AboutThree = () => {
   var settings = {
     dots: false,
@@ -60,18 +61,18 @@ const AboutThree = () => {
                   <p className="sec-desc">Years Experience</p>
                 </div>
                 <div className="social-links jump">
-                  <a href="https://www.facebook.com/">
+                  <Link to="/https://www.facebook.com/">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://www.instagram.com/">
+                  </Link>
+                  <Link to="/https://www.instagram.com/">
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="https://www.twitter.com/">
+                  </Link>
+                  <Link to="/https://www.twitter.com/">
                     <i className="fab fa-twitter" />
-                  </a>
-                  <a href="https://www.linkedin.com/">
+                  </Link>
+                  <Link to="/https://www.linkedin.com/">
                     <i className="fab fa-linkedin" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -118,9 +119,9 @@ const AboutThree = () => {
                 </div>
               </div>
               <div className="btn-wrap mt-50">
-                <a href="about.html" className="global-btn mt-xl-0 mt-20">
+                <Link to="/about" className="global-btn mt-xl-0 mt-20">
                   Learn More <i className="fas fa-arrow-right ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -157,61 +158,61 @@ const AboutThree = () => {
                 <div className="col-lg-12 col-md-6">
                   <div className="feature-card">
                     <h4 className="feature-card-title">
-                      <a href="service-details.html">
+                      <Link to="/service-details">
                         Business Growth Catalyst
-                      </a>
+                      </Link>
                     </h4>
                     <p className="feature-card-text">
                       Et purus duis sollicitudin sed dignis sim habi tant.
                       Egestas nulla quis venenatis Et purus duis
                     </p>
                     <div className="btn-wrap">
-                      <a
-                        href="service-details.html"
+                      <Link
+                        to="/service-details"
                         className="global-btn style-border"
                       >
                         Read More <i className="fas fa-arrow-right ms-2" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12 col-md-6">
                   <div className="feature-card">
                     <h4 className="feature-card-title">
-                      <a href="service-details.html">Strategic Solutions Pro</a>
+                      <Link to="/service-details">Strategic Solutions Pro</Link>
                     </h4>
                     <p className="feature-card-text">
                       Et purus duis sollicitudin sed dignis sim habi tant.
                       Egestas nulla quis venenatis Et purus duis
                     </p>
                     <div className="btn-wrap">
-                      <a
-                        href="service-details.html"
+                      <Link
+                        to="/service-details"
                         className="global-btn style-border"
                       >
                         Read More <i className="fas fa-arrow-right ms-2" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12 col-md-6">
                   <div className="feature-card">
                     <h4 className="feature-card-title">
-                      <a href="service-details.html">
+                      <Link to="/service-details">
                         Profitability Maximizers
-                      </a>
+                      </Link>
                     </h4>
                     <p className="feature-card-text">
                       Et purus duis sollicitudin sed dignis sim habi tant.
                       Egestas nulla quis venenatis Et purus duis
                     </p>
                     <div className="btn-wrap">
-                      <a
-                        href="service-details.html"
+                      <Link
+                        to="/service-details"
                         className="global-btn style-border"
                       >
                         Read More <i className="fas fa-arrow-right ms-2" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -247,15 +248,15 @@ const AboutThree = () => {
                     </div>
                     <div className="service-card_content">
                       <h4 className="service-card_title">
-                        <a href="service-details.html">Growth Acceler</a>
+                        <Link to="/service-details">Growth Acceler</Link>
                       </h4>
                       <p className="service-card_text">
                         Et purus duis sollicitudin se dign issim habi tant. Ege
                         st as nulla quis venenatis
                       </p>
-                      <a href="service-details.html" className="link-btn">
+                      <Link to="/service-details" className="link-btn">
                         Read More <i className="fas fa-arrow-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -269,15 +270,15 @@ const AboutThree = () => {
                     </div>
                     <div className="service-card_content">
                       <h4 className="service-card_title">
-                        <a href="service-details.html">Networ Tructure </a>
+                        <Link to="/service-details">Networ Tructure </Link>
                       </h4>
                       <p className="service-card_text">
                         Et purus duis sollicitudin se dign issim habi tant. Ege
                         st as nulla quis venenatis
                       </p>
-                      <a href="service-details.html" className="link-btn">
+                      <Link to="/service-details" className="link-btn">
                         Read More <i className="fas fa-arrow-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -291,15 +292,15 @@ const AboutThree = () => {
                     </div>
                     <div className="service-card_content">
                       <h4 className="service-card_title">
-                        <a href="service-details.html">IT Training most </a>
+                        <Link to="/service-details">IT Training most </Link>
                       </h4>
                       <p className="service-card_text">
                         Et purus duis sollicitudin se dign issim habi tant. Ege
                         st as nulla quis venenatis
                       </p>
-                      <a href="service-details.html" className="link-btn">
+                      <Link to="/service-details" className="link-btn">
                         Read More <i className="fas fa-arrow-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -313,15 +314,15 @@ const AboutThree = () => {
                     </div>
                     <div className="service-card_content">
                       <h4 className="service-card_title">
-                        <a href="service-details.html">Technology solutions </a>
+                        <Link to="/service-details">Technology solutions </Link>
                       </h4>
                       <p className="service-card_text">
                         Et purus duis sollicitudin se dign issim habi tant. Ege
                         st as nulla quis venenatis
                       </p>
-                      <a href="service-details.html" className="link-btn">
+                      <Link to="/service-details" className="link-btn">
                         Read More <i className="fas fa-arrow-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -335,72 +336,72 @@ const AboutThree = () => {
                 <Slider {...settings}>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-1.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-2.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-3.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-4.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-5.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-1.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-2.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-3.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-4.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <a href="index.html">
+                      <Link to="/">
                         <img src="assets/img/client/3-5.png" alt="img" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </Slider>

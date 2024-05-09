@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PortfolioTwo = () => {
   return (
@@ -29,12 +30,12 @@ const PortfolioTwo = () => {
                     Nemo enim ipsam
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <a href="project-details.html">Bank Management</a>
+                    <Link to="/project-details">Bank Management</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -49,12 +50,12 @@ const PortfolioTwo = () => {
                     Nemo enim ipsam
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <a href="project-details.html">Bank Management</a>
+                    <Link to="/project-details">Bank Management</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -69,12 +70,12 @@ const PortfolioTwo = () => {
                     Nemo enim ipsam
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <a href="project-details.html">Bank Management</a>
+                    <Link to="/project-details">Bank Management</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -89,12 +90,12 @@ const PortfolioTwo = () => {
                     Nemo enim ipsam
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <a href="project-details.html">Bank Management</a>
+                    <Link to="/project-details">Bank Management</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -109,12 +110,12 @@ const PortfolioTwo = () => {
                     Nemo enim ipsam
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <a href="project-details.html">Bank Management</a>
+                    <Link to="/project-details">Bank Management</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <img src="assets/img/icon/arrow-up-right.svg" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

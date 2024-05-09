@@ -1,5 +1,6 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
+import { Link } from 'react-router-dom';
 const ProcessThree = () => {
     return (
 
@@ -16,58 +17,58 @@ const ProcessThree = () => {
                         <Marquee speed={30}>
                             <div>
                                 <div className="client-logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="assets/img/client/1-1.png" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="assets/img/client/1-2.png" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="assets/img/client/1-3.png" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="assets/img/client/1-4.png" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="assets/img/client/1-1.png" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="assets/img/client/1-2.png" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="assets/img/client/1-3.png" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="assets/img/client/1-4.png" alt="img" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </Marquee>

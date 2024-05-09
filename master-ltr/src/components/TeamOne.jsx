@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 const TeamOne = () => {
   function SampleNextArrow(props) {
@@ -91,24 +92,24 @@ const TeamOne = () => {
                     <img src="assets/img/icon/share.svg" alt="" />
                   </div>
                   <div className="global-social">
-                    <a href="https://www.facebook.com/" tabIndex={0}>
+                    <Link to="/https://www.facebook.com/" tabIndex={0}>
                       <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="https://www.linkedin.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.linkedin.com/" tabIndex={0}>
                       <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="https://www.twitter.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.twitter.com/" tabIndex={0}>
                       <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                       <img src="assets/img/icon/share2.svg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <a href="team-details.html">Darrell Steward</a>
+                  <Link to="/team-details">Darrell Steward</Link>
                 </h4>
                 <span className="team-card_desig">Human Resource</span>
               </div>
@@ -126,24 +127,24 @@ const TeamOne = () => {
                     <img src="assets/img/icon/share.svg" alt="" />
                   </div>
                   <div className="global-social">
-                    <a href="https://www.facebook.com/" tabIndex={0}>
+                    <Link to="/https://www.facebook.com/" tabIndex={0}>
                       <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="https://www.linkedin.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.linkedin.com/" tabIndex={0}>
                       <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="https://www.twitter.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.twitter.com/" tabIndex={0}>
                       <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                       <img src="assets/img/icon/share2.svg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <a href="team-details.html">Fahad Hossain</a>
+                  <Link to="/team-details">Fahad Hossain</Link>
                 </h4>
                 <span className="team-card_desig">Efficiency Experts</span>
               </div>
@@ -161,24 +162,24 @@ const TeamOne = () => {
                     <img src="assets/img/icon/share.svg" alt="" />
                   </div>
                   <div className="global-social">
-                    <a href="https://www.facebook.com/" tabIndex={0}>
+                    <Link to="/https://www.facebook.com/" tabIndex={0}>
                       <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="https://www.linkedin.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.linkedin.com/" tabIndex={0}>
                       <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="https://www.twitter.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.twitter.com/" tabIndex={0}>
                       <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                       <img src="assets/img/icon/share2.svg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <a href="team-details.html">Javed Tanvir</a>
+                  <Link to="/team-details">Javed Tanvir</Link>
                 </h4>
                 <span className="team-card_desig">Strategic Solutions Pro</span>
               </div>
@@ -196,24 +197,24 @@ const TeamOne = () => {
                     <img src="assets/img/icon/share.svg" alt="" />
                   </div>
                   <div className="global-social">
-                    <a href="https://www.facebook.com/" tabIndex={0}>
+                    <Link to="/https://www.facebook.com/" tabIndex={0}>
                       <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="https://www.linkedin.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.linkedin.com/" tabIndex={0}>
                       <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="https://www.twitter.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.twitter.com/" tabIndex={0}>
                       <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                       <img src="assets/img/icon/share2.svg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <a href="team-details.html">Nafiz Islam</a>
+                  <Link to="/team-details">Nafiz Islam</Link>
                 </h4>
                 <span className="team-card_desig">Growth Catalyst</span>
               </div>
@@ -231,24 +232,24 @@ const TeamOne = () => {
                     <img src="assets/img/icon/share.svg" alt="" />
                   </div>
                   <div className="global-social">
-                    <a href="https://www.facebook.com/" tabIndex={0}>
+                    <Link to="/https://www.facebook.com/" tabIndex={0}>
                       <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="https://www.linkedin.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.linkedin.com/" tabIndex={0}>
                       <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="https://www.twitter.com/" tabIndex={0}>
+                    </Link>
+                    <Link to="/https://www.twitter.com/" tabIndex={0}>
                       <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to="#">
                       <img src="assets/img/icon/share2.svg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <a href="team-details.html">Darrell Steward</a>
+                  <Link to="/team-details">Darrell Steward</Link>
                 </h4>
                 <span className="team-card_desig">Human Resource</span>
               </div>

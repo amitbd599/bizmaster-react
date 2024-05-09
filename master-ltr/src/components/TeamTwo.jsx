@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 const TeamTwo = () => {
   var settings = {
@@ -57,20 +58,20 @@ const TeamTwo = () => {
                   </div>
                   <div className="team-box_content">
                     <h4 className="team-box_title">
-                      <a href="team-details.html">Darlene Robertson</a>
+                      <Link to="/team-details">Darlene Robertson</Link>
                     </h4>
                     <span className="team-box_desig">UI UX Designer</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <a href="https://www.instagram.com/">
+                        <Link to="/https://www.instagram.com/">
                           <i className="fab fa-instagram" />
-                        </a>
-                        <a href="https://facebook.com/">
+                        </Link>
+                        <Link to="/https://facebook.com/">
                           <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://twitter.com/">
+                        </Link>
+                        <Link to="/https://twitter.com/">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -83,20 +84,20 @@ const TeamTwo = () => {
                   </div>
                   <div className="team-box_content">
                     <h4 className="team-box_title">
-                      <a href="team-details.html">Cody Fisher</a>
+                      <Link to="/team-details">Cody Fisher</Link>
                     </h4>
                     <span className="team-box_desig">PHP Developer</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <a href="https://www.instagram.com/">
+                        <Link to="/https://www.instagram.com/">
                           <i className="fab fa-instagram" />
-                        </a>
-                        <a href="https://facebook.com/">
+                        </Link>
+                        <Link to="/https://facebook.com/">
                           <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://twitter.com/">
+                        </Link>
+                        <Link to="/https://twitter.com/">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -109,20 +110,20 @@ const TeamTwo = () => {
                   </div>
                   <div className="team-box_content">
                     <h4 className="team-box_title">
-                      <a href="team-details.html">Darlene Robertson</a>
+                      <Link to="/team-details">Darlene Robertson</Link>
                     </h4>
                     <span className="team-box_desig">UI UX Designer</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <a href="https://www.instagram.com/">
+                        <Link to="/https://www.instagram.com/">
                           <i className="fab fa-instagram" />
-                        </a>
-                        <a href="https://facebook.com/">
+                        </Link>
+                        <Link to="/https://facebook.com/">
                           <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://twitter.com/">
+                        </Link>
+                        <Link to="/https://twitter.com/">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -135,20 +136,20 @@ const TeamTwo = () => {
                   </div>
                   <div className="team-box_content">
                     <h4 className="team-box_title">
-                      <a href="team-details.html">Wade Warren</a>
+                      <Link to="/team-details">Wade Warren</Link>
                     </h4>
                     <span className="team-box_desig">Ux Architect</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <a href="https://www.instagram.com/">
+                        <Link to="/https://www.instagram.com/">
                           <i className="fab fa-instagram" />
-                        </a>
-                        <a href="https://facebook.com/">
+                        </Link>
+                        <Link to="/https://facebook.com/">
                           <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://twitter.com/">
+                        </Link>
+                        <Link to="/https://twitter.com/">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

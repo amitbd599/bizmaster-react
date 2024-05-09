@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const TeamThree = () => {
     return (
@@ -19,9 +20,9 @@ const TeamThree = () => {
                         </div>
                         <div className="col-lg-auto">
                             <div className="btn-wrap mb-60 justify-content-center">
-                                <a href="project.html" className="global-btn style-border5">
+                                <Link to="/project" className="global-btn style-border5">
                                     View More <i className="fas fa-arrow-right ms-2" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -33,7 +34,7 @@ const TeamThree = () => {
                                 </div>
                                 <div className="team-card_content">
                                     <h4 className="team-card_title">
-                                        <a href="team-details.html">Networ Infra Tructure Solutions</a>
+                                        <Link to="/team-details">Networ Infra Tructure Solutions</Link>
                                     </h4>
                                     <span className="team-card_text">
                                         We have been operating for over a decade, providing top-notch
@@ -52,9 +53,9 @@ const TeamThree = () => {
                                 </div>
                                 <div className="team-card_content">
                                     <h4 className="team-card_title">
-                                        <a href="team-details.html">
+                                        <Link to="/team-details">
                                             IT Training and most a the Education
-                                        </a>
+                                        </Link>
                                     </h4>
                                     <span className="team-card_text">
                                         We have been operating for over a decade, providing top-notch
@@ -73,7 +74,7 @@ const TeamThree = () => {
                                 </div>
                                 <div className="team-card_content">
                                     <h4 className="team-card_title">
-                                        <a href="team-details.html">IT Project Manage Services</a>
+                                        <Link to="/team-details">IT Project Manage Services</Link>
                                     </h4>
                                     <span className="team-card_text">
                                         We have been operating for over a decade, providing top-notch
@@ -92,9 +93,9 @@ const TeamThree = () => {
                                 </div>
                                 <div className="team-card_content">
                                     <h4 className="team-card_title">
-                                        <a href="team-details.html">
+                                        <Link to="/team-details">
                                             Technology solutions for a brighter
-                                        </a>
+                                        </Link>
                                     </h4>
                                     <span className="team-card_text">
                                         We have been operating for over a decade, providing top-notch
