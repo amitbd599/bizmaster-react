@@ -1067,9 +1067,9 @@ h1,h2,h3,h4,h5,h6 {
       <nav className="navbar navbar-expand-lg navbar-default navbar-fixed-top">
         <div className="container nav-container">
           <div className="logo">
-            <a className="main-logo" href="index">
+            <Link className="main-logo" to="/">
               <img src="assets/demo-img/logo.svg" alt="img" />
-            </a>
+            </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile ms-auto">
             <ul className="text-end">
@@ -1902,9 +1902,9 @@ h1,h2,h3,h4,h5,h6 {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="footer-widget widget text-center pd-bottom-100">
-              <a className="logo" href="index">
+              <Link className="logo" to="/">
                 <img src="assets/demo-img/logo-white.svg" alt="#" />
-              </a>
+              </Link>
               <h5 className="text-white mb-5 mt-5 lh-base">
                 It is a modern &amp; beautiful Business Consulting HTML Template.
                 It's Specially Business &amp; Business Consulting Company website.

@@ -4,7 +4,7 @@ const HelmetReact = ({ title }) => {
   return (
     <Helmet>
       <title>
-        {title} || FaconTech - Business Consulting React Js Template
+        {title} || Bizmaster - Business Consulting React Js Template
       </title>
       <meta
         name="description"

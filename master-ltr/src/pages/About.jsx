@@ -25,7 +25,7 @@ const About = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Home"} />
+      <HelmetReact title={"About"} />
 
       {/* HeaderFive */}
       <HeaderOne />

@@ -22,7 +22,7 @@ const Service = () => {
       {active === true && <Preloader />}
 
       {/* Helmet */}
-      <HelmetReact title={"Home"} />
+      <HelmetReact title={"Service"} />
 
       {/* HeaderFive */}
       <HeaderOne />
