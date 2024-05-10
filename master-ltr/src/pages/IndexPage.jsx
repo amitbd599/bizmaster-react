@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import Preloader from "../elements/Preloader";
 
 const IndexPage = () => {
   let [active, setActive] = useState(true);
@@ -493,9 +495,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 /********* single-counter-inner *********/
-.counter-area {
-  transform: translateY(-50%);
-}
+
 .counter-area-inner {
   background: var(--main-color);
   padding: 50px 0 0 0;
@@ -541,7 +541,7 @@ h1,h2,h3,h4,h5,h6 {
 /* .inner-item:hover .thumb img {
   transform: translateY(calc(-100% + 430px));
 } */
-.inner-item a {
+.inner-item .link {
   display: block;
   font-size: 22px;
   font-weight: 500;
@@ -549,7 +549,7 @@ h1,h2,h3,h4,h5,h6 {
   text-decoration: none;
   position: relative;
 }
-.inner-item a .thumb {
+.inner-item .link .thumb {
   overflow: hidden;
   display: block;
   position: relative;
@@ -559,7 +559,7 @@ h1,h2,h3,h4,h5,h6 {
   min-height: 430px;
   transition: 0.6s;
 }
-.inner-item a .thumb:after {
+.inner-item .link .thumb:after {
   content: "";
   position: absolute;
   left: 0;
@@ -571,7 +571,7 @@ h1,h2,h3,h4,h5,h6 {
   opacity: 0;
   transition: 0.4s;
 }
-.inner-item a img {
+.inner-item .link img {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -583,7 +583,7 @@ h1,h2,h3,h4,h5,h6 {
   width: 100%;
   height: initial;
 }
-.inner-item:hover a .thumb:after {
+.inner-item:hover .link .thumb:after {
   visibility: visible;
   opacity: 1;
 }
@@ -836,6 +836,9 @@ h1,h2,h3,h4,h5,h6 {
   .pd-top-87 {
     padding-top: 47px;
   }
+  .pd-bottom-90 {
+    padding-top: 90px;
+  }
   .banner-area {
     padding: 228px 0px 218px;
   }
@@ -1059,11 +1062,12 @@ h1,h2,h3,h4,h5,h6 {
   return <>
     <style dangerouslySetInnerHTML={{ __html: cssCode }} />
     {/* Navigation */}
+    {active === true && <Preloader />}
     <header className="navbar-area bg-white">
       <nav className="navbar navbar-expand-lg navbar-default navbar-fixed-top">
         <div className="container nav-container">
           <div className="logo">
-            <a className="main-logo" href="index.html">
+            <a className="main-logo" href="index">
               <img src="assets/demo-img/logo.svg" alt="img" />
             </a>
           </div>
@@ -1080,7 +1084,7 @@ h1,h2,h3,h4,h5,h6 {
                 </a>
               </li>
               <li>
-                <a className="cart" href="log-in.html">
+                <a className="cart" href="log-in">
                   <img src="assets/demo-img/add-to-cart.svg" alt="img" />
                 </a>
               </li>
@@ -1119,7 +1123,7 @@ h1,h2,h3,h4,h5,h6 {
             <ul>
               <li>
                 <a
-                  href="https://themeforest.net/item/bizmaster-consulting-business-html-template/51541563?s_rank=3"
+                  href="https://themeforest.net/user/wowtheme7"
                   className="btn btn-base"
                 >
                   Purchase Now
@@ -1140,7 +1144,7 @@ h1,h2,h3,h4,h5,h6 {
           <i className="fa fa-cart-arrow-down" />
           Add To Cart
         </a>
-        <a className="btn btn-white" href="demo/index.html">
+        <a className="btn btn-white" href="https://bizmaster-react.wowtheme7.com/home-1">
           <i className="fa fa-cog" />
           Demo Link
         </a>
@@ -1168,7 +1172,7 @@ h1,h2,h3,h4,h5,h6 {
                 </a>
                 <a
                   className="btn btn-base me-0"
-                  href="https://themeforest.net/item/bizmaster-consulting-business-html-template/51541563?s_rank=3"
+                  href="https://themeforest.net/user/wowtheme7"
                 >
                   Buy Now
                 </a>
@@ -1202,7 +1206,7 @@ h1,h2,h3,h4,h5,h6 {
     </section>
     {/* Banner Area End */}
     {/* counter start */}
-    <div className="counter-area pd-top-115 pd-bottom-90">
+    <div className="counter-area pd-top-135 pd-bottom-90">
       <div className="container">
         <div
           className="counter-area-inner wow fadeInUp animated"
@@ -1242,6 +1246,45 @@ h1,h2,h3,h4,h5,h6 {
             </div>
           </div>
         </div>
+        <div
+          className="counter-area-inner wow fadeInUp animated mt-5"
+          data-wow-duration="1.5s"
+          data-wow-delay="0.2s"
+        >
+          <div className="row">
+            <div className="col-md-4 col-sm-6">
+              <div className="single-counter-inner text-center">
+                <div className="details">
+                  <h2>
+                    <span className="counter">17</span>+
+                  </h2>
+                  <p>Total RTL Pages</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6">
+              <div className="single-counter-inner text-center">
+                <div className="details">
+                  <h2>
+                    <span className="counter">05</span>
+                  </h2>
+                  <p>Total RTL Homes</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6">
+              <div className="single-counter-inner text-center">
+                <div className="details">
+                  <h2>
+                    <span className="counter">12</span>+
+                  </h2>
+                  <p>Inner RTL Pages</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
     {/* counter end */}
@@ -1267,20 +1310,20 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.2s"
             >
-              <a href="demo/index.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/1.png" alt="img" />
                 </span>
                 Home V.1
                 <div className="item-title">Home Business </div>
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/index.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/home-1">
                   Live Demo
-                </a>
-                <a className="btn btn-base" href="demo/home-1-rtl.html">
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/home-1">
                   RTL Demo
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1290,20 +1333,20 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.3s"
             >
-              <a href="demo/home-2.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/2.png" alt="img" />
                 </span>
                 Home V.2
                 <div className="item-title">Home Consulting</div>
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/home-2.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/home-2">
                   Live Demo
-                </a>
-                <a className="btn btn-base" href="demo/home-2-rtl.html">
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/home-2">
                   RTL Demo
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1313,20 +1356,20 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.3s"
             >
-              <a href="demo/home-3.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/3.png" alt="img" />
                 </span>
                 Home V.3
                 <div className="item-title">Home Corporate</div>
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/home-3.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/home-3">
                   Live Demo
-                </a>
-                <a className="btn btn-base" href="demo/home-3-rtl.html">
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/home-3">
                   RTL Demo
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1336,20 +1379,20 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.3s"
             >
-              <a href="demo/home-4.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/4.png" alt="img" />
                 </span>
                 Home V.4
                 <div className="item-title">Home Startup Business </div>
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/home-4.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/home-4">
                   Live Demo
-                </a>
-                <a className="btn btn-base" href="demo/home-4-rtl.html">
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/home-4">
                   RTL Demo
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1359,20 +1402,20 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.3s"
             >
-              <a href="demo/home-5.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/5.png" alt="img" />
                 </span>
                 Home V.5
                 <div className="item-title">Home Business Agency </div>
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/home-5.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/home-5">
                   Live Demo
-                </a>
-                <a className="btn btn-base" href="demo/home-5-rtl.html">
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/home-5">
                   RTL Demo
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1400,16 +1443,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/about.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/about.png" alt="img" />
                 </span>
                 About Page
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/about.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/about">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/about">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1419,16 +1465,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/service.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/service.png" alt="img" />
                 </span>
                 Service Page
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/service.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/service">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/service">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1438,16 +1487,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/service-details.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/service-details.png" alt="img" />
                 </span>
                 Service Details
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/service-details.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/service-details">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/service-details">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1457,16 +1509,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/project.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/project.png" alt="img" />
                 </span>
                 Project Page
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/project.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/project">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/project">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1476,16 +1531,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/project-details.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/project-details.png" alt="img" />
                 </span>
                 Project Details
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/project-details.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/project-details">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/project-details">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1495,16 +1553,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/team.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/team.png" alt="img" />
                 </span>
                 Team Page
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/team.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/team">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/team">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1514,16 +1575,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/team-details.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/team-details.png" alt="img" />
                 </span>
                 Team Details
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/team-details.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/team-details">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/team-details">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1533,16 +1597,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/blog.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/blog.png" alt="img" />
                 </span>
                 Blog Page
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/blog.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/blog">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/blog">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1552,16 +1619,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/blog-details.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/blog-details.png" alt="img" />
                 </span>
                 Blog Details
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/blog-details.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/blog-details">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/blog-details">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1571,16 +1641,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/pricing.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/pricing.png" alt="img" />
                 </span>
                 Pricing Page
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/pricing.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/pricing">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/pricing">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1590,16 +1663,19 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-duration="1.5s"
               data-wow-delay="0.4s"
             >
-              <a href="demo/contact.html">
+              <div className="link">
                 <span className="thumb">
                   <img src="assets/demo-img/contact.png" alt="img" />
                 </span>
                 Contact Page
-              </a>
+              </div>
               <div className="btn-group">
-                <a className="btn btn-base" href="demo/contact.html">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/contact">
                   Live Demo
-                </a>
+                </Link>
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/contact">
+                  RTL Demo
+                </Link>
               </div>
             </div>
           </div>
@@ -1719,7 +1795,7 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-delay="0.2s"
             >
               <img src="assets/demo-img/featured/2.png" alt="img" />
-              Owl-Carousel
+              NPM
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -1742,16 +1818,7 @@ h1,h2,h3,h4,h5,h6 {
               CSS3
             </div>
           </div>
-          <div className="col-lg-4 col-md-6">
-            <div
-              className="featured-item wow animated fadeInUp"
-              data-wow-duration="1.5s"
-              data-wow-delay="0.2s"
-            >
-              <img src="assets/demo-img/featured/7.png" alt="img" />
-              Jquery Tilt
-            </div>
-          </div>
+
           <div className="col-lg-4 col-md-6">
             <div
               className="featured-item wow animated fadeInUp"
@@ -1772,16 +1839,7 @@ h1,h2,h3,h4,h5,h6 {
               Clean Code
             </div>
           </div>
-          <div className="col-lg-4 col-md-6">
-            <div
-              className="featured-item wow animated fadeInUp"
-              data-wow-duration="1.5s"
-              data-wow-delay="0.2s"
-            >
-              <img src="assets/demo-img/featured/10.png" alt="img" />
-              Magnific Popup
-            </div>
-          </div>
+
           <div className="col-lg-4 col-md-6">
             <div
               className="featured-item wow animated fadeInUp"
@@ -1829,7 +1887,7 @@ h1,h2,h3,h4,h5,h6 {
               data-wow-delay="0.6s"
             >
               <img src="assets/demo-img/featured/13.png" alt="img" />
-              Wow Js
+              React router dom
             </div>
           </div>
         </div>
@@ -1844,7 +1902,7 @@ h1,h2,h3,h4,h5,h6 {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="footer-widget widget text-center pd-bottom-100">
-              <a className="logo" href="index.html">
+              <a className="logo" href="index">
                 <img src="assets/demo-img/logo-white.svg" alt="#" />
               </a>
               <h5 className="text-white mb-5 mt-5 lh-base">
@@ -1853,7 +1911,7 @@ h1,h2,h3,h4,h5,h6 {
               </h5>
               <a
                 className="btn btn-white"
-                href="https://themeforest.net/item/bizmaster-consulting-business-html-template/51541563?s_rank=3"
+                href="https://themeforest.net/user/wowtheme7"
               >
                 Purchase Now
               </a>

@@ -34,7 +34,7 @@ const Pricing = () => {
       <PricingInner />
 
       {/* FaqOne */}
-      <div className="space-bottom">
+      <div className="space-bottom faq-single">
         <FaqOne />
       </div>
 
