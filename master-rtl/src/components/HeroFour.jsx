@@ -23,7 +23,7 @@ const HeroFour = () => {
                             </p>
                             <div className="btn-wrap">
                                 <Link to="/about" className="global-btn style-border3">
-                                    تعلم المزيد <i className="fas fa-arrow-right ms-2" />
+                                    تعلم المزيد <i className="fas fa-arrow-left ms-2" />
                                 </Link>
 
                             </div>

@@ -62,7 +62,7 @@ const AboutOne = () => {
               </div>
               <div className="btn-wrap mt-20">
                 <Link to="/about" className="global-btn mt-xl-0 mt-20">
-                  اقرأ المزيد <i className="fas fa-arrow-right ms-2" />
+                  اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                 </Link>
               </div>
             </div>

@@ -72,7 +72,7 @@ const HeaderThree = () => {
             <div className="th-widget-about">
               <div className="about-logo">
                 <Link to="/">
-                  <img src="assets/img/logo.svg" alt="Laun" />
+                  <img src="assets/img/logo.svg" alt="لوغو" />
                 </Link>
               </div>
               <p className="about-text">
@@ -146,8 +146,8 @@ const HeaderThree = () => {
         </form>
       </div>
       {/*==============================
-      Mobile Menu
-      ============================== */}
+    Mobile Menu
+    ============================== */}
       <div className={`mobile-menu-wrapper rtl ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
@@ -242,8 +242,8 @@ const HeaderThree = () => {
         </div>
       </div>
       {/*==============================
-      Header Area
-      ==============================*/}
+    Header Area
+    ==============================*/}
       <header className="nav-header header-layout3">
         <div className="header-top d-none d-lg-block">
           <div className="container">
@@ -299,7 +299,7 @@ const HeaderThree = () => {
               <div className="col-auto">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="logo" />
+                    <img src="assets/img/logo.svg" alt="لوغو" />
                   </Link>
                 </div>
               </div>
@@ -416,6 +416,7 @@ const HeaderThree = () => {
         </div>
       </header>
     </>
+
 
   );
 };

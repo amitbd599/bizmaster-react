@@ -36,7 +36,7 @@ const ServiceFour = () => {
                                         كويس إيتس فينيناتيس إت بوروس دويس
                                     </p>
                                     <Link to="/service-details" className="link-btn">
-                                        تعلم المزيد <i className="fas fa-arrow-right" />
+                                        تعلم المزيد <i className="fas fa-arrow-left" />
                                     </Link>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ const ServiceFour = () => {
                                         كويس إيتس فينيناتيس إت بوروس دويس
                                     </p>
                                     <Link to="/service-details" className="link-btn">
-                                        تعلم المزيد <i className="fas fa-arrow-right" />
+                                        تعلم المزيد <i className="fas fa-arrow-left" />
                                     </Link>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ const ServiceFour = () => {
                                         كويس إيتس فينيناتيس إت بوروس دويس
                                     </p>
                                     <Link to="/service-details" className="link-btn">
-                                        تعلم المزيد <i className="fas fa-arrow-right" />
+                                        تعلم المزيد <i className="fas fa-arrow-left" />
                                     </Link>
                                 </div>
                             </div>

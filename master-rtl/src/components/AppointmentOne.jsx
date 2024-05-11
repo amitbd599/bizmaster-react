@@ -81,7 +81,7 @@ const AppointmentOne = () => {
                 <div className="form-btn col-12">
                   <button className="global-btn style-border">
                     أرسل الآن
-                    <i className="fas fa-arrow-right ms-2" />
+                    <i className="fas fa-arrow-left ms-2" />
                   </button>
                 </div>
               </form>

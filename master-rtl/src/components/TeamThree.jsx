@@ -21,7 +21,7 @@ const TeamThree = () => {
                         <div className="col-lg-auto">
                             <div className="btn-wrap mb-60 justify-content-center">
                                 <Link to="/project" className="global-btn style-border5">
-                                    عرض المزيد <i className="fas fa-arrow-right ms-2" />
+                                    عرض المزيد <i className="fas fa-arrow-left ms-2" />
                                 </Link>
                             </div>
                         </div>

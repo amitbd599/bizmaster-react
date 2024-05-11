@@ -166,3 +166,7 @@
   font-size: 15px;
   color: var(--title-color);
 }
+
+[dir="rtl"] .slick-dots li {
+  margin-left: 0 !important;
+}

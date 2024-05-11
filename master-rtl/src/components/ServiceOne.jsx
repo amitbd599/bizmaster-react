@@ -34,7 +34,7 @@ const ServiceOne = () => {
                   العديد من حزم تحرير صفحات الويب الآن تستخدم Lorem Ipsum كنموذج نص افتراضي، وبحثًا
                 </p>
                 <Link to="/service-details" className="link-btn">
-                  قراءة المزيد <i className="fas fa-arrow-right" />
+                  قراءة المزيد <i className="fas fa-arrow-left" />
                 </Link>
               </div>
             </div>
@@ -52,7 +52,7 @@ const ServiceOne = () => {
                   العديد من حزم تحرير صفحات الويب الآن تستخدم Lorem Ipsum كنموذج نص افتراضي، وبحثًا
                 </p>
                 <Link to="/service-details" className="link-btn">
-                  قراءة المزيد <i className="fas fa-arrow-right" />
+                  قراءة المزيد <i className="fas fa-arrow-left" />
                 </Link>
               </div>
             </div>
@@ -70,7 +70,7 @@ const ServiceOne = () => {
                   العديد من حزم تحرير صفحات الويب الآن تستخدم Lorem Ipsum كنموذج نص افتراضي، وبحثًا
                 </p>
                 <Link to="/service-details" className="link-btn">
-                  قراءة المزيد <i className="fas fa-arrow-right" />
+                  قراءة المزيد <i className="fas fa-arrow-left" />
                 </Link>
               </div>
             </div>
@@ -88,7 +88,7 @@ const ServiceOne = () => {
                   العديد من حزم تحرير صفحات الويب الآن تستخدم Lorem Ipsum كنموذج نص افتراضي، وبحثًا
                 </p>
                 <Link to="/service-details" className="link-btn">
-                  قراءة المزيد <i className="fas fa-arrow-right" />
+                  قراءة المزيد <i className="fas fa-arrow-left" />
                 </Link>
               </div>
             </div>
