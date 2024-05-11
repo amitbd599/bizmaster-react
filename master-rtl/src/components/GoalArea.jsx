@@ -9,16 +9,16 @@ const GoalArea = () => {
                         <div className="title-area">
                             <span className="sub-title">
                                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                Our Goal
+                                هدفنا
                             </span>
-                            <h2 className="sec-title style2">Partnering Business for Success</h2>
+                            <h2 className="sec-title style2">شراكة الأعمال للنجاح</h2>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="goal-title-area">
                             <p className="">
-                                There are many variati of passages of engineer's available. have
-                                suffered alteration in engineer's available
+                                هناك العديد من الاختلافات في مقاطع مرور المهندس المتاحة. قد
+                                تعرضت للتغيير في المهندس المتاحة
                             </p>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const GoalArea = () => {
                                 data-bs-target="#nav-step1"
                                 type="button"
                             >
-                                Biography
+                                سيرة ذاتية
                             </button>
                             <button
                                 className="nav-link"
@@ -46,7 +46,7 @@ const GoalArea = () => {
                                 data-bs-target="#nav-step2"
                                 type="button"
                             >
-                                Education
+                                التعليم
                             </button>
                             <button
                                 className="nav-link active"
@@ -55,7 +55,7 @@ const GoalArea = () => {
                                 data-bs-target="#nav-step3"
                                 type="button"
                             >
-                                Experience
+                                الخبرة
                             </button>
                             <button
                                 className="nav-link"
@@ -64,7 +64,7 @@ const GoalArea = () => {
                                 data-bs-target="#nav-step1"
                                 type="button"
                             >
-                                Biography
+                                سيرة ذاتية
                             </button>
                         </div>
                         <div className="tab-content" id="nav-tabContent">
@@ -74,18 +74,18 @@ const GoalArea = () => {
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
-                                                Performance Enhancement Partners
+                                                شركاء تعزيز الأداء
                                             </h4>
-                                            <p>Strategic Solutions Pro</p>
+                                            <p>محترفو الحلول الاستراتيجية</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -94,17 +94,17 @@ const GoalArea = () => {
                                     <div className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
-                                            <h4 className="box-title">Management Mastery Consultan</h4>
-                                            <p>Profitability Maximizers</p>
+                                            <h4 className="box-title">استشاري إتقان الإدارة</h4>
+                                            <p>مُحسِّنو الربحية</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -114,18 +114,18 @@ const GoalArea = () => {
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
-                                                Operational Excellence Solutions
+                                                حلول التميز العملياتي
                                             </h4>
-                                            <p>Framer Designer &amp; Developer</p>
+                                            <p>مصمم ومطور الإطار</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -134,17 +134,17 @@ const GoalArea = () => {
                                     <div className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
-                                            <h4 className="box-title">Transformational Strategy</h4>
-                                            <p>Efficiency Experts</p>
+                                            <h4 className="box-title">استراتيجية تحويلية</h4>
+                                            <p>خبراء الكفاءة</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -158,18 +158,18 @@ const GoalArea = () => {
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
-                                                Performance Enhancement Partners
+                                                شركاء تعزيز الأداء
                                             </h4>
-                                            <p>Strategic Solutions Pro</p>
+                                            <p>محترفو الحلول الاستراتيجية</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -178,17 +178,17 @@ const GoalArea = () => {
                                     <div className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
-                                            <h4 className="box-title">Management Mastery Consultan</h4>
-                                            <p>Profitability Maximizers</p>
+                                            <h4 className="box-title">استشاري إتقان الإدارة</h4>
+                                            <p>مُحسِّنو الربحية</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -198,18 +198,18 @@ const GoalArea = () => {
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
-                                                Operational Excellence Solutions
+                                                حلول التميز العملياتي
                                             </h4>
-                                            <p>Framer Designer &amp; Developer</p>
+                                            <p>مصمم ومطور الإطار</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -218,17 +218,17 @@ const GoalArea = () => {
                                     <div className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
-                                            <h4 className="box-title">Transformational Strategy</h4>
-                                            <p>Efficiency Experts</p>
+                                            <h4 className="box-title">استراتيجية تحويلية</h4>
+                                            <p>خبراء الكفاءة</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -246,18 +246,18 @@ const GoalArea = () => {
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
-                                                Performance Enhancement Partners
+                                                شركاء تعزيز الأداء
                                             </h4>
-                                            <p>Strategic Solutions Pro</p>
+                                            <p>محترفو الحلول الاستراتيجية</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -266,17 +266,17 @@ const GoalArea = () => {
                                     <div className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
-                                            <h4 className="box-title">Management Mastery Consultan</h4>
-                                            <p>Profitability Maximizers</p>
+                                            <h4 className="box-title">استشاري إتقان الإدارة</h4>
+                                            <p>مُحسِّنو الربحية</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -286,18 +286,18 @@ const GoalArea = () => {
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
-                                                Operational Excellence Solutions
+                                                حلول التميز العملياتي
                                             </h4>
-                                            <p>Framer Designer &amp; Developer</p>
+                                            <p>مصمم ومطور الإطار</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -306,17 +306,17 @@ const GoalArea = () => {
                                     <div className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
-                                            <h4 className="box-title">Transformational Strategy</h4>
-                                            <p>Efficiency Experts</p>
+                                            <h4 className="box-title">استراتيجية تحويلية</h4>
+                                            <p>خبراء الكفاءة</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -330,18 +330,18 @@ const GoalArea = () => {
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
-                                                Performance Enhancement Partners
+                                                شركاء تعزيز الأداء
                                             </h4>
-                                            <p>Strategic Solutions Pro</p>
+                                            <p>محترفو الحلول الاستراتيجية</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -350,17 +350,17 @@ const GoalArea = () => {
                                     <div className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
-                                            <h4 className="box-title">Management Mastery Consultan</h4>
-                                            <p>Profitability Maximizers</p>
+                                            <h4 className="box-title">استشاري إتقان الإدارة</h4>
+                                            <p>مُحسِّنو الربحية</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -370,18 +370,18 @@ const GoalArea = () => {
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
                                             <h4 className="box-title">
-                                                Operational Excellence Solutions
+                                                حلول التميز العملياتي
                                             </h4>
-                                            <p>Framer Designer &amp; Developer</p>
+                                            <p>مصمم ومطور الإطار</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -390,17 +390,17 @@ const GoalArea = () => {
                                     <div className="goal-content_wrapp">
                                         <img src="assets/img/icon/angles-left.svg" alt="" />
                                         <div className="goal-content">
-                                            <h4 className="box-title">Transformational Strategy</h4>
-                                            <p>Efficiency Experts</p>
+                                            <h4 className="box-title">استراتيجية تحويلية</h4>
+                                            <p>خبراء الكفاءة</p>
                                             <div className="checklist">
                                                 <ul>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Success Accelerators
+                                                        مسرعات النجاح
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-check" />
-                                                        Started politician Club
+                                                        بدأ نادي السياسيين
                                                     </li>
                                                 </ul>
                                             </div>
@@ -413,6 +413,7 @@ const GoalArea = () => {
                 </div>
             </div>
         </div>
+
 
     )
 }

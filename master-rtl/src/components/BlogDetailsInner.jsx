@@ -11,74 +11,70 @@ const BlogDetailsInner = () => {
                             <div className="blog-meta">
                                 <Link to="/blog">
                                     <i className="fas fa-user" />
-                                    By admin
+                                    بواسطة المسؤول
                                 </Link>
                                 <Link to="/blog">
                                     <i className="fas fa-folder-open" />
-                                    Category
+                                    الفئة
                                 </Link>
                                 <Link to="/blog">
                                     <i className="fas fa-comments" />
-                                    Comments (05)
+                                    التعليقات (05)
                                 </Link>
                             </div>
-                            <h2 className="blog-title">Partnering for Business an the Success</h2>
+                            <h2 className="blog-title">الشراكة للأعمال والنجاح</h2>
                             <div className="blog-thumb">
-                                <img src="assets/img/blog/blog_s2_4.png" alt="blog image" />
+                                <img src="assets/img/blog/blog_s2_4.png" alt="صورة المدونة" />
                             </div>
                             <div className="blog-content">
                                 <p className="mt-n2 mb-15">
-                                    Web designing in a powerful way of just not an only professions,
-                                    however, in a passion Company. have a to a tendency to believe the
-                                    idea that smart looking of any website is the impression on
-                                    visitors.Web designing in a powerful{" "}
+                                    التصميم على الويب بطريقة قوية ليس مجرد مهنة، بل في شركة شغف. لدينا
+                                    تميل إلى الاعتقاد بأن الفكرة الذكية لأي موقع على الويب هي الانطباع على
+                                    الزوار. التصميم على الويب بطريقة قوية{" "}
                                 </p>
                                 <p className="mb-25">
-                                    Web designing in a powerful way of just not an only professions,
-                                    however, in a passion Company. We have a to a tendency to believe
-                                    the idea that smart
+                                    التصميم على الويب بطريقة قوية ليس مجرد مهنة، بل في شركة شغف. لدينا
+                                    تميل إلى الاعتقاد بأن الفكرة الذكية
                                 </p>
                                 <div className="row gy-4">
                                     <div className="col-sm-6">
                                         <div className="blog-thumb style2 mb-sm-0 mb-30">
-                                            <img src="assets/img/blog/blog_details1_1.png" alt="img" />
+                                            <img src="assets/img/blog/blog_details1_1.png" alt="صورة" />
                                         </div>
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="blog-thumb style2 mb-sm-0 mb-30">
-                                            <img src="assets/img/blog/blog_details1_2.png" alt="img" />
+                                            <img src="assets/img/blog/blog_details1_2.png" alt="صورة" />
                                         </div>
                                     </div>
                                 </div>
                                 <p className="mt-xs-25">
-                                    Web designing in a powerful way of just not an only professions,
-                                    however, in a passion Company. We have a to a tendency to believe
-                                    the idea that smart
+                                    التصميم على الويب بطريقة قوية ليس مجرد مهنة، بل في شركة شغف. لدينا
+                                    تميل إلى الاعتقاد بأن الفكرة الذكية
                                 </p>
                                 <blockquote>
-                                    <h4 className="h4">Bret Lee</h4>
-                                    <cite>UI/UX Designer</cite>
+                                    <h4 className="h4">بريت لي</h4>
+                                    <cite>مصمم واجهة المستخدم / المستخدم</cite>
                                     <p>
-                                        It is a long established fact that a reader will be distracted
-                                        by the readablcontent of a page a when looking at its layout.
-                                        The point of using Lorem Ipsum is that it has a more-or less
-                                        normal distribution of letters as opposed
+                                        إنها حقيقة مقررة منذ زمن طويل أن القارئ سيشتت انتباهه بمحتوى
+                                        قابل للقراءة عند النظر في تصميمه. الهدف من استخدام Lorem
+                                        Ipsum هو أنه يحتوي على توزيع حرفي أكثر أو أقل عاديًا مقارنة
+                                        بالنصوص
                                     </p>
                                 </blockquote>
-                                <h3 className="blog-inner-title">Keep your free time free!</h3>
+                                <h3 className="blog-inner-title">احفظ وقتك الحر!</h3>
                                 <p className="mt-20">
-                                    Web designing in a powerful way of just not an only professions,
-                                    however, in a passion Company. have a to a tendency to believe the
-                                    idea that smart looking of any website is the impression on
-                                    visitors.Web designing in a powerful
+                                    التصميم على الويب بطريقة قوية ليس مجرد مهنة، بل في شركة شغف. لدينا
+                                    تميل إلى الاعتقاد بأن الفكرة الذكية لأي موقع على الويب هي الانطباع
+                                    على الزوار. التصميم على الويب بطريقة قوية
                                 </p>
                                 <div className="share-links clearfix ">
                                     <div className="row justify-content-between">
                                         <div className="col-sm-auto">
-                                            <span className="share-links-title">Tags:</span>
+                                            <span className="share-links-title">الوسوم:</span>
                                             <div className="tagcloud">
-                                                <Link to="/blog">Data Tech</Link>
-                                                <Link to="/blog">Optimization Services</Link>
+                                                <Link to="/blog">تكنولوجيا البيانات</Link>
+                                                <Link to="/blog">خدمات التحسين</Link>
                                             </div>
                                         </div>
                                         <div className="col-sm-auto text-xl-end">
@@ -112,24 +108,21 @@ const BlogDetailsInner = () => {
                             </div>
                         </div>
                         <div className="comments-wrap style2  ">
-                            <h2 className="blog-inner-title h3">01 Comment</h2>
+                            <h2 className="blog-inner-title h3">01 تعليق</h2>
                             <ul className="comment-list">
                                 <li className="comment-item">
                                     <div className="post-comment">
                                         <p className="text">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random
-                                            text. It has roots in a piece of classical Latin literature
-                                            from 45 BC, making
+                                            على عكس الاعتقاد الشائع، ليس لدى Lorem Ipsum أصول في نص لاتيني
+                                            كلاسيكي منذ عام 45 قبل الميلاد، مما جعله
                                         </p>
                                     </div>
                                     <div className="comment-content">
-                                        <h3 className="name">Savannah Nguyen</h3>
-                                        <span className="commented-on">
-                                            December 23,2022 at 8:50 P.M
-                                        </span>
+                                        <h3 className="name">سافانا نغوين</h3>
+                                        <span className="commented-on">23 ديسمبر 2022 الساعة 8:50 مساءً</span>
                                         <div className="reply_and_edit">
                                             <Link to="/blog-details" className="reply-btn">
-                                                Reply
+                                                الرد
                                             </Link>
                                         </div>
                                     </div>
@@ -138,27 +131,27 @@ const BlogDetailsInner = () => {
                         </div>
                         <div className="comments-wrap">
                             {/* Comment Form */}
-                            <h3 className="blog-inner-title text-capitalize"> Leave a comment</h3>
+                            <h3 className="blog-inner-title text-capitalize"> اترك تعليقًا</h3>
                             <div className="comment-form mb-30">
                                 <div className="row">
                                     <div className="col-md-6 form-group">
                                         <input
                                             type="text"
-                                            placeholder="Your Name"
+                                            placeholder="اسمك"
                                             className="form-control style-white"
                                         />
                                     </div>
                                     <div className="col-md-6 form-group">
                                         <input
                                             type="text"
-                                            placeholder="Your Email"
+                                            placeholder="بريدك الإلكتروني"
                                             className="form-control style-white"
                                         />
                                     </div>
                                     <div className="col-md-6 form-group">
                                         <input
                                             type="text"
-                                            placeholder="Phone Number"
+                                            placeholder="رقم الهاتف"
                                             className="form-control style-white"
                                         />
                                     </div>
@@ -169,7 +162,7 @@ const BlogDetailsInner = () => {
                                             className="form-select style-white"
                                         >
                                             <option value="" disabled="" selected="" hidden="">
-                                                Choose a Option
+                                                اختر خيارًا
                                             </option>
                                             <option value={1}>01</option>
                                             <option value={2}>02</option>
@@ -179,14 +172,14 @@ const BlogDetailsInner = () => {
                                     </div>
                                     <div className="col-12 form-group">
                                         <textarea
-                                            placeholder="Message here.."
+                                            placeholder="الرسالة هنا.."
                                             className="form-control style-white"
                                             defaultValue={""}
                                         />
                                     </div>
                                     <div className="col-12 form-group mb-0">
                                         <button className="global-btn">
-                                            Submit Now
+                                            أرسل الآن
                                             <img src="assets/img/icon/right-icon.svg" alt="" />
                                         </button>
                                     </div>
@@ -198,57 +191,57 @@ const BlogDetailsInner = () => {
                     <div className="col-xxl-4 col-lg-5">
                         <aside className="sidebar-area">
                             <div className="widget widget_search">
-                                <h3 className="widget_title">Search Here</h3>
+                                <h3 className="widget_title">ابحث هنا</h3>
                                 <form className="search-form">
-                                    <input type="text" placeholder="Search.." />
+                                    <input type="text" placeholder="بحث.." />
                                     <button type="submit">
                                         <i className="fas fa-search" />
                                     </button>
                                 </form>
                             </div>
                             <div className="widget widget_categories">
-                                <h3 className="widget_title">Category</h3>
+                                <h3 className="widget_title">الفئة</h3>
                                 <ul>
                                     <li>
                                         <Link to="/blog">
-                                            Business Growth Catalyst{" "}
+                                            محفز النمو للأعمال
                                             <img src="assets/img/icon/category-1.svg" alt="" />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">
-                                            Digital Transformation
+                                            التحول الرقمي
                                             <img src="assets/img/icon/category-2.svg" alt="" />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">
-                                            Advisors Growth Catalyst
+                                            محفزو النمو المستشارون
                                             <img src="assets/img/icon/category-3.svg" alt="" />
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">
-                                            Financial Advisory Partners
+                                            شركاء الاستشارات المالية
                                             <img src="assets/img/icon/category-4.svg" alt="" />
                                         </Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="widget">
-                                <h3 className="widget_title">Latest Blog</h3>
+                                <h3 className="widget_title">أحدث المدونات</h3>
                                 <div className="recent-post-wrap">
                                     <div className="recent-post">
                                         <div className="recent-post-meta">
                                             <Link to="/blog">
                                                 <img src="assets/img/icon/calender.svg" alt="" />
-                                                Jan 10, 2024
+                                                10 يناير 2024
                                             </Link>
                                         </div>
                                         <div className="media-body">
                                             <h4 className="post-title">
                                                 <Link className="text-inherit" to="/blog-details">
-                                                    Navigating Global Trade One Shipmen
+                                                    تصفح التجارة العالمية الواحدة
                                                 </Link>
                                             </h4>
                                         </div>
@@ -257,13 +250,13 @@ const BlogDetailsInner = () => {
                                         <div className="recent-post-meta">
                                             <Link to="/blog">
                                                 <img src="assets/img/icon/calender.svg" alt="" />
-                                                Jan 10, 2024
+                                                10 يناير 2024
                                             </Link>
                                         </div>
                                         <div className="media-body">
                                             <h4 className="post-title">
                                                 <Link className="text-inherit" to="/blog-details">
-                                                    Strategic Solutions for the a Business Growth
+                                                    حلول استراتيجية لنمو الأعمال
                                                 </Link>
                                             </h4>
                                         </div>
@@ -272,13 +265,13 @@ const BlogDetailsInner = () => {
                                         <div className="recent-post-meta">
                                             <Link to="/blog">
                                                 <img src="assets/img/icon/calender.svg" alt="" />
-                                                Jan 10, 2024
+                                                10 يناير 2024
                                             </Link>
                                         </div>
                                         <div className="media-body">
                                             <h4 className="post-title">
                                                 <Link className="text-inherit" to="/blog-details">
-                                                    Achieve Your Business Goals with Confidence
+                                                    تحقيق أهداف الأعمال الخاصة بك بثقة
                                                 </Link>
                                             </h4>
                                         </div>
@@ -286,14 +279,14 @@ const BlogDetailsInner = () => {
                                 </div>
                             </div>
                             <div className="widget widget_tag_cloud">
-                                <h3 className="widget_title">Popular Tags</h3>
+                                <h3 className="widget_title">الكلمات الشائعة</h3>
                                 <div className="tagcloud">
-                                    <Link to="/blog">Experts</Link>
-                                    <Link to="/blog">Efficiency</Link>
-                                    <Link to="/blog">Digital</Link>
-                                    <Link to="/blog">Transform</Link>
-                                    <Link to="/blog">Chain</Link>
-                                    <Link to="/blog">Partner</Link>
+                                    <Link to="/blog">الخبراء</Link>
+                                    <Link to="/blog">الكفاءة</Link>
+                                    <Link to="/blog">رقمي</Link>
+                                    <Link to="/blog">تحويل</Link>
+                                    <Link to="/blog">سلسلة</Link>
+                                    <Link to="/blog">شريك</Link>
                                 </div>
                             </div>
                         </aside>
@@ -301,6 +294,7 @@ const BlogDetailsInner = () => {
                 </div>
             </div>
         </section>
+
 
     )
 }

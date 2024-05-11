@@ -8,9 +8,7 @@ const ProcessThree = () => {
             className="process-area-1 bg-smoke space-bottom"
             style={{ backgroundImage: "url(assets/img/bg/shape_1.png)" }}
         >
-            {/*==============================
-      Client Area  
-      ==============================*/}
+
             <div className="client-bg-area-2 space-bottom">
                 <div className="client-area-2">
                     <div className=" global-carousel">
@@ -81,10 +79,10 @@ const ProcessThree = () => {
                         <div className="title-area text-center">
                             <span className="sub-title">
                                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                Work Process
+                                عملية العمل
                             </span>
                             <h2 className="sec-title style2">
-                                Unleash Business's Hid Potential
+                                أطلق الإمكانيات المخفية للعمل التجاري
                             </h2>
                         </div>
                     </div>
@@ -99,8 +97,8 @@ const ProcessThree = () => {
                                 <h3 className="process-card_number">01</h3>
                             </div>
                             <div className="process-card_content">
-                                <span className="process-card-text">Technical Operation</span>
-                                <h4 className="process-card-title"> Growth Acceler</h4>
+                                <span className="process-card-text">العمليات التقنية</span>
+                                <h4 className="process-card-title">تسارع النمو</h4>
                             </div>
                         </div>
                     </div>
@@ -113,8 +111,8 @@ const ProcessThree = () => {
                                 <h3 className="process-card_number">02</h3>
                             </div>
                             <div className="process-card_content">
-                                <span className="process-card-text">Technical Operation</span>
-                                <h4 className="process-card-title"> Growth Acceler</h4>
+                                <span className="process-card-text">العمليات التقنية</span>
+                                <h4 className="process-card-title">تسارع النمو</h4>
                             </div>
                         </div>
                     </div>
@@ -127,8 +125,8 @@ const ProcessThree = () => {
                                 <h3 className="process-card_number">03</h3>
                             </div>
                             <div className="process-card_content">
-                                <span className="process-card-text">Technical Operation</span>
-                                <h4 className="process-card-title"> Growth Acceler</h4>
+                                <span className="process-card-text">العمليات التقنية</span>
+                                <h4 className="process-card-title">تسارع النمو</h4>
                             </div>
                         </div>
                     </div>
@@ -141,14 +139,15 @@ const ProcessThree = () => {
                                 <h3 className="process-card_number">04</h3>
                             </div>
                             <div className="process-card_content">
-                                <span className="process-card-text">Technical Operation</span>
-                                <h4 className="process-card-title"> Growth Acceler</h4>
+                                <span className="process-card-text">العمليات التقنية</span>
+                                <h4 className="process-card-title">تسارع النمو</h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
     )
 }
 

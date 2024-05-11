@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Breadcrumb = ({ title }) => {
     return (
         <div className="breadcumb-wrapper">
-            {/* bg animated image/ */}
+            {/* صورة متحركة خلفية/ */}
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
@@ -12,7 +12,7 @@ const Breadcrumb = ({ title }) => {
                             <h1 className="breadcumb-title">{title}</h1>
                             <ul className="breadcumb-menu">
                                 <li>
-                                    <Link to="/">Home</Link>
+                                    <Link to="/"> الرئيسية </Link>
                                 </li>
                                 <li className="active">{title}</li>
                             </ul>
@@ -26,6 +26,7 @@ const Breadcrumb = ({ title }) => {
                 </div>
             </div>
         </div>
+
 
     )
 }

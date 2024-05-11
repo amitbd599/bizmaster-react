@@ -28,7 +28,7 @@ const BlogDetails = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Blog Details" />
+      <Breadcrumb title="تفاصيل المدونة" />
 
       {/* BlogDetailsInner */}
       <BlogDetailsInner />

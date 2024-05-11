@@ -5,29 +5,31 @@ const Newsletter = () => {
         <div className="container">
             <div className="footer-top-1 bg-theme">
                 <div className="footer-top-content">
-                    <h3 className="footer-top-title text-white">Newsletter</h3>
+                    <h3 className="footer-top-title text-white">النشرة الإخبارية</h3>
                     <p className="footer-top-text">
-                        Lorem Ipsum is simply dummy text of the printing
+                        لوريم إيبسوم هو ببساطة نص عن الطباعة والتنضيد
                     </p>
                 </div>
                 <form className="newsletter-form">
                     <div className="form-group">
-                        <input
-                            className="form-control"
-                            type="email"
-                            placeholder="Email Address"
-                            required=""
-                        />
                         <button type="submit" className="global-btn">
-                            Subscribe
+                            اشتراك
                             <span className="icon">
                                 <i className="fa-sharp fas fa-paper-plane ms-2" />
                             </span>
                         </button>
+                        <input
+                            className="form-control"
+                            type="email"
+                            placeholder="عنوان البريد الإلكتروني"
+                            required=""
+                        />
+
                     </div>
                 </form>
             </div>
         </div>
+
 
     )
 }

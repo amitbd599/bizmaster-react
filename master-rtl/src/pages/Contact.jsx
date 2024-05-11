@@ -28,7 +28,7 @@ const Contact = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Contact" />
+      <Breadcrumb title="اتصال" />
 
       {/* ContactInner */}
       <ContactInner />

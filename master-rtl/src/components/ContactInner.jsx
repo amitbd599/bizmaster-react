@@ -21,7 +21,7 @@ const ContactInner = () => {
                                         <i className="fas fa-phone-alt" />
                                     </div>
                                     <div className="contact-info_details">
-                                        <h6 className="contact-info_title">Phone</h6>
+                                        <h6 className="contact-info_title">الهاتف</h6>
                                         <p className="contact-info_text">
                                             <Link to="/tel:6295550129">(629) 555-0129</Link>{" "}
                                             <Link to="/tel:01254693326">01254693326</Link>
@@ -35,7 +35,7 @@ const ContactInner = () => {
                                         <i className="fas fa-map-marker-alt" />
                                     </div>
                                     <div className="contact-info_details">
-                                        <h6 className="contact-info_title">Location</h6>
+                                        <h6 className="contact-info_title">الموقع</h6>
                                         <p className="contact-info_text">
                                             4517 Washington Av Kentucky 39495
                                         </p>
@@ -48,7 +48,7 @@ const ContactInner = () => {
                                         <i className="fas fa-envelope" />
                                     </div>
                                     <div className="contact-info_details">
-                                        <h6 className="contact-info_title">Email</h6>
+                                        <h6 className="contact-info_title">البريد الإلكتروني</h6>
                                         <p className="contact-info_text">
                                             <Link to="/mailto:nafiz125432gmail.com">nafiz125432gmail.com</Link>
                                         </p>
@@ -66,12 +66,11 @@ const ContactInner = () => {
                             <div className="title-area mb-0">
                                 <span className="sub-title">
                                     <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                    Contact Us
+                                    اتصل بنا
                                 </span>
-                                <h2 className="sec-title style2">Get In Touch</h2>
+                                <h2 className="sec-title style2">ابقى على تواصل</h2>
                                 <p className="mb-40">
-                                    Design is this a broad category encompasses various technological
-                                    solutions{" "}
+                                    التصميم هو فئة واسعة تشمل حلول تقنية مختلفة
                                 </p>
                                 <div className="social-btn style4">
                                     <Link to="/https://facebook.com/" tabIndex={-1}>
@@ -95,21 +94,21 @@ const ContactInner = () => {
                                     <div className="col-md-6 form-group">
                                         <input
                                             type="text"
-                                            placeholder="Your Name"
+                                            placeholder="اسمك"
                                             className="form-control style-border"
                                         />
                                     </div>
                                     <div className="col-md-6 form-group">
                                         <input
                                             type="text"
-                                            placeholder="Your Email"
+                                            placeholder="بريدك الإلكتروني"
                                             className="form-control style-border"
                                         />
                                     </div>
                                     <div className="col-md-6 form-group">
                                         <input
                                             type="text"
-                                            placeholder="Phone Number"
+                                            placeholder="رقم الهاتف"
                                             className="form-control style-border"
                                         />
                                     </div>
@@ -120,24 +119,24 @@ const ContactInner = () => {
                                             className="form-select style-border"
                                         >
                                             <option value="" disabled="" selected="" hidden="">
-                                                Subject
+                                                الموضوع
                                             </option>
-                                            <option value={1}>Subject 01</option>
-                                            <option value={2}>Subject 02</option>
-                                            <option value={3}>Subject 03</option>
+                                            <option value={1}>الموضوع 01</option>
+                                            <option value={2}>الموضوع 02</option>
+                                            <option value={3}>الموضوع 03</option>
                                         </select>
                                         <i className="fas fa-angle-down" />
                                     </div>
                                     <div className="col-12 form-group">
                                         <textarea
-                                            placeholder="Message here.."
+                                            placeholder="الرسالة هنا.."
                                             className="form-control style-border"
                                             defaultValue={""}
                                         />
                                     </div>
                                     <div className="col-12 form-group mb-0">
                                         <button className="global-btn w-100">
-                                            Send Now
+                                            إرسال الآن
                                             <img src="assets/img/icon/right-icon.svg" alt="" />
                                         </button>
                                     </div>
@@ -148,6 +147,7 @@ const ContactInner = () => {
                 </div>
             </div>
         </>
+
 
     )
 }
