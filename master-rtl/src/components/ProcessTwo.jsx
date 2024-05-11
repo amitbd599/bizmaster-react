@@ -10,17 +10,16 @@ const ProcessTwo = () => {
                             <div className="title-area">
                                 <span className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                                    Work Process
+                                    عملية العمل
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Unleash Business's Hid Potential
-                                </h2>
+                                    عانتغ يير في عانوا من التغيير في عانوا من التغيير في                                </h2>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <p className="mb-60 sec-text text-white mt-0">
-                                Lorem Ipsum is simply dummy a of the printing and type setting
-                                industry Loreaim Ipsum has been the industry's standard dummy{" "}
+                                لوريم إيبسوم هو ببساطة نموذج نصي ودية من صناعة الطباعة وتنسيق النص.
+                                لوريم إيبسوم هو النص الافتراضي في الصناعة منذ القرن الخامس عشر
                             </p>
                         </div>
                     </div>
@@ -29,8 +28,8 @@ const ProcessTwo = () => {
                             <div className="process-card style2">
                                 <h3 className="process-card_number">01</h3>
                                 <div className="process-card_content">
-                                    <span className="process-card-text">Technical Operation</span>
-                                    <h4 className="process-card-title"> Growth Acceler</h4>
+                                    <span className="process-card-text">العمليات التقنية</span>
+                                    <h4 className="process-card-title">ييرنوا من التغيير في</h4>
                                 </div>
                             </div>
                         </div>
@@ -38,8 +37,8 @@ const ProcessTwo = () => {
                             <div className="process-card style2">
                                 <h3 className="process-card_number">02</h3>
                                 <div className="process-card_content">
-                                    <span className="process-card-text">Technical Operation</span>
-                                    <h4 className="process-card-title"> Growth Acceler</h4>
+                                    <span className="process-card-text">العمليات التقنية</span>
+                                    <h4 className="process-card-title">ييرنوا من التغيير في</h4>
                                 </div>
                             </div>
                         </div>
@@ -47,8 +46,8 @@ const ProcessTwo = () => {
                             <div className="process-card style2">
                                 <h3 className="process-card_number">03</h3>
                                 <div className="process-card_content">
-                                    <span className="process-card-text">Technical Operation</span>
-                                    <h4 className="process-card-title"> Growth Acceler</h4>
+                                    <span className="process-card-text">العمليات التقنية</span>
+                                    <h4 className="process-card-title">ييرنوا من التغيير في</h4>
                                 </div>
                             </div>
                         </div>
@@ -56,8 +55,8 @@ const ProcessTwo = () => {
                             <div className="process-card style2">
                                 <h3 className="process-card_number">04</h3>
                                 <div className="process-card_content">
-                                    <span className="process-card-text">Technical Operation</span>
-                                    <h4 className="process-card-title"> Growth Acceler</h4>
+                                    <span className="process-card-text">العمليات التقنية</span>
+                                    <h4 className="process-card-title">ييرنوا من التغيير في</h4>
                                 </div>
                             </div>
                         </div>
@@ -66,6 +65,7 @@ const ProcessTwo = () => {
             </div>
 
         </section>
+
     )
 }
 

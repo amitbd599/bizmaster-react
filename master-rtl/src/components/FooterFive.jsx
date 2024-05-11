@@ -19,9 +19,7 @@ const FooterFive = () => {
                                         </Link>
                                     </div>
                                     <p className="footer-text mb-30 mt-30">
-                                        Many desktop ublishing packages web page editors no Lorem Ipsum a
-                                        default model text
-                                    </p>
+                                        عا نوا من التغ يير فيعانوا من التغيير فيعانوا من التغيير في عانوا من التغيير فيعانوا من التغيير في                                    </p>
                                     <div className="social-btn">
                                         <Link to="/https://facebook.com/" tabIndex={-1}>
                                             <i className="fab fa-facebook-f" />
@@ -40,20 +38,20 @@ const FooterFive = () => {
                             </div>
                             <div className="col-md-6 col-xl-auto">
                                 <div className="widget widget_nav_menu footer-widget">
-                                    <h3 className="widget_title">Useful Links</h3>
+                                    <h3 className="widget_title">روابط مفيدة</h3>
                                     <div className="menu-all-pages-container">
                                         <ul className="menu">
                                             <li>
-                                                <Link to="/service">Software Corner</Link>
+                                                <Link to="/service">زاوية البرمجيات</Link>
                                             </li>
                                             <li>
-                                                <Link to="/service">Application Center</Link>
+                                                <Link to="/service">مركز التطبيقات</Link>
                                             </li>
                                             <li>
-                                                <Link to="/service">Research Section</Link>
+                                                <Link to="/service">قسم البحث</Link>
                                             </li>
                                             <li>
-                                                <Link to="/service">Developing Corner</Link>
+                                                <Link to="/service">زاوية التطوير</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -61,7 +59,7 @@ const FooterFive = () => {
                             </div>
                             <div className="col-md-6 col-xl-3">
                                 <div className="widget footer-widget">
-                                    <h3 className="widget_title">Our Office</h3>
+                                    <h3 className="widget_title">مكتبنا</h3>
                                     <div className="widget-contact2">
                                         <div className="widget-contact-grid">
                                             <i className="fas fa-phone-alt" />
@@ -85,7 +83,7 @@ const FooterFive = () => {
                                             <i className="fas fa-map-marker-alt" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    1212, Lav Vegas, The Veg <br /> Street, USA
+                                                    1212، لاف فيجاس، شارع الخضار <br />، الولايات المتحدة الأمريكية
                                                     <p />
                                                 </h6>
                                             </div>
@@ -101,15 +99,15 @@ const FooterFive = () => {
                         <div className="row gy-3 justify-content-lg-between justify-content-center">
                             <div className="col-auto align-self-center">
                                 <p className="copyright-text text-center">
-                                    © <Link to="#">Yoursitename </Link> 2024 | All Rights Reserved
+                                    © <Link to="#">اسم موقعك </Link> 2024 | جميع الحقوق محفوظة
                                 </p>
                             </div>
                             <div className="col-auto">
                                 <div className="footer-links">
-                                    <Link to="/contact">Privacy</Link>
-                                    <Link to="/contact">Terms</Link>
-                                    <Link to="/contact">Sitemap</Link>
-                                    <Link to="/contact">Help</Link>
+                                    <Link to="/contact">خصوصية</Link>
+                                    <Link to="/contact">البنود</Link>
+                                    <Link to="/contact">خريطة الموقع</Link>
+                                    <Link to="/contact">مساعدة</Link>
                                 </div>
                             </div>
                         </div>
@@ -118,6 +116,7 @@ const FooterFive = () => {
             </footer>
 
         </section>
+
     )
 }
 

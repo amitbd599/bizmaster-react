@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const TeamFour = () => {
     return (
-        <section className='bg-dark'>
+        <section className='bg-dark2'>
             <div className="team-area-1 space-top">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -11,11 +11,10 @@ const TeamFour = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                                    Our Team Member
+                                    أعضاء فريقنا
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Strategic Solutions for Business Growth{" "}
-                                </h2>
+                                    عانوا من التغيير في عانوا من التغيير في عانوا من التغيير في                                </h2>
                             </div>
                         </div>
                     </div>
@@ -28,9 +27,9 @@ const TeamFour = () => {
                                 <div className="team-card_wrapp">
                                     <div className="team-card_content">
                                         <h4 className="team-card_title">
-                                            <Link to="/team-details">Darlene Robertson</Link>
+                                            <Link to="/team-details">دارلين روبرتسون</Link>
                                         </h4>
-                                        <span className="team-card_desig">UI UX Designer</span>
+                                        <span className="team-card_desig">مصمم واجهة المستخدم وتجربة المستخدم</span>
                                     </div>
                                     <div className="global-social">
                                         <Link to="/https://www.facebook.com/" tabIndex={0}>
@@ -57,9 +56,9 @@ const TeamFour = () => {
                                 <div className="team-card_wrapp">
                                     <div className="team-card_content">
                                         <h4 className="team-card_title">
-                                            <Link to="/team-details">Dianne Russell</Link>
+                                            <Link to="/team-details">ديان راسل</Link>
                                         </h4>
-                                        <span className="team-card_desig">Marketing Coordinator</span>
+                                        <span className="team-card_desig">منسق التسويق</span>
                                     </div>
                                     <div className="global-social">
                                         <Link to="/https://www.facebook.com/" tabIndex={0}>
@@ -86,9 +85,9 @@ const TeamFour = () => {
                                 <div className="team-card_wrapp">
                                     <div className="team-card_content">
                                         <h4 className="team-card_title">
-                                            <Link to="/team-details">Theresa Webb</Link>
+                                            <Link to="/team-details">تيريزا ويب</Link>
                                         </h4>
-                                        <span className="team-card_desig">President of Sales</span>
+                                        <span className="team-card_desig">رئيس المبيعات</span>
                                     </div>
                                     <div className="global-social">
                                         <Link to="/https://www.facebook.com/" tabIndex={0}>
@@ -112,6 +111,7 @@ const TeamFour = () => {
             </div>
 
         </section>
+
     )
 }
 

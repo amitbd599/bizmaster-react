@@ -44,11 +44,10 @@ const BlogFive = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                                    Latest Blog
+                                    آخر المدونات
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Strategic Solutions for Business Growth{" "}
-                                </h2>
+                                    عانوا من التغ يير فيعانوا من التغ يير فيعا نوا من التغيير في                                </h2>
                             </div>
                         </div>
                     </div>
@@ -57,7 +56,7 @@ const BlogFive = () => {
 
                     >
                         <Slider {...settings}>
-                            <div className="px-2">
+                            <div className="px-2" dir="rtl">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s5_1.png" alt="blog image" />
@@ -66,29 +65,28 @@ const BlogFive = () => {
                                         <div className="blog-meta">
                                             <Link to="/blog">
                                                 <i className="fas fa-user" />
-                                                Admin
+                                                المسؤول
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-comments" />
-                                                Comment
+                                                تعليق
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
+                                                19 أكتوبر 2022
                                             </Link>
                                         </div>
                                         <h3 className="blog-title">
                                             <Link to="/blog-details">
-                                                Transformation Strategy Advisors Operat
-                                            </Link>
+                                                التغ يير فيعا نواالتغ يير فيعا نوا التغ يير فيعا نواالتغ يير فيعا نوا</Link>
                                         </h3>
                                         <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                            اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="px-2">
+                            <div className="px-2" dir="rtl">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s5_2.png" alt="blog image" />
@@ -97,29 +95,28 @@ const BlogFive = () => {
                                         <div className="blog-meta">
                                             <Link to="/blog">
                                                 <i className="fas fa-user" />
-                                                Admin
+                                                المسؤول
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-comments" />
-                                                Comment
+                                                تعليق
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
+                                                19 أكتوبر 2022
                                             </Link>
                                         </div>
                                         <h3 className="blog-title">
                                             <Link to="/blog-details">
-                                                Hard Work Always Brings You Success
-                                            </Link>
+                                                التغ يير فيعا نواالتغ يير فيعا نوا التغ يير فيعا نواالتغ يير فيعا نوا</Link>
                                         </h3>
                                         <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                            اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="px-2">
+                            <div className="px-2" dir="rtl">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s5_3.png" alt="blog image" />
@@ -128,29 +125,28 @@ const BlogFive = () => {
                                         <div className="blog-meta">
                                             <Link to="/blog">
                                                 <i className="fas fa-user" />
-                                                Admin
+                                                المسؤول
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-comments" />
-                                                Comment
+                                                تعليق
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
+                                                19 أكتوبر 2022
                                             </Link>
                                         </div>
                                         <h3 className="blog-title">
                                             <Link to="/blog-details">
-                                                Growth and Innovation the Consultants
-                                            </Link>
+                                                التغ يير فيعا نواالتغ يير فيعا نوا التغ يير فيعا نواالتغ يير فيعا نوا</Link>
                                         </h3>
                                         <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                            اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="px-2">
+                            <div className="px-2" dir="rtl">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s5_2.png" alt="blog image" />
@@ -159,24 +155,23 @@ const BlogFive = () => {
                                         <div className="blog-meta">
                                             <Link to="/blog">
                                                 <i className="fas fa-user" />
-                                                Admin
+                                                المسؤول
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-comments" />
-                                                Comment
+                                                تعليق
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
+                                                19 أكتوبر 2022
                                             </Link>
                                         </div>
                                         <h3 className="blog-title">
                                             <Link to="/blog-details">
-                                                Hard Work Always Brings You Success
-                                            </Link>
+                                                التغ يير فيعا نواالتغ يير فيعا نوا التغ يير فيعا نواالتغ يير فيعا نوا</Link>
                                         </h3>
                                         <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                            اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                                         </Link>
                                     </div>
                                 </div>
@@ -187,6 +182,7 @@ const BlogFive = () => {
             </section>
 
         </section>
+
     )
 }
 

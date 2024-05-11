@@ -156,3 +156,13 @@
 .accordion-card.style4 .accordion-button {
   text-align: right;
 }
+.mobile-menu-wrapper.rtl .menu-item-has-children .mean-expand-class {
+  right: auto;
+  left: 0;
+}
+
+.mean-expand-class i {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--title-color);
+}

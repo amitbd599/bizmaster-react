@@ -14,7 +14,7 @@ const HeaderThree = () => {
     for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
       offCanvasNavSubMenu[i].insertAdjacentHTML(
         "beforebegin",
-        "<span class='mean-expand-class'>+</span>"
+        "<span class='mean-expand-class'><i class='fas fa-chevron-down'></i></span>"
       );
     }
 
@@ -76,9 +76,7 @@ const HeaderThree = () => {
                 </Link>
               </div>
               <p className="about-text">
-                We provide specialized winterization services to safeguard your
-                pool during the off-season, and when spring arrives, we handle
-                the thorough opening process.
+                نحن نقدم خدمات تشغيل الشتاء المتخصصة لحماية حمام السباحة الخاص بك أثناء موسم الخمول، وعندما يحين الربيع، نتولى عملية الافتتاح الشاملة.
               </p>
               <div className="social-links">
                 <Link to="/https://www.facebook.com/">
@@ -98,16 +96,16 @@ const HeaderThree = () => {
           </div>
           <div className="side-info mb-30">
             <div className="contact-list mb-20">
-              <h4>Office Address</h4>
-              <p>1212, Lav Vegas, The Veg Street, USA</p>
+              <h4>عنوان المكتب</h4>
+              <p>1212، لاف فيغاس، شارع فيغ، الولايات المتحدة</p>
             </div>
             <div className="contact-list mb-20">
-              <h4>Phone Number</h4>
+              <h4>رقم الهاتف</h4>
               <p className="mb-0">+880 123 45 67 89</p>
               <p>+880 765 86 43 85</p>
             </div>
             <div className="contact-list mb-20">
-              <h4>Email Address</h4>
+              <h4>عنوان البريد الإلكتروني</h4>
               <p className="mb-0">yourmail@gmail.com</p>
               <p>example.mail@hum.com</p>
             </div>
@@ -141,7 +139,7 @@ const HeaderThree = () => {
           <i className="fas fa-times" />
         </button>
         <form action="#">
-          <input type="text" placeholder="What are you looking for?" />
+          <input type="text" placeholder="ما الذي تبحث عنه؟" />
           <button type="submit">
             <i className="fas fa-search" />
           </button>
@@ -150,7 +148,7 @@ const HeaderThree = () => {
       {/*==============================
       Mobile Menu
       ============================== */}
-      <div className={`mobile-menu-wrapper ${active ? "body-visible" : ""}`}>
+      <div className={`mobile-menu-wrapper rtl ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
             <Link to="/">
@@ -163,78 +161,81 @@ const HeaderThree = () => {
           <div className="mobile-menu">
             <ul id="offcanvas-navigation">
               <li className="menu-item-has-children submenu-item-has-children">
-                <Link to="#">Home</Link>
+                <Link to="#">الرئيسية</Link>
                 <ul className="sub-menu submenu-class">
                   <li>
-                    <Link to="/home-1">Home 01</Link>
+                    <Link to="/home-1">الصفحة الرئيسية 01</Link>
                   </li>
                   <li>
-                    <Link to="/home-2">Home 02</Link>
+                    <Link to="/home-2">الصفحة الرئيسية 02</Link>
                   </li>
                   <li>
-                    <Link to="/home-3">Home 03</Link>
+                    <Link to="/home-3">الصفحة الرئيسية 03</Link>
                   </li>
                   <li>
-                    <Link to="/home-4">Home 04</Link>
+                    <Link to="/home-4">الصفحة الرئيسية 04</Link>
                   </li>
                   <li>
-                    <Link to="/home-5">Home 05</Link>
+                    <Link to="/home-5">الصفحة الرئيسية 05</Link>
                   </li>
                 </ul>
               </li>
 
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about">معلومات عنا</Link>
               </li>
               <li className="menu-item-has-children">
-                <Link to="#">Pages</Link>
+                <Link to="#">الخدمات</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/pricing">Pricing Page</Link>
+                    <Link to="/service">الخدمات</Link>
                   </li>
                   <li>
-                    <Link to="/team">Team</Link>
-                  </li>
-                  <li>
-                    <Link to="/team-details">Team Details</Link>
+                    <Link to="/service-details">تفاصيل الخدمة</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <Link to="#">Project</Link>
+                <Link to="#">المشاريع</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/project">Projects</Link>
+                    <Link to="/project">المشاريع</Link>
                   </li>
                   <li>
-                    <Link to="/project-details">Project Details</Link>
+                    <Link to="/project-details">تفاصيل المشروع</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <Link to="#">Service</Link>
+                <Link to="#">المدونة</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/service">Service</Link>
+                    <Link to="/blog">المدونة</Link>
                   </li>
                   <li>
-                    <Link to="/service-details">Service Details</Link>
+                    <Link to="/blog-details">تفاصيل المدونة</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <Link to="#">Blog</Link>
+                <Link to="#">الصفحات</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/pricing">صفحة التسعير</Link>
                   </li>
                   <li>
-                    <Link to="/blog-details">Blog Details</Link>
+                    <Link to="/team">الفريق</Link>
+                  </li>
+                  <li>
+                    <Link to="/team-details">تفاصيل الفريق</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">صفحة الاتصال</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">اتصل بنا</Link>
               </li>
             </ul>
           </div>
@@ -256,7 +257,7 @@ const HeaderThree = () => {
                     </li>
                     <li>
                       <i className="fas fa-map-marker-alt" />
-                      6391 Elgin St. Celina, 10299
+                      6391 شارع إلجين. سيلينا، 10299
                     </li>
                     <li>
                       <i className="fas fa-phone-alt" />
@@ -306,81 +307,81 @@ const HeaderThree = () => {
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
                     <li className="menu-item-has-children">
-                      <Link to="#">Home</Link>
+                      <Link to="#">الرئيسية</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/home-1">Home 01</Link>
+                          <Link to="/home-1">الصفحة الرئيسية 01</Link>
                         </li>
                         <li>
-                          <Link to="/home-2">Home 02</Link>
+                          <Link to="/home-2">الصفحة الرئيسية 02</Link>
                         </li>
                         <li>
-                          <Link to="/home-3">Home 03</Link>
+                          <Link to="/home-3">الصفحة الرئيسية 03</Link>
                         </li>
                         <li>
-                          <Link to="/home-4">Home 04</Link>
+                          <Link to="/home-4">الصفحة الرئيسية 04</Link>
                         </li>
                         <li>
-                          <Link to="/home-5">Home 05</Link>
+                          <Link to="/home-5">الصفحة الرئيسية 05</Link>
                         </li>
                       </ul>
                     </li>
 
                     <li>
-                      <Link to="/about">About Us</Link>
+                      <Link to="/about">عنا</Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Services</Link>
+                      <Link to="#">الخدمات</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/service">Service</Link>
+                          <Link to="/service">الخدمات</Link>
                         </li>
                         <li>
-                          <Link to="/service-details">Service Details</Link>
+                          <Link to="/service-details">تفاصيل الخدمة</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Projects</Link>
+                      <Link to="#">المشاريع</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/project">Projects</Link>
+                          <Link to="/project">المشاريع</Link>
                         </li>
                         <li>
-                          <Link to="/project-details">Projects Details</Link>
+                          <Link to="/project-details">تفاصيل المشروع</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Blog</Link>
+                      <Link to="#">المدونة</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/blog">Blog</Link>
+                          <Link to="/blog">المدونة</Link>
                         </li>
                         <li>
-                          <Link to="/blog-details">Blog Details</Link>
+                          <Link to="/blog-details">تفاصيل المدونة</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Pages</Link>
+                      <Link to="#">الصفحات</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to="/pricing">Pricing Page</Link>
+                          <Link to="/pricing">صفحة التسعير</Link>
                         </li>
                         <li>
-                          <Link to="/team">Team</Link>
+                          <Link to="/team">الفريق</Link>
                         </li>
                         <li>
-                          <Link to="/team-details">Team Details</Link>
+                          <Link to="/team-details">تفاصيل الفريق</Link>
                         </li>
                         <li>
-                          <Link to="/contact">Contact Page</Link>
+                          <Link to="/contact">صفحة الاتصال</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link to="/contact">Contact</Link>
+                      <Link to="/contact">اتصل بنا</Link>
                     </li>
                   </ul>
                 </nav>
@@ -405,7 +406,7 @@ const HeaderThree = () => {
                       <i className="fas fa-search" />
                     </button>
                     <Link to="/service" className="global-btn style-border">
-                      Contact Us
+                      تواصل معنا
                     </Link>
                   </div>
                 </div>
@@ -415,6 +416,7 @@ const HeaderThree = () => {
         </div>
       </header>
     </>
+
   );
 };
 

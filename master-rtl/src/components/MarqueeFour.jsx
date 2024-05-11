@@ -12,25 +12,49 @@ const MarqueeFour = () => {
                                 <div className="item">
                                     <Link to="#">
                                         <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
-                                        <span className="text-stroke">Breaking Barriers</span>
+                                        <span className="text-stroke">كسر الحواجز</span>
                                     </Link>
                                 </div>
                                 <div className="item">
                                     <Link to="#">
                                         <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
-                                        <span>Constructing Excellence</span>
+                                        <span>بناء التميز</span>
                                     </Link>
                                 </div>
                                 <div className="item">
                                     <Link to="#">
                                         <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
-                                        <span className="text-stroke">Breaking Barriers</span>
+                                        <span className="text-stroke">كسر الحواجز</span>
                                     </Link>
                                 </div>
                                 <div className="item">
                                     <Link to="#">
                                         <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
-                                        <span>Constructing Excellence </span>
+                                        <span>بناء التميز</span>
+                                    </Link>
+                                </div>
+                                <div className="item">
+                                    <Link to="#">
+                                        <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
+                                        <span className="text-stroke">كسر الحواجز</span>
+                                    </Link>
+                                </div>
+                                <div className="item">
+                                    <Link to="#">
+                                        <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
+                                        <span>بناء التميز</span>
+                                    </Link>
+                                </div>
+                                <div className="item">
+                                    <Link to="#">
+                                        <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
+                                        <span className="text-stroke">كسر الحواجز</span>
+                                    </Link>
+                                </div>
+                                <div className="item">
+                                    <Link to="#">
+                                        <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
+                                        <span>بناء التميز</span>
                                     </Link>
                                 </div>
                             </Marquee>
@@ -40,6 +64,7 @@ const MarqueeFour = () => {
             </div>
 
         </section>
+
     )
 }
 

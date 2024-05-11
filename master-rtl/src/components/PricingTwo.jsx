@@ -17,22 +17,21 @@ const PricingTwo = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                                    Our Pricing
+                                    أسعارنا
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Achieve Your Goal of Business{" "}
-                                </h2>
+                                    عانوا من التغيير في عانوا من التغيير في                                </h2>
                             </div>
                         </div>
                     </div>
                     <div className="row gy-4 justify-content-center align-items-center">
                         <div className="col-xl-4 col-md-6">
                             <div className="pricing-card style2">
-                                <h4 className="pricing-card_title">Consult</h4>
+                                <h4 className="pricing-card_title">استشارة</h4>
                                 <div className="pricing-card-price-wrap">
                                     <h3 className="pricing-card_price">
                                         <span className="currency">$</span>32
-                                        <span className="duration">/month</span>
+                                        <span className="duration">/الشهر</span>
                                     </h3>
                                 </div>
                                 <div className="pricing-card-details">
@@ -40,35 +39,35 @@ const PricingTwo = () => {
                                         <ul>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Mistakes To Avoid
+                                                الأخطاء التي يجب تجنبها
                                             </li>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Your Startup
+                                                نشاطك التجاري
                                             </li>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Knew About Fonts
+                                                معرفة الخطوط
                                             </li>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Winning Metric for Your Startup
+                                                المقياس الفائز لنشاطك التجاري
                                             </li>
                                         </ul>
                                     </div>
                                     <Link className="global-btn" to="/contact">
-                                        Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
+                                        احصل الآن <img src="assets/img/icon/right-icon2.svg" alt="" />
                                     </Link>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-md-6">
                             <div className="pricing-card style2 active">
-                                <h4 className="pricing-card_title">Basic</h4>
+                                <h4 className="pricing-card_title">أساسي</h4>
                                 <div className="pricing-card-price-wrap">
                                     <h3 className="pricing-card_price">
                                         <span className="currency">$</span>25
-                                        <span className="duration">/month</span>
+                                        <span className="duration">/الشهر</span>
                                     </h3>
                                 </div>
                                 <div className="pricing-card-details">
@@ -76,35 +75,35 @@ const PricingTwo = () => {
                                         <ul>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Mistakes To Avoid
+                                                الأخطاء التي يجب تجنبها
                                             </li>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Your Startup
+                                                نشاطك التجاري
                                             </li>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Knew About Fonts
+                                                معرفة الخطوط
                                             </li>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Winning Metric for Your Startup
+                                                المقياس الفائز لنشاطك التجاري
                                             </li>
                                         </ul>
                                     </div>
                                     <Link className="global-btn" to="/contact">
-                                        Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
+                                        احصل الآن <img src="assets/img/icon/right-icon2.svg" alt="" />
                                     </Link>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-md-6">
                             <div className="pricing-card style2">
-                                <h4 className="pricing-card_title">Pro</h4>
+                                <h4 className="pricing-card_title">محترف</h4>
                                 <div className="pricing-card-price-wrap">
                                     <h3 className="pricing-card_price">
                                         <span className="currency">$</span>36
-                                        <span className="duration">/month</span>
+                                        <span className="duration">/الشهر</span>
                                     </h3>
                                 </div>
                                 <div className="pricing-card-details">
@@ -112,24 +111,24 @@ const PricingTwo = () => {
                                         <ul>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Mistakes To Avoid
+                                                الأخطاء التي يجب تجنبها
                                             </li>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Your Startup
+                                                نشاطك التجاري
                                             </li>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Knew About Fonts
+                                                معرفة الخطوط
                                             </li>
                                             <li>
                                                 <i className="fas fa-check" />
-                                                Winning Metric for Your Startup
+                                                المقياس الفائز لنشاطك التجاري
                                             </li>
                                         </ul>
                                     </div>
                                     <Link className="global-btn" to="/contact">
-                                        Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
+                                        احصل الآن <img src="assets/img/icon/right-icon2.svg" alt="" />
                                     </Link>
                                 </div>
                             </div>
@@ -139,6 +138,7 @@ const PricingTwo = () => {
             </div>
 
         </section>
+
     )
 }
 

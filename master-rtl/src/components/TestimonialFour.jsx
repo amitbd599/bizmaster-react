@@ -39,11 +39,10 @@ const TestimonialFour = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                                    Clients Testimonial
+                                    شهادات العملاء
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Your Business Goals a Confidence
-                                </h2>
+                                    عا عانوا من التغ يير فينوا من التغيير في                                </h2>
                             </div>
                         </div>
                     </div>
@@ -55,17 +54,14 @@ const TestimonialFour = () => {
 
                                 >
                                     <Slider {...settings}>
-                                        <div className="px-3">
+                                        <div className="px-3" dir="rtl">
                                             <div className="testi-card style3">
                                                 <div className="quote-icon">
                                                     <img src="assets/img/icon/quote3-1.svg" alt="img" />
                                                 </div>
                                                 <div className="testi-card_content">
                                                     <p className="testi-card_text">
-                                                        Roofing is the proces of installin repai and amaintaining
-                                                        roofs on buildings. It involves a to various materials such
-                                                        shil tiles met and membranes. Roofing services may include
-                                                        is inspect
+                                                        عانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا من
                                                     </p>
                                                     <div className="testi-card-profile">
                                                         <div className="testi-profile_thumb">
@@ -75,26 +71,23 @@ const TestimonialFour = () => {
                                                             />
                                                         </div>
                                                         <div className="testi-card-profile-details">
-                                                            <h4 className="testi-profile-title">Michael Ramirez</h4>
+                                                            <h4 className="testi-profile-title">مايكل راميريز</h4>
                                                             <span className="testi-profile-desig">
-                                                                Marketing Manager
+                                                                مدير التسويق
                                                             </span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="px-3">
+                                        <div className="px-3" dir="rtl">
                                             <div className="testi-card style3">
                                                 <div className="quote-icon">
                                                     <img src="assets/img/icon/quote3-1.svg" alt="img" />
                                                 </div>
                                                 <div className="testi-card_content">
                                                     <p className="testi-card_text">
-                                                        Roofing is the proces of installin repai and amaintaining
-                                                        roofs on buildings. It involves a to various materials such
-                                                        shil tiles met and membranes. Roofing services may include
-                                                        is inspect
+                                                        عانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا منعانوا من التغ يير فينوا من
                                                     </p>
                                                     <div className="testi-card-profile">
                                                         <div className="testi-profile_thumb">
@@ -104,9 +97,9 @@ const TestimonialFour = () => {
                                                             />
                                                         </div>
                                                         <div className="testi-card-profile-details">
-                                                            <h4 className="testi-profile-title">Starli shaine</h4>
+                                                            <h4 className="testi-profile-title">ستارلي شاين</h4>
                                                             <span className="testi-profile-desig">
-                                                                Marketing Manager
+                                                                مدير التسويق
                                                             </span>
                                                         </div>
                                                     </div>
@@ -127,6 +120,7 @@ const TestimonialFour = () => {
             </div>
 
         </section>
+
     )
 }
 

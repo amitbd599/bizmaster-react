@@ -2,7 +2,7 @@ import React from 'react'
 
 const FaqThree = () => {
     return (
-        <section className='bg-dark'>
+        <section className='bg-dark2'>
             <section className="faq-area-5 space-top">
                 <div className="container">
                     <div className="row gy-40 justify-content-center">
@@ -10,10 +10,10 @@ const FaqThree = () => {
                             <div className="title-area mb-60">
                                 <span className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                                    Ask Question
+                                    اطرح السؤال
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Transforming Vision into Reality Together
+                                    تحويل الرؤية إلى واقع معًا
                                 </h2>
                             </div>
                             <div className="faq-thumb5">
@@ -22,7 +22,7 @@ const FaqThree = () => {
                                     <h3 className="about-counter">
                                         <span className="counter-number">10</span>k+
                                     </h3>
-                                    <p className="sec-desc">Client Review</p>
+                                    <p className="sec-desc">مراجعة العملاء</p>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ const FaqThree = () => {
                                             aria-expanded="true"
                                             aria-controls="collapse-1"
                                         >
-                                            What services do you offer?
+                                            ما الخدمات التي تقدمها؟
                                         </button>
                                     </div>
                                     <div
@@ -49,9 +49,7 @@ const FaqThree = () => {
                                     >
                                         <div className="accordion-body">
                                             <p className="faq-text">
-                                                At the heart of our consulting approach lies a dedication to
-                                                understanding your unique needs, fostering collaboration At
-                                                the heart of our consulting approach lies a dedication{" "}
+                                                في قلب نهج استشارتنا يكمن التفاني في فهم احتياجاتك الفريدة، وتعزيز التعاون في قلب نهج استشارتنا يكمن التفاني{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -66,7 +64,7 @@ const FaqThree = () => {
                                             aria-expanded="false"
                                             aria-controls="collapse-2"
                                         >
-                                            How long does complete a project?
+                                            كم يستغرق إكمال مشروع؟
                                         </button>
                                     </div>
                                     <div
@@ -77,9 +75,7 @@ const FaqThree = () => {
                                     >
                                         <div className="accordion-body">
                                             <p className="faq-text">
-                                                At the heart of our consulting approach lies a dedication to
-                                                understanding your unique needs, fostering collaboration At
-                                                the heart of our consulting approach lies a dedication{" "}
+                                                في قلب نهج استشارتنا يكمن التفاني في فهم احتياجاتك الفريدة، وتعزيز التعاون في قلب نهج استشارتنا يكمن التفاني{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -94,7 +90,7 @@ const FaqThree = () => {
                                             aria-expanded="false"
                                             aria-controls="collapse-3"
                                         >
-                                            How much does with your agency?
+                                            كم يكلف مع وكالتك؟
                                         </button>
                                     </div>
                                     <div
@@ -105,9 +101,7 @@ const FaqThree = () => {
                                     >
                                         <div className="accordion-body">
                                             <p className="faq-text">
-                                                At the heart of our consulting approach lies a dedication to
-                                                understanding your unique needs, fostering collaboration At
-                                                the heart of our consulting approach lies a dedication{" "}
+                                                في قلب نهج استشارتنا يكمن التفاني في فهم احتياجاتك الفريدة، وتعزيز التعاون في قلب نهج استشارتنا يكمن التفاني{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -122,7 +116,7 @@ const FaqThree = () => {
                                             aria-expanded="false"
                                             aria-controls="collapse-4"
                                         >
-                                            Where a Branding Consultants?
+                                            أين يمكن العثور على مستشاري التسويق؟
                                         </button>
                                     </div>
                                     <div
@@ -133,9 +127,7 @@ const FaqThree = () => {
                                     >
                                         <div className="accordion-body">
                                             <p className="faq-text">
-                                                At the heart of our consulting approach lies a dedication to
-                                                understanding your unique needs, fostering collaboration At
-                                                the heart of our consulting approach lies a dedication{" "}
+                                                في قلب نهج استشارتنا يكمن التفاني في فهم احتياجاتك الفريدة، وتعزيز التعاون في قلب نهج استشارتنا يكمن التفاني{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -147,6 +139,7 @@ const FaqThree = () => {
             </section>
 
         </section>
+
     )
 }
 

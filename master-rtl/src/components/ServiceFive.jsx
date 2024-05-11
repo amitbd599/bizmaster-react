@@ -12,11 +12,10 @@ const ServiceFive = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                                    Our Services
+                                    خدماتنا
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Your Business Goals with the Confidence{" "}
-                                </h2>
+                                    اتالم تاحة للم هندس ات المتاحة للمه ندس ات المتاحة للمهندس                                </h2>
                             </div>
                         </div>
                     </div>
@@ -30,11 +29,10 @@ const ServiceFive = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Business Growth Catalyst</Link>
+                                        <Link to="/service-details">محفز نمو الأعمال</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                        Use receiving acco growin number of currencies and get paid lik
-                                    </p>
+                                        ات المتاحة للم هندس ات المتاحة للمهندس ات المتاحة للمهندس ات المتاحة للمهندس</p>
                                 </div>
                             </div>
                         </div>
@@ -45,11 +43,10 @@ const ServiceFive = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Profitability Maximizers</Link>
+                                        <Link to="/service-details">مزيّزي الربحية</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                        Use receiving acco growin number of currencies and get paid lik
-                                    </p>
+                                        ات المتاحة للم هندس ات المتاحة للمهندس ات المتاحة للمهندس ات المتاحة للمهندس</p>
                                 </div>
                             </div>
                         </div>
@@ -60,11 +57,10 @@ const ServiceFive = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Efficiency Experts</Link>
+                                        <Link to="/service-details">خبراء الكفاءة</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                        Use receiving acco growin number of currencies and get paid lik
-                                    </p>
+                                        ات المتاحة للم هندس ات المتاحة للمهندس ات المتاحة للمهندس ات المتاحة للمهندس</p>
                                 </div>
                             </div>
                         </div>
@@ -72,6 +68,7 @@ const ServiceFive = () => {
                 </div>
             </div>
         </section>
+
 
 
     )

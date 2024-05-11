@@ -15,9 +15,9 @@ const AboutFive = () => {
                                 </div>
                                 <div className="about-counter-wrap jump-reverse">
                                     <h3 className="about-counter">
-                                        <span className="counter-number">10</span>k+
+                                        <span className="counter-number">10k</span>+
                                     </h3>
-                                    <p className="sec-desc">Client Review</p>
+                                    <p className="sec-desc">مراجعة العملاء</p>
                                 </div>
                             </div>
                         </div>
@@ -25,25 +25,24 @@ const AboutFive = () => {
                             <div className="title-area mb-40">
                                 <span className="sub-title style2">
                                     <img src="assets/img/icon/title_left2.svg" alt="shape" />
-                                    About Us
+                                    من نحن
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Maximizing Through the Strategic
-                                </h2>
+                                    عانوا من في عانوامن التغيير في عانوا من التغييرفي                                </h2>
                                 <p className="sec-text text-white mb-30">
-                                    Lorem Ipsum is simply dummy a of the printing and type setting
-                                    industry Loreaim Ipsum has been the industry's standard dummy Lorem
-                                    Ipsum is simply dummy a of the printing and type setting industry
-                                    Loreaim Ipsum has been the industry's standard dummy
+                                    النص الوهمي هو ببساطة نص شكلي في صناعة الطباعة والتنضيد. كان النص
+                                    الوهمي المعياري في الصناعة منذ القرن الخامس عشر
+                                    النص الوهمي هو ببساطة نص شكلي في صناعة الطباعة والتنضيد. كان النص
+                                    الوهمي المعياري في الصناعة منذ القرن الخامس عشر
                                 </p>
                                 <p className="sec-text text-white">
-                                    Lorem Ipsum is simply dummy a of the printing and type setting
-                                    industry Loreaim Ipsum has been the industry's standard dummy
+                                    النص الوهمي هو ببساطة نص شكلي في صناعة الطباعة والتنضيد. كان النص
+                                    الوهمي المعياري في الصناعة منذ القرن الخامس عشر
                                 </p>
                             </div>
                             <div className="btn-wrap">
                                 <Link to="/about" className="global-btn style3">
-                                    Explore More <i className="fas fa-arrow-right ms-2" />
+                                    استكشاف المزيد <i className="fas fa-arrow-left ms-2" />
                                 </Link>
                             </div>
                         </div>
@@ -52,6 +51,7 @@ const AboutFive = () => {
             </div>
 
         </section>
+
     )
 }
 

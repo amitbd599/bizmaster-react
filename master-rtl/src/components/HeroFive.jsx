@@ -13,13 +13,11 @@ const HeroFive = () => {
                         <div className="col-lg-10">
                             <div className="hero-style5 text-center">
                                 <h1 className="hero-title text-white">
-                                    Revolutionizing the Unique{" "}
-                                    <span className="text-theme2">Business</span> Landscape
+                                    للمهندس المتاحة للمهندس
+                                    <span className="text-theme2">  للمهندس  </span> المتاحة للمهندس
                                 </h1>
                                 <p className="hero-text text-white">
-                                    A business consultant is a professional who provides expert advice
-                                    and guidance to businesses on various aspects such{" "}
-                                </p>
+                                    ات المتاحة للم هندس ات المتاحة للمه ندسات المتاحة للمه ندسات المتاحة للمه ندسات المتاحة ات المتاحة للمهندس ات المتاحة للمهندس ات المتاحة للمهندس ات المتاحة للمهندس للمهندس                                </p>
                             </div>
                         </div>
                         <div className="col-lg-12">
@@ -31,6 +29,7 @@ const HeroFive = () => {
                 </div>
             </div>
         </section>
+
 
     )
 }
