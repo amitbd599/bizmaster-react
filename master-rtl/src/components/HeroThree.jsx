@@ -21,16 +21,13 @@ const HeroThree = () => {
             <div className="hero-style3">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Growth Accel erato
+                تسارع النمو
               </span>
               <h1 className="hero-title">
-                Your <span className="fw-normal">Growth</span> Catalyst{" "}
-                <span className="fw-normal">Our Expertise</span>
+                الممرات المتاح  الممرات المتاحة الممرات للمهندس                <span className="fw-normal">خبرتنا</span>
               </h1>
               <p className="hero-text">
-                A business consultant is a professional who provides expert
-                advice and guidance to businesses{" "}
-              </p>
+                الممرات المتاح الممرات المتاحة الممرات المتاحة الممرات للمهندس  الممرات المتاح الممرات المتاحة الممرات المتاحة الممرات للمهندس            </p>
               <div className="btn-wrap">
                 <div className="hero-card_wrapper">
                   <div className="hero-card">
@@ -38,8 +35,8 @@ const HeroThree = () => {
                       <img src="assets/img/icon/1.svg" alt="img" />
                     </div>
                     <div className="hero-card_content">
-                      <h4 className="box-title">Growth Acceler</h4>
-                      <p className="hero-card_text">A business consultant</p>
+                      <h4 className="box-title">تسارع النمو</h4>
+                      <p className="hero-card_text">الاستشاري التجاري</p>
                     </div>
                   </div>
                 </div>
@@ -50,7 +47,7 @@ const HeroThree = () => {
                     </Link>
                   </div>
                   <div className="media-body">
-                    <span className="header-info_label">Need help?</span>
+                    <span className="header-info_label">هل تحتاج إلى مساعدة؟</span>
                     <p className="header-info_link">
                       <Link to="/tel:3195550115">(319) 555-0115</Link>
                     </p>
@@ -62,6 +59,7 @@ const HeroThree = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

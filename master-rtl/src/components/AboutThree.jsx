@@ -37,7 +37,6 @@ const AboutThree = () => {
   };
   return (
     <>
-      {" "}
       <div className="about-area-3 space">
         <div className="container">
           <div className="row gy-40 gx-60 align-items-center">
@@ -58,7 +57,7 @@ const AboutThree = () => {
                       }
                     </TrackVisibility>
                   </h3>
-                  <p className="sec-desc">Years Experience</p>
+                  <p className="sec-desc">سنوات من الخبرة</p>
                 </div>
                 <div className="social-links jump">
                   <Link to="/https://www.facebook.com/">
@@ -80,19 +79,17 @@ const AboutThree = () => {
               <div className="title-area mb-20">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  About Us
+                  حولنا
                 </span>
                 <h2 className="sec-title style2">
-                  Maximizing Through the Strategic
+                  تحقيق الأقصى من خلال الاستراتيجية
                 </h2>
                 <p className="sec-text mb-35">
-                  Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                  quis venenatis cras sed eu massa eu faucibus Urna fusce Et
-                  purus duis sollicitudin dignissim habitant.{" "}
+                  إالممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس
                 </p>
               </div>
               <div className="skill-feature style2 position-relative">
-                <h3 className="skill-feature_title">Last mile delivery</h3>
+                <h3 className="skill-feature_title">توصيل الأخيرة</h3>
                 <div className="progress">
                   <div className="progress-bar" style={{ width: "90%" }}></div>
                   <div className="progress-value">
@@ -101,7 +98,7 @@ const AboutThree = () => {
                 </div>
               </div>
               <div className="skill-feature style2 position-relative">
-                <h3 className="skill-feature_title">Last mile delivery</h3>
+                <h3 className="skill-feature_title">توصيل الأخيرة</h3>
                 <div className="progress">
                   <div className="progress-bar" style={{ width: "80%" }}></div>
                   <div className="progress-value">
@@ -110,7 +107,7 @@ const AboutThree = () => {
                 </div>
               </div>
               <div className="skill-feature style2 position-relative">
-                <h3 className="skill-feature_title">Finished Work</h3>
+                <h3 className="skill-feature_title">العمل المنتهي</h3>
                 <div className="progress">
                   <div className="progress-bar" style={{ width: "95%" }}></div>
                   <div className="progress-value">
@@ -120,7 +117,7 @@ const AboutThree = () => {
               </div>
               <div className="btn-wrap mt-50">
                 <Link to="/about" className="global-btn mt-xl-0 mt-20">
-                  Learn More <i className="fas fa-arrow-right ms-2" />
+                  تعلم المزيد <i className="fas fa-arrow-left ms-2" />
                 </Link>
               </div>
             </div>
@@ -139,18 +136,16 @@ const AboutThree = () => {
                   <div className="title-area">
                     <span className="sub-title">
                       <img src="assets/img/icon/title_left.svg" alt="shape" />
-                      Our Features
+                      ميزاتنا
                     </span>
                     <h2 className="sec-title style2">
-                      Partnering Business for Success
+                      الممرات الممرات الممرات الممرات المتاحة
                     </h2>
                   </div>
                 </div>
                 <div className="col-lg-5">
                   <p className="mb-60">
-                    Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                    quis venenatis cras sed eu massa eu faucibus Urna fusce Et
-                    purus duis sollicitudin dignissim habitant.{" "}
+                    إالممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس
                   </p>
                 </div>
               </div>
@@ -159,19 +154,19 @@ const AboutThree = () => {
                   <div className="feature-card">
                     <h4 className="feature-card-title">
                       <Link to="/service-details">
-                        Business Growth Catalyst
+                        محفز نمو الأعمال
                       </Link>
                     </h4>
                     <p className="feature-card-text">
-                      Et purus duis sollicitudin sed dignis sim habi tant.
-                      Egestas nulla quis venenatis Et purus duis
+                      إت بوروس دويس سوليسيتودين سيد ديجنيس سيم هابيتانت.
+                      إجستاس نولا كويس فينيناتيس إت بوروس
                     </p>
                     <div className="btn-wrap">
                       <Link
                         to="/service-details"
                         className="global-btn style-border"
                       >
-                        Read More <i className="fas fa-arrow-right ms-2" />
+                        اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                       </Link>
                     </div>
                   </div>
@@ -179,18 +174,18 @@ const AboutThree = () => {
                 <div className="col-lg-12 col-md-6">
                   <div className="feature-card">
                     <h4 className="feature-card-title">
-                      <Link to="/service-details">Strategic Solutions Pro</Link>
+                      <Link to="/service-details">حلول استراتيجية محترفة</Link>
                     </h4>
                     <p className="feature-card-text">
-                      Et purus duis sollicitudin sed dignis sim habi tant.
-                      Egestas nulla quis venenatis Et purus duis
+                      إت بوروس دويس سوليسيتودين سيد ديجنيس سيم هابيتانت.
+                      إجستاس نولا كويس فينيناتيس إت بوروس
                     </p>
                     <div className="btn-wrap">
                       <Link
                         to="/service-details"
                         className="global-btn style-border"
                       >
-                        Read More <i className="fas fa-arrow-right ms-2" />
+                        اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                       </Link>
                     </div>
                   </div>
@@ -199,19 +194,19 @@ const AboutThree = () => {
                   <div className="feature-card">
                     <h4 className="feature-card-title">
                       <Link to="/service-details">
-                        Profitability Maximizers
+                        مكنزون الربحية
                       </Link>
                     </h4>
                     <p className="feature-card-text">
-                      Et purus duis sollicitudin sed dignis sim habi tant.
-                      Egestas nulla quis venenatis Et purus duis
+                      إت بوروس دويس سوليسيتودين سيد ديجنيس سيم هابيتانت.
+                      إجستاس نولا كويس فينيناتيس إت بوروس
                     </p>
                     <div className="btn-wrap">
                       <Link
                         to="/service-details"
                         className="global-btn style-border"
                       >
-                        Read More <i className="fas fa-arrow-right ms-2" />
+                        اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                       </Link>
                     </div>
                   </div>
@@ -227,10 +222,10 @@ const AboutThree = () => {
                   <div className="title-area text-center">
                     <span className="sub-title">
                       <img src="assets/img/icon/title_left.svg" alt="shape" />
-                      Latest service
+                      أحدث الخدمات
                     </span>
                     <h2 className="sec-title style2">
-                      Provide quality a the Services
+                      توفير جودة الخدمات
                     </h2>
                   </div>
                 </div>
@@ -248,14 +243,14 @@ const AboutThree = () => {
                     </div>
                     <div className="service-card_content">
                       <h4 className="service-card_title">
-                        <Link to="/service-details">Growth Acceler</Link>
+                        <Link to="/service-details">تسارع النمو</Link>
                       </h4>
                       <p className="service-card_text">
-                        Et purus duis sollicitudin se dign issim habi tant. Ege
-                        st as nulla quis venenatis
+                        إت بوروس دويس سوليسيتودين سي ديجنيس سيم هابيتانت. إيج
+                        ست أس نولا كويس فينيناتيس
                       </p>
                       <Link to="/service-details" className="link-btn">
-                        Read More <i className="fas fa-arrow-right" />
+                        اقرأ المزيد <i className="fas fa-arrow-left" />
                       </Link>
                     </div>
                   </div>
@@ -270,14 +265,14 @@ const AboutThree = () => {
                     </div>
                     <div className="service-card_content">
                       <h4 className="service-card_title">
-                        <Link to="/service-details">Networ Tructure </Link>
+                        <Link to="/service-details">هيكل الشبكة</Link>
                       </h4>
                       <p className="service-card_text">
-                        Et purus duis sollicitudin se dign issim habi tant. Ege
-                        st as nulla quis venenatis
+                        إت بوروس دويس سوليسيتودين سي ديجنيس سيم هابيتانت. إيج
+                        ست أس نولا كويس فينيناتيس
                       </p>
                       <Link to="/service-details" className="link-btn">
-                        Read More <i className="fas fa-arrow-right" />
+                        اقرأ المزيد <i className="fas fa-arrow-left" />
                       </Link>
                     </div>
                   </div>
@@ -292,14 +287,14 @@ const AboutThree = () => {
                     </div>
                     <div className="service-card_content">
                       <h4 className="service-card_title">
-                        <Link to="/service-details">IT Training most </Link>
+                        <Link to="/service-details">تدريب تكنولوجيا المعلومات</Link>
                       </h4>
                       <p className="service-card_text">
-                        Et purus duis sollicitudin se dign issim habi tant. Ege
-                        st as nulla quis venenatis
+                        إت بوروس دويس سوليسيتودين سي ديجنيس سيم هابيتانت. إيج
+                        ست أس نولا كويس فينيناتيس
                       </p>
                       <Link to="/service-details" className="link-btn">
-                        Read More <i className="fas fa-arrow-right" />
+                        اقرأ المزيد <i className="fas fa-arrow-left" />
                       </Link>
                     </div>
                   </div>
@@ -314,14 +309,14 @@ const AboutThree = () => {
                     </div>
                     <div className="service-card_content">
                       <h4 className="service-card_title">
-                        <Link to="/service-details">Technology solutions </Link>
+                        <Link to="/service-details">حلول التكنولوجيا</Link>
                       </h4>
                       <p className="service-card_text">
-                        Et purus duis sollicitudin se dign issim habi tant. Ege
-                        st as nulla quis venenatis
+                        إت بوروس دويس سوليسيتودين سي ديجنيس سيم هابيتانت. إيج
+                        ست أس نولا كويس فينيناتيس
                       </p>
                       <Link to="/service-details" className="link-btn">
-                        Read More <i className="fas fa-arrow-right" />
+                        اقرأ المزيد <i className="fas fa-arrow-left" />
                       </Link>
                     </div>
                   </div>
@@ -411,6 +406,7 @@ const AboutThree = () => {
         </div>
       </div>
     </>
+
   );
 };
 

@@ -42,17 +42,16 @@ const PortfolioThree = () => {
               <div className="title-area">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Latest Portfolio
+                  أحدث محفظة
                 </span>
                 <h2 className="sec-title style2">
-                  Guiding Businesses Toward Success
-                </h2>
+                  الممرات المتاحة الممرات الممرات المتاحة                </h2>
               </div>
             </div>
             <div className="col-lg-auto">
               <div className="btn-wrap mb-60">
                 <Link to="/project" className="global-btn mt-xl-0 mt-20">
-                  View More <i className="fas fa-arrow-right ms-2" />
+                  عرض المزيد <i className="fas fa-arrow-left ms-2" />
                 </Link>
               </div>
             </div>
@@ -65,17 +64,14 @@ const PortfolioThree = () => {
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">
-                    Experience
+                    الممراتالممرات
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/project-details">
-                      Your Business Goals with the Confidence
-                    </Link>
+                      الممرات الم مراتال ممراتالم مرات الم مراتال الممراتمم رات الممرات                    </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
-                  </p>
+                    الممراتال ممر اتالم مرات مم اتالم مرات المممراتالم مرات الم ممراتالم مرات المممراتالم مرات الم ممراتالم مرات الم ممراتالم مرات الم ممراتالم مرات الم </p>
                 </div>
               </div>
             </div>
@@ -86,17 +82,14 @@ const PortfolioThree = () => {
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">
-                    Experience
+                    الممراتالممرات
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/project-details">
-                      Your Business Goals with the Confidence
-                    </Link>
+                      الممرات الم مراتال ممراتالم مرات الم مراتال الممراتمم رات الممرات                    </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
-                  </p>
+                    الممراتال ممر اتالم مرات مم اتالم مرات المممراتالم مرات الم ممراتالم مرات المممراتالم مرات الم ممراتالم مرات الم ممراتالم مرات الم ممراتالم مرات الم </p>
                 </div>
               </div>
             </div>
@@ -107,17 +100,14 @@ const PortfolioThree = () => {
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">
-                    Experience
+                    الممراتالممرات
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/project-details">
-                      Your Business Goals with the Confidence
-                    </Link>
+                      الممرات الم مراتال ممراتالم مرات الم مراتال الممراتمم رات الممرات                    </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
-                  </p>
+                    الممراتال ممر اتالم مرات مم اتالم مرات المممراتالم مرات الم ممراتالم مرات المممراتالم مرات الم ممراتالم مرات الم ممراتالم مرات الم ممراتالم مرات الم </p>
                 </div>
               </div>
             </div>
@@ -128,17 +118,14 @@ const PortfolioThree = () => {
                 </div>
                 <div className="portfolio-card-details">
                   <span className="portfolio-card-details_subtitle">
-                    Experience
+                    الممراتالممرات
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/project-details">
-                      Your Business Goals with the Confidence
-                    </Link>
+                      الممرات الم مراتال ممراتالم مرات الم مراتال الممراتمم رات الممرات                    </Link>
                   </h4>
                   <p className="portfolio-card-details_text">
-                    We have been operating for over a decade, providing
-                    top-notch services to our clients and building
-                  </p>
+                    الممراتال ممر اتالم مرات مم اتالم مرات المممراتالم مرات الم ممراتالم مرات المممراتالم مرات الم ممراتالم مرات الم ممراتالم مرات الم ممراتالم مرات الم </p>
                 </div>
               </div>
             </div>
@@ -154,17 +141,16 @@ const PortfolioThree = () => {
                   <div className="title-area text-center">
                     <span className="sub-title text-white">
                       <img src="assets/img/icon/title_left.svg" alt="shape" />
-                      Our Team
+                      فريقنا
                     </span>
                     <h2 className="sec-title style2 text-white">
-                      Empowering Your Business Success{" "}
-                    </h2>
+                      ممراتالم مرات مرات الم ممراتالم مرات الم ممراتالم                    </h2>
                   </div>
                 </div>
               </div>
               <div className="row gx-30 global-carousel team-slider3">
                 <Slider {...settings}>
-                  <div className="team-padding">
+                  <div className="team-padding" dir="rtl">
                     <div className="team-card style2">
                       <div className="team-card_img">
                         <img src="assets/img/team/team-1-1.png" alt="img" />
@@ -172,10 +158,10 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <Link to="/team-details">Savannah Nguyen</Link>
+                            <Link to="/team-details">سافانا نغوين</Link>
                           </h4>
                           <span className="team-card_desig">
-                            Medical Assistant
+                            مساعد طبي
                           </span>
                         </div>
                         <div className="team-social">
@@ -200,7 +186,7 @@ const PortfolioThree = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="team-padding">
+                  <div className="team-padding" dir="rtl">
                     <div className="team-card style2">
                       <div className="team-card_img">
                         <img src="assets/img/team/team-1-2.png" alt="img" />
@@ -208,10 +194,10 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <Link to="/team-details">Darrell Steward</Link>
+                            <Link to="/team-details">داريل ستيوارت</Link>
                           </h4>
                           <span className="team-card_desig">
-                            Human Resource
+                            موارد بشرية
                           </span>
                         </div>
                         <div className="team-social">
@@ -236,7 +222,7 @@ const PortfolioThree = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="team-padding">
+                  <div className="team-padding" dir="rtl">
                     <div className="team-card style2">
                       <div className="team-card_img">
                         <img src="assets/img/team/team-1-3.png" alt="img" />
@@ -244,10 +230,10 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <Link to="/team-details">Javed Tanvir</Link>
+                            <Link to="/team-details">جاويد تنوير</Link>
                           </h4>
                           <span className="team-card_desig">
-                            Medical Assistant
+                            مساعد طبي
                           </span>
                         </div>
                         <div className="team-social">
@@ -272,7 +258,7 @@ const PortfolioThree = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="team-padding">
+                  <div className="team-padding" dir="rtl">
                     <div className="team-card style2">
                       <div className="team-card_img">
                         <img src="assets/img/team/team-1-1.png" alt="img" />
@@ -280,10 +266,10 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <Link to="/team-details">Savannah Nguyen</Link>
+                            <Link to="/team-details">سافانا نغوين</Link>
                           </h4>
                           <span className="team-card_desig">
-                            Medical Assistant
+                            مساعد طبي
                           </span>
                         </div>
                         <div className="team-social">
@@ -308,7 +294,7 @@ const PortfolioThree = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="team-padding">
+                  <div className="team-padding" dir="rtl">
                     <div className="team-card style2">
                       <div className="team-card_img">
                         <img src="assets/img/team/team-1-2.png" alt="img" />
@@ -316,10 +302,10 @@ const PortfolioThree = () => {
                       <div className="team-card_wrapp">
                         <div className="team-card_content">
                           <h4 className="team-card_title">
-                            <Link to="/team-details">Darrell Steward</Link>
+                            <Link to="/team-details">الممراتالممرات</Link>
                           </h4>
                           <span className="team-card_desig">
-                            Human Resource
+                            موارد بشرية
                           </span>
                         </div>
                         <div className="team-social">
@@ -351,6 +337,7 @@ const PortfolioThree = () => {
         </div>
       </div>
     </>
+
   );
 };
 

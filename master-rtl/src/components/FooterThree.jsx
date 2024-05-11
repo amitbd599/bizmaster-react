@@ -18,7 +18,7 @@ const FooterThree = () => {
                                     </Link>
                                 </div>
                                 <p className="footer-text mb-30 mt-30">
-                                    It is a long established fact that a reader will be distracted
+                                    إنه حقيقة مثبتة منذ زمن طويل أن القارئ سيشتت انتباهه
                                 </p>
                                 <div className="social-btn style2">
                                     <Link to="/https://facebook.com/" tabIndex={-1}>
@@ -38,20 +38,20 @@ const FooterThree = () => {
                         </div>
                         <div className="col-md-6 col-xl-auto">
                             <div className="widget widget_nav_menu footer-widget">
-                                <h3 className="widget_title">Services</h3>
+                                <h3 className="widget_title">الخدمات</h3>
                                 <div className="menu-all-pages-container">
                                     <ul className="menu">
                                         <li>
-                                            <Link to="/service">Reliable Rentals</Link>
+                                            <Link to="/service">الإيجارات الموثوقة</Link>
                                         </li>
                                         <li>
-                                            <Link to="/service">Golden Key Properties</Link>
+                                            <Link to="/service">خدمات المفتاح الذهبي</Link>
                                         </li>
                                         <li>
-                                            <Link to="/service">Swift Home Sales</Link>
+                                            <Link to="/service">مبيعات المنازل السريعة</Link>
                                         </li>
                                         <li>
-                                            <Link to="/service">Elite Realty Services</Link>
+                                            <Link to="/service">خدمات الوساطة النخبوية</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -59,7 +59,7 @@ const FooterThree = () => {
                         </div>
                         <div className="col-md-6 col-xl-3">
                             <div className="widget footer-widget">
-                                <h3 className="widget_title">Our Office</h3>
+                                <h3 className="widget_title">مكتبنا</h3>
                                 <div className="widget-contact2">
                                     <div className="widget-contact-grid">
                                         <i className="fas fa-envelope" />
@@ -84,16 +84,15 @@ const FooterThree = () => {
                         </div>
                         <div className="col-md-6 col-xl-3">
                             <div className="widget footer-widget">
-                                <h3 className="widget_title">Our newsletter</h3>
+                                <h3 className="widget_title">النشرة الإخبارية لدينا</h3>
                                 <p className="footer-text">
-                                    Custom Software Development Tailored Solutions for Your{" "}
-                                </p>
+                                    المتاحة للمهند سالمت احة المتاحة للمهند سالمت احة المتاحة للمهند سالمت احة                                </p>
                                 <form className="newsletter-form style3 mt-20">
                                     <div className="form-group">
                                         <input
                                             className="form-control"
                                             type="email"
-                                            placeholder="Email Address"
+                                            placeholder="عنوان البريد الإلكتروني"
                                             required=""
                                         />
                                         <button type="submit" className="global-btn">
@@ -113,20 +112,21 @@ const FooterThree = () => {
                     <div className="row gy-3 justify-content-lg-between justify-content-center">
                         <div className="col-auto align-self-center">
                             <p className="copyright-text text-center">
-                                © <Link to="#">Yoursitename </Link> 2024 | All Rights Reserved
+                                © <Link to="#">اسم موقعك </Link> 2024 | جميع الحقوق محفوظة
                             </p>
                         </div>
                         <div className="col-auto">
                             <div className="footer-links">
-                                <Link to="/contact">Trams &amp; Condition</Link>
-                                <Link to="/contact">Privacy Policy</Link>
-                                <Link to="/contact">Contact Us</Link>
+                                <Link to="/contact">الشروط والأحكام</Link>
+                                <Link to="/contact">سياسة الخصوصية</Link>
+                                <Link to="/contact">اتصل بنا</Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+
 
     )
 }

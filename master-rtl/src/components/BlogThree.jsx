@@ -6,7 +6,7 @@ const BlogThree = () => {
   function SampleNextArrow(props) {
     const { onClick } = props;
     return (
-      <div className="BlogThree-icon-box-next">
+      <div className="BlogThree-icon-box-next rtl">
         <button onClick={onClick}
           className="slick-arrow default"
         >
@@ -19,7 +19,7 @@ const BlogThree = () => {
   function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-      <div className="BlogThree-icon-box-prev">
+      <div className="BlogThree-icon-box-prev rtl">
         <button onClick={onClick}
           className="slick-arrow default"
         >
@@ -70,11 +70,10 @@ const BlogThree = () => {
             <div className="title-area">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Latest Blog
+                آخر المدونات
               </span>
               <h2 className="sec-title style2">
-                Strategies Tailored to Elevate
-              </h2>
+                المتاحة للمهندس احة للمهندس الممرات المتاحة              </h2>
             </div>
           </div>
 
@@ -82,122 +81,118 @@ const BlogThree = () => {
         <div
           className="row global-carousel blog-slider3 slider-shadow">
           <Slider {...settings}>
-            <div className="px-3">
+            <div className="px-3" dir="rtl">
               <div className="blog-card style2">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_1.png" alt="صورة المدونة" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
                     <Link to="/blog">
                       <i className="fas fa-calendar-alt" />
-                      October 19, 2022
+                      أكتوبر 19، 2022
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-user" />
-                      Admin
+                      المشرف
                     </Link>
                   </div>
                   <h3 className="blog-title">
                     <Link to="/blog-details">
-                      Transformation Strategy Advisors Operat
-                    </Link>
+                      المتاحة للمهندس الممرات المتاحة المتاحة للمهندس الممرات المتاحة المتاحة للمهندس تاحة</Link>
                   </h3>
                   <Link
                     className="global-btn style-border4"
                     to="/blog-details"
                   >
-                    Read More <i className="fas fa-arrow-right ms-2" />
+                    اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="px-3">
+            <div className="px-3" dir="rtl">
               <div className="blog-card style2">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_2.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_2.png" alt="صورة المدونة" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
                     <Link to="/blog">
                       <i className="fas fa-calendar-alt" />
-                      October 19, 2022
+                      أكتوبر 19، 2022
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-user" />
-                      Admin
+                      المشرف
                     </Link>
                   </div>
                   <h3 className="blog-title">
                     <Link to="/blog-details">
-                      Hard Work Always Brings You Success
-                    </Link>
+                      المتاحة للمهندس الممرات المتاحة المتاحة للمهندس الممرات المتاحة المتاحة للمهندس تاحة</Link>
                   </h3>
                   <Link
                     className="global-btn style-border4"
                     to="/blog-details"
                   >
-                    Read More <i className="fas fa-arrow-right ms-2" />
+                    اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="px-3">
+            <div className="px-3" dir="rtl">
               <div className="blog-card style2">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_3.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_3.png" alt="صورة المدونة" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
                     <Link to="/blog">
                       <i className="fas fa-calendar-alt" />
-                      October 19, 2022
+                      أكتوبر 19، 2022
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-user" />
-                      Admin
+                      المشرف
                     </Link>
                   </div>
                   <h3 className="blog-title">
                     <Link to="/blog-details">
-                      Growth and Innovation the Consultants
-                    </Link>
+                      المتاحة للمهندس الممرات المتاحة المتاحة للمهندس الممرات المتاحة المتاحة للمهندس تاحة</Link>
                   </h3>
                   <Link
                     className="global-btn style-border4"
                     to="/blog-details"
                   >
-                    Read More <i className="fas fa-arrow-right ms-2" />
+                    اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="px-3">
+            <div className="px-3" dir="rtl">
               <div className="blog-card style2">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_1.png" alt="صورة المدونة" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
                     <Link to="/blog">
                       <i className="fas fa-calendar-alt" />
-                      October 19, 2022
+                      أكتوبر 19، 2022
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-user" />
-                      Admin
+                      المشرف
                     </Link>
                   </div>
                   <h3 className="blog-title">
                     <Link to="/blog-details">
-                      Hard Work Always Brings You Success
-                    </Link>
+                      المتاحة للمهندس الممرات المتاحة المتاحة للمهندس الممرات المتاحة المتاحة للمهندس تاحة</Link>
                   </h3>
                   <Link
                     className="global-btn style-border4"
                     to="/blog-details"
                   >
-                    Read More <i className="fas fa-arrow-right ms-2" />
+                    اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                   </Link>
                 </div>
               </div>
@@ -206,6 +201,7 @@ const BlogThree = () => {
         </div>
       </div>
     </section>
+
   );
 };
 

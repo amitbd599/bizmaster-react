@@ -10,11 +10,10 @@ const FaqTwo = () => {
               <div className="title-area text-center mb-60">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Ask Question
+                  اطرح السؤال
                 </span>
                 <h2 className="sec-title style2">
-                  Transforming Vision into Reality Together
-                </h2>
+                  الممرات المتاحة للمهندس الممرات المتاحة للمهندس                </h2>
               </div>
             </div>
             <div className="col-xl-10">
@@ -29,7 +28,7 @@ const FaqTwo = () => {
                       aria-expanded="true"
                       aria-controls="collapse-1"
                     >
-                      What services do you offer?
+                      ما هي الخدمات التي تقدمونها؟
                     </button>
                   </div>
                   <div
@@ -40,10 +39,7 @@ const FaqTwo = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        We offer a wide range of digital services, including
-                        website design and development, e-commerce solutions,
-                        search engine optimization, social media management,
-                        pay-per-click advertising, brand identity
+                        نحن نقدم مجموعة واسعة من الخدمات الرقمية، بما في ذلك تصميم وتطوير المواقع الإلكترونية، حلول التجارة الإلكترونية، تحسين محركات البحث، إدارة وسائل التواصل الاجتماعي، الإعلان بالدفع مقابل النقر، هوية العلامة التجارية
                       </p>
                     </div>
                   </div>
@@ -58,7 +54,7 @@ const FaqTwo = () => {
                       aria-expanded="false"
                       aria-controls="collapse-2"
                     >
-                      How long does it take for you to complete a project?
+                      كم يستغرق من الوقت لإكمال مشروع؟
                     </button>
                   </div>
                   <div
@@ -69,10 +65,7 @@ const FaqTwo = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout. Many desktop publis packages and
-                        web page editors now use Lorem Ipsum
+                        إنه حقيقة مثبتة منذ زمن طويل أن القارئ سينشغل بالمحتوى القابل للقراءة للصفحة عند النظر إلى تخطيطها. العديد من برامج النشر على سطح المكتب ومحرري صفحات الويب الآن يستخدمون لوريم إيبسوم
                       </p>
                     </div>
                   </div>
@@ -87,7 +80,7 @@ const FaqTwo = () => {
                       aria-expanded="false"
                       aria-controls="collapse-3"
                     >
-                      How much does it cost to work with your agency?
+                      كم يكلف العمل مع وكالتكم؟
                     </button>
                   </div>
                   <div
@@ -98,10 +91,7 @@ const FaqTwo = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout. Many desktop publis packages and
-                        web page editors now use Lorem Ipsum
+                        إنه حقيقة مثبتة منذ زمن طويل أن القارئ سينشغل بالمحتوى القابل للقراءة للصفحة عند النظر إلى تخطيطها. العديد من برامج النشر على سطح المكتب ومحرري صفحات الويب الآن يستخدمون لوريم إيبسوم
                       </p>
                     </div>
                   </div>
@@ -131,14 +121,14 @@ const FaqTwo = () => {
                   <div className="title-area">
                     <span className="sub-title">
                       <img src="assets/img/icon/title_left.svg" alt="shape" />
-                      Upcoming Events
+                      الأحداث القادمة
                     </span>
                     <h2 className="sec-title style2">
-                      Unlocking Potential Maximiz Growth
+                      فتح الإمكانيات تحقيق النمو
                     </h2>
                   </div>
-                  <div className="accordion-area accordion" id="eventAccordion">
-                    <div className="accordion-card style4 active">
+                  <div className="accordion-area accordion" id="eventAccordion" >
+                    <div className="accordion-card style4 active" >
                       <div
                         className="accordion-header"
                         id="event-collapse-item-1"
@@ -151,7 +141,7 @@ const FaqTwo = () => {
                           aria-expanded="true"
                           aria-controls="event-collapse-1"
                         >
-                          Innovate Xpo
+                          إكسبو الابتكار
                           <span className="event-date">October 19, 2022</span>
                         </button>
                       </div>
@@ -163,9 +153,9 @@ const FaqTwo = () => {
                       >
                         <div className="accordion-body">
                           <p className="event-text">
-                            Et purus duis sollicitudin sed dignis sim habi tant.
-                            Egestas nulla quis venenatis Et purus duis Et purus
-                            duis sollicitudin sed dignis{" "}
+                            إيت بوروس دويس سوليسيتودين سد ديجنيس سيم هابي تانت.
+                            إيجيستاس نولا كويس فنيناتيس إيت بوروس دويس إيت بوروس دويس
+                            سوليسيتودين سد ديجنيس
                           </p>
                         </div>
                       </div>
@@ -183,7 +173,7 @@ const FaqTwo = () => {
                           aria-expanded="false"
                           aria-controls="event-collapse-2"
                         >
-                          Future Forward Forum
+                          منتدى المستقبل المتقدم
                           <span className="event-date">October 19, 2022</span>
                         </button>
                       </div>
@@ -195,9 +185,9 @@ const FaqTwo = () => {
                       >
                         <div className="accordion-body">
                           <p className="event-text">
-                            Et purus duis sollicitudin sed dignis sim habi tant.
-                            Egestas nulla quis venenatis Et purus duis Et purus
-                            duis sollicitudin sed dignis
+                            إيت بوروس دويس سوليسيتودين سد ديجنيس سيم هابي تانت.
+                            إيجيستاس نولا كويس فنيناتيس إيت بوروس دويس إيت بوروس دويس
+                            سوليسيتودين سد ديجنيس
                           </p>
                         </div>
                       </div>
@@ -215,7 +205,7 @@ const FaqTwo = () => {
                           aria-expanded="false"
                           aria-controls="event-collapse-3"
                         >
-                          Trade Trends Summit
+                          قمة اتجاهات التجارة
                           <span className="event-date">October 19, 2022</span>
                         </button>
                       </div>
@@ -227,9 +217,9 @@ const FaqTwo = () => {
                       >
                         <div className="accordion-body">
                           <p className="event-text">
-                            Et purus duis sollicitudin sed dignis sim habi tant.
-                            Egestas nulla quis venenatis Et purus duis Et purus
-                            duis sollicitudin sed dignis
+                            إيت بوروس دويس سوليسيتودين سد ديجنيس سيم هابي تانت.
+                            إيجيستاس نولا كويس فنيناتيس إيت بوروس دويس إيت بوروس دويس
+                            سوليسيتودين سد ديجنيس
                           </p>
                         </div>
                       </div>
@@ -242,6 +232,7 @@ const FaqTwo = () => {
         </div>
       </div>
     </>
+
   );
 };
 
