@@ -70,10 +70,9 @@ const TeamOne = () => {
             <div className="title-area text-center">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Our Team
+                فريقنا
               </span>
-              <h2 className="sec-title">
-                Your Business with the Professional{" "}
+              <h2 className="sec-title">الممرات المتاحة للمهندس الممرات المتاحة للمهندس
               </h2>
             </div>
           </div>
@@ -109,9 +108,9 @@ const TeamOne = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Darrell Steward</Link>
+                  <Link to="/team-details">داريل ستيوارت</Link>
                 </h4>
-                <span className="team-card_desig">Human Resource</span>
+                <span className="team-card_desig">موارد بشرية</span>
               </div>
             </div>
           </div>
@@ -144,9 +143,9 @@ const TeamOne = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Fahad Hossain</Link>
+                  <Link to="/team-details">فهد حسين</Link>
                 </h4>
-                <span className="team-card_desig">Efficiency Experts</span>
+                <span className="team-card_desig">خبراء الكفاءة</span>
               </div>
             </div>
           </div>
@@ -179,9 +178,9 @@ const TeamOne = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Javed Tanvir</Link>
+                  <Link to="/team-details">جاويد تنوير</Link>
                 </h4>
-                <span className="team-card_desig">Strategic Solutions Pro</span>
+                <span className="team-card_desig">محترف حلول استراتيجية</span>
               </div>
             </div>
           </div>
@@ -214,9 +213,9 @@ const TeamOne = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Nafiz Islam</Link>
+                  <Link to="/team-details">نافذ اسلام</Link>
                 </h4>
-                <span className="team-card_desig">Growth Catalyst</span>
+                <span className="team-card_desig">محفز النمو</span>
               </div>
             </div>
           </div>
@@ -249,15 +248,16 @@ const TeamOne = () => {
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <Link to="/team-details">Darrell Steward</Link>
+                  <Link to="/team-details">داريل ستيوارت</Link>
                 </h4>
-                <span className="team-card_desig">Human Resource</span>
+                <span className="team-card_desig">موارد بشرية</span>
               </div>
             </div>
           </div>
         </Slider>
       </div>
     </div>
+
   );
 };
 

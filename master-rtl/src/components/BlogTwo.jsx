@@ -44,17 +44,17 @@ const BlogTwo = () => {
             <div className="title-area text-center">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Latest Blog
+                آخر المدونات
               </span>
               <h2 className="sec-title style2">
-                Empowering Business The Excellence
+                تمكين الأعمال بالتميز
               </h2>
             </div>
           </div>
         </div>
         <div className="row global-carousel blog-slider slider-shadow">
           <Slider {...settings}>
-            <div className="p-3">
+            <div className="p-3" dir="rtl">
               <div className="blog-box">
                 <div className="blog-img">
                   <img src="assets/img/blog/blog_s3_1.png" alt="blog image" />
@@ -63,33 +63,32 @@ const BlogTwo = () => {
                   <div className="blog-meta">
                     <Link to="/blog">
                       <img src="assets/img/icon/calender.svg" alt="" />
-                      april 10, 2024
+                      10 أبريل 2024
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-comments" />
-                      Comments (05)
+                      التعليقات (05)
                     </Link>
                   </div>
                   <h3 className="blog-title">
                     <Link to="/blog-details">
-                      Transformational Strategy main a Advisors
+                      الاستراتيجية التحولية الرئيسية للمستشارين
                     </Link>
                   </h3>
                   <p className="blog-desc">
-                    Lorem ipsum dolo consectetur. Posue sem ultrice feugiat diam
-                    eleme
+                    المتاحة للمهندس الممرات المتاحة المتاحة للمهندس الممرات المتاحة المتاحة للم
                   </p>
                   <Link
                     className="global-btn style-border"
                     to="/blog-details"
                   >
-                    Read More{" "}
+                    اقرأ المزيد{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="p-3">
+            <div className="p-3" dir="rtl">
               <div className="blog-box">
                 <div className="blog-img">
                   <img src="assets/img/blog/blog_s3_2.png" alt="blog image" />
@@ -98,33 +97,32 @@ const BlogTwo = () => {
                   <div className="blog-meta">
                     <Link to="/blog">
                       <img src="assets/img/icon/calender.svg" alt="" />
-                      april 10, 2024
+                      10 أبريل 2024
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-comments" />
-                      Comments (05)
+                      التعليقات (05)
                     </Link>
                   </div>
                   <h3 className="blog-title">
                     <Link to="/blog-details">
-                      Market and Strategy the Consultants
+                      السوق والاستراتيجية للمستشارين
                     </Link>
                   </h3>
                   <p className="blog-desc">
-                    Lorem ipsum dolo consectetur. Posue sem ultrice feugiat diam
-                    eleme
+                    المتاحة للمهندس الممرات المتاحة المتاحة للمهندس الممرات المتاحة المتاحة للم
                   </p>
                   <Link
                     className="global-btn style-border"
                     to="/blog-details"
                   >
-                    Read More{" "}
+                    اقرأ المزيد{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="p-3">
+            <div className="p-3" dir="rtl">
               <div className="blog-box">
                 <div className="blog-img">
                   <img src="assets/img/blog/blog_s3_3.png" alt="blog image" />
@@ -133,33 +131,32 @@ const BlogTwo = () => {
                   <div className="blog-meta">
                     <Link to="/blog">
                       <img src="assets/img/icon/calender.svg" alt="" />
-                      april 10, 2024
+                      10 أبريل 2024
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-comments" />
-                      Comments (05)
+                      التعليقات (05)
                     </Link>
                   </div>
                   <h3 className="blog-title">
                     <Link to="/blog-details">
-                      Customer Expe the Consultants
+                      تجربة العميل للمستشارين
                     </Link>
                   </h3>
                   <p className="blog-desc">
-                    Lorem ipsum dolo consectetur. Posue sem ultrice feugiat diam
-                    eleme
+                    المتاحة للمهندس الممرات المتاحة المتاحة للمهندس الممرات المتاحة المتاحة للم
                   </p>
                   <Link
                     className="global-btn style-border"
                     to="/blog-details"
                   >
-                    Read More{" "}
+                    اقرأ المزيد{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="p-3">
+            <div className="p-3" dir="rtl">
               <div className="blog-box">
                 <div className="blog-img">
                   <img src="assets/img/blog/blog_s3_1.png" alt="blog image" />
@@ -168,27 +165,26 @@ const BlogTwo = () => {
                   <div className="blog-meta">
                     <Link to="/blog">
                       <img src="assets/img/icon/calender.svg" alt="" />
-                      april 10, 2024
+                      10 أبريل 2024
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-comments" />
-                      Comments (05)
+                      التعليقات (05)
                     </Link>
                   </div>
                   <h3 className="blog-title">
                     <Link to="/blog-details">
-                      Transformational Strategy main a Advisors
+                      الاستراتيجية التحولية الرئيسية للمستشارين
                     </Link>
                   </h3>
                   <p className="blog-desc">
-                    Lorem ipsum dolo consectetur. Posue sem ultrice feugiat diam
-                    eleme
+                    المتاحة للمهندس الممرات المتاحة المتاحة للمهندس الممرات المتاحة المتاحة للم
                   </p>
                   <Link
                     className="global-btn style-border"
                     to="/blog-details"
                   >
-                    Read More{" "}
+                    اقرأ المزيد{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
                   </Link>
                 </div>
@@ -198,6 +194,7 @@ const BlogTwo = () => {
         </div>
       </div>
     </section>
+
   );
 };
 

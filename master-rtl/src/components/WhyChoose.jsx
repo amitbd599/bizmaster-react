@@ -9,11 +9,9 @@ const WhyChoose = () => {
             <div className="title-area text-center me-xl-4 ms-xl-4">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Career Opportunities
+                فرص الحياة المهنية
               </span>
-              <h2 className="sec-title style2">
-                Your Business Goals with the Confidence
-              </h2>
+              <h2 className="sec-title style2">حةال حةال ةالمتا حةال حةال ةالمتا حةال حةالةالمتا حةال حةال</h2>
             </div>
           </div>
         </div>
@@ -41,10 +39,9 @@ const WhyChoose = () => {
                 </div>
                 <div className="wcu-card-details">
                   <h4 className="wcu-card-title">
-                    Networ Infra Tructure Solutions
-                  </h4>
+                    ةالمتا حةاةالمتا حةال حةالة المتا حةال حةالل حةال                  </h4>
                   <p className="wcu-card-text">
-                    IT Technology is a category a encompassing{" "}
+                    تكنولوجيا تقنية المعلومات هي فئة تضم
                   </p>
                 </div>
               </div>
@@ -54,10 +51,10 @@ const WhyChoose = () => {
                 </div>
                 <div className="wcu-card-details">
                   <h4 className="wcu-card-title">
-                    IT Training and most a the Education
+                    تدريب تكنولوجيا المعلومات ومعظم التعليم
                   </h4>
                   <p className="wcu-card-text">
-                    IT Technology is a category a encompassing{" "}
+                    تكنولوجيا تقنية المعلومات هي فئة تضم
                   </p>
                 </div>
               </div>
@@ -67,10 +64,9 @@ const WhyChoose = () => {
                 </div>
                 <div className="wcu-card-details">
                   <h4 className="wcu-card-title">
-                    Technology solutions for a brighter
-                  </h4>
+                    ةالمتا حةاةالمتا حةال حةالة المتا حةال حةالل حةال                  </h4>
                   <p className="wcu-card-text">
-                    IT Technology is a category a encompassing
+                    تكنولوجيا تقنية المعلومات هي فئة تضم
                   </p>
                 </div>
               </div>
@@ -79,9 +75,9 @@ const WhyChoose = () => {
                   <img src="assets/img/icon/wcu-icon_2-4.svg" alt="img" />
                 </div>
                 <div className="wcu-card-details">
-                  <h4 className="wcu-card-title">IT Projec Manage Services</h4>
+                  <h4 className="wcu-card-title">خدمات إدارة مشاريع تكنولوجيا المعلومات</h4>
                   <p className="wcu-card-text">
-                    IT Technology is a category a encompassing
+                    تكنولوجيا تقنية المعلومات هي فئة تضم
                   </p>
                 </div>
               </div>
@@ -90,6 +86,7 @@ const WhyChoose = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

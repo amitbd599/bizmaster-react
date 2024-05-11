@@ -82,10 +82,10 @@ const ProcessOne = () => {
               <div className="title-area text-center">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Work Process
+                  عملية العمل
                 </span>
                 <h2 className="sec-title style2">
-                  Unleash Business's Hid Potential
+                  إطلاق الإمكانيات المخفية للأعمال
                 </h2>
               </div>
             </div>
@@ -97,11 +97,11 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-1.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">01</h3>
+                  <h3 className="process-card_number">٠١</h3>
                 </div>
                 <div className="process-card_content">
-                  <span className="process-card-text">Technical Operation</span>
-                  <h4 className="process-card-title"> Growth Acceler</h4>
+                  <span className="process-card-text">العمليات التقنية</span>
+                  <h4 className="process-card-title">تسارع النمو</h4>
                 </div>
               </div>
             </div>
@@ -111,11 +111,11 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-2.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">02</h3>
+                  <h3 className="process-card_number">٠٢</h3>
                 </div>
                 <div className="process-card_content">
-                  <span className="process-card-text">Technical Operation</span>
-                  <h4 className="process-card-title"> Growth Acceler</h4>
+                  <span className="process-card-text">العمليات التقنية</span>
+                  <h4 className="process-card-title">تسارع النمو</h4>
                 </div>
               </div>
             </div>
@@ -125,11 +125,11 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-3.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">03</h3>
+                  <h3 className="process-card_number">٠٣</h3>
                 </div>
                 <div className="process-card_content">
-                  <span className="process-card-text">Technical Operation</span>
-                  <h4 className="process-card-title"> Growth Acceler</h4>
+                  <span className="process-card-text">العمليات التقنية</span>
+                  <h4 className="process-card-title">تسارع النمو</h4>
                 </div>
               </div>
             </div>
@@ -139,16 +139,17 @@ const ProcessOne = () => {
                   <div className="process-card-icon">
                     <img src="assets/img/icon/process-icon-1-4.svg" alt="img" />
                   </div>
-                  <h3 className="process-card_number">04</h3>
+                  <h3 className="process-card_number">٠٤</h3>
                 </div>
                 <div className="process-card_content">
-                  <span className="process-card-text">Technical Operation</span>
-                  <h4 className="process-card-title"> Growth Acceler</h4>
+                  <span className="process-card-text">العمليات التقنية</span>
+                  <h4 className="process-card-title">تسارع النمو</h4>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
       </section>
       <div className="goal-area space-top">
         <div className="container">
@@ -157,18 +158,18 @@ const ProcessOne = () => {
               <div className="title-area">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Our Goal
+                  هدفنا
                 </span>
                 <h2 className="sec-title style2">
-                  Partnering Business for Success
+                  شراكة الأعمال للنجاح
                 </h2>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="goal-title-area">
                 <p className="">
-                  There are many variati of passages of engineer's available.
-                  have suffered alteration in engineer's available
+                  هناك العديد من التنويعات لمقاطع المهندس المتاحة.
+                  تعرضت لتغيير في المهندس المتاح
                 </p>
               </div>
             </div>
@@ -187,7 +188,7 @@ const ProcessOne = () => {
                   data-bs-target="#nav-step1"
                   type="button"
                 >
-                  Biography
+                  سيرة ذاتية
                 </button>
                 <button
                   className="nav-link"
@@ -196,7 +197,7 @@ const ProcessOne = () => {
                   data-bs-target="#nav-step2"
                   type="button"
                 >
-                  Education
+                  التعليم
                 </button>
                 <button
                   className="nav-link active"
@@ -205,7 +206,7 @@ const ProcessOne = () => {
                   data-bs-target="#nav-step3"
                   type="button"
                 >
-                  Experience
+                  الخبرة
                 </button>
                 <button
                   className="nav-link"
@@ -214,7 +215,7 @@ const ProcessOne = () => {
                   data-bs-target="#nav-step1"
                   type="button"
                 >
-                  Biography
+                  سيرة ذاتية
                 </button>
               </div>
               <div className="tab-content" id="nav-tabContent">
@@ -224,18 +225,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Performance Enhancement Partners
+                          شركاء تعزيز الأداء
                         </h4>
-                        <p>Strategic Solutions Pro</p>
+                        <p>حلول استراتيجية محترفة</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -245,18 +246,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Management Mastery Consultan
+                          إتقان الإدارة الاستشارية
                         </h4>
-                        <p>Profitability Maximizers</p>
+                        <p>محسّنو الربحية</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -266,18 +267,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Operational Excellence Solutions
+                          حلول التميز التشغيلي
                         </h4>
-                        <p>Framer Designer &amp; Developer</p>
+                        <p>مصمم ومطور إطار العمل</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -286,17 +287,17 @@ const ProcessOne = () => {
                     <div className="goal-content_wrapp">
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
-                        <h4 className="box-title">Transformational Strategy</h4>
-                        <p>Efficiency Experts</p>
+                        <h4 className="box-title">استراتيجية التحويل</h4>
+                        <p>خبراء الكفاءة</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -310,18 +311,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Performance Enhancement Partners
+                          شركاء تعزيز الأداء
                         </h4>
-                        <p>Strategic Solutions Pro</p>
+                        <p>حلول استراتيجية محترفة</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -331,18 +332,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Management Mastery Consultan
+                          إتقان الإدارة الاستشارية
                         </h4>
-                        <p>Profitability Maximizers</p>
+                        <p>محسّنو الربحية</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -352,18 +353,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Operational Excellence Solutions
+                          حلول التميز التشغيلي
                         </h4>
-                        <p>Framer Designer &amp; Developer</p>
+                        <p>مصمم ومطور إطار العمل</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -372,17 +373,17 @@ const ProcessOne = () => {
                     <div className="goal-content_wrapp">
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
-                        <h4 className="box-title">Transformational Strategy</h4>
-                        <p>Efficiency Experts</p>
+                        <h4 className="box-title">استراتيجية التحويل</h4>
+                        <p>خبراء الكفاءة</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -400,18 +401,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Performance Enhancement Partners
+                          شركاء تعزيز الأداء
                         </h4>
-                        <p>Strategic Solutions Pro</p>
+                        <p>حلول استراتيجية محترفة</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -421,18 +422,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Management Mastery Consultan
+                          إتقان الإدارة الاستشارية
                         </h4>
-                        <p>Profitability Maximizers</p>
+                        <p>محسّنو الربحية</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -442,18 +443,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Operational Excellence Solutions
+                          حلول التميز التشغيلي
                         </h4>
-                        <p>Framer Designer &amp; Developer</p>
+                        <p>مصمم ومطور إطار العمل</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -462,17 +463,17 @@ const ProcessOne = () => {
                     <div className="goal-content_wrapp">
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
-                        <h4 className="box-title">Transformational Strategy</h4>
-                        <p>Efficiency Experts</p>
+                        <h4 className="box-title">استراتيجية التحويل</h4>
+                        <p>خبراء الكفاءة</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -486,18 +487,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Performance Enhancement Partners
+                          شركاء تعزيز الأداء
                         </h4>
-                        <p>Strategic Solutions Pro</p>
+                        <p>حلول استراتيجية محترفة</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -507,18 +508,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Management Mastery Consultan
+                          إتقان الإدارة الاستشارية
                         </h4>
-                        <p>Profitability Maximizers</p>
+                        <p>محسّنو الربحية</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -528,18 +529,18 @@ const ProcessOne = () => {
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
                         <h4 className="box-title">
-                          Operational Excellence Solutions
+                          حلول التميز التشغيلي
                         </h4>
-                        <p>Framer Designer &amp; Developer</p>
+                        <p>مصمم ومطور إطار العمل</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -548,17 +549,17 @@ const ProcessOne = () => {
                     <div className="goal-content_wrapp">
                       <img src="assets/img/icon/angles-left.svg" alt="" />
                       <div className="goal-content">
-                        <h4 className="box-title">Transformational Strategy</h4>
-                        <p>Efficiency Experts</p>
+                        <h4 className="box-title">استراتيجية التحويل</h4>
+                        <p>خبراء الكفاءة</p>
                         <div className="checklist">
                           <ul>
                             <li>
                               <i className="fas fa-check" />
-                              Success Accelerators
+                              مسرعات النجاح
                             </li>
                             <li>
                               <i className="fas fa-check" />
-                              Started politician Club
+                              بدأ نادي السياسيين
                             </li>
                           </ul>
                         </div>
@@ -571,6 +572,7 @@ const ProcessOne = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };

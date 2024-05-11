@@ -14,14 +14,13 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
-                          <CountUp delay={0} start={0} end={200} />
-                          k+
+                          <CountUp delay={0} start={0} end={200} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className="counter-card_text">Team member</p>
+                <p className="counter-card_text">أعضاء الفريق</p>
               </div>
             </div>
           </div>
@@ -33,14 +32,13 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
-                          <CountUp delay={0} start={0} end={20} />
-                          k+
+                          <CountUp delay={0} start={0} end={20} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className="counter-card_text">Winning award</p>
+                <p className="counter-card_text">جوائز الفوز</p>
               </div>
             </div>
           </div>
@@ -52,14 +50,13 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
-                          <CountUp delay={0} start={0} end={10} />
-                          k+
+                          <CountUp delay={0} start={0} end={10} />K+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className="counter-card_text">Complete project</p>
+                <p className="counter-card_text">مشاريع مكتملة</p>
               </div>
             </div>
           </div>
@@ -71,20 +68,20 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
-                          <CountUp delay={0} start={0} end={900} />
-                          k+
+                          <CountUp delay={0} start={0} end={900} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <p className="counter-card_text">Client review</p>
+                <p className="counter-card_text">مراجعات العملاء</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
   );
 };
 

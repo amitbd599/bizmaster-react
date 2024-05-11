@@ -18,9 +18,9 @@ const AppointmentOne = () => {
               <div className="title-area mb-30">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Talk to Us
+                  تحدث معنا
                 </span>
-                <h2 className="sec-title style2">Strategic Solutions</h2>
+                <h2 className="sec-title style2">حلول استراتيجية</h2>
               </div>
               <form
                 action="mail.php"
@@ -35,7 +35,7 @@ const AppointmentOne = () => {
                         className="form-control style-border"
                         name="name"
                         id="name"
-                        placeholder="Full name"
+                        placeholder="الاسم الكامل"
                       />
                       <i className="fas fa-user" />
                     </div>
@@ -47,7 +47,7 @@ const AppointmentOne = () => {
                         className="form-control style-border"
                         name="email"
                         id="email"
-                        placeholder="Your mail"
+                        placeholder="بريدك الالكتروني"
                       />
                       <i className="fas fa-envelope" />
                     </div>
@@ -60,7 +60,7 @@ const AppointmentOne = () => {
                         className="form-select style-border"
                       >
                         <option value="" disabled="" selected="" hidden="">
-                          Subject
+                          الموضوع
                         </option>
                         <option value={1}>01</option>
                         <option value={2}>02</option>
@@ -72,7 +72,7 @@ const AppointmentOne = () => {
                 </div>
                 <div className="form-group col-12">
                   <textarea
-                    placeholder="Write your message"
+                    placeholder="اكتب رسالتك"
                     id="contactForm"
                     className="form-control style-border"
                     defaultValue={""}
@@ -80,7 +80,7 @@ const AppointmentOne = () => {
                 </div>
                 <div className="form-btn col-12">
                   <button className="global-btn style-border">
-                    Send Now
+                    أرسل الآن
                     <i className="fas fa-arrow-right ms-2" />
                   </button>
                 </div>
@@ -90,6 +90,7 @@ const AppointmentOne = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

@@ -69,14 +69,14 @@ const TestimonialTwo = () => {
             <div className="title-area">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Clients Testimonial
+                شهادات العملاء
               </span>
               <h2 className="sec-title style2">
-                Provide quality a the Services
+                تقديم جودة الخدمات
               </h2>
               <p className="sec-text">
-                Lorem Ipsum is simply dummy a of the printing and type setting
-                industry Loreaim Ipsum has been
+                لوريم إيبسوم هو ببساطة نموذج نصي وطباعة الصناعة نص لوريم إيبسوم
+                كان
               </p>
             </div>
             <div className="feature-wrapper">
@@ -86,7 +86,7 @@ const TestimonialTwo = () => {
                 </Link>
               </div>
               <div className="media-body">
-                <span className="header-info_label">Need help?</span>
+                <span className="header-info_label">هل تحتاج إلى مساعدة؟</span>
                 <p className="header-info_link">
                   <Link to="/tel:3195550115">(319) 555-0115</Link>
                 </p>
@@ -97,22 +97,22 @@ const TestimonialTwo = () => {
             <div className="testiomonial-wrap-2">
               <div className="row global-carousel slider-shadow testi-slider-2">
                 <Slider {...settings}>
-                  <div>
+                  <div dir="rtl">
                     <div className="testi-box">
                       <div className="quote-icon">
                         <img src="assets/img/icon/quote2-1.svg" alt="img" />
                       </div>
                       <div className="testi-box_content">
                         <p className="testi-box_text">
-                          There are many variations of passage of Lorem Ipsum
-                          available, but the major have suffered There are many
-                          variations of passages of Lorem Ipsum available, but
-                          the majority have suffered alteration
+                          هناك العديد من الاختلافات في مرور لوريم إيبسوم متاحة،
+                          ولكن الرئيسية قد عانت من هناك العديد من الاختلافات في
+                          مرور لوريم إيبسوم متاحة، ولكن الأكثرية قد عانت من
+                          التغيير
                         </p>
                         <div className="testi-box-profile">
                           <div className="testi-box-profile-details">
                             <h4 className="testi-profile-title">
-                              Starli shaine
+                              ستارلي شاين
                             </h4>
                           </div>
                           <div className="testi-profile_thumb">
@@ -125,22 +125,22 @@ const TestimonialTwo = () => {
                       </div>
                     </div>
                   </div>
-                  <div>
+                  <div dir="rtl">
                     <div className="testi-box">
                       <div className="quote-icon">
                         <img src="assets/img/icon/quote2-1.svg" alt="img" />
                       </div>
                       <div className="testi-box_content">
                         <p className="testi-box_text">
-                          There are many variations of passage of Lorem Ipsum
-                          available, but the major have suffered There are many
-                          variations of passages of Lorem Ipsum available, but
-                          the majority have suffered alteration
+                          هناك العديد من الاختلافات في مرور لوريم إيبسوم متاحة،
+                          ولكن الرئيسية قد عانت من هناك العديد من الاختلافات في
+                          مرور لوريم إيبسوم متاحة، ولكن الأكثرية قد عانت من
+                          التغيير
                         </p>
                         <div className="testi-box-profile">
                           <div className="testi-box-profile-details">
                             <h4 className="testi-profile-title">
-                              Starli shaine
+                              ستارلي شاين
                             </h4>
                           </div>
                           <div className="testi-profile_thumb">
@@ -160,6 +160,7 @@ const TestimonialTwo = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

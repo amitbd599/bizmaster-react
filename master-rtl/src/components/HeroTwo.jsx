@@ -20,16 +20,14 @@ const HeroTwo = () => {
       <div className="container">
         <div className="hero-style2">
           <h1 className="hero-title text-white">
-            Empowering<span className="hero-title2">businesses</span> brighter
+            الممرات للمهندس<span className="hero-title2">الأعمال</span> أكثر سطوعًا
           </h1>
           <p className="hero-text text-white">
-            We have been operating for over a decade, providing top-notch
-            services to our clients and building strong track reco industry been
-            operating
+            لالمتتاحاحةالمتاحةال المتتا حاحةالمت احةال المتتاح احةالمتا حةال المتت احاحةالم تاح ةالم تاحةالم المت الالمتتاحاحةالمتاحةالمتتا حاحةالمتاحةالتاحاحةالم تاحةال تاحةالم تاحالمت تاحاحةالمتاحةال ال متتاحاحةال متاحةالة
           </p>
           <div className="btn-group">
             <Link to="/about" className="global-btn">
-              Explore More
+              استكشاف المزيد
               <img src="assets/img/icon/right-icon.svg" alt="" />
             </Link>
             <div className="media-wrap">
@@ -42,7 +40,7 @@ const HeroTwo = () => {
                 </Link>
               </div>
               <div className="media-body">
-                <h6 className="title text-white">See How It Works</h6>
+                <h6 className="title text-white">شاهد كيف يعمل</h6>
               </div>
             </div>
           </div>
@@ -77,13 +75,14 @@ const HeroTwo = () => {
                 <i className="fas fa-check" />
               </div>
               <span className="cilent-box_title">
-                Author Reviews <span className="text-theme">(4.8 of 5)</span>{" "}
+                تقييمات الكتّاب <span className="text-theme">(4.8 من 5)</span>{" "}
               </span>
             </div>
           </div>
         </div>
       </div>
     </div>
+
   );
 };
 

@@ -18,8 +18,7 @@ const FooterOne = () => {
                   </Link>
                 </div>
                 <p className="footer-text mb-30">
-                  Many desktop ublishing packages web page editors no Lorem
-                  Ipsum a default model text, and a search for
+                  العديد من حزم تحرير صفحات الويب لا Lorem Ipsum عبارة نموذجية افتراضية ، والبحث عن
                 </p>
                 <div className="social-btn style3">
                   <Link to="/https://www.instagram.com/" tabIndex={-1}>
@@ -39,20 +38,20 @@ const FooterOne = () => {
             </div>
             <div className="col-md-6 col-xl-auto">
               <div className="widget widget_nav_menu footer-widget">
-                <h3 className="widget_title">Useful Links</h3>
+                <h3 className="widget_title">روابط مفيدة</h3>
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link to="/service">Software Corner</Link>
+                      <Link to="/service">زاوية البرمجيات</Link>
                     </li>
                     <li>
-                      <Link to="/service">Application Center</Link>
+                      <Link to="/service">مركز التطبيق</Link>
                     </li>
                     <li>
-                      <Link to="/service">Research Section</Link>
+                      <Link to="/service">قسم البحث</Link>
                     </li>
                     <li>
-                      <Link to="/service">Developing Corner</Link>
+                      <Link to="/service">زاوية التطوير</Link>
                     </li>
                   </ul>
                 </div>
@@ -60,7 +59,7 @@ const FooterOne = () => {
             </div>
             <div className="col-md-6 col-xl-3">
               <div className="widget footer-widget me-xl-3">
-                <h3 className="widget_title">Contact</h3>
+                <h3 className="widget_title">اتصل</h3>
                 <div className="widget-contact2">
                   <div className="widget-contact-grid">
                     <i className="fas fa-phone-alt" />
@@ -85,7 +84,7 @@ const FooterOne = () => {
                     <i className="fas fa-map-marker-alt" />
                     <div className="contact-grid-details">
                       <h6>
-                        1212, Lav Vegas, The Veg Street, USA
+                        1212 ، لاف فيغاس ، شارع الخضار ، الولايات المتحدة الأمريكية
                         <p />
                       </h6>
                     </div>
@@ -101,21 +100,22 @@ const FooterOne = () => {
           <div className="row gy-3 justify-content-lg-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Yoursitename </Link> 2024 | All Rights Reserved
+                © <Link to="#">اسم موقعك </Link> 2024 | جميع الحقوق محفوظة
               </p>
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <Link to="/contact">Privacy</Link>
-                <Link to="/contact">Terms</Link>
-                <Link to="/contact">Sitemap</Link>
-                <Link to="/contact">Help</Link>
+                <Link to="/contact">الخصوصية</Link>
+                <Link to="/contact">الشروط</Link>
+                <Link to="/contact">خريطة الموقع</Link>
+                <Link to="/contact">المساعدة</Link>
               </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
+
   );
 };
 

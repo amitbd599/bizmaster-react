@@ -12,24 +12,23 @@ const CTA_Two = () => {
             <div className="cta-wrap2">
               <div className="title-area">
                 <h2 className="sec-title text-white style2">
-                  Successful Expert
-                </h2>
+                  حةاحةاحةاحةال حةاحةال                </h2>
                 <p className="sec-text text-white">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout{" "}
+                  الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس
                 </p>
               </div>
               <form className="newsletter-form style2">
                 <div className="form-group">
+                  <button type="submit" className="global-btn">
+                    اشترك الآن{" "}
+                  </button>
                   <input
                     className="form-control"
                     type="email"
-                    placeholder="Your Email Address"
+                    placeholder="عنوان بريدك الإلكتروني"
                     required=""
                   />
-                  <button type="submit" className="global-btn">
-                    Subscribe Now{" "}
-                  </button>
+
                 </div>
               </form>
             </div>
@@ -42,6 +41,7 @@ const CTA_Two = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

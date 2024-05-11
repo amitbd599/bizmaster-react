@@ -11,38 +11,38 @@ const AboutTwo = () => {
             <div className="title-area mb-30">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                About Us
+                حولنا
               </span>
               <h2 className="sec-title style2">
-                Maximizing Through the Strategic{" "}
+                تعظيم من خلال الاستراتيجية{" "}
               </h2>
               <p className="sec-text">
-                Lorem Ipsum is simply dummy a of the printing and type setting
-                industry Loreaim Ipsum has been the industry's standard dummy
+                لوريم إيبسوم هو ببساطة نموذج نصي لصناعة الطباعة والتنضيد
+                لوريم إيبسوم كان النص القياسي للصناعة منذ القرن الخامس عشر
               </p>
             </div>
             <div className="checklist">
               <ul>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Mistakes To Avoid to the dummy printing.
+                  الأخطاء التي يجب تجنبها في الطباعة الوهمية.
                 </li>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Your Startup industry standard loream saum.
+                  صناعتك الناشئة معيار لوريام ساوم.
                 </li>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Knew About Fonts text the printing.{" "}
+                  عرفت عن خطوط النص في الطباعة.{" "}
                 </li>
               </ul>
             </div>
             <p className="about-desc">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+              لوريم إيبسوم هو ببساطة نص عباري غير حقيقي من صناعة الطباعة والتنضيد
             </p>
             <div className="btn-group">
               <Link to="/about" className="global-btn style2">
-                Explore More <img src="assets/img/icon/right-icon.svg" alt="" />
+                استكشاف المزيد <img src="assets/img/icon/right-icon.svg" alt="" />
               </Link>
             </div>
           </div>
@@ -70,11 +70,11 @@ const AboutTwo = () => {
                         }
                       </TrackVisibility>
                     </h3>
-                    <h4 className="about-counter-text">Clients</h4>
+                    <h4 className="about-counter-text">عملاء</h4>
                   </div>
                 </div>
                 <p className="sec-desc">
-                  Lorem Ipsum is simply dummy text of the
+                  لوريم إيبسوم هو ببساطة نص عباري غير حقيقي
                 </p>
               </div>
             </div>
@@ -82,6 +82,7 @@ const AboutTwo = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

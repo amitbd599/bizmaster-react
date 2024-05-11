@@ -10,11 +10,10 @@ const PortfolioTwo = () => {
             <div className="title-area text-center">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Latest Portfolio
+                أحدث محفظة
               </span>
               <h2 className="sec-title style2">
-                Transform Your Business with Professional{" "}
-              </h2>
+                حةاللمتا حةالحةاللمتا حةالحةاللمتا حةالحةاللمتا حةال              </h2>
             </div>
           </div>
         </div>
@@ -27,10 +26,10 @@ const PortfolioTwo = () => {
               <div className="portfolio-box-details">
                 <div className="media-left">
                   <span className="portfolio-box-details_subtitle">
-                    Nemo enim ipsam
+                    نيمو إنيم إبسام
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <Link to="/project-details">Bank Management</Link>
+                    <Link to="/project-details">حةاللمتا حةال حةاللمتا حةال</Link>
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
@@ -47,10 +46,10 @@ const PortfolioTwo = () => {
               <div className="portfolio-box-details">
                 <div className="media-left">
                   <span className="portfolio-box-details_subtitle">
-                    Nemo enim ipsam
+                    نيمو إنيم إبسام
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <Link to="/project-details">Bank Management</Link>
+                    <Link to="/project-details">حةاللمتا حةال حةاللمتا حةال</Link>
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
@@ -67,10 +66,10 @@ const PortfolioTwo = () => {
               <div className="portfolio-box-details">
                 <div className="media-left">
                   <span className="portfolio-box-details_subtitle">
-                    Nemo enim ipsam
+                    نيمو إنيم إبسام
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <Link to="/project-details">Bank Management</Link>
+                    <Link to="/project-details">حةاللمتا حةال حةاللمتا حةال</Link>
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
@@ -87,10 +86,10 @@ const PortfolioTwo = () => {
               <div className="portfolio-box-details">
                 <div className="media-left">
                   <span className="portfolio-box-details_subtitle">
-                    Nemo enim ipsam
+                    نيمو إنيم إبسام
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <Link to="/project-details">Bank Management</Link>
+                    <Link to="/project-details">حةاللمتا حةال حةاللمتا حةال</Link>
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
@@ -107,10 +106,10 @@ const PortfolioTwo = () => {
               <div className="portfolio-box-details">
                 <div className="media-left">
                   <span className="portfolio-box-details_subtitle">
-                    Nemo enim ipsam
+                    نيمو إنيم إبسام
                   </span>
                   <h4 className="portfolio-box-details_title">
-                    <Link to="/project-details">Bank Management</Link>
+                    <Link to="/project-details">حةاللمتا حةال حةاللمتا حةال</Link>
                   </h4>
                 </div>
                 <Link to="/project-details" className="icon-btn">
@@ -122,6 +121,7 @@ const PortfolioTwo = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

@@ -10,10 +10,10 @@ const PortfolioOne = () => {
             <div className="title-area text-center">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Latest Portfolio
+                أحدث محفظة
               </span>
               <h2 className="sec-title style2">
-                Transform Business with Guidance
+                تحويل الأعمال مع الإرشاد
               </h2>
             </div>
           </div>
@@ -27,11 +27,11 @@ const PortfolioOne = () => {
               <div className="portfolio-card-details">
                 <div className="media-left">
                   <span className="portfolio-card-details_subtitle">
-                    Development Coaches
+                    مدربو التطوير
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/project-details">
-                      Digital Transformation Advisors
+                      مستشارو التحول الرقمي
                     </Link>
                   </h4>
                 </div>
@@ -49,11 +49,11 @@ const PortfolioOne = () => {
               <div className="portfolio-card-details">
                 <div className="media-left">
                   <span className="portfolio-card-details_subtitle">
-                    Success Accelerators
+                    مسرعو النجاح
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/project-details">
-                      Transformational Strategy Advisors
+                      مستشارو استراتيجية التحول
                     </Link>
                   </h4>
                 </div>
@@ -71,11 +71,11 @@ const PortfolioOne = () => {
               <div className="portfolio-card-details">
                 <div className="media-left">
                   <span className="portfolio-card-details_subtitle">
-                    Efficiency Experts
+                    خبراء الكفاءة
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/project-details">
-                      Marketing and Branding Consultants
+                      استشاريو التسويق والعلامات التجارية
                     </Link>
                   </h4>
                 </div>
@@ -93,11 +93,11 @@ const PortfolioOne = () => {
               <div className="portfolio-card-details">
                 <div className="media-left">
                   <span className="portfolio-card-details_subtitle">
-                    Profitability Maximizers
+                    معززو الربحية
                   </span>
                   <h4 className="portfolio-card-details_title">
                     <Link to="/project-details">
-                      Market Analysis and Strategy
+                      تحليل السوق والاستراتيجية
                     </Link>
                   </h4>
                 </div>
@@ -110,6 +110,7 @@ const PortfolioOne = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

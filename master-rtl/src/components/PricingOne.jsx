@@ -10,10 +10,10 @@ const PricingOne = () => {
             <div className="title-area text-center me-xl-4 ms-xl-4">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Our Pricing
+                التسعيرة لدينا
               </span>
               <h2 className="sec-title style2">
-                Achieve Your Goal of Business
+                حقق هدف عملك
               </h2>
             </div>
           </div>
@@ -23,12 +23,12 @@ const PricingOne = () => {
             <div className="pricing-card">
               <div className="pricing-card-price-wrap">
                 <h3 className="pricing-card_price">
-                  <span className="currency">$</span>32
-                  <span className="duration">/month</span>
+                  <span className="currency">$</span>25
+                  <span className="duration">/شهر</span>
                 </h3>
               </div>
               <div className="pricing-card-icon-wrap">
-                <h4 className="pricing-card_title">Consult</h4>
+                <h4 className="pricing-card_title">استشارة</h4>
                 <div className="pricing-card_icon">
                   <img src="assets/img/icon/picing-icon_2-1.svg" alt="img" />
                 </div>
@@ -38,24 +38,24 @@ const PricingOne = () => {
                   <ul>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Mistakes To Avoid
+                      الأخطاء التي يجب تجنبها
                     </li>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Your Startup
+                      مشروعك الناشئ
                     </li>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Knew About Fonts
+                      معرفة حول الخطوط الطباعية
                     </li>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Winning Metric for Your Startup
+                      المقياس الفائز لمشروعك الناشئ
                     </li>
                   </ul>
                 </div>
                 <Link className="global-btn" to="/contact">
-                  Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
+                  احصل الآن <img src="assets/img/icon/right-icon2.svg" alt="" />
                 </Link>
               </div>
             </div>
@@ -65,11 +65,11 @@ const PricingOne = () => {
               <div className="pricing-card-price-wrap">
                 <h3 className="pricing-card_price">
                   <span className="currency">$</span>25
-                  <span className="duration">/month</span>
+                  <span className="duration">/شهر</span>
                 </h3>
               </div>
               <div className="pricing-card-icon-wrap">
-                <h4 className="pricing-card_title">Basic</h4>
+                <h4 className="pricing-card_title">أساسي</h4>
                 <div className="pricing-card_icon">
                   <img src="assets/img/icon/picing-icon_2-2.svg" alt="img" />
                 </div>
@@ -79,24 +79,24 @@ const PricingOne = () => {
                   <ul>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Mistakes To Avoid
+                      الأخطاء التي يجب تجنبها
                     </li>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Your Startup
+                      مشروعك الناشئ
                     </li>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Knew About Fonts
+                      معرفة حول الخطوط الطباعية
                     </li>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Winning Metric for Your Startup
+                      المقياس الفائز لمشروعك الناشئ
                     </li>
                   </ul>
                 </div>
                 <Link className="global-btn" to="/contact">
-                  Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
+                  احصل الآن <img src="assets/img/icon/right-icon2.svg" alt="" />
                 </Link>
               </div>
             </div>
@@ -105,12 +105,12 @@ const PricingOne = () => {
             <div className="pricing-card">
               <div className="pricing-card-price-wrap">
                 <h3 className="pricing-card_price">
-                  <span className="currency">$</span>25
-                  <span className="duration">/month</span>
+                  <span className="currency">$</span>50
+                  <span className="duration">/شهر</span>
                 </h3>
               </div>
               <div className="pricing-card-icon-wrap">
-                <h4 className="pricing-card_title">Pro</h4>
+                <h4 className="pricing-card_title">احترافي</h4>
                 <div className="pricing-card_icon">
                   <img src="assets/img/icon/picing-icon_2-3.svg" alt="img" />
                 </div>
@@ -120,24 +120,24 @@ const PricingOne = () => {
                   <ul>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Mistakes To Avoid
+                      الأخطاء التي يجب تجنبها
                     </li>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Your Startup
+                      مشروعك الناشئ
                     </li>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Knew About Fonts
+                      معرفة حول الخطوط الطباعية
                     </li>
                     <li>
                       <i className="fas fa-angle-double-right" />
-                      Winning Metric for Your Startup
+                      المقياس الفائز لمشروعك الناشئ
                     </li>
                   </ul>
                 </div>
                 <Link className="global-btn" to="/contact">
-                  Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
+                  احصل الآن <img src="assets/img/icon/right-icon2.svg" alt="" />
                 </Link>
               </div>
             </div>
@@ -145,6 +145,7 @@ const PricingOne = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

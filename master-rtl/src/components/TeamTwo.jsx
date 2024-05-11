@@ -42,11 +42,10 @@ const TeamTwo = () => {
             <div className="title-area text-center">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Our Team Member
+                أعضاء فريقنا
               </span>
               <h2 className="sec-title style2">
-                Strategic Solutions for Business Growth
-              </h2>
+                حةاللمتا حةال حةاللمتا حةال حةاللمتا حةالحةاللمتا حةال              </h2>
             </div>
           </div>
           <div className="row gx-30 global-carousel team-slider2">
@@ -58,9 +57,9 @@ const TeamTwo = () => {
                   </div>
                   <div className="team-box_content">
                     <h4 className="team-box_title">
-                      <Link to="/team-details">Darlene Robertson</Link>
+                      <Link to="/team-details">دارلين روبرتسون</Link>
                     </h4>
-                    <span className="team-box_desig">UI UX Designer</span>
+                    <span className="team-box_desig">مصمم واجهة المستخدم</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
                         <Link to="/https://www.instagram.com/">
@@ -84,9 +83,9 @@ const TeamTwo = () => {
                   </div>
                   <div className="team-box_content">
                     <h4 className="team-box_title">
-                      <Link to="/team-details">Cody Fisher</Link>
+                      <Link to="/team-details">كودي فيشر</Link>
                     </h4>
-                    <span className="team-box_desig">PHP Developer</span>
+                    <span className="team-box_desig">مطور PHP</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
                         <Link to="/https://www.instagram.com/">
@@ -110,9 +109,9 @@ const TeamTwo = () => {
                   </div>
                   <div className="team-box_content">
                     <h4 className="team-box_title">
-                      <Link to="/team-details">Darlene Robertson</Link>
+                      <Link to="/team-details">دارلين روبرتسون</Link>
                     </h4>
-                    <span className="team-box_desig">UI UX Designer</span>
+                    <span className="team-box_desig">مصمم واجهة المستخدم</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
                         <Link to="/https://www.instagram.com/">
@@ -136,9 +135,9 @@ const TeamTwo = () => {
                   </div>
                   <div className="team-box_content">
                     <h4 className="team-box_title">
-                      <Link to="/team-details">Wade Warren</Link>
+                      <Link to="/team-details">ويد وارين</Link>
                     </h4>
-                    <span className="team-box_desig">Ux Architect</span>
+                    <span className="team-box_desig">مهندس تجريب المستخدم</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
                         <Link to="/https://www.instagram.com/">
@@ -160,6 +159,7 @@ const TeamTwo = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

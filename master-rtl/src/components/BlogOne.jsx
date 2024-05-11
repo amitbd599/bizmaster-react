@@ -44,104 +44,96 @@ const BlogOne = () => {
               <div className="title-area text-center">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Latest Blog
+                  أحدث المدونات
                 </span>
                 <h2 className="sec-title">
-                  Strategic Solutions for Business Growth
+                  الحلول الاستراتيجية لنمو الأعمال
                 </h2>
               </div>
             </div>
           </div>
           <div className="row global-carousel blog-slider slider-shadow">
             <Slider {...settings}>
-              <div className="blog-card p-3">
+              <div className="blog-card p-3" dir="rtl">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_1.png" alt="صورة المدونة" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
                     <Link to="/blog">
                       <i className="fas fa-user" />
-                      By admin
+                      بواسطة المسؤول
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-comments" />
-                      Comments
+                      تعليقات
                     </Link>
                   </div>
                   <h3 className="blog-title">
-                    <Link to="/blog-details">
-                      Transformation Strategy Advisors Operat
-                    </Link>
+                    <Link to="/blog-details"> المتاحة للمهندس الممرات الممرات المتاحة للمهندس الممرات</Link>
                   </h3>
                 </div>
               </div>
 
-              <div className="blog-card p-3">
+              <div className="blog-card p-3" dir="rtl">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_2.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_2.png" alt="صورة المدونة" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
                     <Link to="/blog">
                       <i className="fas fa-user" />
-                      By admin
+                      بواسطة المسؤول
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-comments" />
-                      Comments
+                      تعليقات
                     </Link>
                   </div>
                   <h3 className="blog-title">
-                    <Link to="/blog-details">
-                      Hard Work Always Brings You Success
-                    </Link>
+                    <Link to="/blog-details"> المتاحة للمهندس الممرات الممرات المتاحة للمهندس الممرات</Link>
                   </h3>
                 </div>
               </div>
 
-              <div className="blog-card p-3">
+              <div className="blog-card p-3" dir="rtl">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_3.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_3.png" alt="صورة المدونة" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
                     <Link to="/blog">
                       <i className="fas fa-user" />
-                      By admin
+                      بواسطة المسؤول
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-comments" />
-                      Comments
+                      تعليقات
                     </Link>
                   </div>
                   <h3 className="blog-title">
-                    <Link to="/blog-details">
-                      Growth and Innovation the Consultants
-                    </Link>
+                    <Link to="/blog-details"> المتاحة للمهندس الممرات الممرات المتاحة للمهندس الممرات</Link>
                   </h3>
                 </div>
               </div>
 
-              <div className="blog-card p-3">
+              <div className="blog-card p-3" dir="rtl">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_1.png" alt="صورة المدونة" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
                     <Link to="/blog">
                       <i className="fas fa-user" />
-                      By admin
+                      بواسطة المسؤول
                     </Link>
                     <Link to="/blog">
                       <i className="fas fa-comments" />
-                      Comments
+                      تعليقات
                     </Link>
                   </div>
                   <h3 className="blog-title">
-                    <Link to="/blog-details">
-                      Transformation Strategy Advisors Operat
-                    </Link>
+                    <Link to="/blog-details"> المتاحة للمهندس الممرات الممرات المتاحة للمهندس الممرات</Link>
                   </h3>
                 </div>
               </div>
@@ -152,9 +144,9 @@ const BlogOne = () => {
       <div className="container">
         <div className="footer-top-1 bg-theme">
           <div className="footer-top-content">
-            <h3 className="footer-top-title text-white">Newsletter</h3>
+            <h3 className="footer-top-title text-white">النشرة الإخبارية</h3>
             <p className="footer-top-text">
-              Lorem Ipsum is simply dummy text of the printing
+              لوريم إيبسوم هو نص عبارة عن نص شهير في المطبوعات
             </p>
           </div>
           <form className="newsletter-form">
@@ -162,11 +154,11 @@ const BlogOne = () => {
               <input
                 className="form-control"
                 type="email"
-                placeholder="Email Address"
+                placeholder="عنوان البريد الإلكتروني"
                 required=""
               />
               <button type="submit" className="global-btn">
-                Subscribe
+                اشتراك
                 <span className="icon">
                   <i className="fa-sharp fas fa-paper-plane ms-2" />
                 </span>
@@ -176,6 +168,7 @@ const BlogOne = () => {
         </div>
       </div>
     </>
+
   );
 };
 

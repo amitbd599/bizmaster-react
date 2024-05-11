@@ -41,16 +41,16 @@ const ServiceThree = () => {
             <div className="title-area">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Our Services
+                خدماتنا
               </span>
-              <h2 className="sec-title style2">Navigate the Path to Success</h2>
+              <h2 className="sec-title style2">توجه إلى طريق النجاح</h2>
             </div>
           </div>
           <div className="col-lg-7">
             <div className="service-title-area">
               <p className="">
-                Use receiving aco growin number of currencies and get Use
-                receiving aco growin number of currencies and get paid like
+                استخدم استقبال عدد متزايد من العملات واحصل على استخدم
+                استقبال عدد متزايد من العملات واحصل على المدفوعات مثل
                 designpaid
               </p>
             </div>
@@ -60,116 +60,116 @@ const ServiceThree = () => {
       <div className="container-fluid">
         <div className="row gx-30 global-carousel service-slider2">
           <Slider {...settings}>
-            <div className="p-3">
+            <div className="p-3" dir="rtl">
               <div className="service-box">
                 <div className="service-box_content">
                   <div className="service-box_icon">
                     <img src="assets/img/icon/service-icon_1-1.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <Link to="/service-details">Strategic Solutions Pro</Link>
+                    <Link to="/service-details">حلول استراتيجية احترافية</Link>
                   </h4>
                   <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
+                    استخدم استقبال الحساب المتزايد عدد العملات واحصل على الدفع
+                    مثل
                   </p>
                   <Link
                     to="/service-details"
                     className="global-btn style-border"
                   >
-                    Read More{" "}
+                    اقرأ المزيد{" "}
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="p-3">
+            <div className="p-3" dir="rtl">
               <div className="service-box">
                 <div className="service-box_content">
                   <div className="service-box_icon">
                     <img src="assets/img/icon/service-icon_1-2.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <Link to="/service-details">Business Growth Catalyst</Link>
+                    <Link to="/service-details">محفز نمو الأعمال</Link>
                   </h4>
                   <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
+                    استخدم استقبال الحساب المتزايد عدد العملات واحصل على الدفع
+                    مثل
                   </p>
                   <Link
                     to="/service-details"
                     className="global-btn style-border"
                   >
-                    Read More
+                    اقرأ المزيد
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="p-3">
+            <div className="p-3" dir="rtl">
               <div className="service-box">
                 <div className="service-box_content">
                   <div className="service-box_icon">
                     <img src="assets/img/icon/service-icon_1-3.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <Link to="/service-details">Profitability Maximizers</Link>
+                    <Link to="/service-details">معززو الربحية</Link>
                   </h4>
                   <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
+                    استخدم استقبال الحساب المتزايد عدد العملات واحصل على الدفع
+                    مثل
                   </p>
                   <Link
                     to="/service-details"
                     className="global-btn style-border"
                   >
-                    Read More
+                    اقرأ المزيد
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="p-3">
+            <div className="p-3" dir="rtl">
               <div className="service-box">
                 <div className="service-box_content">
                   <div className="service-box_icon">
                     <img src="assets/img/icon/service-icon_1-4.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <Link to="/service-details">Efficiency Experts</Link>
+                    <Link to="/service-details">خبراء الكفاءة</Link>
                   </h4>
                   <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
+                    استخدم استقبال الحساب المتزايد عدد العملات واحصل على الدفع
+                    مثل
                   </p>
                   <Link
                     to="/service-details"
                     className="global-btn style-border"
                   >
-                    Read More
+                    اقرأ المزيد
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="p-3">
+            <div className="p-3" dir="rtl">
               <div className="service-box">
                 <div className="service-box_content">
                   <div className="service-box_icon">
                     <img src="assets/img/icon/service-icon_1-1.svg" alt="img" />
                   </div>
                   <h4 className="service-box_title h5">
-                    <Link to="/service-details">Strategic Solutions Pro</Link>
+                    <Link to="/service-details">حلول استراتيجية احترافية</Link>
                   </h4>
                   <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
+                    استخدم استقبال الحساب المتزايد عدد العملات واحصل على الدفع
+                    مثل
                   </p>
                   <Link
                     to="/service-details"
                     className="global-btn style-border"
                   >
-                    Read More
+                    اقرأ المزيد
                     <img src="assets/img/icon/right-icon2.svg" alt="" />
                   </Link>
                 </div>
@@ -179,6 +179,7 @@ const ServiceThree = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

@@ -35,7 +35,7 @@ const TestimonialOne = () => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     speed: 500,
     autoplaySpeed: 5000,
     cssEase: "linear",
@@ -68,11 +68,10 @@ const TestimonialOne = () => {
             <div className="title-area">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Clients Testimoniall
+                الشهادات من العملاء
               </span>
               <h2 className="sec-title style2">
-                Your Business Goals a Confidence
-              </h2>
+                الممرات المت ندسالممرات المتاحة للمهندس              </h2>
             </div>
             <div className="testimonial-thumb1">
               <img src="assets/img/testimonial/testimonial-1-1.png" alt="img" />
@@ -81,15 +80,13 @@ const TestimonialOne = () => {
           <div className="col-lg-6">
             <div className="title-area">
               <p className="testi-desc">
-                Dictum ultrices porttitor amet nec sollicitudin mi molestie
-                adipiscing netus. Lorem at ac ut morbi ullamcorper molestie
-                lacus loren ipsum dummy text provide happy
+                الشهادات هي عملية تثبيت وإصلاح وصيانة الأسقف في المباني. إنه ينطوي على مواد مختلفة مثل البلاط السَّخان ، المعادن ، والأغشية. قد تتضمن خدمات الأسقف التفتيش والإصلاح وتحديد المواقع وتركيب أسقف جديدة. الأسقف السليمة ضرورية لحماية
               </p>
             </div>
-            <div className="testi-area-slider">
+            <div className="testi-area-slider rtl">
               <div className="row global-carousel testi-slider-1">
                 <Slider {...settings}>
-                  <div className="p-2">
+                  <div className="p-2" dir="rtl">
                     <div className="testi-card">
                       <div className="testi-card_content">
                         <div className="rating">
@@ -100,12 +97,7 @@ const TestimonialOne = () => {
                           <i className="fas fa-star" />
                         </div>
                         <p className="testi-card_text">
-                          Roofing is the process of installin repai, and
-                          maintaining roofs on buildings. It involves various
-                          materials such shil tiles,metal, and membranes.
-                          Roofing services may include inspections repairs,
-                          waterproofing, and installation of new roofs. Proper
-                          roofing is crucial for protecting
+                          السقف هو عملية تثبيت وإصلاح وصيانة الأسقف في المباني. إنه ينطوي على مواد مختلفة مثل البلاط السَّخان ، المعادن ، والأغشية. قد تتضمن خدمات الأسقف التفتيش والإصلاح وتحديد المواقع وتركيب أسقف جديدة. الأسقف السليمة ضرورية لحماية
                         </p>
                         <div className="testi-card-profile">
                           <div className="testi-profile_thumb">
@@ -116,10 +108,10 @@ const TestimonialOne = () => {
                           </div>
                           <div className="testi-card-profile-details">
                             <h4 className="testi-profile-title">
-                              Michael Ramirez
+                              مايكل راميريز
                             </h4>
                             <span className="testi-profile-desig">
-                              Marketing Manager
+                              مدير التسويق
                             </span>
                           </div>
                         </div>
@@ -130,7 +122,7 @@ const TestimonialOne = () => {
                     </div>
                   </div>
 
-                  <div className="p-2">
+                  <div className="p-2" dir="rtl">
                     <div className="testi-card">
                       <div className="testi-card_content">
                         <div className="rating">
@@ -141,12 +133,7 @@ const TestimonialOne = () => {
                           <i className="fas fa-star" />
                         </div>
                         <p className="testi-card_text">
-                          Roofing is the process of installin repai, and
-                          maintaining roofs on buildings. It involves various
-                          materials such shil tiles,metal, and membranes.
-                          Roofing services may include inspections repairs,
-                          waterproofing, and installation of new roofs. Proper
-                          roofing is crucial for protecting
+                          السقف هو عملية تثبيت وإصلاح وصيانة الأسقف في المباني. إنه ينطوي على مواد مختلفة مثل البلاط السَّخان ، المعادن ، والأغشية. قد تتضمن خدمات الأسقف التفتيش والإصلاح وتحديد المواقع وتركيب أسقف جديدة. الأسقف السليمة ضرورية لحماية
                         </p>
                         <div className="testi-card-profile">
                           <div className="testi-profile_thumb">
@@ -157,10 +144,10 @@ const TestimonialOne = () => {
                           </div>
                           <div className="testi-card-profile-details">
                             <h4 className="testi-profile-title">
-                              Starli shaine
+                              ستارلي شاين
                             </h4>
                             <span className="testi-profile-desig">
-                              Marketing Manager
+                              مدير التسويق
                             </span>
                           </div>
                         </div>
@@ -171,7 +158,7 @@ const TestimonialOne = () => {
                     </div>
                   </div>
 
-                  <div className="p-2">
+                  <div className="p-2" dir="rtl">
                     <div className="testi-card">
                       <div className="testi-card_content">
                         <div className="rating">
@@ -182,12 +169,7 @@ const TestimonialOne = () => {
                           <i className="fas fa-star" />
                         </div>
                         <p className="testi-card_text">
-                          Roofing is the process of installin repai, and
-                          maintaining roofs on buildings. It involves various
-                          materials such shil tiles,metal, and membranes.
-                          Roofing services may include inspections repairs,
-                          waterproofing, and installation of new roofs. Proper
-                          roofing is crucial for protecting
+                          السقف هو عملية تثبيت وإصلاح وصيانة الأسقف في المباني. إنه ينطوي على مواد مختلفة مثل البلاط السَّخان ، المعادن ، والأغشية. قد تتضمن خدمات الأسقف التفتيش والإصلاح وتحديد المواقع وتركيب أسقف جديدة. الأسقف السليمة ضرورية لحماية
                         </p>
                         <div className="testi-card-profile">
                           <div className="testi-profile_thumb">
@@ -198,10 +180,10 @@ const TestimonialOne = () => {
                           </div>
                           <div className="testi-card-profile-details">
                             <h4 className="testi-profile-title">
-                              Michael Ramirez
+                              مايكل راميريز
                             </h4>
                             <span className="testi-profile-desig">
-                              Marketing Manager
+                              مدير التسويق
                             </span>
                           </div>
                         </div>
@@ -218,6 +200,7 @@ const TestimonialOne = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

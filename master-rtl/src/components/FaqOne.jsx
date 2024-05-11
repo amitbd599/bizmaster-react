@@ -4,16 +4,16 @@ import CountUp from "react-countup";
 
 const FaqOne = () => {
   return (
-    <section className=" ">
+    <section>
       <div className="container">
         <div className="row align-items-end">
           <div className="col-xl-6">
             <div className="title-area me-xl-5 mb-20">
               <span className="sub-title">
                 <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Ask Question
+                اسأل السؤال
               </span>
-              <h2 className="sec-title style2">Innovation Moves You Forward</h2>
+              <h2 className="sec-title style2">الابتكار يحركك للأمام</h2>
             </div>
             <div className="accordion-area accordion" id="faqAccordion">
               <div className="accordion-card active">
@@ -26,7 +26,7 @@ const FaqOne = () => {
                     aria-expanded="true"
                     aria-controls="collapse-1"
                   >
-                    What services do you offer?
+                    ما هي الخدمات التي تقدمونها؟
                   </button>
                 </div>
                 <div
@@ -37,10 +37,7 @@ const FaqOne = () => {
                 >
                   <div className="accordion-body">
                     <p className="faq-text">
-                      We offer a wide range of digital services, including
-                      website design and development, e-commerce solutions,
-                      search engine optimization, social media management,
-                      pay-per-click advertising, brand identity
+                      نحن نقدم مجموعة واسعة من الخدمات الرقمية، بما في ذلك تصميم وتطوير المواقع الإلكترونية، حلول التجارة الإلكترونية، تحسين محركات البحث، إدارة وسائل التواصل الاجتماعي، الإعلان بالدفع مقابل النقر، هوية العلامة التجارية
                     </p>
                   </div>
                 </div>
@@ -55,7 +52,7 @@ const FaqOne = () => {
                     aria-expanded="false"
                     aria-controls="collapse-2"
                   >
-                    How long does it take for you to complete a project?
+                    كم من الوقت يستغرق لإكمال مشروع؟
                   </button>
                 </div>
                 <div
@@ -66,10 +63,7 @@ const FaqOne = () => {
                 >
                   <div className="accordion-body">
                     <p className="faq-text">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. Many desktop publis packages and web page
-                      editors now use Lorem Ipsum
+                      من المعروف منذ زمن طويل أن القارئ سيشتته النص المقروء للصفحة عند النظر إلى تخطيطها. العديد من حزم برامج معالجة النصوص على سطح المكتب ومحرري صفحات الويب الآن يستخدمون لوريم إيبسوم
                     </p>
                   </div>
                 </div>
@@ -84,7 +78,7 @@ const FaqOne = () => {
                     aria-expanded="false"
                     aria-controls="collapse-3"
                   >
-                    How much does it cost to work with your agency?
+                    كم يكلف العمل مع وكالتكم؟
                   </button>
                 </div>
                 <div
@@ -95,10 +89,7 @@ const FaqOne = () => {
                 >
                   <div className="accordion-body">
                     <p className="faq-text">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. Many desktop publis packages and web page
-                      editors now use Lorem Ipsum
+                      من المعروف منذ زمن طويل أن القارئ سيشتته النص المقروء للصفحة عند النظر إلى تخطيطها. العديد من حزم برامج معالجة النصوص على سطح المكتب ومحرري صفحات الويب الآن يستخدمون لوريم إيبسوم
                     </p>
                   </div>
                 </div>
@@ -108,9 +99,7 @@ const FaqOne = () => {
           <div className="col-xl-6">
             <div className="ms-xl-5">
               <p className="counter-text">
-                Dictum ultrices porttitor amet nec sollicitudin mi molestie
-                adipiscing netus. Lorem at ac ut morbi ullamcorper molestie
-                lacus loren ipsum dummy text provide happy
+                الأمر الذي سيتسبب في إلهامك وإثارة انتباهك يتمثل في أن تكون هنا. نحن هنا لمساعدتك في تحقيق أحلامك.
               </p>
               <div className="counter-box_wrapper">
                 <div className="counter-box">
@@ -127,13 +116,12 @@ const FaqOne = () => {
                           isVisible && (
                             <span className="counter-number">
                               <CountUp delay={0} start={0} end={200} />
-                              k+
-                            </span>
+                              K</span>
                           )
                         }
                       </TrackVisibility>
                     </h2>
-                    <p className="counter-box_text">Team member</p>
+                    <p className="counter-box_text">فرد فريق</p>
                   </div>
                 </div>
                 <div className="counter-box">
@@ -149,14 +137,13 @@ const FaqOne = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <span className="counter-number">
-                              <CountUp delay={0} start={0} end={10} />
-                              k+
+                              <CountUp delay={0} start={0} end={10} />K
                             </span>
                           )
                         }
                       </TrackVisibility>
                     </h2>
-                    <p className="counter-box_text">Complete project</p>
+                    <p className="counter-box_text">مشروع منجز</p>
                   </div>
                 </div>
                 <div className="counter-box">
@@ -172,14 +159,13 @@ const FaqOne = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <span className="counter-number">
-                              <CountUp delay={0} start={0} end={20} />
-                              k+
+                              <CountUp delay={0} start={0} end={20} />K
                             </span>
                           )
                         }
                       </TrackVisibility>
                     </h2>
-                    <p className="counter-box_text">Winning award</p>
+                    <p className="counter-box_text">جائزة حاصلة عليها</p>
                   </div>
                 </div>
                 <div className="counter-box">
@@ -195,14 +181,13 @@ const FaqOne = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <span className="counter-number">
-                              <CountUp delay={0} start={0} end={900} />
-                              k+
+                              <CountUp delay={0} start={0} end={900} />K
                             </span>
                           )
                         }
                       </TrackVisibility>
                     </h2>
-                    <p className="counter-box_text">Client Review</p>
+                    <p className="counter-box_text">مراجعة العملاء</p>
                   </div>
                 </div>
               </div>
@@ -211,6 +196,7 @@ const FaqOne = () => {
         </div>
       </div>
     </section>
+
   );
 };
 

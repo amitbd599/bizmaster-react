@@ -10,22 +10,19 @@ const EventOne = () => {
               <div className="title-area">
                 <span className="sub-title">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
-                  Upcoming Events
+                  الأحداث القادمة
                 </span>
                 <h2 className="sec-title style2">
-                  Unlock Business Your Potential
-                </h2>
+                  حةالحةال حةالحةاحةالحةالال حةالحةاحةالحةال ال                </h2>
               </div>
               <div className="event-card">
                 <div className="icon">
                   <img src="assets/img/icon/event-icon_1-1.svg" alt="img" />
                 </div>
                 <div className="event-card-details">
-                  <h4 className="event-card-title">Best Emplementation</h4>
+                  <h4 className="event-card-title">أفضل التنفيذ</h4>
                   <p className="event-card-text">
-                    Ished fact that a reader will be distrol acted bioiiy desig
-                    the.ished fact that a reader will distrol acted bioiiy
-                  </p>
+                    ال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةال                  </p>
                 </div>
               </div>
               <div className="event-card">
@@ -33,11 +30,9 @@ const EventOne = () => {
                   <img src="assets/img/icon/event-icon_1-2.svg" alt="img" />
                 </div>
                 <div className="event-card-details">
-                  <h4 className="event-card-title">Design make for you</h4>
+                  <h4 className="event-card-title">تصميم مصمم لك</h4>
                   <p className="event-card-text">
-                    Sreader will be distrol acted bioiiy desig the.ished fa that
-                    a reader will be distrol acted bioiiy desig the.ished
-                  </p>
+                    ال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةال                  </p>
                 </div>
               </div>
               <div className="event-card">
@@ -45,11 +40,9 @@ const EventOne = () => {
                   <img src="assets/img/icon/event-icon_1-3.svg" alt="img" />
                 </div>
                 <div className="event-card-details">
-                  <h4 className="event-card-title">Finished the process</h4>
+                  <h4 className="event-card-title">انتهى العملية</h4>
                   <p className="event-card-text">
-                    Distrol acted bioiiy desig the.ished fact that a reader will
-                    distrol acted bioiiy desig the.ished fact that a reader.
-                  </p>
+                    ال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةالال حةالحةاحةالحةال                  </p>
                 </div>
               </div>
             </div>
@@ -67,6 +60,7 @@ const EventOne = () => {
         </div>
       </div>
     </div>
+
   );
 };
 
