@@ -11,17 +11,17 @@ const TeamThree = () => {
                             <div className="title-area text-lg-start text-center">
                                 <span className="sub-title text-white">
                                     <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                    Career Oppurtunities
+                                    فرص العمل
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Unleash Business's Hid Potential
+                                    فكّر بإمكانيات العمل الخفية
                                 </h2>
                             </div>
                         </div>
                         <div className="col-lg-auto">
                             <div className="btn-wrap mb-60 justify-content-center">
                                 <Link to="/project" className="global-btn style-border5">
-                                    View More <i className="fas fa-arrow-right ms-2" />
+                                    عرض المزيد <i className="fas fa-arrow-right ms-2" />
                                 </Link>
                             </div>
                         </div>
@@ -34,11 +34,10 @@ const TeamThree = () => {
                                 </div>
                                 <div className="team-card_content">
                                     <h4 className="team-card_title">
-                                        <Link to="/team-details">Networ Infra Tructure Solutions</Link>
+                                        <Link to="/team-details">الممرات المتاحة للمهندس الممرات المتاحة للمهندس</Link>
                                     </h4>
                                     <span className="team-card_text">
-                                        We have been operating for over a decade, providing top-notch
-                                        services to our
+                                        الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس
                                     </span>
                                 </div>
                                 <div className="team-card_img">
@@ -53,13 +52,10 @@ const TeamThree = () => {
                                 </div>
                                 <div className="team-card_content">
                                     <h4 className="team-card_title">
-                                        <Link to="/team-details">
-                                            IT Training and most a the Education
-                                        </Link>
+                                        <Link to="/team-details">الممرات المتاحة للمهندس الممرات المتاحة للمهندس</Link>
                                     </h4>
                                     <span className="team-card_text">
-                                        We have been operating for over a decade, providing top-notch
-                                        services to our
+                                        الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس
                                     </span>
                                 </div>
                                 <div className="team-card_img">
@@ -74,11 +70,10 @@ const TeamThree = () => {
                                 </div>
                                 <div className="team-card_content">
                                     <h4 className="team-card_title">
-                                        <Link to="/team-details">IT Project Manage Services</Link>
+                                        <Link to="/team-details">الممرات المتاحة للمهندس الممرات المتاحة للمهندس</Link>
                                     </h4>
                                     <span className="team-card_text">
-                                        We have been operating for over a decade, providing top-notch
-                                        services to our
+                                        الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس
                                     </span>
                                 </div>
                                 <div className="team-card_img">
@@ -93,13 +88,10 @@ const TeamThree = () => {
                                 </div>
                                 <div className="team-card_content">
                                     <h4 className="team-card_title">
-                                        <Link to="/team-details">
-                                            Technology solutions for a brighter
-                                        </Link>
+                                        <Link to="/team-details">الممرات المتاحة للمهندس الممرات المتاحة للمهندس</Link>
                                     </h4>
                                     <span className="team-card_text">
-                                        We have been operating for over a decade, providing top-notch
-                                        services to our
+                                        الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس
                                     </span>
                                 </div>
                                 <div className="team-card_img">
@@ -112,6 +104,7 @@ const TeamThree = () => {
             </div>
 
         </section>
+
     )
 }
 

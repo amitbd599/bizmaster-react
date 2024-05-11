@@ -19,8 +19,7 @@ const FooterFour = () => {
                                         </Link>
                                     </div>
                                     <p className="footer-text mb-30 mt-30">
-                                        It is a long established fact that a reader will be distracted
-                                    </p>
+                                        التغيير في المهندس التغيير في المهندس التغيير في المهندس التغيير في المهندس                                    </p>
                                     <div className="social-btn">
                                         <Link to="/https://facebook.com/" tabIndex={-1}>
                                             <i className="fab fa-facebook-f" />
@@ -39,20 +38,20 @@ const FooterFour = () => {
                             </div>
                             <div className="col-md-6 col-xl-auto">
                                 <div className="widget widget_nav_menu footer-widget">
-                                    <h3 className="widget_title">About Company</h3>
+                                    <h3 className="widget_title">عن الشركة</h3>
                                     <div className="menu-all-pages-container">
                                         <ul className="menu">
                                             <li>
-                                                <Link to="/service">Service</Link>
+                                                <Link to="/service">الخدمات</Link>
                                             </li>
                                             <li>
-                                                <Link to="/contact">FAQ</Link>
+                                                <Link to="/contact">الأسئلة الشائعة</Link>
                                             </li>
                                             <li>
-                                                <Link to="/blog">Testimonial</Link>
+                                                <Link to="/blog">الشهادات</Link>
                                             </li>
                                             <li>
-                                                <Link to="/about">About Us</Link>
+                                                <Link to="/about">من نحن</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -60,20 +59,20 @@ const FooterFour = () => {
                             </div>
                             <div className="col-md-6 col-xl-auto">
                                 <div className="widget widget_nav_menu footer-widget">
-                                    <h3 className="widget_title">Services</h3>
+                                    <h3 className="widget_title">الخدمات</h3>
                                     <div className="menu-all-pages-container">
                                         <ul className="menu">
                                             <li>
-                                                <Link to="/service">Reliable Rentals</Link>
+                                                <Link to="/service">تأجير موثوق</Link>
                                             </li>
                                             <li>
-                                                <Link to="/service">Golden Key Properties</Link>
+                                                <Link to="/service">خدمات العقارات الرئيسية</Link>
                                             </li>
                                             <li>
-                                                <Link to="/service">Swift Home Sales</Link>
+                                                <Link to="/service">مبيعات المنازل السريعة</Link>
                                             </li>
                                             <li>
-                                                <Link to="/service">Elite Realty Services</Link>
+                                                <Link to="/service">خدمات الوساطة النخبة</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -81,7 +80,7 @@ const FooterFour = () => {
                             </div>
                             <div className="col-md-6 col-xl-3">
                                 <div className="widget footer-widget">
-                                    <h3 className="widget_title">Our Office</h3>
+                                    <h3 className="widget_title">مكتبنا</h3>
                                     <div className="widget-contact2">
                                         <div className="widget-contact-grid">
                                             <i className="fas fa-phone-alt text-white" />
@@ -105,7 +104,7 @@ const FooterFour = () => {
                                             <i className="fas fa-map-marker-alt text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    1212, Lav Vegas, The Veg <br /> Street, USA
+                                                    1212، لاس فيغاس، ذا فيغ <br /> ستريت، الولايات المتحدة
                                                     <p />
                                                 </h6>
                                             </div>
@@ -121,14 +120,14 @@ const FooterFour = () => {
                         <div className="row gy-3 justify-content-lg-between justify-content-center">
                             <div className="col-auto align-self-center">
                                 <p className="copyright-text text-center">
-                                    © <Link to="#">Yoursitename </Link> 2024 | All Rights Reserved
+                                    © <Link to="#">اسم موقعك </Link> 2024 | جميع الحقوق محفوظة
                                 </p>
                             </div>
                             <div className="col-auto">
                                 <div className="footer-links">
-                                    <Link to="/contact">Trams &amp; Condition</Link>
-                                    <Link to="/contact">Privacy Policy</Link>
-                                    <Link to="/contact">Contact Us</Link>
+                                    <Link to="/contact">شروط وأحكام</Link>
+                                    <Link to="/contact">سياسة الخصوصية</Link>
+                                    <Link to="/contact">اتصل بنا</Link>
                                 </div>
                             </div>
                         </div>
@@ -137,6 +136,7 @@ const FooterFour = () => {
             </footer>
 
         </section>
+
     )
 }
 

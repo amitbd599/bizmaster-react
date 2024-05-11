@@ -16,17 +16,14 @@ const HeroFour = () => {
                     <div className="col-lg-6">
                         <div className="hero-style4">
                             <h1 className="hero-title text-white">
-                                Empowering Your Business{" "}
-                                <span className="text-theme2">Success</span>
+                                الممرات المتاحة<span className="text-theme2"> للمهندس </span> للمهندس الممرات
                             </h1>
                             <p className="hero-text">
-                                A business is an organization engaged in the production, sale, or
-                                provision of goods and services to meet A business is an
-                                organization engaged in the production
+                                العمل هو منظمة مشاركة في إنتاج أو بيع أو توفير السلع والخدمات لتلبية الاحتياجات الأساسية. العمل هو منظمة مشاركة في الإنتاج
                             </p>
                             <div className="btn-wrap">
                                 <Link to="/about" className="global-btn style-border3">
-                                    Learn More <i className="fas fa-arrow-right ms-2" />
+                                    تعلم المزيد <i className="fas fa-arrow-right ms-2" />
                                 </Link>
 
                             </div>
@@ -35,6 +32,7 @@ const HeroFour = () => {
                 </div>
             </div>
         </div>
+
 
     )
 }

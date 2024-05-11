@@ -10,11 +10,10 @@ const FeatureOne = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title text-white">
                                     <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                    Our Features
+                                    ميزاتنا
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Your Business Goals with the Confidence
-                                </h2>
+                                    الممرات المتاحة للمهندس الممرات المتاحة للمهندس                                </h2>
                             </div>
                         </div>
                     </div>
@@ -31,22 +30,20 @@ const FeatureOne = () => {
                             <div className="col-xl-5 col-lg-6 order-lg-1">
                                 <div className="feature-content">
                                     <h4 className="feature-content-title text-white mb-20">
-                                        Achieve Your a of Business{" "}
+                                        الممرات المتاحة للمهندس الممرات المتاحة للم الممرات المتا الممرات المتاحة للمهندس
                                     </h4>
                                     <p className="feature-content-text mb-30 text-white">
-                                        We have been operating for over a decade, providing top-notch
-                                        services to our clients and building a strong track record in the
-                                        industry.We have been
+                                        لقد كنا نعمل لأكثر من عقد من الزمان، نقدم خدمات متميزة لعملائنا ونبني سجلًا قويًا في الصناعة. لقد كنا
                                     </p>
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <div className="checklist style-white2">
                                                 <ul>
                                                     <li>
-                                                        <i className="fas fa-check" /> Mistakes To Avoid
+                                                        <i className="fas fa-check" /> الأخطاء المتعلقة بتجنبها
                                                     </li>
                                                     <li>
-                                                        <i className="fas fa-check" /> Your Startup
+                                                        <i className="fas fa-check" /> الشركات الناشئة الخاصة بك
                                                     </li>
                                                 </ul>
                                             </div>
@@ -55,10 +52,10 @@ const FeatureOne = () => {
                                             <div className="checklist style-white2">
                                                 <ul>
                                                     <li>
-                                                        <i className="fas fa-check" /> Mistakes To Avoid
+                                                        <i className="fas fa-check" /> الأخطاء المتعلقة بتجنبها
                                                     </li>
                                                     <li>
-                                                        <i className="fas fa-check" /> Your Startup
+                                                        <i className="fas fa-check" /> الشركات الناشئة الخاصة بك
                                                     </li>
                                                 </ul>
                                             </div>
@@ -74,27 +71,26 @@ const FeatureOne = () => {
                             <div className="col-xl-5 col-lg-6 order-4">
                                 <div className="feature-content">
                                     <h4 className="feature-content-title mb-20 text-white">
-                                        Marketing and Branding business Consultants
+                                        استشاريو التسويق والعلامات التجارية للأعمال
                                     </h4>
                                     <p className="feature-content-text mb-30 text-white">
-                                        We have been operating for over a decade, providing top-notch
-                                        services to our clients and building a strong
+                                        لقد كنا نعمل لأكثر من عقد من الزمان، نقدم خدمات متميزة لعملائنا ونبني سجلًا قويًا
                                     </p>
                                     <div className="row gy-4">
                                         <div className="col-lg-6">
                                             <h5 className="feature-content-subtitle text-white">
-                                                Operational Excellence
+                                                التميز التشغيلي
                                             </h5>
                                             <p className="feature-content-text text-white">
-                                                Et purus duis sollic itudin sed dignis{" "}
+                                                وطني للشركات التجارية في الشركات التجارية{" "}
                                             </p>
                                         </div>
                                         <div className="col-lg-6">
                                             <h5 className="feature-content-subtitle text-white">
-                                                Transform Strate
+                                                تحويل الإستراتيجية
                                             </h5>
                                             <p className="feature-content-text text-white">
-                                                Et purus duis sollic itudin sed dignis{" "}
+                                                وطني للشركات التجارية في الشركات التجارية{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -105,6 +101,7 @@ const FeatureOne = () => {
                 </div>
             </div>
         </section>
+
 
 
     )

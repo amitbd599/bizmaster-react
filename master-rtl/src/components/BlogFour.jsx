@@ -43,11 +43,10 @@ const BlogFour = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title text-white">
                                     <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                    Latest Blog
+                                    أحدث مدونة
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Achieve Your a of Business{" "}
-                                </h2>
+                                    التغيير في المهندس التغيير في التغيير في المهندس                                </h2>
                             </div>
                         </div>
                     </div>
@@ -56,7 +55,7 @@ const BlogFour = () => {
 
                     >
                         <Slider {...settings}>
-                            <div className="px-2">
+                            <div className="px-2" dir="rtl">
                                 <div className="blog-card style3">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s4_1.png" alt="blog image" />
@@ -65,25 +64,24 @@ const BlogFour = () => {
                                         <div className="blog-meta">
                                             <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
+                                                ١٩ أكتوبر ٢٠٢٢
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-user" />
-                                                By admin
+                                                بواسطة الإدارة
                                             </Link>
                                         </div>
                                         <h3 className="blog-title">
                                             <Link to="/blog-details">
-                                                Strategic Solutions for Business Growth
-                                            </Link>
+                                                التغيير في التغيير في التغيير في التغيير في التغيير في التغيير</Link>
                                         </h3>
                                         <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                            اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="px-2">
+                            <div className="px-2" dir="rtl">
                                 <div className="blog-card style3">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s4_2.png" alt="blog image" />
@@ -92,25 +90,24 @@ const BlogFour = () => {
                                         <div className="blog-meta">
                                             <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
+                                                ١٩ أكتوبر ٢٠٢٢
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-user" />
-                                                By admin
+                                                بواسطة الإدارة
                                             </Link>
                                         </div>
                                         <h3 className="blog-title">
                                             <Link to="/blog-details">
-                                                Hard Work Always Brings You Success
-                                            </Link>
+                                                التغيير في التغيير في التغيير في التغيير في التغيير في التغيير</Link>
                                         </h3>
                                         <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                            اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="px-2">
+                            <div className="px-2" dir="rtl">
                                 <div className="blog-card style3">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s4_3.png" alt="blog image" />
@@ -119,25 +116,24 @@ const BlogFour = () => {
                                         <div className="blog-meta">
                                             <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
+                                                ١٩ أكتوبر ٢٠٢٢
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-user" />
-                                                By admin
+                                                بواسطة الإدارة
                                             </Link>
                                         </div>
                                         <h3 className="blog-title">
                                             <Link to="/blog-details">
-                                                Growth and Innovation the Consultants
-                                            </Link>
+                                                التغيير في التغيير في التغيير في التغيير في التغيير في التغيير</Link>
                                         </h3>
                                         <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                            اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="px-2">
+                            <div className="px-2" dir="rtl">
                                 <div className="blog-card style3">
                                     <div className="blog-img">
                                         <img src="assets/img/blog/blog_s4_2.png" alt="blog image" />
@@ -146,20 +142,19 @@ const BlogFour = () => {
                                         <div className="blog-meta">
                                             <Link to="/blog">
                                                 <i className="fas fa-calendar-alt" />
-                                                October 19, 2022
+                                                ١٩ أكتوبر ٢٠٢٢
                                             </Link>
                                             <Link to="/blog">
                                                 <i className="fas fa-user" />
-                                                By admin
+                                                بواسطة الإدارة
                                             </Link>
                                         </div>
                                         <h3 className="blog-title">
                                             <Link to="/blog-details">
-                                                Hard Work Always Brings You Success
-                                            </Link>
+                                                التغيير في التغيير في التغيير في التغيير في التغيير في التغيير</Link>
                                         </h3>
                                         <Link className="link-btn" to="/blog-details">
-                                            Read More <i className="fas fa-arrow-right ms-2" />
+                                            اقرأ المزيد <i className="fas fa-arrow-left ms-2" />
                                         </Link>
                                     </div>
                                 </div>
@@ -170,6 +165,7 @@ const BlogFour = () => {
             </div>
 
         </section>
+
     )
 }
 

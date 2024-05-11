@@ -11,10 +11,10 @@ const ServiceFour = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title text-white">
                                     <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                    Latest Service
+                                    آخر الخدمات
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Maximizing Through the Strategic{" "}
+                                    الحد الأقصى من خلال الاستراتيجية{" "}
                                 </h2>
                             </div>
                         </div>
@@ -29,14 +29,14 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Efficiency Experts</Link>
+                                        <Link to="/service-details">خبراء الكفاءة</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                        Et purus duis sollicitudin sed dignis sim habi tant. Egestas nulla
-                                        quis its venenatis Et purus duis
+                                        إت بوروس دويس سوليسيتودين سيد ديغنيس سيم هابي تانت. إجستاس نولا
+                                        كويس إيتس فينيناتيس إت بوروس دويس
                                     </p>
                                     <Link to="/service-details" className="link-btn">
-                                        Learn More <i className="fas fa-arrow-right" />
+                                        تعلم المزيد <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
                             </div>
@@ -48,14 +48,14 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">Networ Tructure </Link>
+                                        <Link to="/service-details">هيكل الشبكة</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                        Et purus duis sollicitudin sed dignis sim habi tant. Egestas nulla
-                                        quis its venenatis Et purus duis
+                                        إت بوروس دويس سوليسيتودين سيد ديغنيس سيم هابي تانت. إجستاس نولا
+                                        كويس إيتس فينيناتيس إت بوروس دويس
                                     </p>
                                     <Link to="/service-details" className="link-btn">
-                                        Learn More <i className="fas fa-arrow-right" />
+                                        تعلم المزيد <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
                             </div>
@@ -67,14 +67,14 @@ const ServiceFour = () => {
                                 </div>
                                 <div className="service-card_content">
                                     <h4 className="service-card_title">
-                                        <Link to="/service-details">IT Training most </Link>
+                                        <Link to="/service-details">تدريب تقنية المعلومات</Link>
                                     </h4>
                                     <p className="service-card_text">
-                                        Et purus duis sollicitudin sed dignis sim habi tant. Egestas nulla
-                                        quis its venenatis Et purus duis
+                                        إت بوروس دويس سوليسيتودين سيد ديغنيس سيم هابي تانت. إجستاس نولا
+                                        كويس إيتس فينيناتيس إت بوروس دويس
                                     </p>
                                     <Link to="/service-details" className="link-btn">
-                                        Learn More <i className="fas fa-arrow-right" />
+                                        تعلم المزيد <i className="fas fa-arrow-right" />
                                     </Link>
                                 </div>
                             </div>
@@ -83,6 +83,7 @@ const ServiceFour = () => {
                 </div>
             </div>
         </section>
+
     )
 }
 

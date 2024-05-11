@@ -4,7 +4,7 @@ const TestimonialThree = () => {
     function SampleNextArrow(props) {
         const { onClick } = props;
         return (
-            <div className="TestimonialThree-icon-box-next">
+            <div className="TestimonialThree-icon-box-next rtl">
 
                 <button onClick={onClick}
                     className="slick-arrow default"
@@ -18,7 +18,7 @@ const TestimonialThree = () => {
     function SamplePrevArrow(props) {
         const { onClick } = props;
         return (
-            <div className="TestimonialThree-icon-box-prev">
+            <div className="TestimonialThree-icon-box-prev rtl">
                 <button onClick={onClick}
                     className="slick-arrow default"
                 >
@@ -68,10 +68,10 @@ const TestimonialThree = () => {
                             <div className="title-area text-center">
                                 <span className="sub-title text-white">
                                     <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                    Clients Testimonial
+                                    شهادات العملاء
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Innovation Moves You Forward{" "}
+                                    الابتكار يحركك للأمام{" "}
                                 </h2>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ const TestimonialThree = () => {
 
                                 >
                                     <Slider {...settings}>
-                                        <div className="px-2">
+                                        <div className="px-2" dir="rtl">
                                             <div className="testi-card style2">
                                                 <div className="testi-card_content">
                                                     <div className="testi-card-profile">
@@ -95,16 +95,16 @@ const TestimonialThree = () => {
                                                             />
                                                         </div>
                                                         <div className="testi-card-profile-details">
-                                                            <h4 className="testi-profile-title">Michael Ramirez</h4>
+                                                            <h4 className="testi-profile-title">مايكل راميريز</h4>
                                                             <span className="testi-profile-desig">
-                                                                Marketing Manager
+                                                                مدير التسويق
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <p className="testi-card_text">
-                                                        Roofing is the process of installin repai, and maintaining
-                                                        roofs on buildings. It involves various materials such shil
-                                                        tiles,metal, and membranes. Roofing services
+                                                        السقف هو عملية تركيب وإصلاح وصيانة
+                                                        الأسقف على المباني. ينطوي ذلك على مواد مختلفة مثل البلاط الخزفي
+                                                        المعدن، والأغشية. خدمات السقف
                                                     </p>
                                                     <div className="rating">
                                                         <i className="fas fa-star" />
@@ -119,7 +119,7 @@ const TestimonialThree = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="px-2">
+                                        <div className="px-2" dir="rtl">
                                             <div className="testi-card style2">
                                                 <div className="testi-card_content">
                                                     <div className="testi-card-profile">
@@ -130,16 +130,16 @@ const TestimonialThree = () => {
                                                             />
                                                         </div>
                                                         <div className="testi-card-profile-details">
-                                                            <h4 className="testi-profile-title">Starli shaine</h4>
+                                                            <h4 className="testi-profile-title">ستارلي شاين</h4>
                                                             <span className="testi-profile-desig">
-                                                                Marketing Manager
+                                                                مدير التسويق
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <p className="testi-card_text">
-                                                        Roofing is the process of installin repai, and maintaining
-                                                        roofs on buildings. It involves various materials such shil
-                                                        tiles,metal, and membranes. Roofing services
+                                                        السقف هو عملية تركيب وإصلاح وصيانة
+                                                        الأسقف على المباني. ينطوي ذلك على مواد مختلفة مثل البلاط الخزفي
+                                                        المعدن، والأغشية. خدمات السقف
                                                     </p>
                                                     <div className="rating">
                                                         <i className="fas fa-star" />
@@ -169,6 +169,7 @@ const TestimonialThree = () => {
             </div>
 
         </section>
+
     )
 }
 

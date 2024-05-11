@@ -17,15 +17,14 @@ const AboutFour = () => {
                             <div className="title-area mb-40">
                                 <span className="sub-title text-white">
                                     <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                    About Us
+                                    حولنا
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Maximizing Through the Strategic
-                                </h2>
+                                    مرات المتاحة مرات المتاحة مرات المتاحة                                </h2>
                                 <p className="sec-text mb-35 text-white">
-                                    Lorem Ipsum is simply dummy text of the printing and typese
-                                    industry. Lorem Ipsum has been the industry's standard dumm text
-                                    ever since the 1500s, when an unknown printer took a galley of type
+                                    النص الوهمي هو مجرد نص تم إدخاله في الصناعة المطبعية والطباعية.
+                                    وكان النص الوهمي القياسي في الصناعة منذ القرن الخامس عشر
+                                    ، عندما أخذ طابعًا غير معروف من طابع النوع
                                 </p>
                             </div>
                             <div className="row gy-4">
@@ -36,7 +35,7 @@ const AboutFour = () => {
                                         </div>
                                         <div className="about-grid-details">
                                             <h4 className="about-grid-title text-white">
-                                                Strategic Solution
+                                                حلول استراتيجية
                                             </h4>
                                         </div>
                                     </div>
@@ -47,7 +46,7 @@ const AboutFour = () => {
                                             <img src="assets/img/icon/about_icon4-2.svg" alt="img" />
                                         </div>
                                         <div className="about-grid-details">
-                                            <h4 className="about-grid-title text-white">Perform Enhance</h4>
+                                            <h4 className="about-grid-title text-white">تعزيز الأداء</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -56,14 +55,11 @@ const AboutFour = () => {
                                 <ul>
                                     <li>
                                         <i className="fas fa-check" />
-                                        24/7 Call Service Available It is a lon established fact that a
-                                        reader will be distracted by the readable{" "}
+                                        الخدمة المتاحة على مدار الساعة طوال الأسبوع وقد تم تأسيس حقيقة أن القارئ سيتم تشتيته بالمحتوى القابل للقراءة{" "}
                                     </li>
                                     <li>
                                         <i className="fas fa-check" />
-                                        Bring the It is a long established fact that a reader will be
-                                        distracted by the readable content{" "}
-                                    </li>
+                                        الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس الممرات المتاحة للمهندس                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -71,6 +67,7 @@ const AboutFour = () => {
                 </div>
             </div>
         </section>
+
 
 
     )

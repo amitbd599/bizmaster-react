@@ -11,17 +11,16 @@ const PortfolioFour = () => {
                             <div className="title-area text-lg-start text-center">
                                 <span className="sub-title text-white">
                                     <img src="assets/img/icon/title_left.svg" alt="shape" />
-                                    Latest Portfolio
+                                    أحدث محفظة
                                 </span>
                                 <h2 className="sec-title style2 text-white">
-                                    Unleash Business's Hid Potential
-                                </h2>
+                                    الممرات المتاحة الممرات المتاح المتاحة الممرات المتاحة                                </h2>
                             </div>
                         </div>
                         <div className="col-lg-auto">
                             <div className="btn-wrap mb-60 justify-content-center">
                                 <Link to="/project" className="global-btn style-border5">
-                                    View More <i className="fas fa-arrow-right ms-2" />
+                                    عرض المزيد <i className="fas fa-arrow-left ms-2" />
                                 </Link>
                             </div>
                         </div>
@@ -35,14 +34,14 @@ const PortfolioFour = () => {
                                 <div className="portfolio-card-details">
                                     <div className="media-left">
                                         <h4 className="portfolio-card-details_title">
-                                            <Link to="/project-details">Transformational Strategy</Link>
+                                            <Link to="/project-details">استراتيجية تحولية</Link>
                                         </h4>
                                         <span className="portfolio-card-details_subtitle">
-                                            purus duis
+                                            بوروس دويس
                                         </span>
                                     </div>
                                     <Link to="/project-details" className="icon-btn">
-                                        <img src="assets/img/icon/arrow-long-right.svg" alt="img" />
+                                        <img src="assets/img/icon/arrow-long-left.svg" alt="img" />
                                     </Link>
                                 </div>
                             </div>
@@ -55,14 +54,14 @@ const PortfolioFour = () => {
                                 <div className="portfolio-card-details">
                                     <div className="media-left">
                                         <h4 className="portfolio-card-details_title">
-                                            <Link to="/project-details">Technology solutions </Link>
+                                            <Link to="/project-details">حلول تكنولوجيا</Link>
                                         </h4>
                                         <span className="portfolio-card-details_subtitle">
-                                            purus duis
+                                            بوروس دويس
                                         </span>
                                     </div>
                                     <Link to="/project-details" className="icon-btn">
-                                        <img src="assets/img/icon/arrow-long-right.svg" alt="img" />
+                                        <img src="assets/img/icon/arrow-long-left.svg" alt="img" />
                                     </Link>
                                 </div>
                             </div>
@@ -75,14 +74,14 @@ const PortfolioFour = () => {
                                 <div className="portfolio-card-details">
                                     <div className="media-left">
                                         <h4 className="portfolio-card-details_title">
-                                            <Link to="/project-details">Analysis Strategy </Link>
+                                            <Link to="/project-details">استراتيجية التحليل</Link>
                                         </h4>
                                         <span className="portfolio-card-details_subtitle">
-                                            purus duis
+                                            بوروس دويس
                                         </span>
                                     </div>
                                     <Link to="/project-details" className="icon-btn">
-                                        <img src="assets/img/icon/arrow-long-right.svg" alt="img" />
+                                        <img src="assets/img/icon/arrow-long-left.svg" alt="img" />
                                     </Link>
                                 </div>
                             </div>
@@ -96,15 +95,15 @@ const PortfolioFour = () => {
                                     <div className="media-left">
                                         <h4 className="portfolio-card-details_title">
                                             <Link to="/project-details">
-                                                Digital Transformation Advisors
+                                                المستشارين في التحول الرقمي
                                             </Link>
                                         </h4>
                                         <span className="portfolio-card-details_subtitle">
-                                            purus duis
+                                            بوروس دويس
                                         </span>
                                     </div>
                                     <Link to="/project-details" className="icon-btn">
-                                        <img src="assets/img/icon/arrow-long-right.svg" alt="img" />
+                                        <img src="assets/img/icon/arrow-long-left.svg" alt="img" />
                                     </Link>
                                 </div>
                             </div>
@@ -112,8 +111,8 @@ const PortfolioFour = () => {
                     </div>
                 </div>
             </div>
-
         </section>
+
     )
 }
 
