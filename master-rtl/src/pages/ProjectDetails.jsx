@@ -28,7 +28,7 @@ const ProjectDetails = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Project Details" />
+      <Breadcrumb title="تفاصيل المشروع" />
 
       {/* PortfolioDetailsArea */}
       <PortfolioDetailsArea />

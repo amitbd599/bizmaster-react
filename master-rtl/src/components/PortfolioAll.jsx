@@ -14,11 +14,11 @@ const PortfolioAll = () => {
                             <div className="portfolio-card-details">
                                 <div className="media-left">
                                     <span className="portfolio-card-details_subtitle">
-                                        Development Coaches
+                                        مدربو التطوير
                                     </span>
                                     <h4 className="portfolio-card-details_title">
                                         <Link to="/project-details">
-                                            Digital Transformation Advisors
+                                            مستشارو التحول الرقمي
                                         </Link>
                                     </h4>
                                 </div>
@@ -36,11 +36,11 @@ const PortfolioAll = () => {
                             <div className="portfolio-card-details">
                                 <div className="media-left">
                                     <span className="portfolio-card-details_subtitle">
-                                        Success Accelerators
+                                        مسرعو النجاح
                                     </span>
                                     <h4 className="portfolio-card-details_title">
                                         <Link to="/project-details">
-                                            Transformational Strategy Advisors
+                                            مستشارو استراتيجية التحول
                                         </Link>
                                     </h4>
                                 </div>
@@ -58,11 +58,11 @@ const PortfolioAll = () => {
                             <div className="portfolio-card-details">
                                 <div className="media-left">
                                     <span className="portfolio-card-details_subtitle">
-                                        Efficiency Experts
+                                        خبراء الكفاءة
                                     </span>
                                     <h4 className="portfolio-card-details_title">
                                         <Link to="/project-details">
-                                            Marketing and Branding Consultants
+                                            مستشارو التسويق والعلامة التجارية
                                         </Link>
                                     </h4>
                                 </div>
@@ -80,10 +80,10 @@ const PortfolioAll = () => {
                             <div className="portfolio-card-details">
                                 <div className="media-left">
                                     <span className="portfolio-card-details_subtitle">
-                                        Profitability Maximizers
+                                        معززو الربحية
                                     </span>
                                     <h4 className="portfolio-card-details_title">
-                                        <Link to="/project-details">Market Analysis and Strategy</Link>
+                                        <Link to="/project-details">تحليل السوق والاستراتيجية</Link>
                                     </h4>
                                 </div>
                                 <Link to="/project-details" className="icon-btn">
@@ -100,10 +100,10 @@ const PortfolioAll = () => {
                             <div className="portfolio-card-details">
                                 <div className="media-left">
                                     <span className="portfolio-card-details_subtitle">
-                                        Profitability Maximizers
+                                        معززو الربحية
                                     </span>
                                     <h4 className="portfolio-card-details_title">
-                                        <Link to="/project-details">Market Analysis and Strategy</Link>
+                                        <Link to="/project-details">تحليل السوق والاستراتيجية</Link>
                                     </h4>
                                 </div>
                                 <Link to="/project-details" className="icon-btn">
@@ -120,10 +120,10 @@ const PortfolioAll = () => {
                             <div className="portfolio-card-details">
                                 <div className="media-left">
                                     <span className="portfolio-card-details_subtitle">
-                                        Profitability Maximizers
+                                        معززو الربحية
                                     </span>
                                     <h4 className="portfolio-card-details_title">
-                                        <Link to="/project-details">Market Analysis and Strategy</Link>
+                                        <Link to="/project-details">تحليل السوق والاستراتيجية</Link>
                                     </h4>
                                 </div>
                                 <Link to="/project-details" className="icon-btn">
@@ -135,6 +135,7 @@ const PortfolioAll = () => {
                 </div>
             </div>
         </div>
+
 
     )
 }

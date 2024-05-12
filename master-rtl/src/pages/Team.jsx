@@ -28,7 +28,7 @@ const Team = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Team" />
+      <Breadcrumb title="فريق" />
 
       {/* TeamAll */}
       <TeamAll />

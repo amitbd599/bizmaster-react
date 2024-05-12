@@ -28,7 +28,7 @@ const Pricing = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Pricing" />
+      <Breadcrumb title="التسعير" />
 
       {/* PricingInner */}
       <PricingInner />

@@ -28,7 +28,7 @@ const TeamDetails = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Team Details" />
+      <Breadcrumb title="تفاصيل الفريق" />
 
       {/* TeamDetailsInner */}
       <TeamDetailsInner />

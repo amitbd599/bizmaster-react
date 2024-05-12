@@ -28,7 +28,7 @@ const ServiceDetails = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Service Details" />
+      <Breadcrumb title="تفاصيل الخدمة" />
 
       {/* ServiceDetails */}
       <ServiceInnerDetails />

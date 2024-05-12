@@ -13,14 +13,13 @@ const ServiceView = () => {
                             </div>
                             <div className="service-card_content">
                                 <h4 className="service-card_title">
-                                    <Link to="/service-details">Efficiency Experts</Link>
+                                    <Link to="/service-details">خبراء الكفاءة</Link>
                                 </h4>
                                 <p className="service-card_text">
-                                    Many desktop publishing packages web page editors now use Lorem
-                                    Ipsum a default model text, and a search
+                                    العديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن نص لوريم إيبسوم كنموذج افتراضي، وبحث
                                 </p>
                                 <Link to="/service-details" className="link-btn">
-                                    Read More <i className="fas fa-arrow-right" />
+                                    اقرأ المزيد <i className="fas fa-arrow-left" />
                                 </Link>
                             </div>
                         </div>
@@ -32,14 +31,13 @@ const ServiceView = () => {
                             </div>
                             <div className="service-card_content">
                                 <h4 className="service-card_title">
-                                    <Link to="/service-details">Management Mastery</Link>
+                                    <Link to="/service-details">إتقان الإدارة</Link>
                                 </h4>
                                 <p className="service-card_text">
-                                    Many desktop publishing packages web page editors now use Lorem
-                                    Ipsum a default model text, and a search
+                                    العديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن نص لوريم إيبسوم كنموذج افتراضي، وبحثالعديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن
                                 </p>
                                 <Link to="/service-details" className="link-btn">
-                                    Read More <i className="fas fa-arrow-right" />
+                                    اقرأ المزيد <i className="fas fa-arrow-left" />
                                 </Link>
                             </div>
                         </div>
@@ -51,14 +49,13 @@ const ServiceView = () => {
                             </div>
                             <div className="service-card_content">
                                 <h4 className="service-card_title">
-                                    <Link to="/service-details">Success Accelerators</Link>
+                                    <Link to="/service-details">مسرعات النجاح</Link>
                                 </h4>
                                 <p className="service-card_text">
-                                    Many desktop publishing packages web page editors now use Lorem
-                                    Ipsum a default model text, and a search
+                                    العديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن نص لوريم إيبسوم كنموذج افتراضي، وبحثالعديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن
                                 </p>
                                 <Link to="/service-details" className="link-btn">
-                                    Read More <i className="fas fa-arrow-right" />
+                                    اقرأ المزيد <i className="fas fa-arrow-left" />
                                 </Link>
                             </div>
                         </div>
@@ -70,14 +67,13 @@ const ServiceView = () => {
                             </div>
                             <div className="service-card_content">
                                 <h4 className="service-card_title">
-                                    <Link to="/service-details">Growth and Innovation</Link>
+                                    <Link to="/service-details">النمو والابتكار</Link>
                                 </h4>
                                 <p className="service-card_text">
-                                    Many desktop publishing packages web page editors now use Lorem
-                                    Ipsum a default model text, and a search
+                                    العديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن نص لوريم إيبسوم كنموذج افتراضي، وبحثالعديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن
                                 </p>
                                 <Link to="/service-details" className="link-btn">
-                                    Read More <i className="fas fa-arrow-right" />
+                                    اقرأ المزيد <i className="fas fa-arrow-left" />
                                 </Link>
                             </div>
                         </div>
@@ -89,14 +85,13 @@ const ServiceView = () => {
                             </div>
                             <div className="service-card_content">
                                 <h4 className="service-card_title">
-                                    <Link to="/service-details">Growth and Innovation</Link>
+                                    <Link to="/service-details">النمو والابتكار</Link>
                                 </h4>
                                 <p className="service-card_text">
-                                    Many desktop publishing packages web page editors now use Lorem
-                                    Ipsum a default model text, and a search
+                                    العديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن نص لوريم إيبسوم كنموذج افتراضي، وبحثالعديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن
                                 </p>
                                 <Link to="/service-details" className="link-btn">
-                                    Read More <i className="fas fa-arrow-right" />
+                                    اقرأ المزيد <i className="fas fa-arrow-left" />
                                 </Link>
                             </div>
                         </div>
@@ -108,14 +103,13 @@ const ServiceView = () => {
                             </div>
                             <div className="service-card_content">
                                 <h4 className="service-card_title">
-                                    <Link to="/service-details">Growth and Innovation</Link>
+                                    <Link to="/service-details">النمو والابتكار</Link>
                                 </h4>
                                 <p className="service-card_text">
-                                    Many desktop publishing packages web page editors now use Lorem
-                                    Ipsum a default model text, and a search
+                                    العديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن نص لوريم إيبسوم كنموذج افتراضي، وبحثالعديد من حزم تحرير صفحات الويب المكتبية تستخدم الآن
                                 </p>
                                 <Link to="/service-details" className="link-btn">
-                                    Read More <i className="fas fa-arrow-right" />
+                                    اقرأ المزيد <i className="fas fa-arrow-left" />
                                 </Link>
                             </div>
                         </div>
@@ -123,6 +117,7 @@ const ServiceView = () => {
                 </div>
             </div>
         </div>
+
 
     )
 }

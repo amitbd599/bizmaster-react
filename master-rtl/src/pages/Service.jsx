@@ -28,7 +28,7 @@ const Service = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title="Service" />
+      <Breadcrumb title="خدمة" />
 
       {/* ServiceOne */}
       <ServiceView />

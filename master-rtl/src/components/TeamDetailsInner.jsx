@@ -13,15 +13,15 @@ const TeamDetailsInner = () => {
                                     <img
                                         className="w-100"
                                         src="assets/img/team/team-details.png"
-                                        alt="team image"
+                                        alt="صورة الفريق"
                                     />
                                 </div>
                             </div>
                             <div className="col-lg-6 align-self-center">
                                 <div className="team-about-card_box">
-                                    <h3 className="team-about-card_title">Biography</h3>
+                                    <h3 className="team-about-card_title">السيرة الذاتية</h3>
                                     <div className="skill-feature position-relative">
-                                        <h3 className="skill-feature_title">Design</h3>
+                                        <h3 className="skill-feature_title">التصميم</h3>
                                         <div className="progress">
                                             <div className="progress-bar" style={{ width: "80%" }}></div>
                                             <div className="progress-value">
@@ -30,7 +30,7 @@ const TeamDetailsInner = () => {
                                         </div>
                                     </div>
                                     <div className="skill-feature position-relative">
-                                        <h3 className="skill-feature_title">Driving</h3>
+                                        <h3 className="skill-feature_title">القيادة</h3>
                                         <div className="progress">
                                             <div className="progress-bar" style={{ width: "90%" }}></div>
                                             <div className="progress-value">
@@ -39,7 +39,7 @@ const TeamDetailsInner = () => {
                                         </div>
                                     </div>
                                     <div className="skill-feature position-relative">
-                                        <h3 className="skill-feature_title">Service Car</h3>
+                                        <h3 className="skill-feature_title">خدمة السيارات</h3>
                                         <div className="progress">
                                             <div className="progress-bar" style={{ width: "70%" }}></div>
                                             <div className="progress-value">
@@ -48,15 +48,11 @@ const TeamDetailsInner = () => {
                                         </div>
                                     </div>
                                     <p>
-                                        This category focuses on the design and construction of
-                                        buildings and the This category focuses on the design and
-                                        construction of buildings and arrangement of furniture and
-                                        decorative elements within themarrangement
+                                        تركز هذه الفئة على تصميم وبناء المباني و
+                                        تركيب الأثاث والعناصر الزخرفية في داخلها.
                                     </p>
                                     <p className="mb-n2">
-                                        This category focuses on the design and construction of
-                                        buildings and the This category focuses on the design and
-                                        construction of buildings
+                                        تركز هذه الفئة على تصميم وبناء المباني.
                                     </p>
                                 </div>
                             </div>
@@ -65,20 +61,18 @@ const TeamDetailsInner = () => {
                     <div className="row gy-40">
                         <div className="col-lg-4">
                             <div className="team-details-wrap">
-                                <h4 className="team-details-wrap-title">Fahad Bhuiyan</h4>
-                                <h6 className="team-details-wrap-desig">Manager</h6>
+                                <h4 className="team-details-wrap-title">فهد بهيان</h4>
+                                <h6 className="team-details-wrap-desig">مدير</h6>
                                 <p className="team-details-wrap-text mb-30">
-                                    This category focuses on the design construction of buildings and
-                                    the This a category focuses on the design and construction of
-                                    buildings
+                                    تركز هذه الفئة على تصميم وبناء المباني.
                                 </p>
                                 <div className="team-details-wrap_info">
                                     <span className="icon">
                                         <i className="fas fa-map-marker-alt" />
                                     </span>
                                     <p>
-                                        Burmsille Street, MN 55337, <br />
-                                        United States
+                                        شارع بورمسيل، MN 55337،
+                                        الولايات المتحدة
                                     </p>
                                 </div>
                                 <div className="team-details-wrap_info">
@@ -119,7 +113,7 @@ const TeamDetailsInner = () => {
                         </div>
                         <div className="col-lg-8">
                             <div className="team-contact-wrap">
-                                <h3 className="mt-n1 mb-30 page-title">Contact Form</h3>
+                                <h3 className="mt-n1 mb-30 page-title">نموذج الاتصال</h3>
                                 <form
                                     action="mail.php"
                                     method="POST"
@@ -133,7 +127,7 @@ const TeamDetailsInner = () => {
                                                     className="form-control style-border"
                                                     name="name"
                                                     id="name"
-                                                    placeholder="Your Name"
+                                                    placeholder="اسمك"
                                                 />
                                             </div>
                                         </div>
@@ -144,14 +138,14 @@ const TeamDetailsInner = () => {
                                                     className="form-control style-border"
                                                     name="email"
                                                     id="email"
-                                                    placeholder="Email Address"
+                                                    placeholder="عنوان البريد الإلكتروني"
                                                 />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="form-group col-12">
                                         <textarea
-                                            placeholder="Message here.."
+                                            placeholder="الرسالة هنا.."
                                             id="contactForm"
                                             className="form-control style-border"
                                             defaultValue={""}
@@ -159,7 +153,7 @@ const TeamDetailsInner = () => {
                                     </div>
                                     <div className="form-btn col-12">
                                         <button className="global-btn">
-                                            Send Now <i className="fas fa-arrow-right ms-2" />
+                                            أرسل الآن <i className="fas fa-arrow-left ms-2" />
                                         </button>
                                     </div>
                                 </form>
@@ -169,6 +163,7 @@ const TeamDetailsInner = () => {
                 </div>
             </div>
         </div>
+
 
     )
 }

@@ -12,48 +12,44 @@ const ServiceInnerDetails = () => {
                         </div>
                         <ul className="service-details-list">
                             <li className="single-service-list">
-                                <span className="title">Catagory </span>
-                                <h6 className="content">Business's Consulting </h6>
+                                <span className="title">الفئة </span>
+                                <h6 className="content">استشارات الأعمال </h6>
                             </li>
                             <li className="single-service-list">
-                                <span className="title">Clients </span>
-                                <h6 className="content">Fahad Hossain </h6>
+                                <span className="title">العملاء </span>
+                                <h6 className="content">فهد حسين </h6>
                             </li>
                             <li className="single-service-list">
-                                <span className="title">Timeframe </span>
-                                <h6 className="content">February-10-2024 </h6>
+                                <span className="title">الإطار الزمني </span>
+                                <h6 className="content">10 فبراير 2024 </h6>
                             </li>
                         </ul>
-                        <h3 className="page-title mt-40 mb-20">Maximizing Profita Through</h3>
+                        <h3 className="page-title mt-40 mb-20">تحقيق الربح القصوى من خلال</h3>
                         <p>
-                            Web designing in a powerful way of just not an only professions,
-                            however, in a passion Company. have a to a tendency to believe the
-                            idea that smart looking of any website
+                            تصميم الويب بطريقة قوية ليست مهنة فقط، ولكن في شركة شغف. لديهم ميل للإيمان بفكرة
+                            أن النظرة الجيدة لأي موقع ويب
                         </p>
                         <div className="checklist style6 mt-40 mb-60">
                             <ul>
                                 <li>
                                     <i className="fas fa-check-circle" />
-                                    Navigate the Path to Success Achieve Your Business Goals with
-                                    Confidenc
-                                </li>
-                                <li>
-                                    <i className="fas fa-check-circle" />A business consultant is a
-                                    professional who provides expert
+                                    توجيه الطريق إلى النجاح تحقيق أهداف عملك بثقة
                                 </li>
                                 <li>
                                     <i className="fas fa-check-circle" />
-                                    Guidance to businesses on various aspects such as management
+                                    الاستشاري التجاري هو محترف يقدم نصائح وإرشادات خبراء
+                                </li>
+                                <li>
+                                    <i className="fas fa-check-circle" />
+                                    إلى الشركات في مجالات مختلفة مثل الإدارة
                                 </li>
                             </ul>
                         </div>
-                        <h3 className="page-title mb-20">Navigate the Path to Success</h3>
+                        <h3 className="page-title mb-20">توجيه الطريق إلى النجاح</h3>
                         <p className="mb-30">
-                            Web designing in a powerful way of just not an only professions,
-                            however, in a passion Company. have a to a tendency to believe the
-                            idea that smart looking of any website is the impression on
-                            visitors.Web designing in a powerful way only professions Web
-                            designing in a powerf
+                            تصميم الويب بطريقة قوية ليست مهنة فقط، ولكن في شركة شغف. لديهم ميل للإيمان بفكرة
+                            أن النظرة الجيدة لأي موقع ويب هي الانطباع على
+                            الزوار. تصميم الويب بطريقة قوية ليست مهنة فقط تصميم الويب بطريقة
                         </p>
                         <div className="row gy-4">
                             <div className="col-lg-6">
@@ -68,11 +64,9 @@ const ServiceInnerDetails = () => {
                             </div>
                         </div>
                         <p className="mt-30 mb-n1">
-                            Web designing in a powerful way of just not an only professions,
-                            however, in a passion Company. have a to a tendency to believe the
-                            idea that smart looking of an is the impression on visitors.Web
-                            designing in a powerful way only professions Web designing in a
-                            powerful way
+                            تصميم الويب بطريقة قوية ليست مهنة فقط، ولكن في شركة شغف. لديهم ميل للإيمان بفكرة
+                            أن النظرة الجيدة لأي موقع ويب هي الانطباع على الزوار. تصميم الويب بطريقة قوية ليست
+                            مهنة فقط تصميم الويب بطريقة
                         </p>
                     </div>
                     <div className="col-xxl-4 col-lg-5">
@@ -80,25 +74,25 @@ const ServiceInnerDetails = () => {
                             <div className="widget widget_categories widget_service-categories">
                                 <ul>
                                     <li>
-                                        <Link to="/blog">Personal service</Link>
+                                        <Link to="/blog">خدمة شخصية</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Education service</Link>
+                                        <Link to="/blog">خدمة تعليمية</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Student service</Link>
+                                        <Link to="/blog">خدمة الطلاب</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Wedding service</Link>
+                                        <Link to="/blog">خدمة الزفاف</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Car service</Link>
+                                        <Link to="/blog">خدمة السيارات</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Business service</Link>
+                                        <Link to="/blog">خدمة الأعمال</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Others service</Link>
+                                        <Link to="/blog">خدمة أخرى</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -107,6 +101,7 @@ const ServiceInnerDetails = () => {
                 </div>
             </div>
         </section>
+
 
     )
 }
