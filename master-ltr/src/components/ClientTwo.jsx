@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 const ClientTwo = () => {
-    var settings = {
+    let settings = {
         dots: false,
         arrows: false,
         infinite: true,

@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
 const TestimonialFour = () => {
-    var settings = {
+    let settings = {
         dots: false,
         arrows: false,
         infinite: true,

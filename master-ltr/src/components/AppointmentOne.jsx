@@ -59,7 +59,7 @@ const AppointmentOne = () => {
                         id="subject"
                         className="form-select style-border"
                       >
-                        <option value="" disabled="" selected="" hidden="">
+                        <option defaultValue={1} >
                           Subject
                         </option>
                         <option value={1}>01</option>

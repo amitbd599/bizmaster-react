@@ -71,7 +71,7 @@ const HeaderThree = () => {
           <div className="widget  ">
             <div className="th-widget-about">
               <div className="about-logo">
-                <Link to="/">
+                <Link to="https://bizmaster-react.wowtheme7.com">
                   <img src="assets/img/logo.svg" alt="لوغو" />
                 </Link>
               </div>
@@ -145,13 +145,13 @@ const HeaderThree = () => {
           </button>
         </form>
       </div>
-      {/*==============================
-    Mobile Menu
-    ============================== */}
+   
+    {/* Mobile Menu */}
+   
       <div className={`mobile-menu-wrapper rtl ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
-            <Link to="/">
+            <Link to="https://bizmaster-react.wowtheme7.com">
               <img src="assets/img/logo.svg" alt="Bizmaster" />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
@@ -241,9 +241,9 @@ const HeaderThree = () => {
           </div>
         </div>
       </div>
-      {/*==============================
-    Header Area
-    ==============================*/}
+     
+    {/* Header Area */}
+   
       <header className="nav-header header-layout3">
         <div className="header-top d-none d-lg-block">
           <div className="container">
@@ -298,7 +298,7 @@ const HeaderThree = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <Link to="/">
+                  <Link to="https://bizmaster-react.wowtheme7.com">
                     <img src="assets/img/logo.svg" alt="لوغو" />
                   </Link>
                 </div>

@@ -30,7 +30,7 @@ const TestimonialTwo = () => {
     );
   }
 
-  var settings = {
+  let settings = {
     dots: false,
     arrows: true,
     infinite: true,
@@ -82,7 +82,7 @@ const TestimonialTwo = () => {
             <div className="feature-wrapper">
               <div className="feature-icon">
                 <Link to="/tel:3195550115">
-                  <img src="assets/img/icon/call.svg" alt="" />
+                  <img src="assets/img/icon/call.svg" alt="Bizmaster" />
                 </Link>
               </div>
               <div className="media-body">

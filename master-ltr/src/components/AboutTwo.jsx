@@ -42,7 +42,7 @@ const AboutTwo = () => {
             </p>
             <div className="btn-group">
               <Link to="/about" className="global-btn style2">
-                Explore More <img src="assets/img/icon/right-icon.svg" alt="" />
+                Explore More <img src="assets/img/icon/right-icon.svg" alt="Bizmaster" />
               </Link>
             </div>
           </div>

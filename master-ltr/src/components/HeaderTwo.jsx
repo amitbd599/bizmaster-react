@@ -8,8 +8,8 @@ const HeaderTwo = () => {
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
-    var offCanvasNav = document.getElementById("offcanvas-navigation");
-    var offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
+    let offCanvasNav = document.getElementById("offcanvas-navigation");
+    let offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
 
     for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
       offCanvasNavSubMenu[i].insertAdjacentHTML(
@@ -18,8 +18,8 @@ const HeaderTwo = () => {
       );
     }
 
-    var menuExpand = offCanvasNav.querySelectorAll(".mean-expand-class");
-    var numMenuExpand = menuExpand.length;
+    let menuExpand = offCanvasNav.querySelectorAll(".mean-expand-class");
+    let numMenuExpand = menuExpand.length;
 
     function sideMenuExpand() {
       if (this.parentElement.classList.contains("active") === true) {
@@ -116,22 +116,22 @@ const HeaderTwo = () => {
           <ul className="side-instagram list-wrap">
             <li>
               <Link to="#">
-                <img src="assets/img/gallery/1.jpg" alt="" />
+                <img src="assets/img/gallery/1.jpg" alt="Bizmaster" />
               </Link>
             </li>
             <li>
               <Link to="#">
-                <img src="assets/img/gallery/2.jpg" alt="" />
+                <img src="assets/img/gallery/2.jpg" alt="Bizmaster" />
               </Link>
             </li>
             <li>
               <Link to="#">
-                <img src="assets/img/gallery/3.jpg" alt="" />
+                <img src="assets/img/gallery/3.jpg" alt="Bizmaster" />
               </Link>
             </li>
             <li>
               <Link to="#">
-                <img src="assets/img/gallery/4.jpg" alt="" />
+                <img src="assets/img/gallery/4.jpg" alt="Bizmaster" />
               </Link>
             </li>
           </ul>
@@ -354,7 +354,7 @@ const HeaderTwo = () => {
                   <div className="header-button">
                     <Link to="/contact" className="global-btn">
                       Get A Quote
-                      <img src="assets/img/icon/right-icon.svg" alt="" />
+                      <img src="assets/img/icon/right-icon.svg" alt="Bizmaster" />
                     </Link>
                   </div>
                 </div>

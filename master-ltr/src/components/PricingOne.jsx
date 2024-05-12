@@ -55,7 +55,7 @@ const PricingOne = () => {
                   </ul>
                 </div>
                 <Link className="global-btn" to="/contact">
-                  Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
+                  Get Now <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
                 </Link>
               </div>
             </div>
@@ -96,7 +96,7 @@ const PricingOne = () => {
                   </ul>
                 </div>
                 <Link className="global-btn" to="/contact">
-                  Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
+                  Get Now <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
                 </Link>
               </div>
             </div>
@@ -137,7 +137,7 @@ const PricingOne = () => {
                   </ul>
                 </div>
                 <Link className="global-btn" to="/contact">
-                  Get Now <img src="assets/img/icon/right-icon2.svg" alt="" />
+                  Get Now <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
                 </Link>
               </div>
             </div>

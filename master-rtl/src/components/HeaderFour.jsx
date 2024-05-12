@@ -72,7 +72,7 @@ const HeaderFour = () => {
           <div className="widget  ">
             <div className="th-widget-about">
               <div className="about-logo">
-                <Link to="/">
+                <Link to="https://bizmaster-react.wowtheme7.com">
                   <img src="assets/img/logo.svg" alt="Laun" />
                 </Link>
               </div>
@@ -146,13 +146,12 @@ const HeaderFour = () => {
           </button>
         </form>
       </div>
-      {/*==============================
-قائمة الهاتف المحمولة
-============================== */}
+
+      {/* Mobile menu */}
       <div className={`mobile-menu-wrapper rtl ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
-            <Link to="/">
+            <Link to="https://bizmaster-react.wowtheme7.com">
               <img src="assets/img/logo.svg" alt="Bizmaster" />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
@@ -242,9 +241,7 @@ const HeaderFour = () => {
           </div>
         </div>
       </div>
-      {/*==============================
-منطقة الرأس
-==============================*/}
+      {/* header */}
       <header className="nav-header header-layout4">
         <div className="header-top d-none d-lg-block">
           <div className="container">
@@ -299,7 +296,7 @@ const HeaderFour = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <Link to="/">
+                  <Link to="https://bizmaster-react.wowtheme7.com">
                     <img src="assets/img/logo-white2.svg" alt="logo" />
                   </Link>
                 </div>
@@ -402,7 +399,6 @@ const HeaderFour = () => {
                       onClick={() => sidebarControl(true)}
                       className="simple-icon sideMenuToggler d-none d-lg-block"
                     >
-                      {" "}
                       <img src="assets/img/icon/bars.svg" alt="" />{" "}
                     </button>
                   </div>

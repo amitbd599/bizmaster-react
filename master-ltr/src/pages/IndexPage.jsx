@@ -16,7 +16,7 @@ Theme Name: Bizmaster
 Theme URI: https://wowtheme7.com/bizmaster
 Author: wowtheme7
 Author URI: https://wowtheme7.com 
-Description: Bizmaster - Business Consulting HTML Template
+Description: Bizmaster - Business Consulting React Js Template
 Version: 2.0.1
 */
 
@@ -1139,7 +1139,7 @@ h1,h2,h3,h4,h5,h6 {
       <div className="sidebar-links">
         <a
           className="btn btn-white"
-          href="https://themeforest.net/item/bizmaster-consulting-business-html-template/51541563?s_rank=3"
+          href="https://themeforest.net/user/wowtheme7"
         >
           <i className="fa fa-cart-arrow-down" />
           Add To Cart
@@ -1159,10 +1159,10 @@ h1,h2,h3,h4,h5,h6 {
                 alt="logo"
               />
               <h1 className="mt-4">
-                Bizmaster - Business Consulting HTML Template
+                Bizmaster - Business Consulting React Js Template
               </h1>
               <p className="me-5 mb-5">
-                Bizmaster is Business Consulting HTML Template built for an array
+                Bizmaster is Business Consulting React Js Template built for an array
                 of services with a number of auto service and car repair
                 institutions in mind.
               </p>

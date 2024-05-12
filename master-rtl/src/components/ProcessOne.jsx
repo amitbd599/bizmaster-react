@@ -9,9 +9,9 @@ const ProcessOne = () => {
         className="process-area-1 bg-smoke space-bottom"
         style={{ backgroundImage: "url(assets/img/bg/shape_1.png)" }}
       >
-        {/*==============================
-      Client Area  
-      ==============================*/}
+
+        {/* Client Area   */}
+
         <div className="client-bg-area-2 space-bottom">
           <div className="client-area-2">
             <div className=" global-carousel">

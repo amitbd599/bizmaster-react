@@ -86,6 +86,18 @@
   top: -90px;
   right: 48px;
 }
+.BlogThree-icon-box-next.rtl {
+  position: absolute;
+  top: -120px;
+  right: auto;
+  left: 100px;
+}
+.BlogThree-icon-box-prev.rtl {
+  position: absolute;
+  top: -120px;
+  right: auto;
+  left: 0;
+}
 .TestimonialThree-icon-box-prev {
   position: absolute;
   bottom: 36px;
@@ -103,6 +115,18 @@
   bottom: 36px;
   right: 48px;
 }
+.TestimonialThree-icon-box-next.rtl {
+  position: absolute;
+  bottom: 36px;
+  right: auto;
+  left: 96px;
+}
+.TestimonialThree-icon-box-prev.rtl {
+  position: absolute;
+  bottom: 36px;
+  right: auto;
+  left: 40px;
+}
 .TestimonialThree-icon-box-next button {
   background: transparent;
   border-radius: 0;
@@ -117,4 +141,94 @@
 
 .faq-single .accordion-card {
   background: #fff;
+}
+
+.testi-area-slider.rtl .TestimonialOne-icon-box-prev {
+  right: auto;
+  left: 5px;
+}
+
+.testi-area-slider.rtl .TestimonialOne-icon-box-next {
+  right: auto;
+  left: 5px;
+}
+
+.accordion-card.style4 .accordion-button {
+  text-align: right;
+}
+.mobile-menu-wrapper.rtl .menu-item-has-children .mean-expand-class {
+  right: auto;
+  left: 0;
+}
+
+.mean-expand-class i {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--title-color);
+}
+
+[dir="rtl"] .slick-dots li {
+  margin-left: 0 !important;
+}
+
+.tab-content {
+  width: 80%;
+}
+
+.recent-post .recent-post-meta a img {
+  margin-left: 6px;
+  margin-right: auto;
+}
+
+.share-links-title {
+  margin-left: 15px !important;
+}
+
+.comment-item .text {
+  margin-right: 0 !important;
+}
+
+.comments-wrap .reply_and_edit {
+  right: auto !important;
+  left: 0 !important;
+}
+
+.skill-feature .progress .progress-value {
+  right: auto !important;
+  left: 0 !important;
+}
+
+// Error Section
+
+.error-section {
+  padding: 120px 0;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  .wrapper {
+    text-align: center;
+
+    .img-file {
+      width: 500px;
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: auto;
+      img {
+        width: 100%;
+      }
+    }
+    .text-file {
+      margin-top: 0;
+      h4 {
+        font-size: 26px;
+        font-weight: 800;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
 }

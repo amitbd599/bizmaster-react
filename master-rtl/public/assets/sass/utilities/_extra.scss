@@ -197,3 +197,38 @@
   right: auto !important;
   left: 0 !important;
 }
+
+// Error Section
+
+.error-section {
+  padding: 120px 0;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  .wrapper {
+    text-align: center;
+
+    .img-file {
+      width: 500px;
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: auto;
+      img {
+        width: 100%;
+      }
+    }
+    .text-file {
+      margin-top: 0;
+      h4 {
+        font-size: 26px;
+        font-weight: 800;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}

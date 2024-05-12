@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 const ServiceThree = () => {
-  var settings = {
+  let settings = {
     dots: true,
     arrows: false,
     infinite: true,
@@ -78,7 +78,7 @@ const ServiceThree = () => {
                     className="global-btn style-border"
                   >
                     Read More{" "}
-                    <img src="assets/img/icon/right-icon2.svg" alt="" />
+                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
                   </Link>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const ServiceThree = () => {
                     className="global-btn style-border"
                   >
                     Read More
-                    <img src="assets/img/icon/right-icon2.svg" alt="" />
+                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
                   </Link>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const ServiceThree = () => {
                     className="global-btn style-border"
                   >
                     Read More
-                    <img src="assets/img/icon/right-icon2.svg" alt="" />
+                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
                   </Link>
                 </div>
               </div>
@@ -147,7 +147,7 @@ const ServiceThree = () => {
                     className="global-btn style-border"
                   >
                     Read More
-                    <img src="assets/img/icon/right-icon2.svg" alt="" />
+                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
                   </Link>
                 </div>
               </div>
@@ -170,7 +170,7 @@ const ServiceThree = () => {
                     className="global-btn style-border"
                   >
                     Read More
-                    <img src="assets/img/icon/right-icon2.svg" alt="" />
+                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
                   </Link>
                 </div>
               </div>

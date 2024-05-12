@@ -18,6 +18,7 @@ import Pricing from "./pages/Pricing";
 import Team from "./pages/Team";
 import TeamDetails from "./pages/TeamDetails";
 import Contact from "./pages/Contact";
+import Error from "./pages/Error";
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
           <Route exact path="/team" element={<Team />} />
           <Route exact path="/team-details" element={<TeamDetails />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
     </>

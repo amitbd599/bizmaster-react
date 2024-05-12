@@ -12,7 +12,7 @@ const VideoAreaOne = () => {
                             to="https://www.youtube.com/watch?v=P7fi4hP_y80"
                             className="play-btn style5 popup-video"
                         >
-                            <i className="fas fa-solid fa-play" />{" "}
+                            <i className="fas fa-solid fa-play" />
                         </Link>
                     </div>
                 </div>

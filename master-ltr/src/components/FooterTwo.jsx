@@ -104,22 +104,22 @@ const FooterTwo = () => {
                 <ul className="side-instagram list-wrap">
                   <li>
                     <Link to="#">
-                      <img src="assets/img/gallery/1.jpg" alt="" />
+                      <img src="assets/img/gallery/1.jpg" alt="Bizmaster" />
                     </Link>
                   </li>
                   <li>
                     <Link to="#">
-                      <img src="assets/img/gallery/2.jpg" alt="" />
+                      <img src="assets/img/gallery/2.jpg" alt="Bizmaster" />
                     </Link>
                   </li>
                   <li>
                     <Link to="#">
-                      <img src="assets/img/gallery/3.jpg" alt="" />
+                      <img src="assets/img/gallery/3.jpg" alt="Bizmaster" />
                     </Link>
                   </li>
                   <li>
                     <Link to="#">
-                      <img src="assets/img/gallery/4.jpg" alt="" />
+                      <img src="assets/img/gallery/4.jpg" alt="Bizmaster" />
                     </Link>
                   </li>
                 </ul>

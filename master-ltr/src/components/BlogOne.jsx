@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const BlogOne = () => {
-  var settings = {
+  let settings = {
     dots: false,
     arrows: false,
     infinite: true,
@@ -56,7 +56,7 @@ const BlogOne = () => {
             <Slider {...settings}>
               <div className="blog-card p-3">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_1.png" alt="Bizmaster" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
@@ -79,7 +79,7 @@ const BlogOne = () => {
 
               <div className="blog-card p-3">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_2.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_2.png" alt="Bizmaster" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
@@ -102,7 +102,7 @@ const BlogOne = () => {
 
               <div className="blog-card p-3">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_3.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_3.png" alt="Bizmaster" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">
@@ -125,7 +125,7 @@ const BlogOne = () => {
 
               <div className="blog-card p-3">
                 <div className="blog-img">
-                  <img src="assets/img/blog/blog_s1_1.png" alt="blog image" />
+                  <img src="assets/img/blog/blog_s1_1.png" alt="Bizmaster" />
                 </div>
                 <div className="blog-content">
                   <div className="blog-meta">

@@ -18,7 +18,7 @@ const FooterOne = () => {
                   </Link>
                 </div>
                 <p className="footer-text mb-30">
-                  العديد من حزم تحرير صفحات الويب لا Lorem Ipsum عبارة نموذجية افتراضية ، والبحث عن
+                  العديد من حزم تحرير صفحات الويب لا عن نص شهير في المطبوعات عبارة نموذجية افتراضية ، والبحث عن
                 </p>
                 <div className="social-btn style3">
                   <Link to="/https://www.instagram.com/" tabIndex={-1}>

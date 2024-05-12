@@ -161,7 +161,7 @@ const BlogDetailsInner = () => {
                                             id="subject"
                                             className="form-select style-white"
                                         >
-                                            <option value="" disabled="" selected="" hidden="">
+                                            <option defaultValue={1} >
                                                 اختر خيارًا
                                             </option>
                                             <option value={1}>01</option>
