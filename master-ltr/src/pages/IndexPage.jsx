@@ -860,7 +860,7 @@ h1,h2,h3,h4,h5,h6 {
   }
   .counter-area {
     transform: translateY(0);
-    margin-top: 140px;
+    margin-top: 0;
   }
   .single-counter-inner h2 {
     font-size: 30px;
