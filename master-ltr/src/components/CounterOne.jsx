@@ -72,7 +72,7 @@ const CounterOne = () => {
                       isVisible && (
                         <span className="counter-number">
                           <CountUp delay={0} start={0} end={900} />
-                          k+
+                          +
                         </span>
                       )
                     }

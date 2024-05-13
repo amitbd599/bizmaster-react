@@ -1,6 +1,6 @@
 import React from "react";
 
-const CTA_Two = () => {
+const CTATwo = () => {
   return (
     <div
       className="cta-area-2 bg-theme"
@@ -28,7 +28,7 @@ const CTA_Two = () => {
                     required=""
                   />
                   <button type="submit" className="global-btn">
-                    Subscribe Now{" "}
+                    Subscribe Now
                   </button>
                 </div>
               </form>
@@ -45,4 +45,4 @@ const CTA_Two = () => {
   );
 };
 
-export default CTA_Two;
+export default CTATwo;

@@ -14,7 +14,7 @@ import ClientOne from "../components/ClientOne";
 import EventOne from "../components/EventOne";
 import PricingOne from "../components/PricingOne";
 import AppointmentOne from "../components/AppointmentOne";
-import CTA_Two from "../components/CTA_Two";
+import CTATwo from "../components/CTATwo";
 import BlogTwo from "../components/BlogTwo";
 import FooterTwo from "../components/FooterTwo";
 
@@ -23,7 +23,7 @@ const HomeTwo = () => {
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
-    }, 2000);
+    }, 500);
   }, []);
   return (
     <>
@@ -76,7 +76,7 @@ const HomeTwo = () => {
       <AppointmentOne />
 
       {/* CTA_Two */}
-      <CTA_Two />
+      <CTATwo />
 
       {/* BlogTwo */}
       <BlogTwo />

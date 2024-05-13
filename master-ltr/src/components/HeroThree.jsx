@@ -29,7 +29,7 @@ const HeroThree = () => {
               </h1>
               <p className="hero-text">
                 A business consultant is a professional who provides expert
-                advice and guidance to businesses{" "}
+                advice and guidance to businesses
               </p>
               <div className="btn-wrap">
                 <div className="hero-card_wrapper">
@@ -45,14 +45,14 @@ const HeroThree = () => {
                 </div>
                 <div className="feature-wrapper">
                   <div className="feature-icon">
-                    <Link to="/tel:3195550115">
+                    <Link to="#">
                       <img src="assets/img/icon/call.svg" alt="Bizmaster" />
                     </Link>
                   </div>
                   <div className="media-body">
                     <span className="header-info_label">Need help?</span>
                     <p className="header-info_link">
-                      <Link to="/tel:3195550115">(319) 555-0115</Link>
+                      <Link to="#">(319) 555-0115</Link>
                     </p>
                   </div>
                 </div>

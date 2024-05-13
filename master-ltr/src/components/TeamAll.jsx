@@ -17,13 +17,13 @@ const TeamAll = () => {
                                         <img src="assets/img/icon/share.svg" alt="Bizmaster" />
                                     </div>
                                     <div className="global-social">
-                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
-                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-twitter" />
                                         </Link>
                                         <Link to="#">
@@ -51,13 +51,13 @@ const TeamAll = () => {
                                         <img src="assets/img/icon/share.svg" alt="Bizmaster" />
                                     </div>
                                     <div className="global-social">
-                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
-                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-twitter" />
                                         </Link>
                                         <Link to="#">
@@ -85,13 +85,13 @@ const TeamAll = () => {
                                         <img src="assets/img/icon/share.svg" alt="Bizmaster" />
                                     </div>
                                     <div className="global-social">
-                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
-                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-twitter" />
                                         </Link>
                                         <Link to="#">
@@ -119,13 +119,13 @@ const TeamAll = () => {
                                         <img src="assets/img/icon/share.svg" alt="Bizmaster" />
                                     </div>
                                     <div className="global-social">
-                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
-                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-twitter" />
                                         </Link>
                                         <Link to="#">
@@ -153,13 +153,13 @@ const TeamAll = () => {
                                         <img src="assets/img/icon/share.svg" alt="Bizmaster" />
                                     </div>
                                     <div className="global-social">
-                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
-                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-twitter" />
                                         </Link>
                                         <Link to="#">
@@ -187,13 +187,13 @@ const TeamAll = () => {
                                         <img src="assets/img/icon/share.svg" alt="Bizmaster" />
                                     </div>
                                     <div className="global-social">
-                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
-                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-twitter" />
                                         </Link>
                                         <Link to="#">

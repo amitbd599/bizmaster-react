@@ -14,7 +14,7 @@ const AboutTwo = () => {
                 About Us
               </span>
               <h2 className="sec-title style2">
-                Maximizing Through the Strategic{" "}
+                Maximizing Through the Strategic
               </h2>
               <p className="sec-text">
                 Lorem Ipsum is simply dummy a of the printing and type setting

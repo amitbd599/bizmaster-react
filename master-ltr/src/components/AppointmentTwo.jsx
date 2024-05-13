@@ -20,8 +20,6 @@ const AppointmentTwo = () => {
                                 <h2 className="sec-title style2">Strategic Solutions</h2>
                             </div>
                             <form
-                                action="mail.php"
-                                method="POST"
                                 className="appointment-form ajax-contact"
                             >
                                 <div className="row">

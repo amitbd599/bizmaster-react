@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 const HeaderTwo = () => {
   const [active, setActive] = useState(false);
-  const [search, setSearch] = useState(false);
-  const [sidebar, setSidebar] = useState(false);
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
@@ -49,109 +47,10 @@ const HeaderTwo = () => {
     setActive(!active);
   };
 
-  const searchControl = (active) => {
-    setSearch(active);
-  };
 
-  const sidebarControl = (active) => {
-    setSidebar(active);
-  };
   return (
     <>
-      {/* Sidemenu */}
-      <div
-        className={`sidemenu-wrapper sidemenu-info ${sidebar ? "show" : ""} `}
-      >
-        <div className="sidemenu-content">
-          <button
-            className="closeButton sideMenuCls"
-            onClick={() => sidebarControl(false)}
-          >
-            <i className="fas fa-times" />
-          </button>
-          <div className="widget  ">
-            <div className="th-widget-about">
-              <div className="about-logo">
-                <Link to="/">
-                  <img src="assets/img/logo.svg" alt="Laun" />
-                </Link>
-              </div>
-              <p className="about-text">
-                We provide specialized winterization services to safeguard your
-                pool during the off-season, and when spring arrives, we handle
-                the thorough opening process.
-              </p>
-              <div className="social-links">
-                <Link to="/https://www.facebook.com/">
-                  <i className="fab fa-facebook-f" />
-                </Link>
-                <Link to="/https://www.twitter.com/">
-                  <i className="fab fa-twitter" />
-                </Link>
-                <Link to="/https://www.linkedin.com/">
-                  <i className="fab fa-linkedin-in" />
-                </Link>
-                <Link to="/https://www.whatsapp.com/">
-                  <i className="fab fa-whatsapp" />
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="side-info mb-30">
-            <div className="contact-list mb-20">
-              <h4>Office Address</h4>
-              <p>1212, Lav Vegas, The Veg Street, USA</p>
-            </div>
-            <div className="contact-list mb-20">
-              <h4>Phone Number</h4>
-              <p className="mb-0">+880 123 45 67 89</p>
-              <p>+880 765 86 43 85</p>
-            </div>
-            <div className="contact-list mb-20">
-              <h4>Email Address</h4>
-              <p className="mb-0">yourmail@gmail.com</p>
-              <p>example.mail@hum.com</p>
-            </div>
-          </div>
-          <ul className="side-instagram list-wrap">
-            <li>
-              <Link to="#">
-                <img src="assets/img/gallery/1.jpg" alt="Bizmaster" />
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                <img src="assets/img/gallery/2.jpg" alt="Bizmaster" />
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                <img src="assets/img/gallery/3.jpg" alt="Bizmaster" />
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                <img src="assets/img/gallery/4.jpg" alt="Bizmaster" />
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className={`popup-search-box ${search === true ? "show" : ""} `}>
-        <button className="searchClose" onClick={() => searchControl(false)}>
-          <i className="fas fa-times" />
-        </button>
-        <form action="#">
-          <input type="text" placeholder="What are you looking for?" />
-          <button type="submit">
-            <i className="fas fa-search" />
-          </button>
-        </form>
-      </div>
-      {/*==============================
-      Mobile Menu
-      ============================== */}
-
+      {/* Mobile Menu */}
       <div className={`mobile-menu-wrapper ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
@@ -242,9 +141,9 @@ const HeaderTwo = () => {
           </div>
         </div>
       </div>
-      {/*==============================
-      Header Area
-      ==============================*/}
+
+      {/* Header Area */}
+
       <header className="nav-header header-layout2">
         <div className={`sticky-wrapper ${scroll && "sticky"}`}>
           {/* Main Menu Area */}

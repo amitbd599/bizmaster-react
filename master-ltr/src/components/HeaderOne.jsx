@@ -82,16 +82,16 @@ const HeaderOne = () => {
                 the thorough opening process.
               </p>
               <div className="social-links">
-                <Link to="/https://www.facebook.com/">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
                 </Link>
-                <Link to="/https://www.twitter.com/">
+                <Link to="#">
                   <i className="fab fa-twitter" />
                 </Link>
-                <Link to="/https://www.linkedin.com/">
+                <Link to="#">
                   <i className="fab fa-linkedin-in" />
                 </Link>
-                <Link to="/https://www.whatsapp.com/">
+                <Link to="#">
                   <i className="fab fa-whatsapp" />
                 </Link>
               </div>
@@ -141,7 +141,7 @@ const HeaderOne = () => {
         <button className="searchClose" onClick={() => searchControl(false)}>
           <i className="fas fa-times" />
         </button>
-        <form action="#">
+        <form>
           <input type="text" placeholder="What are you looking for?" />
           <button type="submit">
             <i className="fas fa-search" />
@@ -241,9 +241,9 @@ const HeaderOne = () => {
           </div>
         </div>
       </div>
-      {/*==============================
-	Header Area
-    ==============================*/}
+
+      {/* Header Area */}
+
       <header className="nav-header header-layout1">
         <div className={`sticky-wrapper ${scroll && "sticky"}`}>
           {/* Main Menu Area */}
@@ -363,21 +363,20 @@ const HeaderOne = () => {
 
                       className="simple-icon sideMenuToggler d-none d-lg-block"
                     >
-                      {" "}
-                      <img src="assets/img/icon/bars.svg" alt="Bizmaster" />{" "}
+                      <img src="assets/img/icon/bars.svg" alt="Bizmaster" />
                     </button>
                   </div>
                   <div className="social-links">
-                    <Link to="/https://www.instagram.com/">
+                    <Link to="#">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="/https://www.linkedin.com/">
+                    <Link to="#">
                       <i className="fab fa-linkedin" />
                     </Link>
-                    <Link to="/https://www.twitter.com/">
+                    <Link to="#">
                       <i className="fab fa-twitter" />
                     </Link>
-                    <Link to="/https://www.facebook.com/">
+                    <Link to="#">
                       <i className="fab fa-facebook-f" />
                     </Link>
                   </div>

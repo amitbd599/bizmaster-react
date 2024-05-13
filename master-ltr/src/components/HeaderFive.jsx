@@ -82,16 +82,16 @@ const HeaderFive = () => {
                 the thorough opening process.
               </p>
               <div className="social-links">
-                <Link to="/https://www.facebook.com/">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
                 </Link>
-                <Link to="/https://www.twitter.com/">
+                <Link to="#">
                   <i className="fab fa-twitter" />
                 </Link>
-                <Link to="/https://www.linkedin.com/">
+                <Link to="#">
                   <i className="fab fa-linkedin-in" />
                 </Link>
-                <Link to="/https://www.whatsapp.com/">
+                <Link to="#">
                   <i className="fab fa-whatsapp" />
                 </Link>
               </div>
@@ -141,16 +141,16 @@ const HeaderFive = () => {
         <button className="searchClose" onClick={() => searchControl(false)}>
           <i className="fas fa-times" />
         </button>
-        <form action="#">
+        <form >
           <input type="text" placeholder="What are you looking for?" />
           <button type="submit">
             <i className="fas fa-search" />
           </button>
         </form>
       </div>
-      {/*==============================
-    Mobile Menu
-    ============================== */}
+
+      {/* Mobile Menu */}
+
       <div className={`mobile-menu-wrapper ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
@@ -241,9 +241,9 @@ const HeaderFive = () => {
           </div>
         </div>
       </div>
-      {/*==============================
-	Header Area
-    ==============================*/}
+
+      {/* Header Area */}
+
       <header className="nav-header header-layout5">
         <div className="container">
           <div className="header-top d-none d-lg-block">
@@ -263,11 +263,11 @@ const HeaderFive = () => {
                   <ul>
                     <li>
                       <i className="fas fa-phone-alt" />
-                      <Link to="/tel:6295550129">(629) 555-0129</Link>
+                      <Link to="#">(629) 555-0129</Link>
                     </li>
                     <li>
                       <i className="fas fa-envelope" />
-                      <Link to="/mailto:info@example.com">info@example.com</Link>
+                      <Link to="#">info@example.com</Link>
                     </li>
                   </ul>
                 </div>

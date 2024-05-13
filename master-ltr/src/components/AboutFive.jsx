@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 const AboutFive = () => {
     return (
         <section className='bg-dark2'>
@@ -15,7 +16,15 @@ const AboutFive = () => {
                                 </div>
                                 <div className="about-counter-wrap jump-reverse">
                                     <h3 className="about-counter">
-                                        <span className="counter-number">10</span>k+
+                                        <TrackVisibility once>
+                                            {({ isVisible }) =>
+                                                isVisible && (
+                                                    <span className="counter-number">
+                                                        <CountUp delay={0} start={0} end={10} />K+
+                                                    </span>
+                                                )
+                                            }
+                                        </TrackVisibility>
                                     </h3>
                                     <p className="sec-desc">Client Review</p>
                                 </div>

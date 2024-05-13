@@ -1,8 +1,8 @@
 import React from 'react'
 
-const CTA_Three = () => {
+const CTAThree = () => {
     return (
-        <section className='bg-dark2'>
+        <section className='bg-dark2 pt-1'>
             <div className="container">
                 <div className="cta-area-3 bg-title">
                     <div className="row justify-content-md-between align-items-center">
@@ -24,7 +24,7 @@ const CTA_Three = () => {
                                         required=""
                                     />
                                     <button type="submit" className="global-btn">
-                                        Subscribe Now{" "}
+                                        Subscribe Now
                                     </button>
                                 </div>
                             </form>
@@ -37,4 +37,4 @@ const CTA_Three = () => {
     )
 }
 
-export default CTA_Three
+export default CTAThree

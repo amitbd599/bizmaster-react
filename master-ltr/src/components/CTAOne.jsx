@@ -3,7 +3,7 @@ import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
-const CTA_One = () => {
+const CTAOne = () => {
   return (
     <div className="cta-area-1 space-bottom">
       <div className="container">
@@ -73,4 +73,4 @@ const CTA_One = () => {
   );
 };
 
-export default CTA_One;
+export default CTAOne;

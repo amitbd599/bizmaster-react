@@ -13,7 +13,7 @@ const TeamDetailsInner = () => {
                                     <img
                                         className="w-100"
                                         src="assets/img/team/team-details.png"
-                                        alt="team image"
+                                        alt="team "
                                     />
                                 </div>
                             </div>
@@ -86,8 +86,8 @@ const TeamDetailsInner = () => {
                                         <i className="fas fa-phone-alt" />
                                     </span>
                                     <p>
-                                        <Link to="/tel:11234567890">+(1) 123 456 7890</Link> <br />{" "}
-                                        <Link to="/tel:10927564321">+(1) 098 765 4321</Link>
+                                        <Link to="#">+(1) 123 456 7890</Link> <br />
+                                        <Link to="#">+(1) 098 765 4321</Link>
                                     </p>
                                 </div>
                                 <div className="team-details-wrap_info">
@@ -95,23 +95,23 @@ const TeamDetailsInner = () => {
                                         <i className="fas fa-envelope" />
                                     </span>
                                     <p>
-                                        <Link to="/mailto:info@fixturbo.com">info@fixturbo.com</Link> <br />{" "}
-                                        <Link to="/mailto:info.example@fixturbo.com">
+                                        <Link to="#">info@fixturbo.com</Link> <br />
+                                        <Link to="#">
                                             info.example@fixturbo.com
                                         </Link>
                                     </p>
                                 </div>
                                 <div className="social-btn style4 mt-35">
-                                    <Link to="/https://facebook.com/">
+                                    <Link to="#">
                                         <i className="fab fa-facebook-f" />
                                     </Link>
-                                    <Link to="/https://twitter.com/">
+                                    <Link to="#">
                                         <i className="fab fa-twitter" />
                                     </Link>
-                                    <Link to="/https://instagram.com/">
+                                    <Link to="#">
                                         <i className="fab fa-instagram" />
                                     </Link>
-                                    <Link to="/https://pinterest.com/">
+                                    <Link to="#">
                                         <i className="fab fa-pinterest" />
                                     </Link>
                                 </div>
@@ -121,8 +121,6 @@ const TeamDetailsInner = () => {
                             <div className="team-contact-wrap">
                                 <h3 className="mt-n1 mb-30 page-title">Contact Form</h3>
                                 <form
-                                    action="mail.php"
-                                    method="POST"
                                     className="team-form ajax-contact"
                                 >
                                     <div className="row">
