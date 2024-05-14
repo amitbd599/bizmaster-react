@@ -80,16 +80,16 @@ const HeaderFive = () => {
                 نحن نقدم خدمات تشغيل الشتاء المتخصصة لحماية حمام السباحة الخاص بك خلال فترة الخمول ، وعندما يأتي الربيع ، نتولى عملية الافتتاح الشاملة.
               </p>
               <div className="social-links">
-                <Link to="/https://www.facebook.com/">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
                 </Link>
-                <Link to="/https://www.twitter.com/">
+                <Link to="#">
                   <i className="fab fa-twitter" />
                 </Link>
-                <Link to="/https://www.linkedin.com/">
+                <Link to="#">
                   <i className="fab fa-linkedin-in" />
                 </Link>
-                <Link to="/https://www.whatsapp.com/">
+                <Link to="#">
                   <i className="fab fa-whatsapp" />
                 </Link>
               </div>
@@ -146,9 +146,9 @@ const HeaderFive = () => {
           </button>
         </form>
       </div>
-     
-  {/* Mobile Menu */}
- 
+
+      {/* Mobile Menu */}
+
       <div className={`mobile-menu-wrapper rtl ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
@@ -242,8 +242,8 @@ const HeaderFive = () => {
           </div>
         </div>
       </div>
-     
-{/* Header Area */}
+
+      {/* Header Area */}
 
       <header className="nav-header header-layout5">
         <div className="container">

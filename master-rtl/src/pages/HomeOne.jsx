@@ -4,7 +4,7 @@ import HelmetReact from "../elements/HelmetReact";
 import HeaderOne from "../components/HeaderOne";
 import HeroOne from "../components/HeroOne";
 import ServiceOne from "../components/ServiceOne";
-import CTA_One from "../components/CTA_One";
+import CTAOne from "../components/CTAOne";
 import AboutOne from "../components/AboutOne";
 import ProcessOne from "../components/ProcessOne";
 import PortfolioOne from "../components/PortfolioOne";
@@ -20,7 +20,7 @@ const HomeOne = () => {
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
-    }, 2000);
+    }, 500);
   }, []);
   return (
     <>
@@ -40,7 +40,7 @@ const HomeOne = () => {
       <ServiceOne />
 
       {/* CTA_One */}
-      <CTA_One />
+      <CTAOne />
 
       {/* AboutOne */}
       <AboutOne />

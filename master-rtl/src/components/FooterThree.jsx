@@ -21,16 +21,16 @@ const FooterThree = () => {
                                     إنه حقيقة مثبتة منذ زمن طويل أن القارئ سيشتت انتباهه
                                 </p>
                                 <div className="social-btn style2">
-                                    <Link to="/https://facebook.com/" tabIndex={-1}>
+                                    <Link to="#" tabIndex={-1}>
                                         <i className="fab fa-facebook-f" />
                                     </Link>
-                                    <Link to="/https://twitter.com/" tabIndex={-1}>
+                                    <Link to="#" tabIndex={-1}>
                                         <i className="fab fa-twitter" />
                                     </Link>
-                                    <Link to="/https://www.instagram.com/" tabIndex={-1}>
+                                    <Link to="#" tabIndex={-1}>
                                         <i className="fab fa-instagram" />
                                     </Link>
-                                    <Link to="/https://linkedin.com/" tabIndex={-1}>
+                                    <Link to="#" tabIndex={-1}>
                                         <i className="fab fa-linkedin-in" />
                                     </Link>
                                 </div>
@@ -65,7 +65,7 @@ const FooterThree = () => {
                                         <i className="fas fa-envelope" />
                                         <div className="contact-grid-details">
                                             <h6>
-                                                <Link to="/mailto:yourmail@gmail.comm">yourmail@gmail.com</Link>
+                                                <Link to="#">yourmail@gmail.com</Link>
                                                 <p />
                                             </h6>
                                         </div>
@@ -74,8 +74,7 @@ const FooterThree = () => {
                                         <i className="fas fa-map-marker-alt" />
                                         <div className="contact-grid-details">
                                             <h6>
-                                                3891 Ranchview Dr. Richardson, California
-                                                <p />
+                                                3891 رانشفيو دكتور ريتشاردسون، كاليفورنيا                                                <p />
                                             </h6>
                                         </div>
                                     </div>

@@ -80,16 +80,16 @@ const HeaderTwo = () => {
                 نحن نقدم خدمات التزود بالشتاء المتخصصة لحماية حمام السباحة الخاص بك خلال موسم الخروج من الخدمة، وعندما يأتي الربيع، نتولى عملية الافتتاح الشاملة.
               </p>
               <div className="social-links">
-                <Link to="/https://www.facebook.com/">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
                 </Link>
-                <Link to="/https://www.twitter.com/">
+                <Link to="#">
                   <i className="fab fa-twitter" />
                 </Link>
-                <Link to="/https://www.linkedin.com/">
+                <Link to="#">
                   <i className="fab fa-linkedin-in" />
                 </Link>
-                <Link to="/https://www.whatsapp.com/">
+                <Link to="#">
                   <i className="fab fa-whatsapp" />
                 </Link>
               </div>

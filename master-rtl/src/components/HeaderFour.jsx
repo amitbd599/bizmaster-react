@@ -80,16 +80,16 @@ const HeaderFour = () => {
                 نحن نقدم خدمات التحضير الخاصة للشتاء لحماية حمام السباحة الخاص بك خلال موسم الخريف، وعندما يأتي الربيع، نتعامل مع عملية الافتتاح الشاملة.
               </p>
               <div className="social-links">
-                <Link to="/https://www.facebook.com/">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
                 </Link>
-                <Link to="/https://www.twitter.com/">
+                <Link to="#">
                   <i className="fab fa-twitter" />
                 </Link>
-                <Link to="/https://www.linkedin.com/">
+                <Link to="#">
                   <i className="fab fa-linkedin-in" />
                 </Link>
-                <Link to="/https://www.whatsapp.com/">
+                <Link to="#">
                   <i className="fab fa-whatsapp" />
                 </Link>
               </div>
@@ -269,16 +269,16 @@ const HeaderFour = () => {
                   <ul>
                     <li>
                       <div className="social-links">
-                        <Link to="/https://www.facebook.com/">
+                        <Link to="#">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="/https://www.instagram.com/">
+                        <Link to="#">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="/https://www.twitter.com/">
+                        <Link to="#">
                           <i className="fab fa-twitter" />
                         </Link>
-                        <Link to="/https://www.linkedin.com/">
+                        <Link to="#">
                           <i className="fab fa-linkedin" />
                         </Link>
                       </div>

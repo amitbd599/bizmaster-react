@@ -80,16 +80,16 @@ const HeaderOne = () => {
                 نحن نقدم خدمات تشتيت الشتاء المتخصصة لحماية حمام السباحة الخاص بك أثناء فصل الخريف، وعندما يأتي الربيع، نتعامل مع عملية الافتتاح الشاملة.
               </p>
               <div className="social-links">
-                <Link to="/https://www.facebook.com/">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
                 </Link>
-                <Link to="/https://www.twitter.com/">
+                <Link to="#">
                   <i className="fab fa-twitter" />
                 </Link>
-                <Link to="/https://www.linkedin.com/">
+                <Link to="#">
                   <i className="fab fa-linkedin-in" />
                 </Link>
-                <Link to="/https://www.whatsapp.com/">
+                <Link to="#">
                   <i className="fab fa-whatsapp" />
                 </Link>
               </div>
@@ -366,16 +366,16 @@ const HeaderOne = () => {
                     </button>
                   </div>
                   <div className="social-links">
-                    <Link to="/https://www.instagram.com/">
+                    <Link to="#">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="/https://www.linkedin.com/">
+                    <Link to="#">
                       <i className="fab fa-linkedin" />
                     </Link>
-                    <Link to="/https://www.twitter.com/">
+                    <Link to="#">
                       <i className="fab fa-twitter" />
                     </Link>
-                    <Link to="/https://www.facebook.com/">
+                    <Link to="#">
                       <i className="fab fa-facebook-f" />
                     </Link>
                   </div>

@@ -23,13 +23,12 @@ const AppointmentOne = () => {
                 <h2 className="sec-title style2">حلول استراتيجية</h2>
               </div>
               <form
-                action="mail.php"
-                method="POST"
                 className="appointment-form ajax-contact"
               >
                 <div className="row">
                   <div className=" col-12">
                     <div className="form-group">
+                      <i className="fas fa-user" />
                       <input
                         type="text"
                         className="form-control style-border"
@@ -37,7 +36,7 @@ const AppointmentOne = () => {
                         id="name"
                         placeholder="الاسم الكامل"
                       />
-                      <i className="fas fa-user" />
+
                     </div>
                   </div>
                   <div className=" col-12">

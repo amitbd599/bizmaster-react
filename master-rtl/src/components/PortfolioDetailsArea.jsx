@@ -159,7 +159,7 @@ const PortfolioDetailsArea = () => {
                                 <Link to="/https://facebook.com/" tabIndex={-1}>
                                     <i className="fab fa-facebook-f" />
                                 </Link>
-                                <Link to="/https://www.instagram.com/" tabIndex={-1}>
+                                <Link to="#" tabIndex={-1}>
                                     <i className="fab fa-instagram" />
                                 </Link>
                                 <Link to="/https://twitter.com/" tabIndex={-1}>

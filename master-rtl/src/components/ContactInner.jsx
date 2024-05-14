@@ -84,7 +84,7 @@ const ContactInner = () => {
                                     <Link to="/https://twitter.com/" tabIndex={-1}>
                                         <i className="fab fa-twitter" />
                                     </Link>
-                                    <Link to="/https://www.instagram.com/" tabIndex={-1}>
+                                    <Link to="#" tabIndex={-1}>
                                         <i className="fab fa-instagram" />
                                     </Link>
                                 </div>

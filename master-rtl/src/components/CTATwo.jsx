@@ -1,6 +1,6 @@
 import React from "react";
 
-const CTA_Two = () => {
+const CTATwo = () => {
   return (
     <div
       className="cta-area-2 bg-theme"
@@ -45,4 +45,4 @@ const CTA_Two = () => {
   );
 };
 
-export default CTA_Two;
+export default CTATwo;

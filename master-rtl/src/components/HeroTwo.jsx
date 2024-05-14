@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
-
+import ModalVideo from 'react-modal-video';
 const HeroTwo = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
-    <div
+    <><div
       className="hero-wrapper hero-2"
       id="hero"
       style={{ backgroundImage: "url(assets/img/hero/hero_bg_2_1.png)" }}
@@ -32,12 +33,11 @@ const HeroTwo = () => {
             </Link>
             <div className="media-wrap">
               <div className="icon">
-                <Link
-                  to="/https://www.youtube.com/watch?v=P7fi4hP_y80"
+                <span
                   className="play-btn popup-video"
                 >
-                  <i className="fas fa-solid fa-play" />{" "}
-                </Link>
+                  <i className="fas fa-solid fa-play" onClick={() => setOpen(true)} />
+                </span>
               </div>
               <div className="media-body">
                 <h6 className="title text-white">شاهد كيف يعمل</h6>
@@ -65,8 +65,8 @@ const HeroTwo = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
-                          <CountUp delay={0} start={0} end={642} />
-                          k+
+                          أكثر <CountUp delay={0} start={0} end={642} />
+                          k
                         </span>
                       )
                     }
@@ -82,6 +82,15 @@ const HeroTwo = () => {
         </div>
       </div>
     </div>
+      <ModalVideo
+        channel="youtube"
+        youtube={{ mute: 0, autoplay: 0 }}
+        isOpen={isOpen}
+        videoId="8dTfgnkmJGs"
+        onClose={() => setOpen(false)}
+      />
+    </>
+
 
   );
 };
