@@ -9,7 +9,7 @@ import AboutFive from "../components/AboutFive";
 import ProcessTwo from "../components/ProcessTwo";
 import TestimonialFour from "../components/TestimonialFour";
 import PricingTwo from "../components/PricingTwo";
-import CTA_Three from "../components/CTA_Three";
+import CTAThree from "../components/CTAThree";
 import TeamFour from "../components/TeamFour";
 import FaqThree from "../components/FaqThree";
 import BlogFive from "../components/BlogFive";
@@ -23,7 +23,7 @@ const HomeFive = () => {
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
-    }, 2000);
+    }, 500);
   }, []);
   return (
     <>
@@ -58,7 +58,7 @@ const HomeFive = () => {
       <PricingTwo />
 
       {/* CTA_Three */}
-      <CTA_Three />
+      <CTAThree />
 
       {/* TeamFour */}
       <TeamFour />
@@ -74,10 +74,6 @@ const HomeFive = () => {
 
       {/* FooterFive */}
       <FooterFive />
-
-
-
-
 
     </>
   );

@@ -284,3 +284,26 @@
 [dir="rtl"] .faq-area-3 .accordion-card.style3 .accordion-button {
   padding: 0 0 0 0;
 }
+
+[dir="rtl"] .hero-style4 .hero-tag {
+  margin-right: auto;
+}
+
+[dir="rtl"] .accordion-card.style5 .accordion-button:after {
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .accordion-card.style5 .accordion-button {
+  padding: 0 0 0 0;
+}
+
+[dir="rtl"] .widget .search-form button {
+  right: auto;
+  left: 20px;
+}
+
+[dir="rtl"] .widget .search-form input {
+
+  padding: 0 20px 0 20px;
+}

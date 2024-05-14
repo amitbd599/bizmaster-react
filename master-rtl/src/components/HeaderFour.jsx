@@ -139,7 +139,7 @@ const HeaderFour = () => {
         <button className="searchClose" onClick={() => searchControl(false)}>
           <i className="fas fa-times" />
         </button>
-        <form action="#">
+        <form >
           <input type="text" placeholder="ما الذي تبحث عنه؟" />
           <button type="submit">
             <i className="fas fa-search" />
@@ -251,11 +251,11 @@ const HeaderFour = () => {
                   <ul>
                     <li>
                       <i className="fas fa-phone-alt" />
-                      <Link to="/tel:6295550129">(629) 555-0129</Link>
+                      <Link to="#">(629) 555-0129</Link>
                     </li>
                     <li>
                       <i className="fas fa-envelope" />
-                      <Link to="/mailto:info@example.com">info@example.com</Link>
+                      <Link to="#">info@example.com</Link>
                     </li>
                     <li>
                       <i className="fas fa-map-marker-alt" />

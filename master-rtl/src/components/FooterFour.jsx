@@ -21,16 +21,16 @@ const FooterFour = () => {
                                     <p className="footer-text mb-30 mt-30">
                                         التغيير في المهندس التغيير في المهندس التغيير في المهندس التغيير في المهندس                                    </p>
                                     <div className="social-btn">
-                                        <Link to="/https://facebook.com/" tabIndex={-1}>
+                                        <Link to="#" tabIndex={-1}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://twitter.com/" tabIndex={-1}>
+                                        <Link to="#" tabIndex={-1}>
                                             <i className="fab fa-twitter" />
                                         </Link>
                                         <Link to="#" tabIndex={-1}>
                                             <i className="fab fa-instagram" />
                                         </Link>
-                                        <Link to="/https://linkedin.com/" tabIndex={-1}>
+                                        <Link to="#" tabIndex={-1}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
                                     </div>
@@ -86,7 +86,7 @@ const FooterFour = () => {
                                             <i className="fas fa-phone-alt text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="/tel:0123456789">+880 123 45 67 89</Link>
+                                                    <Link to="#">+880 123 45 67 89</Link>
                                                     <p />
                                                 </h6>
                                             </div>
@@ -95,7 +95,7 @@ const FooterFour = () => {
                                             <i className="fas fa-envelope text-white" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="/mailto:yourmail@gmail.comm">yourmail@gmail.com</Link>
+                                                    <Link to="#">yourmail@gmail.com</Link>
                                                     <p />
                                                 </h6>
                                             </div>

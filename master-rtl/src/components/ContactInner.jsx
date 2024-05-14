@@ -25,8 +25,8 @@ const ContactInner = () => {
                                     <div className="contact-info_details">
                                         <h6 className="contact-info_title">الهاتف</h6>
                                         <p className="contact-info_text">
-                                            <Link to="/tel:6295550129">(629) 555-0129</Link>{" "}
-                                            <Link to="/tel:01254693326">01254693326</Link>
+                                            <span >(629) 555-0129</span> <br />
+                                            <span >01254693326</span>
                                         </p>
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@ const ContactInner = () => {
                                     <div className="contact-info_details">
                                         <h6 className="contact-info_title">الموقع</h6>
                                         <p className="contact-info_text">
-                                            4517 Washington Av Kentucky 39495
+                                            4517 Washington Av Kentucky <br /> 39495
                                         </p>
                                     </div>
                                 </div>
@@ -52,7 +52,8 @@ const ContactInner = () => {
                                     <div className="contact-info_details">
                                         <h6 className="contact-info_title">البريد الإلكتروني</h6>
                                         <p className="contact-info_text">
-                                            <Link to="/mailto:nafiz125432gmail.com">nafiz125432gmail.com</Link>
+                                            <span >demo@gmail.com</span> <br />
+                                            <span >admin@yahoo.com</span>
                                         </p>
                                     </div>
                                 </div>
@@ -75,13 +76,13 @@ const ContactInner = () => {
                                     التصميم هو فئة واسعة تشمل حلول تقنية مختلفة
                                 </p>
                                 <div className="social-btn style4">
-                                    <Link to="/https://facebook.com/" tabIndex={-1}>
+                                    <Link to="#" tabIndex={-1}>
                                         <i className="fab fa-facebook-f" />
                                     </Link>
-                                    <Link to="/https://linkedin.com/" tabIndex={-1}>
+                                    <Link to="#" tabIndex={-1}>
                                         <i className="fab fa-linkedin-in" />
                                     </Link>
-                                    <Link to="/https://twitter.com/" tabIndex={-1}>
+                                    <Link to="#" tabIndex={-1}>
                                         <i className="fab fa-twitter" />
                                     </Link>
                                     <Link to="#" tabIndex={-1}>

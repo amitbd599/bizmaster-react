@@ -30,8 +30,6 @@ const AboutOne = () => {
                 <h2 className="sec-title">أحدث خدمة أحدث خدمة أحدث خدمة</h2>
                 <p className="sec-text mb-35">
                   أحدث خدمة أحدث خدمة أحدث خدمة أحدث خدمة أحدث خدمة أحدث خدمة أحدث خدمة أحدث خدمة أحدث خدمة أحدث خدمة أحدث خدمة
-
-
                 </p>
               </div>
               <div className="achive-about">

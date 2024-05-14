@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CTA_Three = () => {
+const CTAThree = () => {
     return (
         <section className='bg-dark2'>
             <div className="container pt-1">
@@ -38,4 +38,4 @@ const CTA_Three = () => {
     )
 }
 
-export default CTA_Three
+export default CTAThree

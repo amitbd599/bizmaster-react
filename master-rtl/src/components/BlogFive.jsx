@@ -59,7 +59,7 @@ const BlogFive = () => {
                             <div className="px-2" dir="rtl">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
-                                        <img src="assets/img/blog/blog_s5_1.png" alt="blog image" />
+                                        <img src="assets/img/blog/blog_s5_1.png" alt=" Bizmaster" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
@@ -89,7 +89,7 @@ const BlogFive = () => {
                             <div className="px-2" dir="rtl">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
-                                        <img src="assets/img/blog/blog_s5_2.png" alt="blog image" />
+                                        <img src="assets/img/blog/blog_s5_2.png" alt=" Bizmaster" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
@@ -119,7 +119,7 @@ const BlogFive = () => {
                             <div className="px-2" dir="rtl">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
-                                        <img src="assets/img/blog/blog_s5_3.png" alt="blog image" />
+                                        <img src="assets/img/blog/blog_s5_3.png" alt=" Bizmaster" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
@@ -149,7 +149,7 @@ const BlogFive = () => {
                             <div className="px-2" dir="rtl">
                                 <div className="blog-card style4">
                                     <div className="blog-img">
-                                        <img src="assets/img/blog/blog_s5_2.png" alt="blog image" />
+                                        <img src="assets/img/blog/blog_s5_2.png" alt=" Bizmaster" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 const ClientTwo = () => {
     let settings = {
@@ -50,72 +49,72 @@ const ClientTwo = () => {
                         <Slider {...settings}>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-1.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-1.png" alt="img" />
+
                                 </div>
                             </div>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-2.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-2.png" alt="img" />
+
                                 </div>
                             </div>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-3.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-3.png" alt="img" />
+
                                 </div>
                             </div>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-4.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-4.png" alt="img" />
+
                                 </div>
                             </div>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-5.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-5.png" alt="img" />
+
                                 </div>
                             </div>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-1.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-1.png" alt="img" />
+
                                 </div>
                             </div>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-2.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-2.png" alt="img" />
+
                                 </div>
                             </div>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-3.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-3.png" alt="img" />
+
                                 </div>
                             </div>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-4.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-4.png" alt="img" />
+
                                 </div>
                             </div>
                             <div className="px-2">
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/4-5.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/4-5.png" alt="img" />
+
                                 </div>
                             </div>
                         </Slider>

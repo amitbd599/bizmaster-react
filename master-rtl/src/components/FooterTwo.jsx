@@ -61,8 +61,7 @@ const FooterTwo = () => {
                     </div>
                     <div className="contact-grid-details">
                       <h6>
-                        3891 Ranchview Dr. Richardson, California 62639
-                        <p />
+                        3891 رانشفيو دكتور ريتشاردسون، كاليفورنيا                        <p />
                       </h6>
                     </div>
                   </div>
