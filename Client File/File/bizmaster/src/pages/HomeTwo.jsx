@@ -23,7 +23,7 @@ const HomeTwo = () => {
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
-    }, 2000);
+    }, 500);
   }, []);
   return (
     <>
@@ -75,7 +75,7 @@ const HomeTwo = () => {
       {/* AppointmentOne */}
       <AppointmentOne />
 
-      {/* CTATwo */}
+      {/* CTA_Two */}
       <CTATwo />
 
       {/* BlogTwo */}

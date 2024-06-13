@@ -1,6 +1,5 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { Link } from "react-router-dom";
 const MarqueeOne = () => {
   return (
     <div className="marquee-area bg-smoke">
@@ -8,29 +7,29 @@ const MarqueeOne = () => {
         <div className="slider__marquee">
           <div className="marquee_mode">
             <Marquee speed={100}>
-              <div className="item">
-                <Link to="#">
-                  <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
-                  <span className="text-stroke">Breaking Barriers</span>
-                </Link>
+              <div className="item" >
+
+                <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
+                <span className="text-stroke">Breaking Barriers</span>
+
               </div>
               <div className="item">
-                <Link to="#">
-                  <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
-                  <span>Constructing Excellence</span>
-                </Link>
+
+                <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
+                <span>Constructing Excellence</span>
+
               </div>
               <div className="item">
-                <Link to="#">
-                  <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
-                  <span className="text-stroke">Breaking Barriers</span>
-                </Link>
+
+                <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
+                <span className="text-stroke">Breaking Barriers</span>
+
               </div>
               <div className="item">
-                <Link to="#">
-                  <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
-                  <span>Constructing Excellence </span>
-                </Link>
+
+                <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
+                <span>Constructing Excellence </span>
+
               </div>
             </Marquee>
           </div>

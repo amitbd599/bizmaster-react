@@ -23,16 +23,16 @@ const FooterFive = () => {
                                         default model text
                                     </p>
                                     <div className="social-btn">
-                                        <Link to="/https://facebook.com/" tabIndex={-1}>
+                                        <Link to="#" tabIndex={-1}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://twitter.com/" tabIndex={-1}>
+                                        <Link to="#" tabIndex={-1}>
                                             <i className="fab fa-twitter" />
                                         </Link>
-                                        <Link to="/https://www.instagram.com/" tabIndex={-1}>
+                                        <Link to="#" tabIndex={-1}>
                                             <i className="fab fa-instagram" />
                                         </Link>
-                                        <Link to="/https://linkedin.com/" tabIndex={-1}>
+                                        <Link to="#" tabIndex={-1}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
                                     </div>
@@ -67,7 +67,7 @@ const FooterFive = () => {
                                             <i className="fas fa-phone-alt" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="/tel:0123456789">+880 123 45 67 89</Link>
+                                                    <Link to="#">+880 123 45 67 89</Link>
                                                     <p />
                                                 </h6>
                                             </div>
@@ -76,7 +76,7 @@ const FooterFive = () => {
                                             <i className="fas fa-envelope" />
                                             <div className="contact-grid-details">
                                                 <h6>
-                                                    <Link to="/mailto:yourmail@gmail.comm">yourmail@gmail.com</Link>
+                                                    <Link to="#">yourmail@gmail.com</Link>
                                                     <p />
                                                 </h6>
                                             </div>
@@ -101,7 +101,7 @@ const FooterFive = () => {
                         <div className="row gy-3 justify-content-lg-between justify-content-center">
                             <div className="col-auto align-self-center">
                                 <p className="copyright-text text-center">
-                                    © <Link to="#">Yoursitename </Link> 2024 | All Rights Reserved
+                                    © <Link to="#">Bizmaster </Link> 2024 | All Rights Reserved
                                 </p>
                             </div>
                             <div className="col-auto">

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const TeamFour = () => {
     return (
-        <section className='bg-dark'>
+        <section className='bg-dark2'>
             <div className="team-area-1 space-top">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -33,16 +33,16 @@ const TeamFour = () => {
                                         <span className="team-card_desig">UI UX Designer</span>
                                     </div>
                                     <div className="global-social">
-                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-twitter" />
                                         </Link>
-                                        <Link to="/https://www.instagram.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-instagram" />
                                         </Link>
-                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
                                     </div>
@@ -62,16 +62,16 @@ const TeamFour = () => {
                                         <span className="team-card_desig">Marketing Coordinator</span>
                                     </div>
                                     <div className="global-social">
-                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-twitter" />
                                         </Link>
-                                        <Link to="/https://www.instagram.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-instagram" />
                                         </Link>
-                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
                                     </div>
@@ -91,16 +91,16 @@ const TeamFour = () => {
                                         <span className="team-card_desig">President of Sales</span>
                                     </div>
                                     <div className="global-social">
-                                        <Link to="/https://www.facebook.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="/https://www.twitter.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-twitter" />
                                         </Link>
-                                        <Link to="/https://www.instagram.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-instagram" />
                                         </Link>
-                                        <Link to="/https://www.linkedin.com/" tabIndex={0}>
+                                        <Link to="#" tabIndex={0}>
                                             <i className="fab fa-linkedin-in" />
                                         </Link>
                                     </div>

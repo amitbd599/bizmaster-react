@@ -28,7 +28,7 @@ const CTATwo = () => {
                     required=""
                   />
                   <button type="submit" className="global-btn">
-                    Subscribe Now{" "}
+                    Subscribe Now
                   </button>
                 </div>
               </form>

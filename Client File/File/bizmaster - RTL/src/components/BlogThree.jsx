@@ -16,7 +16,7 @@ const BlogThree = () => {
     );
   }
 
-  function SamplePreletrow(props) {
+  function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
       <div className="BlogThree-icon-box-prev rtl">
@@ -28,7 +28,7 @@ const BlogThree = () => {
       </div>
     );
   }
-  let settings = {
+  var settings = {
     dots: false,
     arrows: true,
     infinite: true,
@@ -39,7 +39,7 @@ const BlogThree = () => {
     autoplaySpeed: 5000,
     cssEase: "linear",
     nextArrow: <SampleNextArrow />,
-    preletrow: <SamplePreletrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1200,

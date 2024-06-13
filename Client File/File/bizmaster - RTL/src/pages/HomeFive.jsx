@@ -23,7 +23,7 @@ const HomeFive = () => {
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
-    }, 2000);
+    }, 500);
   }, []);
   return (
     <>
@@ -57,7 +57,7 @@ const HomeFive = () => {
       {/* PricingTwo */}
       <PricingTwo />
 
-      {/* CTAThree */}
+      {/* CTA_Three */}
       <CTAThree />
 
       {/* TeamFour */}
@@ -74,10 +74,6 @@ const HomeFive = () => {
 
       {/* FooterFive */}
       <FooterFive />
-
-
-
-
 
     </>
   );

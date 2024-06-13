@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 const BlogFour = () => {
-    let settings = {
+    var settings = {
         dots: false,
         arrows: false,
         infinite: true,
@@ -58,7 +58,7 @@ const BlogFour = () => {
                             <div className="px-2" dir="rtl">
                                 <div className="blog-card style3">
                                     <div className="blog-img">
-                                        <img src="assets/img/blog/blog_s4_1.png" alt="blog " />
+                                        <img src="assets/img/blog/blog_s4_1.png" alt=" Bizmaster" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
@@ -84,7 +84,7 @@ const BlogFour = () => {
                             <div className="px-2" dir="rtl">
                                 <div className="blog-card style3">
                                     <div className="blog-img">
-                                        <img src="assets/img/blog/blog_s4_2.png" alt="blog " />
+                                        <img src="assets/img/blog/blog_s4_2.png" alt=" Bizmaster" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
@@ -110,7 +110,7 @@ const BlogFour = () => {
                             <div className="px-2" dir="rtl">
                                 <div className="blog-card style3">
                                     <div className="blog-img">
-                                        <img src="assets/img/blog/blog_s4_3.png" alt="blog " />
+                                        <img src="assets/img/blog/blog_s4_3.png" alt=" Bizmaster" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
@@ -136,7 +136,7 @@ const BlogFour = () => {
                             <div className="px-2" dir="rtl">
                                 <div className="blog-card style3">
                                     <div className="blog-img">
-                                        <img src="assets/img/blog/blog_s4_2.png" alt="blog " />
+                                        <img src="assets/img/blog/blog_s4_2.png" alt=" Bizmaster" />
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">

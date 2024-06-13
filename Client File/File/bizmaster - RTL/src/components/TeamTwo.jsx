@@ -62,13 +62,13 @@ const TeamTwo = () => {
                     <span className="team-box_desig">مصمم واجهة المستخدم</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <Link to="/https://www.instagram.com/">
+                        <Link to="#">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="/https://facebook.com/">
+                        <Link to="#">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="/https://twitter.com/">
+                        <Link to="#">
                           <i className="fab fa-twitter" />
                         </Link>
                       </div>
@@ -88,13 +88,13 @@ const TeamTwo = () => {
                     <span className="team-box_desig">مطور PHP</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <Link to="/https://www.instagram.com/">
+                        <Link to="#">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="/https://facebook.com/">
+                        <Link to="#">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="/https://twitter.com/">
+                        <Link to="#">
                           <i className="fab fa-twitter" />
                         </Link>
                       </div>
@@ -114,13 +114,13 @@ const TeamTwo = () => {
                     <span className="team-box_desig">مصمم واجهة المستخدم</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <Link to="/https://www.instagram.com/">
+                        <Link to="#">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="/https://facebook.com/">
+                        <Link to="#">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="/https://twitter.com/">
+                        <Link to="#">
                           <i className="fab fa-twitter" />
                         </Link>
                       </div>
@@ -140,13 +140,13 @@ const TeamTwo = () => {
                     <span className="team-box_desig">مهندس تجريب المستخدم</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <Link to="/https://www.instagram.com/">
+                        <Link to="#">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="/https://facebook.com/">
+                        <Link to="#">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="/https://twitter.com/">
+                        <Link to="#">
                           <i className="fab fa-twitter" />
                         </Link>
                       </div>

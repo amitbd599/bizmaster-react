@@ -7,7 +7,7 @@ const IndexPage = () => {
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
-    }, 2000);
+    }, 500);
   }, []);
   const cssCode = `
   
@@ -1144,7 +1144,7 @@ h1,h2,h3,h4,h5,h6 {
           <i className="fa fa-cart-arrow-down" />
           Add To Cart
         </a>
-        <a className="btn btn-white" href="https://bizmaster-react.wowtheme7.com//">
+        <a className="btn btn-white" href="https://bizmaster-react.wowtheme7.com/home-1">
           <i className="fa fa-cog" />
           Demo Link
         </a>
@@ -1246,44 +1246,7 @@ h1,h2,h3,h4,h5,h6 {
             </div>
           </div>
         </div>
-        <div
-          className="counter-area-inner wow fadeInUp animated mt-5"
-          data-wow-duration="1.5s"
-          data-wow-delay="0.2s"
-        >
-          <div className="row">
-            <div className="col-md-4 col-sm-6">
-              <div className="single-counter-inner text-center">
-                <div className="details">
-                  <h2>
-                    <span className="counter">17</span>+
-                  </h2>
-                  <p>Total RTL Pages</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <div className="single-counter-inner text-center">
-                <div className="details">
-                  <h2>
-                    <span className="counter">05</span>
-                  </h2>
-                  <p>Total RTL Homes</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <div className="single-counter-inner text-center">
-                <div className="details">
-                  <h2>
-                    <span className="counter">12</span>+
-                  </h2>
-                  <p>Inner RTL Pages</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
       </div>
     </div>
@@ -1318,10 +1281,10 @@ h1,h2,h3,h4,h5,h6 {
                 <div className="item-title">Home Business </div>
               </div>
               <div className="btn-group">
-                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com//">
+                <Link className="btn btn-base" to="https://bizmaster-react.wowtheme7.com/home-1">
                   Live Demo
                 </Link>
-                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com//">
+                <Link className="btn btn-base" to="https://bizmaster-react-rtl.wowtheme7.com/home-1">
                   RTL Demo
                 </Link>
               </div>

@@ -15,7 +15,7 @@ const TestimonialThree = () => {
         );
     }
 
-    function SamplePreletrow(props) {
+    function SamplePrevArrow(props) {
         const { onClick } = props;
         return (
             <div className="TestimonialThree-icon-box-prev rtl">
@@ -39,7 +39,7 @@ const TestimonialThree = () => {
         autoplaySpeed: 5000,
         cssEase: "linear",
         nextArrow: <SampleNextArrow />,
-        preletrow: <SamplePreletrow />,
+        prevArrow: <SamplePrevArrow />,
         responsive: [
             {
                 breakpoint: 1200,

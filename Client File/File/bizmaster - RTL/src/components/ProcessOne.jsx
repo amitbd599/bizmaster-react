@@ -1,6 +1,5 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { Link } from "react-router-dom";
 
 const ProcessOne = () => {
   return (
@@ -12,66 +11,121 @@ const ProcessOne = () => {
 
         {/* Client Area   */}
 
-        <div className="client-bg-area-2 space-bottom">
+        <div className="client-bg-area-2 space-bottom" dir="ltr">
           <div className="client-area-2">
             <div className=" global-carousel">
               <Marquee speed={30}>
-                <div>
-                  <div className="client-logo">
-                    <Link to="/">
-                      <img src="assets/img/client/1-1.png" alt="img" />
-                    </Link>
-                  </div>
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-1.png" alt="img" />
+
                 </div>
-                <div>
-                  <div className="client-logo">
-                    <Link to="/">
-                      <img src="assets/img/client/1-2.png" alt="img" />
-                    </Link>
-                  </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-2.png" alt="img" />
+
                 </div>
-                <div>
-                  <div className="client-logo">
-                    <Link to="/">
-                      <img src="assets/img/client/1-3.png" alt="img" />
-                    </Link>
-                  </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-3.png" alt="img" />
+
+
                 </div>
-                <div>
-                  <div className="client-logo">
-                    <Link to="/">
-                      <img src="assets/img/client/1-4.png" alt="img" />
-                    </Link>
-                  </div>
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-4.png" alt="img" />
+
                 </div>
-                <div>
-                  <div className="client-logo">
-                    <Link to="/">
-                      <img src="assets/img/client/1-1.png" alt="img" />
-                    </Link>
-                  </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-1.png" alt="img" />
+
                 </div>
-                <div>
-                  <div className="client-logo">
-                    <Link to="/">
-                      <img src="assets/img/client/1-2.png" alt="img" />
-                    </Link>
-                  </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-2.png" alt="img" />
+
                 </div>
-                <div>
-                  <div className="client-logo">
-                    <Link to="/">
-                      <img src="assets/img/client/1-3.png" alt="img" />
-                    </Link>
-                  </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-3.png" alt="img" />
+
                 </div>
-                <div>
-                  <div className="client-logo">
-                    <Link to="/">
-                      <img src="assets/img/client/1-4.png" alt="img" />
-                    </Link>
-                  </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-4.png" alt="img" />
+
                 </div>
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-1.png" alt="img" />
+
+                </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-2.png" alt="img" />
+
+                </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-3.png" alt="img" />
+
+
+                </div>
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-4.png" alt="img" />
+
+                </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-1.png" alt="img" />
+
+                </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-2.png" alt="img" />
+
+                </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-3.png" alt="img" />
+
+                </div>
+
+
+                <div className="client-logo">
+
+                  <img src="assets/img/client/1-4.png" alt="img" />
+
+                </div>
+
+
               </Marquee>
             </div>
           </div>

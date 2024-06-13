@@ -20,7 +20,7 @@ const HomeOne = () => {
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
-    }, 2000);
+    }, 500);
   }, []);
   return (
     <>
@@ -39,7 +39,7 @@ const HomeOne = () => {
       {/* ServiceOne */}
       <ServiceOne />
 
-      {/* CTAOne */}
+      {/* CTA_One */}
       <CTAOne />
 
       {/* AboutOne */}

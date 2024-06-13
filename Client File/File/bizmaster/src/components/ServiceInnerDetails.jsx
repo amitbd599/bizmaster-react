@@ -80,25 +80,25 @@ const ServiceInnerDetails = () => {
                             <div className="widget widget_categories widget_service-categories">
                                 <ul>
                                     <li>
-                                        <Link to="/blog">Personal service</Link>
+                                        <Link to="/service">Personal service</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Education service</Link>
+                                        <Link to="/service">Education service</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Student service</Link>
+                                        <Link to="/service">Student service</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Wedding service</Link>
+                                        <Link to="/service">Wedding service</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Car service</Link>
+                                        <Link to="/service">Car service</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Business service</Link>
+                                        <Link to="/service">Business service</Link>
                                     </li>
                                     <li>
-                                        <Link to="/blog">Others service</Link>
+                                        <Link to="/service">Others service</Link>
                                     </li>
                                 </ul>
                             </div>

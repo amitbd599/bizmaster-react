@@ -23,16 +23,16 @@ const FooterTwo = () => {
                 </p>
                 <div className="social-btn style3">
                   <span className="social-title">Follow Us</span>
-                  <Link to="/https://facebook.com/">
+                  <Link to="#">
                     <i className="fab fa-facebook-f" />
                   </Link>
-                  <Link to="/https://www.instagram.com/">
+                  <Link to="#">
                     <i className="fab fa-instagram" />
                   </Link>
-                  <Link to="/https://linkedin.com/">
+                  <Link to="#">
                     <i className="fab fa-linkedin-in" />
                   </Link>
-                  <Link to="/https://twitter.com/">
+                  <Link to="#">
                     <i className="fab fa-twitter" />
                   </Link>
                 </div>
@@ -48,7 +48,7 @@ const FooterTwo = () => {
                     </div>
                     <div className="contact-grid-details">
                       <h6>
-                        <Link to="/mailto:infoname@mail.com">
+                        <Link to="#">
                           debra.holt@example.com
                         </Link>
                         <p />
@@ -133,7 +133,7 @@ const FooterTwo = () => {
           <div className="row gy-3 justify-content-lg-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Yoursitename</Link> 2024 | All Rights Reserved
+                © <Link to="#">Bizmaster</Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">

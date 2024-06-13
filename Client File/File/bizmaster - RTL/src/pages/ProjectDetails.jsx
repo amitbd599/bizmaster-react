@@ -14,7 +14,7 @@ const ProjectDetails = () => {
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
-    }, 2000);
+    }, 500);
   }, []);
   return (
     <>

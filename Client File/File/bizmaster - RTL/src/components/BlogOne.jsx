@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const BlogOne = () => {
-  let settings = {
+  var settings = {
     dots: false,
     arrows: false,
     infinite: true,
@@ -151,18 +151,19 @@ const BlogOne = () => {
           </div>
           <form className="newsletter-form">
             <div className="form-group">
-              <input
-                className="form-control"
-                type="email"
-                placeholder="عنوان البريد الإلكتروني"
-                required=""
-              />
               <button type="submit" className="global-btn">
                 اشتراك
                 <span className="icon">
                   <i className="fa-sharp fas fa-paper-plane ms-2" />
                 </span>
               </button>
+              <input
+                className="form-control"
+                type="email"
+                placeholder="عنوان البريد الإلكتروني"
+                required=""
+              />
+
             </div>
           </form>
         </div>

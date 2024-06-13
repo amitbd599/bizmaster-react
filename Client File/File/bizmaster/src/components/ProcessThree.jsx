@@ -8,67 +8,67 @@ const ProcessThree = () => {
             className="process-area-1 bg-smoke space-bottom"
             style={{ backgroundImage: "url(assets/img/bg/shape_1.png)" }}
         >
-            {/*==============================
-      Client Area  
-      ==============================*/}
+
+            {/* Client Area   */}
+
             <div className="client-bg-area-2 space-bottom">
                 <div className="client-area-2">
                     <div className=" global-carousel">
                         <Marquee speed={30}>
                             <div>
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/1-1.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/1-1.png" alt="img" />
+
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/1-2.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/1-2.png" alt="img" />
+
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/1-3.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/1-3.png" alt="img" />
+
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/1-4.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/1-4.png" alt="img" />
+
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/1-1.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/1-1.png" alt="img" />
+
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/1-2.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/1-2.png" alt="img" />
+
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/1-3.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/1-3.png" alt="img" />
+
                                 </div>
                             </div>
                             <div>
                                 <div className="client-logo">
-                                    <Link to="/">
-                                        <img src="assets/img/client/1-4.png" alt="img" />
-                                    </Link>
+
+                                    <img src="assets/img/client/1-4.png" alt="img" />
+
                                 </div>
                             </div>
                         </Marquee>

@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 const AboutThree = () => {
-  let settings = {
+  var settings = {
     dots: false,
     arrows: false,
     infinite: true,
@@ -60,16 +60,16 @@ const AboutThree = () => {
                   <p className="sec-desc">سنوات من الخبرة</p>
                 </div>
                 <div className="social-links jump">
-                  <Link to="/https://www.facebook.com/">
+                  <Link to="#">
                     <i className="fab fa-facebook-f" />
                   </Link>
-                  <Link to="/https://www.instagram.com/">
+                  <Link to="#">
                     <i className="fab fa-instagram" />
                   </Link>
-                  <Link to="/https://www.twitter.com/">
+                  <Link to="#">
                     <i className="fab fa-twitter" />
                   </Link>
-                  <Link to="/https://www.linkedin.com/">
+                  <Link to="#">
                     <i className="fab fa-linkedin" />
                   </Link>
                 </div>
@@ -126,9 +126,9 @@ const AboutThree = () => {
       </div>
       <div className="overflow-hidden">
         <div className="bg-max-container bg-smoke radius-50">
-          {/*==============================
-      Feature Area 4 
-      ==============================*/}
+
+          {/* Feature Area 4  */}
+
           <div className="feature-area-4 space">
             <div className="container">
               <div className="row align-items-end justify-content-between">
@@ -331,72 +331,72 @@ const AboutThree = () => {
                 <Slider {...settings}>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-1.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-1.png" alt="img" />
+
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-2.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-2.png" alt="img" />
+
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-3.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-3.png" alt="img" />
+
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-4.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-4.png" alt="img" />
+
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-5.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-5.png" alt="img" />
+
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-1.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-1.png" alt="img" />
+
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-2.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-2.png" alt="img" />
+
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-3.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-3.png" alt="img" />
+
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-4.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-4.png" alt="img" />
+
                     </div>
                   </div>
                   <div className="col-lg-auto">
                     <div className="client-logo">
-                      <Link to="/">
-                        <img src="assets/img/client/3-5.png" alt="img" />
-                      </Link>
+
+                      <img src="assets/img/client/3-5.png" alt="img" />
+
                     </div>
                   </div>
                 </Slider>

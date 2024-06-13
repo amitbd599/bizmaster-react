@@ -31,8 +31,7 @@ const ServiceOne = () => {
                   <Link to="/service-details">خبراء الكفاءة</Link>
                 </h4>
                 <p className="service-card_text">
-                  العديد من حزم تحرير صفحات الويب الآن تستخدم Lorem Ipsum كنموذج نص افتراضي، وبحثًا
-                </p>
+                  "احصل على رؤى وموارد حصرية من خلال تسجيل الدخول إلى "استشارات الأعمال". احصل على إمكانية الوصول إلى الاستراتيجيات المخصصة ونصائح الخبراء والحلول المخصصة للارتقاء بأعمالك إلى آفاق جديدة.</p>
                 <Link to="/service-details" className="link-btn">
                   قراءة المزيد <i className="fas fa-arrow-left" />
                 </Link>
@@ -49,8 +48,7 @@ const ServiceOne = () => {
                   <Link to="/service-details">إتقان الإدارة</Link>
                 </h4>
                 <p className="service-card_text">
-                  العديد من حزم تحرير صفحات الويب الآن تستخدم Lorem Ipsum كنموذج نص افتراضي، وبحثًا
-                </p>
+                  "احصل على رؤى وموارد حصرية من خلال تسجيل الدخول إلى "استشارات الأعمال". احصل على إمكانية الوصول إلى الاستراتيجيات المخصصة ونصائح الخبراء والحلول المخصصة للارتقاء بأعمالك إلى آفاق جديدة.</p>
                 <Link to="/service-details" className="link-btn">
                   قراءة المزيد <i className="fas fa-arrow-left" />
                 </Link>
@@ -67,8 +65,7 @@ const ServiceOne = () => {
                   <Link to="/service-details">مسرعات النجاح</Link>
                 </h4>
                 <p className="service-card_text">
-                  العديد من حزم تحرير صفحات الويب الآن تستخدم Lorem Ipsum كنموذج نص افتراضي، وبحثًا
-                </p>
+                  "احصل على رؤى وموارد حصرية من خلال تسجيل الدخول إلى "استشارات الأعمال". احصل على إمكانية الوصول إلى الاستراتيجيات المخصصة ونصائح الخبراء والحلول المخصصة للارتقاء بأعمالك إلى آفاق جديدة.</p>
                 <Link to="/service-details" className="link-btn">
                   قراءة المزيد <i className="fas fa-arrow-left" />
                 </Link>
@@ -85,8 +82,7 @@ const ServiceOne = () => {
                   <Link to="/service-details">النمو والابتكار</Link>
                 </h4>
                 <p className="service-card_text">
-                  العديد من حزم تحرير صفحات الويب الآن تستخدم Lorem Ipsum كنموذج نص افتراضي، وبحثًا
-                </p>
+                  "احصل على رؤى وموارد حصرية من خلال تسجيل الدخول إلى "استشارات الأعمال". احصل على إمكانية الوصول إلى الاستراتيجيات المخصصة ونصائح الخبراء والحلول المخصصة للارتقاء بأعمالك إلى آفاق جديدة.</p>
                 <Link to="/service-details" className="link-btn">
                   قراءة المزيد <i className="fas fa-arrow-left" />
                 </Link>

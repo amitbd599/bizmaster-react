@@ -16,7 +16,7 @@ const TestimonialTwo = () => {
     );
   }
 
-  function SamplePreletrow(props) {
+  function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
       <div className="TestimonialTwo-icon-box-prev">
@@ -41,7 +41,7 @@ const TestimonialTwo = () => {
     autoplaySpeed: 5000,
     cssEase: "linear",
     nextArrow: <SampleNextArrow />,
-    preletrow: <SamplePreletrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1200,
@@ -81,14 +81,14 @@ const TestimonialTwo = () => {
             </div>
             <div className="feature-wrapper">
               <div className="feature-icon">
-                <Link to="/tel:3195550115">
+                <Link to="#">
                   <img src="assets/img/icon/call.svg" alt="" />
                 </Link>
               </div>
               <div className="media-body">
                 <span className="header-info_label">هل تحتاج إلى مساعدة؟</span>
                 <p className="header-info_link">
-                  <Link to="/tel:3195550115">(319) 555-0115</Link>
+                  <Link to="#">(319) 555-0115</Link>
                 </p>
               </div>
             </div>

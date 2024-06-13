@@ -84,22 +84,22 @@ const BlogDetailsInner = () => {
                                         <div className="col-sm-auto text-xl-end">
                                             <ul className="social-links">
                                                 <li>
-                                                    <Link to="/https://facebook.com/" target="_blank">
+                                                    <Link to="#" target="_blank">
                                                         <i className="fab fa-facebook-f" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/https://twitter.com/" target="_blank">
+                                                    <Link to="#" target="_blank">
                                                         <i className="fab fa-twitter" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/https://linkedin.com/" target="_blank">
+                                                    <Link to="#" target="_blank">
                                                         <i className="fab fa-linkedin-in" />
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="/https://instagram.com/" target="_blank">
+                                                    <Link to="#" target="_blank">
                                                         <i className="fab fa-instagram" />
                                                     </Link>
                                                 </li>

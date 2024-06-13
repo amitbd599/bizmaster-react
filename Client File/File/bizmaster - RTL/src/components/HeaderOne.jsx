@@ -8,8 +8,8 @@ const HeaderOne = () => {
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
-    let offCanvasNav = document.getElementById("offcanvas-navigation");
-    let offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
+    var offCanvasNav = document.getElementById("offcanvas-navigation");
+    var offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
 
     for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
       offCanvasNavSubMenu[i].insertAdjacentHTML(
@@ -18,8 +18,8 @@ const HeaderOne = () => {
       );
     }
 
-    let menuExpand = offCanvasNav.querySelectorAll(".mean-expand-class");
-    let numMenuExpand = menuExpand.length;
+    var menuExpand = offCanvasNav.querySelectorAll(".mean-expand-class");
+    var numMenuExpand = menuExpand.length;
 
     function sideMenuExpand() {
       if (this.parentElement.classList.contains("active") === true) {
@@ -72,7 +72,7 @@ const HeaderOne = () => {
           <div className="widget  ">
             <div className="th-widget-about">
               <div className="about-logo">
-                <Link to="/">
+                <Link to="https://bizmaster-react.wowtheme7.com">
                   <img src="assets/img/logo.svg" alt="Laun" />
                 </Link>
               </div>
@@ -80,16 +80,16 @@ const HeaderOne = () => {
                 نحن نقدم خدمات تشتيت الشتاء المتخصصة لحماية حمام السباحة الخاص بك أثناء فصل الخريف، وعندما يأتي الربيع، نتعامل مع عملية الافتتاح الشاملة.
               </p>
               <div className="social-links">
-                <Link to="/https://www.facebook.com/">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
                 </Link>
-                <Link to="/https://www.twitter.com/">
+                <Link to="#">
                   <i className="fab fa-twitter" />
                 </Link>
-                <Link to="/https://www.linkedin.com/">
+                <Link to="#">
                   <i className="fab fa-linkedin-in" />
                 </Link>
-                <Link to="/https://www.whatsapp.com/">
+                <Link to="#">
                   <i className="fab fa-whatsapp" />
                 </Link>
               </div>
@@ -152,7 +152,7 @@ const HeaderOne = () => {
       <div className={`mobile-menu-wrapper rtl ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
-            <Link to="/">
+            <Link to="https://bizmaster-react.wowtheme7.com">
               <img src="assets/img/logo.svg" alt="Bizmaster" />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
@@ -249,7 +249,7 @@ const HeaderOne = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <Link to="/">
+                  <Link to="https://bizmaster-react.wowtheme7.com">
                     <img src="assets/img/logo.svg" alt="logo" />
                   </Link>
                 </div>
@@ -366,16 +366,16 @@ const HeaderOne = () => {
                     </button>
                   </div>
                   <div className="social-links">
-                    <Link to="/https://www.instagram.com/">
+                    <Link to="#">
                       <i className="fab fa-instagram" />
                     </Link>
-                    <Link to="/https://www.linkedin.com/">
+                    <Link to="#">
                       <i className="fab fa-linkedin" />
                     </Link>
-                    <Link to="/https://www.twitter.com/">
+                    <Link to="#">
                       <i className="fab fa-twitter" />
                     </Link>
-                    <Link to="/https://www.facebook.com/">
+                    <Link to="#">
                       <i className="fab fa-facebook-f" />
                     </Link>
                   </div>

@@ -113,9 +113,9 @@ const FaqTwo = () => {
       </section>
       <div className="overflow-hidden">
         <div className="bg-max-container bg-smoke radius-50">
-          {/*==============================
-        Event Area 2  
-        ==============================*/}
+
+          {/* Event Area 2   */}
+
           <div className="event-area-1 space overflow-hidden">
             <div className="container">
               <div className="row gy-50 align-items-center flex-row-reverse">

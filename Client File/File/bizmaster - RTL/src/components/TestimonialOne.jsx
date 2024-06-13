@@ -16,7 +16,7 @@ const TestimonialOne = () => {
     );
   }
 
-  function SamplePreletrow(props) {
+  function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
       <div className="TestimonialOne-icon-box-prev">
@@ -40,7 +40,7 @@ const TestimonialOne = () => {
     autoplaySpeed: 5000,
     cssEase: "linear",
     nextArrow: <SampleNextArrow />,
-    preletrow: <SamplePreletrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1200,

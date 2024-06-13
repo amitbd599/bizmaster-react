@@ -8,8 +8,8 @@ const HeaderThree = () => {
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
-    let offCanvasNav = document.getElementById("offcanvas-navigation");
-    let offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
+    var offCanvasNav = document.getElementById("offcanvas-navigation");
+    var offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
 
     for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
       offCanvasNavSubMenu[i].insertAdjacentHTML(
@@ -18,8 +18,8 @@ const HeaderThree = () => {
       );
     }
 
-    let menuExpand = offCanvasNav.querySelectorAll(".mean-expand-class");
-    let numMenuExpand = menuExpand.length;
+    var menuExpand = offCanvasNav.querySelectorAll(".mean-expand-class");
+    var numMenuExpand = menuExpand.length;
 
     function sideMenuExpand() {
       if (this.parentElement.classList.contains("active") === true) {
@@ -71,7 +71,7 @@ const HeaderThree = () => {
           <div className="widget  ">
             <div className="th-widget-about">
               <div className="about-logo">
-                <Link to="/">
+                <Link to="https://bizmaster-react.wowtheme7.com">
                   <img src="assets/img/logo.svg" alt="لوغو" />
                 </Link>
               </div>
@@ -79,16 +79,16 @@ const HeaderThree = () => {
                 نحن نقدم خدمات تشغيل الشتاء المتخصصة لحماية حمام السباحة الخاص بك أثناء موسم الخمول، وعندما يحين الربيع، نتولى عملية الافتتاح الشاملة.
               </p>
               <div className="social-links">
-                <Link to="/https://www.facebook.com/">
+                <Link to="#">
                   <i className="fab fa-facebook-f" />
                 </Link>
-                <Link to="/https://www.twitter.com/">
+                <Link to="#">
                   <i className="fab fa-twitter" />
                 </Link>
-                <Link to="/https://www.linkedin.com/">
+                <Link to="#">
                   <i className="fab fa-linkedin-in" />
                 </Link>
-                <Link to="/https://www.whatsapp.com/">
+                <Link to="#">
                   <i className="fab fa-whatsapp" />
                 </Link>
               </div>
@@ -138,7 +138,7 @@ const HeaderThree = () => {
         <button className="searchClose" onClick={() => searchControl(false)}>
           <i className="fas fa-times" />
         </button>
-        <form action="#">
+        <form>
           <input type="text" placeholder="ما الذي تبحث عنه؟" />
           <button type="submit">
             <i className="fas fa-search" />
@@ -151,7 +151,7 @@ const HeaderThree = () => {
       <div className={`mobile-menu-wrapper rtl ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
           <div className="mobile-logo">
-            <Link to="/">
+            <Link to="https://bizmaster-react.wowtheme7.com">
               <img src="assets/img/logo.svg" alt="Bizmaster" />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
@@ -253,7 +253,7 @@ const HeaderThree = () => {
                   <ul>
                     <li>
                       <i className="fas fa-envelope" />
-                      <Link to="/mailto:info@example.com">info@example.com</Link>
+                      <Link to="#">info@example.com</Link>
                     </li>
                     <li>
                       <i className="fas fa-map-marker-alt" />
@@ -261,7 +261,7 @@ const HeaderThree = () => {
                     </li>
                     <li>
                       <i className="fas fa-phone-alt" />
-                      <Link to="/tel:6295550129">(629) 555-0129</Link>
+                      <Link to="#">(629) 555-0129</Link>
                     </li>
                   </ul>
                 </div>
@@ -271,16 +271,16 @@ const HeaderThree = () => {
                   <ul>
                     <li>
                       <div className="social-links">
-                        <Link to="/https://www.facebook.com/">
+                        <Link to="#">
                           <i className="fab fa-facebook-f" />
                         </Link>
-                        <Link to="/https://www.instagram.com/">
+                        <Link to="#">
                           <i className="fab fa-instagram" />
                         </Link>
-                        <Link to="/https://www.twitter.com/">
+                        <Link to="#">
                           <i className="fab fa-twitter" />
                         </Link>
-                        <Link to="/https://www.linkedin.com/">
+                        <Link to="#">
                           <i className="fab fa-linkedin" />
                         </Link>
                       </div>
@@ -298,7 +298,7 @@ const HeaderThree = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <Link to="/">
+                  <Link to="https://bizmaster-react.wowtheme7.com">
                     <img src="assets/img/logo.svg" alt="لوغو" />
                   </Link>
                 </div>
